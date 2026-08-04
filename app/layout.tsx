@@ -12,7 +12,7 @@ const jetBrainsMono = JetBrains_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://collision.dev";
+const siteUrl = "https://usecollision.com";
 const siteName = "Collision";
 const siteDescription =
   "Collision is a software being that thinks, remembers, and works across your entire stack. Give it access to your browser, email, calendar, LinkedIn, and more.";
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     title: "Collision — The first software being",
     description: siteDescription,
     images: ["/og-image.png"],
-    creator: "@collisionlabs",
+    creator: "@usecollision",
   },
   icons: {
     icon: "/icon.svg",

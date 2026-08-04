@@ -523,10 +523,11 @@ function Footer() {
     <footer className="footer-section">
       <div className="footer-bar page-shell">
         <span>© 2026 Collision Labs Inc.</span>
-        <div className="hidden items-center gap-6 sm:flex">
-          <a href="#shift" className="footer-link">Manifesto</a>
-          <a href="#connections" className="footer-link">Documentation</a>
-          <a href="#memory" className="footer-link">Security</a>
+        <div className="flex items-center gap-6">
+          <a href="https://x.com/usecollision" target="_blank" rel="noopener noreferrer" className="footer-link">X</a>
+          <a href="https://linkedin.com/company/usecollision" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a>
+          <a href="https://instagram.com/usecollision" target="_blank" rel="noopener noreferrer" className="footer-link">Instagram</a>
+          <a href="mailto:hi@usecollision.com" className="footer-link">Email</a>
         </div>
         <span>Software being / 001</span>
       </div>
