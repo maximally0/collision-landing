@@ -168,6 +168,17 @@
   }
 }
 
+@media (max-width: 640px) {
+  .page-shell {
+    width: calc(100% - 1rem);
+  }
+
+  .comic-frame {
+    border-radius: 1.25rem;
+    box-shadow: 3px 3px 0 var(--ink);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

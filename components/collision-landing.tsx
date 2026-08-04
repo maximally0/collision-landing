@@ -252,21 +252,21 @@ function StatusSticker({ label, accent, className }: { label: string; accent: Ac
 
 function HeroSection({ onClientCta }: { onClientCta: () => void }) {
   return (
-    <section id="top" className="paper-grid px-4 pb-20 pt-32 sm:px-6 sm:pt-36">
+    <section id="top" className="paper-grid px-4 pb-16 pt-28 sm:px-6 sm:pt-32">
       <div className="page-shell grid overflow-hidden rounded-comic-lg border-2 border-ink bg-white shadow-comic-lg lg:grid-cols-[1.07fr_0.93fr]">
-        <div className="relative flex min-h-[620px] flex-col justify-center bg-paper p-7 sm:p-12 lg:p-16">
+        <div className="relative flex flex-col justify-center bg-paper p-7 sm:p-10 lg:p-12">
           <div className="pointer-events-none absolute inset-0 paper-dots opacity-60" aria-hidden="true" />
           <div className="relative z-10">
             <span className="inline-flex rounded-full border-2 border-ink bg-soft-yellow px-4 py-2 text-[10px] font-black uppercase tracking-[0.18em] shadow-[2px_2px_0_var(--ink)]">
               Internet-native teammate
             </span>
-            <h1 className="mt-8 max-w-[720px] font-display text-6xl leading-[0.84] tracking-[-0.06em] sm:text-8xl lg:text-[7.4rem]">
+            <h1 className="mt-6 max-w-[720px] font-display text-5xl leading-[0.86] tracking-[-0.06em] sm:text-7xl lg:text-[6.5rem]">
               The AI that <span className="text-electric italic">represents you</span> online.
             </h1>
-            <p className="mt-8 max-w-xl text-xl font-medium leading-tight sm:text-2xl">
+            <p className="mt-6 max-w-xl text-lg font-medium leading-tight sm:text-xl">
               Focus on building. Collision writes, replies, engages, and keeps your online presence alive while you&apos;re busy doing real work.
             </p>
-            <div className="mt-9 flex flex-wrap items-center gap-4">
+            <div className="mt-7 flex flex-wrap items-center gap-4">
               <Button
                 type="button"
                 size="lg"
@@ -283,7 +283,7 @@ function HeroSection({ onClientCta }: { onClientCta: () => void }) {
           </div>
         </div>
 
-        <div className="relative min-h-[520px] overflow-hidden border-t-2 border-ink bg-light-cyan lg:border-l-2 lg:border-t-0">
+        <div className="relative min-h-[400px] overflow-hidden border-t-2 border-ink bg-light-cyan lg:border-l-2 lg:border-t-0">
           <img src={heroImage} alt="Developer building at a laptop while small Collision teammates carry message bubbles" className="h-full w-full object-cover" />
           <StatusSticker label="replying…" accent="coral" className="right-6 top-8 -rotate-6" />
           <StatusSticker label="posting on X…" accent="yellow" className="left-5 top-1/2 -rotate-3" />
@@ -291,13 +291,13 @@ function HeroSection({ onClientCta }: { onClientCta: () => void }) {
           <motion.img
             src={helmetImage}
             alt="Collision helmet teammate sticker"
-            className="absolute bottom-16 left-10 z-10 size-20 rounded-full border-2 border-ink bg-white object-cover p-2 shadow-comic"
+            className="absolute bottom-16 left-10 z-10 size-16 rounded-full border-2 border-ink bg-white object-cover p-2 shadow-comic sm:size-20"
             animate={{ y: [0, -14, 0], rotate: [-5, 3, -5] }}
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
           />
         </div>
       </div>
-      <div className="page-shell mt-5 flex items-center justify-between px-1 text-xs font-black uppercase tracking-[0.15em] text-muted">
+      <div className="page-shell mt-4 flex items-center justify-between px-1 text-xs font-black uppercase tracking-[0.15em] text-muted">
         <span>Small teammate. Big internet energy.</span>
         <ArrowDownRight className="size-4" aria-hidden="true" />
       </div>
@@ -462,14 +462,6 @@ function HowItWorksSection() {
   );
 }
 
-function ComparisonSection() {
-  return (
-    <section id="pricing" className="border-y-2 border-ink bg-white px-4 py-24 sm:px-6 sm:py-32">
-      <div className="page-shell"><Reveal className="mb-14 text-center"><Eyebrow className="justify-center">The honest version</Eyebrow><DisplayTitle className="mt-6 sm:text-8xl">Today vs tomorrow.</DisplayTitle></Reveal><Reveal className="grid overflow-hidden rounded-comic-lg border-2 border-ink shadow-comic-lg md:grid-cols-2"><div className="bg-coral p-8 text-white sm:p-14"><p className="text-xs font-black uppercase tracking-[0.16em] text-white/75">Today</p><h3 className="mt-6 max-w-md font-display text-5xl leading-[0.9] tracking-[-0.05em] sm:text-7xl">AI + human operators.</h3><p className="mt-8 max-w-md text-lg font-medium leading-tight text-white/90 sm:text-xl">We&apos;re honest. Our best-in-class AI works alongside creative strategists to keep quality high and your voice safe.</p><div className="mt-12 flex items-center gap-3 text-xs font-black uppercase tracking-[0.1em]"><span className="flex -space-x-3"><span className="size-10 rounded-full border-2 border-ink bg-soft-yellow" /><span className="size-10 rounded-full border-2 border-ink bg-white" /><span className="grid size-10 place-items-center rounded-full border-2 border-ink bg-ink text-white">+12</span></span>Humans in the loop</div></div><div className="relative bg-mint p-8 text-ink sm:p-14"><span className="absolute right-6 top-6 rotate-3 rounded-lg border-2 border-ink bg-white px-3 py-2 text-[10px] font-black uppercase shadow-comic">The direction</span><p className="text-xs font-black uppercase tracking-[0.16em] text-ink/60">Tomorrow</p><h3 className="mt-6 max-w-md font-display text-5xl leading-[0.9] tracking-[-0.05em] sm:text-7xl">Fully autonomous.</h3><p className="mt-8 max-w-md text-lg font-medium leading-tight text-ink/80 sm:text-xl">The vision is zero human intervention: real-time context, strong judgment, and perfect execution 24/7.</p><div className="mt-12 flex items-center gap-3 text-xs font-black uppercase tracking-[0.1em]"><img src={helmetImage} alt="Collision helmet autonomy marker" className="size-10 rounded-full border-2 border-ink bg-white object-cover p-1" />Level 5 autonomy</div></div></Reveal></div>
-    </section>
-  );
-}
-
 function FinalCtaSection({ onClientCta }: { onClientCta: () => void }) {
   return (
     <section className="paper-dots bg-paper px-4 py-24 sm:px-6 sm:py-32">
@@ -507,7 +499,6 @@ export default function CollisionLanding() {
       <ConversationSection />
       <MeetCollisionSection />
       <HowItWorksSection />
-      <ComparisonSection />
       <FinalCtaSection onClientCta={handleClientCta} />
       <Footer />
       <Toast visible={toastVisible} />
