@@ -128,39 +128,6 @@
     backdrop-filter: blur(24px);
   }
 
-  .brand-mark {
-    position: relative;
-    display: grid;
-    height: 2rem;
-    width: 2rem;
-    place-items: center;
-    overflow: hidden;
-    border-radius: 999px;
-    background: var(--electric);
-    box-shadow: 0 0 24px rgb(37 99 255 / 50%);
-  }
-
-  .brand-mark::after,
-  .brand-mark-core {
-    content: "";
-    position: absolute;
-    border-radius: 999px;
-  }
-
-  .brand-mark::after {
-    height: 0.9rem;
-    width: 0.9rem;
-    background: var(--lavender);
-    opacity: 0.95;
-  }
-
-  .brand-mark-core {
-    height: 0.38rem;
-    width: 0.38rem;
-    background: var(--cyan);
-    box-shadow: 0 0 10px var(--cyan);
-  }
-
   .status-dot {
     display: inline-block;
     height: 0.45rem;
@@ -1245,16 +1212,6 @@
     top: 0.75rem;
     width: calc(100% - 1.5rem);
     padding-left: 0.75rem;
-  }
-
-  .floating-nav .brand-mark {
-    height: 1.75rem;
-    width: 1.75rem;
-  }
-
-  .floating-nav .brand-mark::after {
-    height: 0.75rem;
-    width: 0.75rem;
   }
 
   .hero-title {

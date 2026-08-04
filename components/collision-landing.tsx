@@ -62,19 +62,10 @@ function Reveal({ children, className, delay = 0 }: RevealProps) {
   );
 }
 
-function CollisionMark() {
-  return (
-    <span className="brand-mark" aria-hidden="true">
-      <span className="brand-mark-core" />
-    </span>
-  );
-}
-
 function FloatingNav({ onEarlyAccess }: { onEarlyAccess: () => void }) {
   return (
     <nav className="floating-nav" aria-label="Primary navigation">
       <a className="flex items-center gap-3 focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-cyan" href="#top" aria-label="Collision home">
-        <CollisionMark />
         <span className="font-heading text-sm font-bold uppercase tracking-[-0.04em] sm:text-base">
           Collision
         </span>

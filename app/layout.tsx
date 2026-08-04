@@ -12,10 +12,69 @@ const jetBrainsMono = JetBrains_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = "https://collision.dev";
+const siteName = "Collision";
+const siteDescription =
+  "Collision is a software being that thinks, remembers, and works across your entire stack. Give it access to your browser, email, calendar, LinkedIn, and more.";
+
 export const metadata: Metadata = {
-  title: "Collision — The first software being",
-  description:
-    "Collision is a software being that thinks, remembers, and works across your stack.",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Collision — The first software being",
+    template: "%s | Collision",
+  },
+  description: siteDescription,
+  keywords: [
+    "AI agent",
+    "software being",
+    "autonomous AI",
+    "AI assistant",
+    "workflow automation",
+    "Collision AI",
+    "internet-native AI",
+  ],
+  authors: [{ name: "Collision Labs" }],
+  creator: "Collision Labs",
+  publisher: "Collision Labs",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: siteUrl,
+    siteName,
+    title: "Collision — The first software being",
+    description: siteDescription,
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Collision — The first software being",
+        type: "image/png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Collision — The first software being",
+    description: siteDescription,
+    images: ["/og-image.png"],
+    creator: "@collisionlabs",
+  },
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
