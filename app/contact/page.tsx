@@ -28,8 +28,8 @@ export default function ContactPage() {
         <div className="page-shell flex items-center justify-between py-5">
           <Link href="/" className="flex items-center gap-3 text-ink" aria-label="Back to home">
             <Image
-              src="/collision-helmet.png"
-              alt="Collision helmet mark"
+              src="/favicon-96x96.png"
+              alt="Collision logo"
               width={28}
               height={28}
               className="size-7 rounded-full object-cover ring-1 ring-ink/20"

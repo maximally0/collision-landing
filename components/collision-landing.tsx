@@ -36,7 +36,7 @@ function MicroLabel({ children, className }: { children: ReactNode; className?: 
 
 function DisplayTitle({ children, className, id }: { children: ReactNode; className?: string; id?: string }) {
   return (
-    <h2 id={id} className={cn("font-display text-balance text-[45px] font-medium leading-[1.04] tracking-[-0.055em] sm:text-[64px]", className)}>
+    <h2 id={id} className={cn("font-display text-balance text-[32px] font-medium leading-[1.08] tracking-[-0.045em] sm:text-[45px] sm:leading-[1.04] sm:tracking-[-0.055em] md:text-[64px]", className)}>
       {children}
     </h2>
   );
@@ -59,7 +59,7 @@ function Reveal({ children, className, delay = 0 }: { children: ReactNode; class
       className={className}
       initial={reduceMotion ? false : "hidden"}
       whileInView={reduceMotion ? undefined : "visible"}
-      viewport={{ once: true, amount: 0.16 }}
+      viewport={{ once: true, amount: 0.08 }}
       variants={revealVariants}
       transition={{ duration: 0.65, delay, ease: "easeOut" }}
     >
@@ -130,16 +130,34 @@ function LiveGrowthActivity() {
 
 function FloatingNav() {
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 40);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
-    <nav className="absolute inset-x-0 top-0 z-30" aria-label="Primary navigation">
-      <div className="page-shell flex items-center justify-between py-6">
+    <nav
+      className={cn(
+        "fixed inset-x-0 top-0 z-50 transition-all duration-300",
+        scrolled
+          ? "bg-ink/90 shadow-[0_2px_20px_rgb(21_33_58_/_15%)] backdrop-blur-xl"
+          : "bg-transparent"
+      )}
+      aria-label="Primary navigation"
+    >
+      <div className="mx-auto flex w-full max-w-[1120px] items-center justify-between px-5 py-4 sm:px-7">
         <a href="#top" className="flex items-center gap-3 text-white" aria-label="Collision home">
-          <Image src="/collision-helmet.png" alt="Collision helmet mark" width={32} height={32} className="size-8 rounded-full object-cover ring-1 ring-white/40" priority />
-          <span className="text-[17px] font-semibold tracking-[-0.04em]">collision.</span>
+          <Image src="/favicon-96x96.png" alt="Collision logo" width={32} height={32} className="size-8 rounded-full object-cover ring-1 ring-white/40" priority />
+          <span className="text-[16px] font-semibold tracking-[-0.04em] sm:text-[17px]">collision.</span>
         </a>
 
-        <div className="hidden items-center gap-8 text-[11px] font-medium tracking-[0.08em] text-white/80 md:flex">
+        <div className="hidden items-center gap-7 text-[11px] font-medium tracking-[0.08em] text-white/80 lg:flex">
           {navigationLinks.map(([label, href]) => (
             <a key={href} href={href} className="transition-colors hover:text-white">{label}</a>
           ))}
@@ -147,7 +165,7 @@ function FloatingNav() {
 
         <div className="flex items-center gap-2">
           <a href="https://cal.com/collision" target="_blank" rel="noopener noreferrer">
-            <Button type="button" size="lg" className="h-10 rounded-full bg-electric px-5 text-[12px] font-semibold text-white ring-1 ring-white/40 hover:bg-[#1745c2]">
+            <Button type="button" size="lg" className="h-9 rounded-full bg-electric px-4 text-[11px] font-semibold text-white ring-1 ring-white/40 hover:bg-[#1745c2] sm:h-10 sm:px-5 sm:text-[12px]">
               Meet Collision
             </Button>
           </a>
@@ -158,7 +176,7 @@ function FloatingNav() {
             aria-label={open ? "Close navigation menu" : "Open navigation menu"}
             aria-expanded={open}
             onClick={() => setOpen((value) => !value)}
-            className="size-10 rounded-full border-white/40 bg-white/10 text-white hover:bg-white/20 hover:text-white md:hidden"
+            className="size-9 rounded-full border-white/40 bg-white/10 text-white hover:bg-white/20 hover:text-white sm:size-10 lg:hidden"
           >
             {open ? <X className="size-4" aria-hidden="true" /> : <Menu className="size-4" aria-hidden="true" />}
           </Button>
@@ -171,7 +189,8 @@ function FloatingNav() {
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            className="mx-4 overflow-hidden rounded-2xl bg-white/95 shadow-xl backdrop-blur-md md:hidden"
+            transition={{ duration: 0.25, ease: "easeOut" }}
+            className="mx-4 overflow-hidden rounded-2xl bg-white/95 shadow-xl backdrop-blur-md lg:hidden"
           >
             <div className="grid gap-1 p-2">
               {navigationLinks.map(([label, href]) => (
@@ -179,6 +198,15 @@ function FloatingNav() {
                   {label}
                 </a>
               ))}
+              <a
+                href="https://cal.com/collision"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setOpen(false)}
+                className="rounded-xl bg-electric px-4 py-3 text-center text-sm font-semibold text-white"
+              >
+                Meet Collision
+              </a>
             </div>
           </motion.div>
         ) : null}
@@ -231,7 +259,7 @@ function HeroSection() {
   const reduceMotion = useReducedMotion();
 
   return (
-    <section id="top" aria-labelledby="hero-title" className="relative isolate flex min-h-[760px] items-center overflow-hidden bg-[#77d8ef]">
+    <section id="top" aria-labelledby="hero-title" className="relative isolate flex min-h-[100svh] items-center overflow-hidden bg-[#77d8ef] sm:min-h-[760px]">
       <video aria-label="Misty mountain landscape" autoPlay className="absolute inset-0 h-full w-full object-cover transition-opacity duration-1000" loop muted playsInline poster={heroPoster} preload="metadata" src={heroVideo} />
       <div className="absolute inset-0 bg-[#57cce9]/45 mix-blend-color" aria-hidden="true" />
       <div className="absolute inset-0 bg-[#12335a]/38" aria-hidden="true" />
@@ -243,10 +271,10 @@ function HeroSection() {
         transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
       />
 
-      <div className="relative z-10 mx-auto flex w-full max-w-[980px] flex-col items-center px-7 pb-12 pt-32 text-center text-white">
+      <div className="relative z-10 mx-auto flex w-full max-w-[980px] flex-col items-center px-5 pb-12 pt-28 text-center text-white sm:px-7 sm:pt-32">
         <HeroReveal><MicroLabel className="text-white/75">The AI you hire to run growth</MicroLabel></HeroReveal>
         <HeroReveal delay={0.08}>
-          <h1 id="hero-title" className="mt-6 max-w-[900px] font-display text-[52px] font-medium leading-[1.02] tracking-[-0.06em] sm:text-[74px] lg:text-[88px]">
+          <h1 id="hero-title" className="mt-6 max-w-[900px] font-display text-[36px] font-medium leading-[1.05] tracking-[-0.05em] sm:text-[52px] md:text-[74px] lg:text-[88px]">
             Replace your entire <em className="font-normal text-soft-yellow">growth team.</em>
           </h1>
         </HeroReveal>
@@ -277,7 +305,7 @@ function HeroSection() {
 
 function OwnershipSection() {
   return (
-    <section id="ownership" aria-labelledby="ownership-title" className="bg-paper px-7 py-24 lg:px-0 lg:py-28">
+    <section id="ownership" aria-labelledby="ownership-title" className="bg-paper px-5 py-20 sm:px-7 lg:px-0 lg:py-28">
       <Reveal className="page-shell">
         <div className="grid gap-10 lg:grid-cols-[.9fr_1.1fr] lg:items-end">
           <div>
@@ -316,7 +344,7 @@ function ConversationCard({ speaker, children, response = false }: { speaker: st
 
 function ExperienceSection() {
   return (
-    <section id="approach" aria-labelledby="approach-title" className="bg-cyan-surface px-7 py-28 lg:px-0 lg:py-36">
+    <section id="approach" aria-labelledby="approach-title" className="bg-cyan-surface px-5 py-20 sm:px-7 lg:px-0 lg:py-36">
       <Reveal className="page-shell grid gap-16 lg:grid-cols-[1.1fr_.9fr] lg:items-center lg:gap-28">
         <div>
           <MicroLabel className="text-electric">The experience</MicroLabel>
@@ -334,7 +362,7 @@ function ExperienceSection() {
 
 function BehindScenesSection() {
   return (
-    <section id="behind" aria-labelledby="behind-title" className="bg-deep-blue px-7 py-24 text-white lg:px-0 lg:py-32">
+    <section id="behind" aria-labelledby="behind-title" className="bg-deep-blue px-5 py-20 text-white sm:px-7 lg:px-0 lg:py-32">
       <Reveal className="page-shell grid gap-16 lg:grid-cols-[.8fr_1.2fr] lg:items-start lg:gap-28">
         <div>
           <MicroLabel className="text-[#9beef2]">Behind the scenes</MicroLabel>
@@ -367,7 +395,7 @@ function BehindScenesSection() {
 
 function JourneySection() {
   return (
-    <section aria-labelledby="journey-title" className="bg-paper px-7 py-28 lg:px-0 lg:py-36">
+    <section aria-labelledby="journey-title" className="bg-paper px-5 py-20 sm:px-7 lg:px-0 lg:py-36">
       <Reveal className="page-shell">
         <div className="max-w-[650px]">
           <MicroLabel className="text-electric">Objective → work → outcome</MicroLabel>
@@ -389,7 +417,7 @@ function JourneySection() {
 
 function ProofSection() {
   return (
-    <section id="proof" aria-labelledby="proof-title" className="border-t border-ink/12 bg-cyan-surface px-7 py-20 lg:px-0 lg:py-24">
+    <section id="proof" aria-labelledby="proof-title" className="border-t border-ink/12 bg-cyan-surface px-5 py-16 sm:px-7 lg:px-0 lg:py-24">
       <Reveal className="page-shell">
         <h2 id="proof-title" className="sr-only">Growth proof</h2>
         <div className="grid gap-10 lg:grid-cols-4 lg:gap-0">
@@ -432,12 +460,12 @@ function ProofSection() {
 
 function FinalCtaSection() {
   return (
-    <section id="contact" aria-labelledby="cta-title" className="relative overflow-hidden bg-paper px-7 py-28 text-center lg:px-0 lg:py-36">
+    <section id="contact" aria-labelledby="cta-title" className="relative overflow-hidden bg-paper px-5 py-20 text-center sm:px-7 lg:px-0 lg:py-36">
       <div className="sun-haze absolute left-1/2 top-8 size-28 -translate-x-1/2 rounded-full bg-soft-yellow/70 blur-xl" aria-hidden="true" />
       <Reveal className="relative mx-auto max-w-[820px]">
         <div className="mx-auto mb-7 h-8 w-52 border-b border-electric/35" aria-hidden="true" />
         <MicroLabel className="text-electric">A calmer way to grow</MicroLabel>
-        <DisplayTitle id="cta-title" className="mt-6 sm:text-[70px]">Collision can replace your entire growth stack.</DisplayTitle>
+        <DisplayTitle id="cta-title" className="mt-6 sm:text-[50px] md:text-[70px]">Collision can replace your entire growth stack.</DisplayTitle>
         <a href="https://cal.com/collision" target="_blank" rel="noopener noreferrer">
           <Button type="button" size="lg" className="mt-10 h-12 rounded-full bg-electric px-7 text-[13px] font-semibold text-white hover:bg-[#1745c2]">
             Meet Collision <ArrowRight className="size-4" aria-hidden="true" />
@@ -451,7 +479,7 @@ function FinalCtaSection() {
 
 function Footer() {
   return (
-    <footer className="border-t border-ink/15 bg-white px-7 py-8 lg:px-0">
+    <footer className="border-t border-ink/15 bg-white px-5 py-8 sm:px-7 lg:px-0">
       <div className="page-shell flex flex-col justify-between gap-5 text-[11px] text-slate sm:flex-row sm:items-center">
         <a href="#top" className="font-display text-[23px] tracking-[-0.05em] text-ink">collision.</a>
         <nav className="flex flex-wrap gap-x-7 gap-y-3" aria-label="Footer navigation">
