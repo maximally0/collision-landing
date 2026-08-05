@@ -21,8 +21,8 @@ export type GrowthActivity = {
 };
 
 export const navigationLinks = [
-  ["Approach", "#approach"],
   ["What we own", "#ownership"],
+  ["Approach", "#approach"],
   ["Behind the scenes", "#behind"],
   ["Proof", "#proof"],
 ] as const;

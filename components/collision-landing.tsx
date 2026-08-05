@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useState, type FormEvent, type ReactNode } from "react";
 import { AnimatePresence, motion, useReducedMotion, useInView } from "motion/react";
@@ -8,9 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
-  growthActivities,
   journeySteps,
-  metrics,
   navigationLinks,
   ownershipRows,
   promptSuggestions,
@@ -97,50 +95,6 @@ function HeroReveal({ children, className, delay = 0 }: { children: ReactNode; c
   );
 }
 
-function LiveGrowthActivity() {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const reduceMotion = useReducedMotion();
-
-  useEffect(() => {
-    if (reduceMotion) return;
-
-    const interval = window.setInterval(() => {
-      setActiveIndex((current) => (current + 1) % growthActivities.length);
-    }, 5200);
-
-    return () => window.clearInterval(interval);
-  }, [reduceMotion]);
-
-  const activity = growthActivities[activeIndex];
-
-  return (
-    <div className="mt-7 w-full max-w-[480px] border-t border-white/20 pt-4 text-left text-white/80" aria-live="polite" aria-label="Live growth activity">
-      <div className="mb-3 flex items-center justify-between text-[10px] font-semibold uppercase tracking-[0.18em] text-white/55">
-        <span className="flex items-center gap-2"><span className="size-1.5 rounded-full bg-mint shadow-[0_0_0_4px_rgb(0_229_192_/_14%)]" aria-hidden="true" />Live growth loop</span>
-        <span>{String(activeIndex + 1).padStart(2, "0")} / {String(growthActivities.length).padStart(2, "0")}</span>
-      </div>
-      <AnimatePresence mode="wait" initial={false}>
-        <motion.div
-          key={activity.action}
-          initial={reduceMotion ? false : { opacity: 0, y: 8 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={reduceMotion ? undefined : { opacity: 0, y: -8 }}
-          transition={{ duration: 0.35, ease: "easeOut" }}
-          className="flex items-center justify-between gap-5"
-        >
-          <div>
-            <p className="text-[14px] font-medium text-white">{activity.action}</p>
-            <p className="mt-1 text-[12px] text-white/55">{activity.detail}</p>
-          </div>
-          <Badge className={cn("h-auto shrink-0 rounded-full border-0 px-2.5 py-1 text-[9px] font-semibold uppercase tracking-[0.14em] text-ink", activity.status === "working" ? "bg-soft-yellow" : "bg-mint")}>
-            {activity.status}
-          </Badge>
-        </motion.div>
-      </AnimatePresence>
-    </div>
-  );
-}
-
 function FloatingNav() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -172,15 +126,15 @@ function FloatingNav() {
           <span className="font-display text-[20px] font-medium tracking-[-0.04em] sm:text-[22px]">collision.</span>
         </a>
 
-        <div className="hidden items-center gap-7 text-[11px] font-medium tracking-[0.08em] text-white/80 lg:flex">
+        <div className="hidden items-center gap-6 text-[11px] font-medium tracking-[0.08em] text-white/80 md:flex">
           {navigationLinks.map(([label, href]) => (
             <a key={href} href={href} className="transition-colors duration-200 hover:text-white">{label}</a>
           ))}
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-3">
           <a href="https://cal.com/collision" target="_blank" rel="noopener noreferrer">
-            <Button type="button" size="lg" className="h-9 rounded-full bg-electric px-4 text-[11px] font-semibold text-white ring-1 ring-white/40 transition-all duration-200 hover:bg-[#1745c2] hover:ring-white/60 sm:h-10 sm:px-5 sm:text-[12px]">
+            <Button type="button" size="lg" className="h-9 rounded-full bg-electric px-5 text-[11px] font-semibold text-white ring-1 ring-white/40 transition-all duration-200 hover:bg-[#1745c2] hover:ring-white/60 sm:h-10 sm:px-6 sm:text-[12px]">
               Meet Collision
             </Button>
           </a>
@@ -191,7 +145,7 @@ function FloatingNav() {
             aria-label={open ? "Close navigation menu" : "Open navigation menu"}
             aria-expanded={open}
             onClick={() => setOpen((value) => !value)}
-            className="size-9 rounded-full border-white/40 bg-white/10 text-white hover:bg-white/20 hover:text-white sm:size-10 lg:hidden"
+            className="size-9 rounded-full border-white/40 bg-white/10 text-white hover:bg-white/20 hover:text-white sm:size-10 md:hidden"
           >
             {open ? <X className="size-4" aria-hidden="true" /> : <Menu className="size-4" aria-hidden="true" />}
           </Button>
@@ -205,7 +159,7 @@ function FloatingNav() {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
-            className="mx-4 overflow-hidden rounded-2xl bg-white/95 shadow-xl backdrop-blur-md lg:hidden"
+            className="mx-4 overflow-hidden rounded-2xl bg-white/95 shadow-xl backdrop-blur-md md:hidden"
           >
             <div className="grid gap-1 p-2">
               {navigationLinks.map(([label, href]) => (
@@ -246,10 +200,10 @@ function GrowthPrompt() {
           onChange={(event) => setPrompt(event.target.value)}
           placeholder="What should we grow today?"
           aria-label="Growth objective"
-          className="h-14 flex-1 rounded-xl border-0 bg-transparent px-4 py-4 text-[15px] shadow-none placeholder:text-slate focus-visible:ring-2 focus-visible:ring-electric/30"
+          className="h-12 flex-1 rounded-xl border-0 bg-transparent px-4 py-3 text-[15px] shadow-none placeholder:text-slate focus-visible:ring-2 focus-visible:ring-electric/30"
         />
-        <Button type="submit" size="lg" className="h-14 rounded-xl bg-electric px-6 text-[13px] font-semibold text-white hover:bg-[#1745c2]">
-          Meet Collision
+        <Button type="submit" size="lg" className="h-11 shrink-0 rounded-full bg-electric px-6 text-[12px] font-semibold text-white hover:bg-[#1745c2]">
+          Meet Collision <ArrowRight className="ml-1 size-3.5" aria-hidden="true" />
         </Button>
       </div>
       <div className="flex flex-wrap gap-2 border-t border-ink/10 px-3 pb-2 pt-3">
@@ -309,10 +263,6 @@ function HeroSection() {
             <Badge className="ml-2 h-auto rounded-full border-0 bg-mint/90 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.15em] text-[#12335a]">approval-based</Badge>
           </div>
         </HeroReveal>
-        <HeroReveal delay={0.4}>
-          <p className="mt-4 text-[11px] tracking-[0.08em] text-white/60">Not a chatbot. Not an agency. Not another dashboard.</p>
-        </HeroReveal>
-        <LiveGrowthActivity />
       </div>
     </section>
   );
@@ -348,23 +298,57 @@ function OwnershipSection() {
   );
 }
 
-function ConversationCard({ speaker, children, response = false, delay = 0 }: { speaker: string; children: ReactNode; response?: boolean; delay?: number }) {
+function ChatBubble({ message, isResponse, delay = 0 }: { message: string; isResponse?: boolean; delay?: number }) {
   const reduceMotion = useReducedMotion();
   const ref = useRef<HTMLDivElement>(null);
-  const isInView = useInView(ref, { once: true, amount: 0.3 });
+  const isInView = useInView(ref, { once: true, amount: 0.5 });
 
   return (
     <motion.div
       ref={ref}
-      className={cn("max-w-[430px] border p-6", response ? "ml-auto border-electric/35 bg-electric text-white" : "bg-white border-ink/15 text-ink")}
-      initial={reduceMotion ? false : { opacity: 0, x: response ? 30 : -30, scale: 0.95 }}
-      animate={isInView ? { opacity: 1, x: 0, scale: 1 } : undefined}
-      transition={{ duration: 0.6, delay, ease: [0.25, 0.4, 0.25, 1] }}
+      className={cn("flex", isResponse ? "justify-end" : "justify-start")}
+      initial={reduceMotion ? false : { opacity: 0, y: 16, scale: 0.9 }}
+      animate={isInView ? { opacity: 1, y: 0, scale: 1 } : undefined}
+      transition={{ duration: 0.5, delay, ease: [0.34, 1.56, 0.64, 1] }}
     >
-      <MicroLabel className={cn("mb-3", response ? "text-right text-white/65" : "text-slate")}>{speaker}</MicroLabel>
-      <p className="font-display text-[27px] leading-[1.15]">{children}</p>
+      <div className={cn(
+        "relative max-w-[380px] rounded-2xl px-5 py-4",
+        isResponse
+          ? "rounded-br-sm bg-electric text-white shadow-[0_4px_16px_rgb(31_94_255_/_25%)]"
+          : "rounded-bl-sm bg-white text-ink shadow-[0_2px_12px_rgb(21_33_58_/_8%)]"
+      )}>
+        <p className={cn("text-[11px] font-semibold uppercase tracking-[0.12em] mb-2", isResponse ? "text-white/60" : "text-slate")}>
+          {isResponse ? "Collision" : "You"}
+        </p>
+        <p className="font-display text-[20px] leading-[1.2] sm:text-[24px]">{message}</p>
+      </div>
     </motion.div>
   );
+}
+
+function AnimatedCounter({ value, suffix = "", delay = 0 }: { value: number; suffix?: string; delay?: number }) {
+  const ref = useRef<HTMLSpanElement>(null);
+  const isInView = useInView(ref, { once: true, amount: 0.5 });
+  const [display, setDisplay] = useState(0);
+
+  useEffect(() => {
+    if (!isInView) return;
+    const timeout = setTimeout(() => {
+      const duration = 1800;
+      const start = performance.now();
+      const animate = (now: number) => {
+        const elapsed = now - start;
+        const progress = Math.min(elapsed / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 4);
+        setDisplay(Math.round(eased * value));
+        if (progress < 1) requestAnimationFrame(animate);
+      };
+      requestAnimationFrame(animate);
+    }, delay * 1000);
+    return () => clearTimeout(timeout);
+  }, [isInView, value, delay]);
+
+  return <span ref={ref}>{display}{suffix}</span>;
 }
 
 function ExperienceSection() {
@@ -373,17 +357,18 @@ function ExperienceSection() {
       <Reveal className="page-shell grid gap-16 lg:grid-cols-[1.1fr_.9fr] lg:items-center lg:gap-28">
         <div>
           <MicroLabel className="text-electric">The experience</MicroLabel>
-          <DisplayTitle id="approach-title" className="mt-6 max-w-[700px]">Working with Collision should feel like working with the best Head of Growth you&apos;ve ever met.</DisplayTitle>
+          <DisplayTitle id="approach-title" className="mt-6 max-w-[700px]">Working with Collision should feel like working with <span className="text-coral">the best Head of Growth</span> you&apos;ve ever met.</DisplayTitle>
           <BodyCopy className="mt-8 max-w-[590px] text-[17px] text-[#52667d]">You never think about prompts, workflows, or which AI model to use. You simply talk to Collision, and the work moves forward with context.</BodyCopy>
         </div>
-        <div className="space-y-6" aria-label="Example conversation with Collision">
-          <ConversationCard speaker="You" delay={0.1}>“Launch our product.”</ConversationCard>
-          <ConversationCard speaker="Collision" response delay={0.35}>“Understood. I&apos;ll research, plan, write, distribute, and learn.”</ConversationCard>
+        <div className="space-y-4" aria-label="Example conversation with Collision">
+          <ChatBubble message="Launch our product." delay={0.15} />
+          <ChatBubble message="Understood. I'll research, plan, write, distribute, and learn." isResponse delay={0.55} />
         </div>
       </Reveal>
     </section>
   );
 }
+
 
 function BehindScenesSection() {
   return (
@@ -441,48 +426,88 @@ function JourneySection() {
 }
 
 function ProofSection() {
+  const ref = useRef<HTMLDivElement>(null);
+  const isInView = useInView(ref, { once: true, amount: 0.2 });
+
   return (
     <section id="proof" aria-labelledby="proof-title" className="border-t border-ink/12 bg-cyan-surface px-5 py-16 sm:px-7 lg:px-0 lg:py-24">
-      <Reveal className="page-shell">
+      <div ref={ref} className="page-shell">
         <h2 id="proof-title" className="sr-only">Growth proof</h2>
-        <div className="grid gap-10 lg:grid-cols-4 lg:gap-0">
-          {metrics.map((metric, index) => (
-            <Reveal key={metric.label} delay={index * 0.12} variant="scale" className={cn("lg:border-ink/15", index < metrics.length - 1 ? "lg:border-r" : "flex items-center justify-between gap-5 lg:pl-8")}>
-              <div className={cn(index > 0 && index < 3 ? "lg:px-8" : "", index === 0 ? "lg:pr-8" : "") }>
-                <p className="font-display text-[42px] leading-none text-ink">{metric.value}{metric.suffix ? <span className={accentText[metric.accent ?? "coral"]}>{metric.suffix}</span> : null}</p>
-                <MicroLabel className="mt-3 text-slate">{metric.label}</MicroLabel>
-              </div>
-              {index === metrics.length - 1 ? (
-                <svg className="h-16 w-28 shrink-0" viewBox="0 0 112 64" fill="none" role="img" aria-label="Rising growth trend">
-                  <motion.path
-                    d="M2 55 C18 52 22 44 34 47 C46 50 48 35 60 39 C70 43 74 27 84 30 C95 33 100 17 110 8"
-                    stroke="var(--electric)"
-                    strokeWidth="2"
-                    initial={{ pathLength: 0, opacity: 0 }}
-                    whileInView={{ pathLength: 1, opacity: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 1.1, ease: "easeOut" }}
-                  />
-                  <motion.circle
-                    cx="110"
-                    cy="8"
-                    r="3.5"
-                    fill="var(--coral)"
-                    initial={{ scale: 0, opacity: 0 }}
-                    whileInView={{ scale: 1, opacity: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: 0.8, duration: 0.3 }}
-                  />
-                </svg>
-              ) : null}
-            </Reveal>
-          ))}
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-0">
+          <motion.div
+            className="lg:border-r lg:border-ink/15 lg:pr-8"
+            initial={{ opacity: 0, y: 30 }}
+            animate={isInView ? { opacity: 1, y: 0 } : undefined}
+            transition={{ duration: 0.6, delay: 0, ease: [0.25, 0.4, 0.25, 1] }}
+          >
+            <p className="font-display text-[42px] leading-none text-ink sm:text-[48px]">
+              <AnimatedCounter value={300} suffix="M+" delay={0.1} />
+            </p>
+            <MicroLabel className="mt-3 text-slate">impressions</MicroLabel>
+          </motion.div>
+
+          <motion.div
+            className="lg:border-r lg:border-ink/15 lg:px-8"
+            initial={{ opacity: 0, y: 30 }}
+            animate={isInView ? { opacity: 1, y: 0 } : undefined}
+            transition={{ duration: 0.6, delay: 0.15, ease: [0.25, 0.4, 0.25, 1] }}
+          >
+            <p className="font-display text-[42px] leading-none text-ink sm:text-[48px]">
+              <AnimatedCounter value={14} suffix="K" delay={0.25} />
+            </p>
+            <MicroLabel className="mt-3 text-slate">inbound conversations</MicroLabel>
+          </motion.div>
+
+          <motion.div
+            className="lg:border-r lg:border-ink/15 lg:px-8"
+            initial={{ opacity: 0, y: 30 }}
+            animate={isInView ? { opacity: 1, y: 0 } : undefined}
+            transition={{ duration: 0.6, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
+          >
+            <p className="font-display text-[42px] leading-none text-ink sm:text-[48px]">
+              <AnimatedCounter value={2} suffix=".4x" delay={0.4} />
+            </p>
+            <MicroLabel className="mt-3 text-slate">qualified traffic</MicroLabel>
+          </motion.div>
+
+          <motion.div
+            className="flex items-center justify-between gap-5 lg:pl-8"
+            initial={{ opacity: 0, y: 30 }}
+            animate={isInView ? { opacity: 1, y: 0 } : undefined}
+            transition={{ duration: 0.6, delay: 0.45, ease: [0.25, 0.4, 0.25, 1] }}
+          >
+            <div>
+              <p className="font-display text-[42px] leading-none text-ink sm:text-[48px]">
+                +<AnimatedCounter value={38} suffix="%" delay={0.55} />
+              </p>
+              <MicroLabel className="mt-3 text-slate">AI search discovery</MicroLabel>
+            </div>
+            <svg className="h-16 w-28 shrink-0" viewBox="0 0 112 64" fill="none" role="img" aria-label="Rising growth trend">
+              <motion.path
+                d="M2 55 C18 52 22 44 34 47 C46 50 48 35 60 39 C70 43 74 27 84 30 C95 33 100 17 110 8"
+                stroke="var(--electric)"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                initial={{ pathLength: 0, opacity: 0 }}
+                animate={isInView ? { pathLength: 1, opacity: 1 } : undefined}
+                transition={{ duration: 1.4, delay: 0.6, ease: "easeOut" }}
+              />
+              <motion.circle
+                cx="110"
+                cy="8"
+                r="4"
+                fill="var(--coral)"
+                initial={{ scale: 0, opacity: 0 }}
+                animate={isInView ? { scale: 1, opacity: 1 } : undefined}
+                transition={{ delay: 1.8, duration: 0.4, ease: [0.34, 1.56, 0.64, 1] }}
+              />
+            </svg>
+          </motion.div>
         </div>
-      </Reveal>
+      </div>
     </section>
   );
 }
-
 function FinalCtaSection() {
   return (
     <section id="contact" aria-labelledby="cta-title" className="relative overflow-hidden bg-paper px-5 py-20 text-center sm:px-7 lg:px-0 lg:py-36">
