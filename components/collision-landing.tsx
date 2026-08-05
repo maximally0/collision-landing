@@ -1,9 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useRef, useState, type FormEvent, type ReactNode } from "react";
+import { useEffect, useState, type FormEvent, type ReactNode } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
-import { ArrowRight, Check, Menu, X } from "lucide-react";
+import { ArrowRight, Menu, X } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -128,22 +128,7 @@ function LiveGrowthActivity() {
   );
 }
 
-function Toast({ visible, message }: { visible: boolean; message: string }) {
-  return (
-    <motion.div
-      className="pointer-events-none fixed bottom-5 right-5 z-50 flex max-w-[calc(100vw-2rem)] items-center gap-3 rounded-full bg-ink px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_34px_rgb(21_33_58_/_20%)]"
-      initial={false}
-      animate={{ opacity: visible ? 1 : 0, y: visible ? 0 : 16 }}
-      role="status"
-      aria-live="polite"
-    >
-      <Check className="size-4 shrink-0 text-mint" aria-hidden="true" />
-      <span className="truncate">{message}</span>
-    </motion.div>
-  );
-}
-
-function FloatingNav({ onCta }: { onCta: () => void }) {
+function FloatingNav() {
   const [open, setOpen] = useState(false);
 
   return (
@@ -161,9 +146,11 @@ function FloatingNav({ onCta }: { onCta: () => void }) {
         </div>
 
         <div className="flex items-center gap-2">
-          <Button type="button" size="lg" onClick={onCta} className="h-10 rounded-full bg-electric px-5 text-[12px] font-semibold text-white ring-1 ring-white/40 hover:bg-[#1745c2]">
-            Meet Collision
-          </Button>
+          <a href="https://cal.com/collision" target="_blank" rel="noopener noreferrer">
+            <Button type="button" size="lg" className="h-10 rounded-full bg-electric px-5 text-[12px] font-semibold text-white ring-1 ring-white/40 hover:bg-[#1745c2]">
+              Meet Collision
+            </Button>
+          </a>
           <Button
             type="button"
             size="icon"
@@ -200,13 +187,12 @@ function FloatingNav({ onCta }: { onCta: () => void }) {
   );
 }
 
-function GrowthPrompt({ onSubmit }: { onSubmit: (prompt: string) => void }) {
+function GrowthPrompt() {
   const [prompt, setPrompt] = useState("");
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    onSubmit(prompt.trim() || "your growth objective");
-    setPrompt("");
+    window.open("https://cal.com/collision", "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -241,7 +227,7 @@ function GrowthPrompt({ onSubmit }: { onSubmit: (prompt: string) => void }) {
   );
 }
 
-function HeroSection({ onCta }: { onCta: (prompt: string) => void }) {
+function HeroSection() {
   const reduceMotion = useReducedMotion();
 
   return (
@@ -271,7 +257,7 @@ function HeroSection({ onCta }: { onCta: (prompt: string) => void }) {
         </HeroReveal>
         <HeroReveal delay={0.24} className="mt-10 w-full">
           <div className="flex justify-center">
-            <GrowthPrompt onSubmit={onCta} />
+            <GrowthPrompt />
           </div>
         </HeroReveal>
         <HeroReveal delay={0.32}>
@@ -444,7 +430,7 @@ function ProofSection() {
   );
 }
 
-function FinalCtaSection({ onCta }: { onCta: () => void }) {
+function FinalCtaSection() {
   return (
     <section id="contact" aria-labelledby="cta-title" className="relative overflow-hidden bg-paper px-7 py-28 text-center lg:px-0 lg:py-36">
       <div className="sun-haze absolute left-1/2 top-8 size-28 -translate-x-1/2 rounded-full bg-soft-yellow/70 blur-xl" aria-hidden="true" />
@@ -452,9 +438,11 @@ function FinalCtaSection({ onCta }: { onCta: () => void }) {
         <div className="mx-auto mb-7 h-8 w-52 border-b border-electric/35" aria-hidden="true" />
         <MicroLabel className="text-electric">A calmer way to grow</MicroLabel>
         <DisplayTitle id="cta-title" className="mt-6 sm:text-[70px]">Collision can replace your entire growth stack.</DisplayTitle>
-        <Button type="button" size="lg" onClick={onCta} className="mt-10 h-12 rounded-full bg-electric px-7 text-[13px] font-semibold text-white hover:bg-[#1745c2]">
-          Meet Collision <ArrowRight className="size-4" aria-hidden="true" />
-        </Button>
+        <a href="https://cal.com/collision" target="_blank" rel="noopener noreferrer">
+          <Button type="button" size="lg" className="mt-10 h-12 rounded-full bg-electric px-7 text-[13px] font-semibold text-white hover:bg-[#1745c2]">
+            Meet Collision <ArrowRight className="size-4" aria-hidden="true" />
+          </Button>
+        </a>
         <MicroLabel className="mt-6 text-slate">One conversation. One memory. One personality. One source of truth.</MicroLabel>
       </Reveal>
     </section>
@@ -470,6 +458,8 @@ function Footer() {
           <a href="#ownership" className="hover:text-electric">What we own</a>
           <a href="#behind" className="hover:text-electric">Behind the scenes</a>
           <a href="/contact" className="hover:text-electric">Contact</a>
+          <a href="https://x.com/usecollision" target="_blank" rel="noopener noreferrer" className="hover:text-electric">X</a>
+          <a href="https://linkedin.com/company/usecollision" target="_blank" rel="noopener noreferrer" className="hover:text-electric">LinkedIn</a>
         </nav>
         <span>© 2026 Collision Labs</span>
       </div>
@@ -478,42 +468,17 @@ function Footer() {
 }
 
 export default function CollisionLanding() {
-  const [toastVisible, setToastVisible] = useState(false);
-  const [toastMessage, setToastMessage] = useState("Growth loop ready.");
-  const toastTimerRef = useRef<number | null>(null);
-
-  useEffect(() => {
-    return () => {
-      if (toastTimerRef.current !== null) window.clearTimeout(toastTimerRef.current);
-    };
-  }, []);
-
-  const showToast = (message = "Growth loop ready.") => {
-    if (toastTimerRef.current !== null) window.clearTimeout(toastTimerRef.current);
-    setToastMessage(message);
-    setToastVisible(true);
-    toastTimerRef.current = window.setTimeout(() => {
-      setToastVisible(false);
-      toastTimerRef.current = null;
-    }, 3200);
-  };
-
-  const handleGrowthPrompt = (prompt: string) => {
-    showToast(`Queued: ${prompt.slice(0, 42)}${prompt.length > 42 ? "…" : ""}`);
-  };
-
   return (
     <main className="collision-page">
-      <FloatingNav onCta={showToast} />
-      <HeroSection onCta={handleGrowthPrompt} />
+      <FloatingNav />
+      <HeroSection />
       <OwnershipSection />
       <ExperienceSection />
       <BehindScenesSection />
       <JourneySection />
       <ProofSection />
-      <FinalCtaSection onCta={showToast} />
+      <FinalCtaSection />
       <Footer />
-      <Toast visible={toastVisible} message={toastMessage} />
     </main>
   );
 }

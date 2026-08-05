@@ -18,8 +18,16 @@ export const metadata: Metadata = {
   title: "Collision — Replace Your Entire Growth Stack",
   description:
     "Collision is the AI that can replace your entire growth stack. One intelligence that researches, writes, distributes, and learns across every surface your business depends on.",
-  icons: { icon: "/favicon.ico" },
   metadataBase: new URL("https://usecollision.com"),
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/site.webmanifest",
   openGraph: {
     title: "Collision — Replace Your Entire Growth Stack",
     description:
@@ -43,6 +51,8 @@ export const metadata: Metadata = {
     description:
       "One AI growth intelligence that researches, writes, distributes, and learns across every surface your business depends on.",
     images: ["/og-image.png"],
+    site: "@usecollision",
+    creator: "@usecollision",
   },
   robots: {
     index: true,
@@ -50,6 +60,9 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://usecollision.com",
+  },
+  other: {
+    "linkedin:company": "usecollision",
   },
 };
 

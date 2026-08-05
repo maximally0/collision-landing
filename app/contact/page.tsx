@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState, type FormEvent } from "react";
 import { motion } from "motion/react";
-import { ArrowLeft, Check, Mail, MessageCircle } from "lucide-react";
+import { ArrowLeft, ArrowRight, Check, Mail, MessageCircle } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -87,6 +87,27 @@ export default function ContactPage() {
                   <p className="text-[14px] text-slate">Usually within a few hours</p>
                 </div>
               </div>
+            </div>
+
+            <div className="mt-8">
+              <a
+                href="https://cal.com/collision"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex h-11 items-center gap-2 rounded-full bg-electric px-6 text-[12px] font-semibold text-white transition-colors hover:bg-[#1745c2]"
+              >
+                Meet Collision
+                <ArrowRight className="size-3.5" aria-hidden="true" />
+              </a>
+            </div>
+
+            <div className="mt-10 flex gap-5 border-t border-ink/10 pt-6">
+              <a href="https://x.com/usecollision" target="_blank" rel="noopener noreferrer" className="text-[12px] font-medium text-slate hover:text-electric">
+                X (Twitter)
+              </a>
+              <a href="https://linkedin.com/company/usecollision" target="_blank" rel="noopener noreferrer" className="text-[12px] font-medium text-slate hover:text-electric">
+                LinkedIn
+              </a>
             </div>
           </div>
 
@@ -176,7 +197,7 @@ export default function ContactPage() {
                   size="lg"
                   className="h-12 w-full rounded-xl bg-electric text-[13px] font-semibold text-white hover:bg-[#1745c2]"
                 >
-                  Meet Collision
+                  Send Message
                 </Button>
 
                 <p className="text-center text-[11px] text-slate">
