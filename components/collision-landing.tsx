@@ -1,8 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useState, type FormEvent, type ReactNode } from "react";
-import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { AnimatePresence, motion, useReducedMotion, useInView } from "motion/react";
 import { ArrowRight, Menu, X } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
@@ -19,6 +18,7 @@ import {
   type Accent,
 } from "@/lib/collision-content";
 import { cn } from "@/lib/utils";
+import { useRef } from "react";
 
 const heroVideo = "https://videos.pexels.com/video-files/14017302/14017302-sd_960_540_30fps.mp4";
 const heroPoster = "https://images.pexels.com/videos/14017302/pexels-photo-14017302.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200";
@@ -47,21 +47,35 @@ function BodyCopy({ children, className }: { children: ReactNode; className?: st
 }
 
 const revealVariants = {
-  hidden: { opacity: 0, y: 24 },
+  hidden: { opacity: 0, y: 32, filter: "blur(4px)" },
+  visible: { opacity: 1, y: 0, filter: "blur(0px)" },
+};
+
+const fadeUpVariants = {
+  hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0 },
 };
 
-function Reveal({ children, className, delay = 0 }: { children: ReactNode; className?: string; delay?: number }) {
+const scaleInVariants = {
+  hidden: { opacity: 0, scale: 0.92 },
+  visible: { opacity: 1, scale: 1 },
+};
+
+function Reveal({ children, className, delay = 0, variant = "default" }: { children: ReactNode; className?: string; delay?: number; variant?: "default" | "fade" | "scale" }) {
   const reduceMotion = useReducedMotion();
+  const ref = useRef<HTMLDivElement>(null);
+  const isInView = useInView(ref, { once: true, amount: 0.1 });
+
+  const variants = variant === "scale" ? scaleInVariants : variant === "fade" ? fadeUpVariants : revealVariants;
 
   return (
     <motion.div
+      ref={ref}
       className={className}
       initial={reduceMotion ? false : "hidden"}
-      whileInView={reduceMotion ? undefined : "visible"}
-      viewport={{ once: true, amount: 0.08 }}
-      variants={revealVariants}
-      transition={{ duration: 0.65, delay, ease: "easeOut" }}
+      animate={isInView ? "visible" : "hidden"}
+      variants={variants}
+      transition={{ duration: 0.7, delay, ease: [0.25, 0.4, 0.25, 1] }}
     >
       {children}
     </motion.div>
@@ -74,10 +88,9 @@ function HeroReveal({ children, className, delay = 0 }: { children: ReactNode; c
   return (
     <motion.div
       className={className}
-      initial={reduceMotion ? false : "hidden"}
-      animate="visible"
-      variants={revealVariants}
-      transition={{ duration: 0.75, delay, ease: "easeOut" }}
+      initial={reduceMotion ? false : { opacity: 0, y: 30, filter: "blur(6px)" }}
+      animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+      transition={{ duration: 0.9, delay, ease: [0.25, 0.4, 0.25, 1] }}
     >
       {children}
     </motion.div>
@@ -142,7 +155,7 @@ function FloatingNav() {
   }, []);
 
   return (
-    <nav
+    <motion.nav
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-all duration-300",
         scrolled
@@ -150,22 +163,24 @@ function FloatingNav() {
           : "bg-transparent"
       )}
       aria-label="Primary navigation"
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, delay: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
     >
       <div className="mx-auto flex w-full max-w-[1120px] items-center justify-between px-5 py-4 sm:px-7">
-        <a href="#top" className="flex items-center gap-3 text-white" aria-label="Collision home">
-          <Image src="/favicon-96x96.png" alt="Collision logo" width={32} height={32} className="size-8 rounded-full object-cover ring-1 ring-white/40" priority />
-          <span className="text-[16px] font-semibold tracking-[-0.04em] sm:text-[17px]">collision.</span>
+        <a href="#top" className="text-white" aria-label="Collision home">
+          <span className="font-display text-[20px] font-medium tracking-[-0.04em] sm:text-[22px]">collision.</span>
         </a>
 
         <div className="hidden items-center gap-7 text-[11px] font-medium tracking-[0.08em] text-white/80 lg:flex">
           {navigationLinks.map(([label, href]) => (
-            <a key={href} href={href} className="transition-colors hover:text-white">{label}</a>
+            <a key={href} href={href} className="transition-colors duration-200 hover:text-white">{label}</a>
           ))}
         </div>
 
         <div className="flex items-center gap-2">
           <a href="https://cal.com/collision" target="_blank" rel="noopener noreferrer">
-            <Button type="button" size="lg" className="h-9 rounded-full bg-electric px-4 text-[11px] font-semibold text-white ring-1 ring-white/40 hover:bg-[#1745c2] sm:h-10 sm:px-5 sm:text-[12px]">
+            <Button type="button" size="lg" className="h-9 rounded-full bg-electric px-4 text-[11px] font-semibold text-white ring-1 ring-white/40 transition-all duration-200 hover:bg-[#1745c2] hover:ring-white/60 sm:h-10 sm:px-5 sm:text-[12px]">
               Meet Collision
             </Button>
           </a>
@@ -189,7 +204,7 @@ function FloatingNav() {
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.25, ease: "easeOut" }}
+            transition={{ duration: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
             className="mx-4 overflow-hidden rounded-2xl bg-white/95 shadow-xl backdrop-blur-md lg:hidden"
           >
             <div className="grid gap-1 p-2">
@@ -211,7 +226,7 @@ function FloatingNav() {
           </motion.div>
         ) : null}
       </AnimatePresence>
-    </nav>
+    </motion.nav>
   );
 }
 
@@ -224,7 +239,7 @@ function GrowthPrompt() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="quiet-float w-full max-w-[780px] rounded-[18px] bg-paper p-2.5 text-left text-ink ring-1 ring-white/55">
+    <form onSubmit={handleSubmit} className="w-full max-w-[780px] rounded-[18px] bg-paper p-2.5 text-left text-ink ring-1 ring-white/55 transition-shadow duration-300 hover:shadow-[0_8px_40px_rgb(31_94_255_/_12%)]">
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
         <Input
           value={prompt}
@@ -320,7 +335,7 @@ function OwnershipSection() {
 
         <div className="mt-16 divide-y divide-ink/12 border-y border-ink/15">
           {ownershipRows.map((row, index) => (
-            <Reveal key={row.category} delay={index * 0.06} className="grid gap-5 py-7 lg:grid-cols-[160px_1fr_260px] lg:items-center">
+            <Reveal key={row.category} delay={index * 0.1} className="grid gap-5 py-7 lg:grid-cols-[160px_1fr_260px] lg:items-center">
               <div className={cn("text-[12px] font-semibold uppercase tracking-[0.18em]", accentText[row.accent])}>{row.category}</div>
               <p className="font-display text-[24px] leading-[1.2] text-ink">{row.title} {row.subtext ? <span className="font-sans text-[15px] text-slate">{row.subtext}</span> : null}</p>
               <BodyCopy className="text-[13px] leading-5 text-slate">{row.description}</BodyCopy>
@@ -333,12 +348,22 @@ function OwnershipSection() {
   );
 }
 
-function ConversationCard({ speaker, children, response = false }: { speaker: string; children: ReactNode; response?: boolean }) {
+function ConversationCard({ speaker, children, response = false, delay = 0 }: { speaker: string; children: ReactNode; response?: boolean; delay?: number }) {
+  const reduceMotion = useReducedMotion();
+  const ref = useRef<HTMLDivElement>(null);
+  const isInView = useInView(ref, { once: true, amount: 0.3 });
+
   return (
-    <div className={cn("max-w-[430px] border p-6", response ? "ml-auto border-electric/35 bg-electric text-white" : "bg-white border-ink/15 text-ink")}>
+    <motion.div
+      ref={ref}
+      className={cn("max-w-[430px] border p-6", response ? "ml-auto border-electric/35 bg-electric text-white" : "bg-white border-ink/15 text-ink")}
+      initial={reduceMotion ? false : { opacity: 0, x: response ? 30 : -30, scale: 0.95 }}
+      animate={isInView ? { opacity: 1, x: 0, scale: 1 } : undefined}
+      transition={{ duration: 0.6, delay, ease: [0.25, 0.4, 0.25, 1] }}
+    >
       <MicroLabel className={cn("mb-3", response ? "text-right text-white/65" : "text-slate")}>{speaker}</MicroLabel>
       <p className="font-display text-[27px] leading-[1.15]">{children}</p>
-    </div>
+    </motion.div>
   );
 }
 
@@ -352,8 +377,8 @@ function ExperienceSection() {
           <BodyCopy className="mt-8 max-w-[590px] text-[17px] text-[#52667d]">You never think about prompts, workflows, or which AI model to use. You simply talk to Collision, and the work moves forward with context.</BodyCopy>
         </div>
         <div className="space-y-6" aria-label="Example conversation with Collision">
-          <ConversationCard speaker="You">“Launch our product.”</ConversationCard>
-          <ConversationCard speaker="Collision" response>“Understood. I&apos;ll research, plan, write, distribute, and learn.”</ConversationCard>
+          <ConversationCard speaker="You" delay={0.1}>“Launch our product.”</ConversationCard>
+          <ConversationCard speaker="Collision" response delay={0.35}>“Understood. I&apos;ll research, plan, write, distribute, and learn.”</ConversationCard>
         </div>
       </Reveal>
     </section>
@@ -381,7 +406,7 @@ function BehindScenesSection() {
           </div>
           <div className="grid gap-0 sm:grid-cols-2">
             {specialists.map((item, index) => (
-              <Reveal key={item.title} delay={index * 0.05} className={cn("border-b border-white/15 py-6", index % 2 === 0 ? "sm:border-r sm:pr-8" : "sm:pl-8", index >= specialists.length - 2 && "border-b-0")}>
+              <Reveal key={item.title} delay={index * 0.08} variant="fade" className={cn("border-b border-white/15 py-6", index % 2 === 0 ? "sm:border-r sm:pr-8" : "sm:pl-8", index >= specialists.length - 2 && "border-b-0")}>
                 <p className={cn("text-[17px]", item.accent ? "text-soft-yellow" : "text-white")}>{item.title}</p>
                 <p className="mt-2 text-[12px] text-white/55">{item.description}</p>
               </Reveal>
@@ -403,7 +428,7 @@ function JourneySection() {
         </div>
         <div className="mt-16 grid gap-0 border-y border-ink/15 lg:grid-cols-3">
           {journeySteps.map((step, index) => (
-            <Reveal key={step.label} delay={index * 0.08} className={cn("py-8", index < journeySteps.length - 1 ? "border-b border-ink/15 lg:border-b-0 lg:border-r" : "", index === 0 ? "lg:pr-10" : index === 1 ? "lg:px-10" : "lg:pl-10")}>
+            <Reveal key={step.label} delay={index * 0.12} variant="scale" className={cn("py-8", index < journeySteps.length - 1 ? "border-b border-ink/15 lg:border-b-0 lg:border-r" : "", index === 0 ? "lg:pr-10" : index === 1 ? "lg:px-10" : "lg:pl-10")}>
               <MicroLabel className={accentText[step.accent]}>{step.label}</MicroLabel>
               <p className="mt-5 font-display text-[29px] leading-[1.1]">{step.title}</p>
               <BodyCopy className="mt-5 text-[14px] text-slate">{step.description}</BodyCopy>
@@ -422,7 +447,7 @@ function ProofSection() {
         <h2 id="proof-title" className="sr-only">Growth proof</h2>
         <div className="grid gap-10 lg:grid-cols-4 lg:gap-0">
           {metrics.map((metric, index) => (
-            <Reveal key={metric.label} delay={index * 0.08} className={cn("lg:border-ink/15", index < metrics.length - 1 ? "lg:border-r" : "flex items-center justify-between gap-5 lg:pl-8")}>
+            <Reveal key={metric.label} delay={index * 0.12} variant="scale" className={cn("lg:border-ink/15", index < metrics.length - 1 ? "lg:border-r" : "flex items-center justify-between gap-5 lg:pl-8")}>
               <div className={cn(index > 0 && index < 3 ? "lg:px-8" : "", index === 0 ? "lg:pr-8" : "") }>
                 <p className="font-display text-[42px] leading-none text-ink">{metric.value}{metric.suffix ? <span className={accentText[metric.accent ?? "coral"]}>{metric.suffix}</span> : null}</p>
                 <MicroLabel className="mt-3 text-slate">{metric.label}</MicroLabel>
@@ -461,13 +486,18 @@ function ProofSection() {
 function FinalCtaSection() {
   return (
     <section id="contact" aria-labelledby="cta-title" className="relative overflow-hidden bg-paper px-5 py-20 text-center sm:px-7 lg:px-0 lg:py-36">
-      <div className="sun-haze absolute left-1/2 top-8 size-28 -translate-x-1/2 rounded-full bg-soft-yellow/70 blur-xl" aria-hidden="true" />
-      <Reveal className="relative mx-auto max-w-[820px]">
+      <motion.div
+        className="absolute left-1/2 top-8 size-36 -translate-x-1/2 rounded-full bg-soft-yellow/50 blur-2xl"
+        aria-hidden="true"
+        animate={{ scale: [1, 1.15, 1], opacity: [0.4, 0.7, 0.4] }}
+        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+      />
+      <Reveal variant="scale" className="relative mx-auto max-w-[820px]">
         <div className="mx-auto mb-7 h-8 w-52 border-b border-electric/35" aria-hidden="true" />
         <MicroLabel className="text-electric">A calmer way to grow</MicroLabel>
         <DisplayTitle id="cta-title" className="mt-6 sm:text-[50px] md:text-[70px]">Collision can replace your entire growth stack.</DisplayTitle>
         <a href="https://cal.com/collision" target="_blank" rel="noopener noreferrer">
-          <Button type="button" size="lg" className="mt-10 h-12 rounded-full bg-electric px-7 text-[13px] font-semibold text-white hover:bg-[#1745c2]">
+          <Button type="button" size="lg" className="mt-10 h-12 rounded-full bg-electric px-7 text-[13px] font-semibold text-white transition-all duration-200 hover:bg-[#1745c2] hover:shadow-[0_4px_20px_rgb(31_94_255_/_35%)]">
             Meet Collision <ArrowRight className="size-4" aria-hidden="true" />
           </Button>
         </a>
