@@ -193,7 +193,7 @@ function GrowthPrompt() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="w-full max-w-[780px] rounded-[18px] bg-paper p-2.5 text-left text-ink ring-1 ring-white/55 transition-shadow duration-300 hover:shadow-[0_8px_40px_rgb(31_94_255_/_12%)]">
+    <form onSubmit={handleSubmit} className="w-full max-w-[780px] rounded-[18px] bg-paper p-4 text-left text-ink ring-1 ring-white/55 transition-shadow duration-300 hover:shadow-[0_8px_40px_rgb(31_94_255_/_12%)]">
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
         <Input
           value={prompt}
@@ -206,7 +206,7 @@ function GrowthPrompt() {
           Meet Collision <ArrowRight className="ml-1 size-3.5" aria-hidden="true" />
         </Button>
       </div>
-      <div className="flex flex-wrap gap-2 border-t border-ink/10 px-3 pb-2 pt-3">
+      <div className="mt-3 flex flex-wrap gap-2 border-t border-ink/10 px-3 pb-2 pt-4">
         {promptSuggestions.map((suggestion, index) => (
           <Button
             key={suggestion}
