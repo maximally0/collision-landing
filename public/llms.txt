@@ -1,0 +1,31 @@
+# Collision
+
+> Collision is an AI teammate that represents founders and builders online. It writes, replies, engages, and keeps your online presence alive while you focus on building — learning your voice, tone, and expertise so every post and reply sounds authentically like you.
+
+Collision is built for founders and builders who don't have time to manage social media themselves but don't want to disappear from the internet either. It connects to your profiles, learns your voice and opinions, then handles day-to-day writing, replying, and engagement in plain-English conversation — no dashboards, no prompt engineering.
+
+## What Collision does
+
+- Learns your voice, goals, and opinions before writing anything ("Think")
+- Writes posts and content that sound like you, not a generic content machine ("Create")
+- Replies to comments and DMs, keeping conversations moving while you work ("Engage")
+- Keeps you consistently present online without demanding your full attention ("Grow")
+
+## How it works
+
+1. Connect your profiles — Collision learns your voice, humor, and expertise.
+2. Talk to Collision naturally — tell it what matters today in plain English, no complex prompts.
+3. Collision handles the replies, posting, and growth while you keep building.
+
+## Key facts
+
+- Product: Collision — AI teammate for online presence management
+- Website: https://usecollision.com
+- Company: Collision Labs
+- Contact: hi@usecollision.com
+- Social: X/Twitter @usecollision, LinkedIn /company/usecollision, Instagram @usecollision
+- Category: AI social media agent / AI teammate for founders and builders
+
+## Pages
+
+- [Homepage](https://usecollision.com/): Product overview, capabilities, how it works, and sign-up CTA ("Become a Client").

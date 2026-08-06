@@ -165,7 +165,7 @@ function FloatingNav({ onClientCta }: { onClientCta: () => void }) {
   const links = [
     ["Features", "#features"],
     ["How it works", "#how"],
-    ["Pricing", "#pricing"],
+    ["FAQ", "#faq"],
     ["Blog", "#blog"],
   ];
 
@@ -470,6 +470,52 @@ function FinalCtaSection({ onClientCta }: { onClientCta: () => void }) {
   );
 }
 
+const faqItems = [
+  {
+    question: "What is Collision?",
+    answer:
+      "Collision is an AI teammate that represents founders and builders online. It writes, replies, engages, and keeps your online presence alive while you focus on building.",
+  },
+  {
+    question: "How does Collision work?",
+    answer:
+      "You connect your profiles and Collision learns your voice, humor, and expertise. Then you talk to it naturally in plain English about what matters that day, and it handles the replies, posting, and growth for you.",
+  },
+  {
+    question: "Who is Collision for?",
+    answer:
+      "Collision is built for founders and builders who want a consistent, authentic online presence without spending their day writing posts and replying to comments and DMs.",
+  },
+  {
+    question: "Does Collision sound like a generic AI bot?",
+    answer:
+      "No. Collision learns your voice, goals, and opinions first, so the posts and replies it writes sound like you, not a content machine.",
+  },
+];
+
+function FaqSection() {
+  return (
+    <section id="faq" className="bg-white px-4 py-24 sm:px-6 sm:py-32">
+      <div className="page-shell max-w-4xl">
+        <Reveal className="text-center">
+          <Eyebrow className="justify-center">Questions, answered</Eyebrow>
+          <DisplayTitle className="mt-6 sm:text-8xl">Frequently asked.</DisplayTitle>
+        </Reveal>
+        <div className="mt-16 space-y-6">
+          {faqItems.map((item, index) => (
+            <Reveal key={item.question} delay={index * 0.05}>
+              <div className="comic-frame bg-paper p-7 sm:p-9">
+                <h3 className="font-display text-2xl tracking-[-0.03em] sm:text-3xl">{item.question}</h3>
+                <p className="mt-3 text-base leading-snug text-muted sm:text-lg">{item.answer}</p>
+              </div>
+            </Reveal>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function Footer() {
   return (
     <footer id="blog" className="border-t-2 border-ink bg-white px-4 py-10 sm:px-6"><div className="page-shell"><div className="flex flex-col justify-between gap-7 sm:flex-row sm:items-center"><a href="#top" className="flex items-center gap-3" aria-label="Back to Collision home"><img src={helmetImage} alt="Collision helmet logo" className="size-11 rounded-full border-2 border-ink object-cover" /><span className="font-display text-3xl font-black">collision.</span></a><nav className="flex flex-wrap gap-x-6 gap-y-3 text-xs font-black uppercase tracking-[0.13em]" aria-label="Footer navigation"><a href="https://x.com/usecollision" target="_blank" rel="noreferrer" className="hover:text-electric">Twitter / X</a><a href="https://www.linkedin.com/company/usecollision" target="_blank" rel="noreferrer" className="hover:text-electric">LinkedIn</a><a href="https://instagram.com/usecollision" target="_blank" rel="noreferrer" className="hover:text-electric">Instagram</a><a href="mailto:hi@usecollision.com" className="hover:text-electric">hi@usecollision.com</a></nav><span className="text-xs text-muted">© 2026 Collision Labs</span></div><div className="mt-10 overflow-hidden border-y-2 border-ink py-3" aria-label="Collision brand message"><div className="marquee-track flex w-max gap-16 whitespace-nowrap font-display text-3xl font-black uppercase tracking-[-0.04em] text-ink/25"><span>BUILD. WE&apos;LL TALK.</span><span>REPRESENTING YOU 24/7.</span><span>BUILD. WE&apos;LL TALK.</span><span>REPRESENTING YOU 24/7.</span><span>BUILD. WE&apos;LL TALK.</span><span>REPRESENTING YOU 24/7.</span></div></div></div></footer>
@@ -499,6 +545,7 @@ export default function CollisionLanding() {
       <ConversationSection />
       <MeetCollisionSection />
       <HowItWorksSection />
+      <FaqSection />
       <FinalCtaSection onClientCta={handleClientCta} />
       <Footer />
       <Toast visible={toastVisible} />
