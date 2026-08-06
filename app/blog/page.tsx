@@ -61,6 +61,15 @@ export default function BlogIndexPage() {
                     {post.title}
                   </h2>
                   <p className="mt-2 max-w-[600px] text-[14px] leading-6 text-slate">{post.description}</p>
+                  {post.tags.length ? (
+                    <div className="mt-3 flex flex-wrap gap-2">
+                      {post.tags.map((tag) => (
+                        <span key={tag} className="rounded-full bg-cyan-surface px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.1em] text-electric">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  ) : null}
                 </div>
                 <ArrowRight className="hidden size-5 shrink-0 text-electric opacity-0 transition-opacity group-hover:opacity-100 sm:block" aria-hidden="true" />
               </Link>

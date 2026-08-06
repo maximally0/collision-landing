@@ -68,14 +68,20 @@ Create a new Markdown file in `content/blog/` with frontmatter:
 title: "Post title"
 description: "One-sentence summary used for meta description and previews."
 date: "2026-01-01"
-author: "Collision Labs"
+updated: "2026-01-01"
+authorId: "collision-team"
 tags: ["growth", "product"]
 ---
 
-Post body in Markdown.
+## A real heading
+
+Post body in Markdown. Use `##`/`###` headings — they're automatically
+extracted into a table of contents and get stable anchor IDs.
 ```
 
-The slug is the filename (without `.md`). New posts are picked up automatically by the blog index, the individual post route, and `sitemap.ts` — no code changes needed.
+The slug is the filename (without `.md`). New posts are picked up automatically by the blog index, the individual post route, tag pages, related-posts, and `sitemap.ts` — no code changes needed. Author profiles (name, role, bio) live in `lib/authors.ts`; add a new entry there before referencing a new `authorId`.
+
+**Writing bar:** posts should be genuinely researched and specific — real mechanisms, named frameworks, primary-source claims — not generic filler. Google's own [helpful content guidance](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) is explicit that word count is not a ranking factor, but that depth, first-hand expertise, and clear authorship are what the ranking systems actually reward. Aim for posts that would genuinely change how a founder thinks about a problem, not posts that just hit a word count.
 
 ## SEO / AEO
 
