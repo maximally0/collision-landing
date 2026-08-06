@@ -25,6 +25,7 @@ export const navigationLinks = [
   ["Approach", "#approach"],
   ["Behind the scenes", "#behind"],
   ["Proof", "#proof"],
+  ["FAQ", "#faq"],
 ] as const;
 
 export const promptSuggestions = [
@@ -69,4 +70,32 @@ export const metrics = [
   { value: "14K", label: "inbound conversations" },
   { value: "2.4x", label: "qualified traffic" },
   { value: "+38%", label: "AI search discovery" },
+];
+
+export type FaqItem = {
+  question: string;
+  answer: string;
+};
+
+export const faqItems: FaqItem[] = [
+  {
+    question: "What is Collision?",
+    answer:
+      "Collision is the AI you hire to run growth. It's a single growth intelligence that researches, writes, distributes, and learns across every surface your business depends on — replacing a scattered growth stack of separate tools and freelancers.",
+  },
+  {
+    question: "What can Collision own?",
+    answer:
+      "Reach (LinkedIn, X, SEO, and AI search like ChatGPT, Perplexity, Google AI Overviews, and Gemini), content (blogs, newsletters, landing pages, website copy, product launches), revenue (Gmail, email campaigns, outbound, storefront growth, community distribution), and intelligence (competitor research, positioning, messaging, analytics, growth strategy and experiments).",
+  },
+  {
+    question: "How do I work with Collision?",
+    answer:
+      "You talk to Collision in plain English about the outcome you want — like \"grow our LinkedIn\" or \"launch our product\" — and it researches, plans, writes, and distributes across the right channels. Every action is approval-based, so nothing ships without you.",
+  },
+  {
+    question: "Is Collision replacing my marketing team or just another tool?",
+    answer:
+      "Collision isn't another point tool. It's one intelligence with one memory and one source of truth that sees the full picture and makes decisions across every growth surface, the way a Head of Growth would.",
+  },
 ];

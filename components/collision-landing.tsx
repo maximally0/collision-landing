@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
+  faqItems,
   journeySteps,
   navigationLinks,
   ownershipRows,
@@ -508,6 +509,25 @@ function ProofSection() {
     </section>
   );
 }
+function FaqSection() {
+  return (
+    <section id="faq" aria-labelledby="faq-title" className="bg-paper px-5 py-20 sm:px-7 lg:px-0 lg:py-28">
+      <Reveal className="page-shell max-w-[760px]">
+        <MicroLabel className="text-electric">Questions, answered</MicroLabel>
+        <DisplayTitle id="faq-title" className="mt-6">Frequently asked.</DisplayTitle>
+        <div className="mt-14 divide-y divide-ink/12 border-y border-ink/15">
+          {faqItems.map((item, index) => (
+            <Reveal key={item.question} delay={index * 0.08} variant="fade" className="py-7">
+              <h3 className="font-display text-[22px] leading-[1.2] text-ink sm:text-[26px]">{item.question}</h3>
+              <BodyCopy className="mt-3 max-w-[640px] text-slate">{item.answer}</BodyCopy>
+            </Reveal>
+          ))}
+        </div>
+      </Reveal>
+    </section>
+  );
+}
+
 function FinalCtaSection() {
   return (
     <section id="contact" aria-labelledby="cta-title" className="relative overflow-hidden bg-paper px-5 py-20 text-center sm:px-7 lg:px-0 lg:py-36">
@@ -560,6 +580,7 @@ export default function CollisionLanding() {
       <BehindScenesSection />
       <JourneySection />
       <ProofSection />
+      <FaqSection />
       <FinalCtaSection />
       <Footer />
     </main>
