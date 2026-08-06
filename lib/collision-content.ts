@@ -26,6 +26,7 @@ export const navigationLinks = [
   ["Behind the scenes", "#behind"],
   ["Proof", "#proof"],
   ["FAQ", "#faq"],
+  ["Blog", "/blog"],
 ] as const;
 
 export const promptSuggestions = [

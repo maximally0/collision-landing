@@ -30,4 +30,5 @@ Collision is built for founders and growth teams who want one conversation, one 
 ## Pages
 
 - [Homepage](https://usecollision.com/): Product overview, what Collision owns, how it works, and proof of results.
+- [Blog](https://usecollision.com/blog): Articles on growth, AI search, and running growth as one system.
 - [Contact](https://usecollision.com/contact): Get in touch with Collision Labs.

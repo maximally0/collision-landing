@@ -1,6 +1,7 @@
 ﻿"use client";
 
 import { useEffect, useState, type FormEvent, type ReactNode } from "react";
+import Link from "next/link";
 import { AnimatePresence, motion, useReducedMotion, useInView } from "motion/react";
 import { ArrowRight, Menu, X } from "lucide-react";
 
@@ -129,7 +130,7 @@ function FloatingNav() {
 
         <div className="hidden items-center gap-6 text-[11px] font-medium tracking-[0.08em] text-white/80 md:flex">
           {navigationLinks.map(([label, href]) => (
-            <a key={href} href={href} className="transition-colors duration-200 hover:text-white">{label}</a>
+            <Link key={href} href={href} className="transition-colors duration-200 hover:text-white">{label}</Link>
           ))}
         </div>
 
@@ -164,9 +165,9 @@ function FloatingNav() {
           >
             <div className="grid gap-1 p-2">
               {navigationLinks.map(([label, href]) => (
-                <a key={href} href={href} onClick={() => setOpen(false)} className="rounded-xl px-4 py-3 text-sm font-medium text-ink hover:bg-cyan-surface">
+                <Link key={href} href={href} onClick={() => setOpen(false)} className="rounded-xl px-4 py-3 text-sm font-medium text-ink hover:bg-cyan-surface">
                   {label}
-                </a>
+                </Link>
               ))}
               <a
                 href="https://cal.com/collision"
@@ -560,7 +561,8 @@ function Footer() {
         <nav className="flex flex-wrap gap-x-7 gap-y-3" aria-label="Footer navigation">
           <a href="#ownership" className="hover:text-electric">What we own</a>
           <a href="#behind" className="hover:text-electric">Behind the scenes</a>
-          <a href="/contact" className="hover:text-electric">Contact</a>
+          <Link href="/blog" className="hover:text-electric">Blog</Link>
+          <Link href="/contact" className="hover:text-electric">Contact</Link>
           <a href="https://x.com/usecollision" target="_blank" rel="noopener noreferrer" className="hover:text-electric">X</a>
           <a href="https://linkedin.com/company/usecollision" target="_blank" rel="noopener noreferrer" className="hover:text-electric">LinkedIn</a>
         </nav>
