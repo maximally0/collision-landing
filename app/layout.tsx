@@ -66,9 +66,89 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Collision",
+    legalName: "Collision Labs",
+    url: "https://usecollision.com",
+    logo: "https://usecollision.com/favicon-96x96.png",
+    description:
+      "Collision is the AI you hire to run growth — one growth intelligence that researches, writes, distributes, and learns across every surface a business depends on.",
+    sameAs: [
+      "https://x.com/usecollision",
+      "https://linkedin.com/company/usecollision",
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: "Collision",
+    applicationCategory: "BusinessApplication",
+    operatingSystem: "Web",
+    url: "https://usecollision.com",
+    description:
+      "Collision is a single growth intelligence that owns reach (LinkedIn, X, SEO, AI search), content (blogs, newsletters, landing pages), revenue (email, outbound, storefront), and intelligence (competitor research, positioning, analytics, growth experiments).",
+    offers: {
+      "@type": "Offer",
+      category: "Subscription",
+      url: "https://cal.com/collision",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Collision Labs",
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "What is Collision?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Collision is the AI you hire to run growth. It's a single growth intelligence that researches, writes, distributes, and learns across every surface your business depends on — replacing a scattered growth stack of separate tools and freelancers.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What can Collision own?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Reach (LinkedIn, X, SEO, and AI search like ChatGPT, Perplexity, Google AI Overviews, and Gemini), content (blogs, newsletters, landing pages, website copy, product launches), revenue (Gmail, email campaigns, outbound, storefront growth, community distribution), and intelligence (competitor research, positioning, messaging, analytics, growth strategy and experiments).",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How do I work with Collision?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "You talk to Collision in plain English about the outcome you want — like 'grow our LinkedIn' or 'launch our product' — and it researches, plans, writes, and distributes across the right channels. Every action is approval-based, so nothing ships without you.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Is Collision replacing my marketing team or just another tool?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Collision isn't another point tool. It's one intelligence with one memory and one source of truth that sees the full picture and makes decisions across every growth surface, the way a Head of Growth would.",
+        },
+      },
+    ],
+  },
+];
+
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className={`${dmSans.variable} ${lora.variable}`}>{children}</body>
     </html>
   );
