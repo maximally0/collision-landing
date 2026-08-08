@@ -20,7 +20,7 @@ Collision is built for founders and growth teams who want one conversation, one 
 ## Key facts
 
 - Product: Collision — AI growth intelligence / AI Head of Growth
-- Website: https://usecollision.com
+- Website: https://www.usecollision.com
 - Company: Collision Labs
 - Meetings/demo: https://cal.com/collision
 - Social: X/Twitter @usecollision, LinkedIn /company/usecollision
@@ -29,18 +29,18 @@ Collision is built for founders and growth teams who want one conversation, one 
 
 ## Pages
 
-- [Homepage](https://usecollision.com/): Product overview, what Collision owns, how it works, and proof of results.
-- [Blog](https://usecollision.com/blog): Articles on growth, AI search/AEO, and running growth as one system.
-- [Contact](https://usecollision.com/contact): Get in touch with Collision Labs.
+- [Homepage](https://www.usecollision.com/): Product overview, what Collision owns, how it works, and proof of results.
+- [Blog](https://www.usecollision.com/blog): Articles on growth, AI search/AEO, and running growth as one system.
+- [Contact](https://www.usecollision.com/contact): Get in touch with Collision Labs.
 
 ## Blog posts
 
-- [Why AI Search Is Becoming the New Front Page](https://usecollision.com/blog/ai-search-is-the-new-front-page): What's changing in search behavior, grounded in Google's own content guidance.
-- [How to Get Cited by ChatGPT and Perplexity: A Practical AEO Checklist](https://usecollision.com/blog/aeo-checklist-get-cited-by-chatgpt-perplexity): A concrete checklist for answer-engine optimization.
-- [The Problem With a Growth Stack of Ten Tools](https://usecollision.com/blog/problem-with-ten-tool-growth-stack): Why fragmented growth tooling compounds coordination cost.
-- [Approval-Based Automation](https://usecollision.com/blog/approval-based-automation): Why every Collision action requires human approval before publishing.
-- [Founder-Led Growth Without a Marketing Team](https://usecollision.com/blog/founder-led-growth-without-a-marketing-team): How solo founders build real online presence.
-- [LinkedIn Growth Strategy for Founders in 2026](https://usecollision.com/blog/linkedin-growth-strategy-for-founders-2026): What separates compounding LinkedIn accounts from ones that plateau.
-- [AI Growth Agent vs. Marketing Automation](https://usecollision.com/blog/ai-growth-agent-vs-marketing-automation): The structural difference between the two categories.
-- [The Startup SEO Checklist](https://usecollision.com/blog/2026-startup-seo-checklist): A prioritized, Google-guidance-grounded SEO checklist for startups.
-- [Why Founders Are Replacing Marketing Agencies With AI](https://usecollision.com/blog/founders-replacing-marketing-agencies-with-ai): The structural agency constraints AI growth systems address.
+- [Why AI Search Is Becoming the New Front Page](https://www.usecollision.com/blog/ai-search-is-the-new-front-page): What's changing in search behavior, grounded in Google's own content guidance.
+- [How to Get Cited by ChatGPT and Perplexity: A Practical AEO Checklist](https://www.usecollision.com/blog/aeo-checklist-get-cited-by-chatgpt-perplexity): A concrete checklist for answer-engine optimization.
+- [The Problem With a Growth Stack of Ten Tools](https://www.usecollision.com/blog/problem-with-ten-tool-growth-stack): Why fragmented growth tooling compounds coordination cost.
+- [Approval-Based Automation](https://www.usecollision.com/blog/approval-based-automation): Why every Collision action requires human approval before publishing.
+- [Founder-Led Growth Without a Marketing Team](https://www.usecollision.com/blog/founder-led-growth-without-a-marketing-team): How solo founders build real online presence.
+- [LinkedIn Growth Strategy for Founders in 2026](https://www.usecollision.com/blog/linkedin-growth-strategy-for-founders-2026): What separates compounding LinkedIn accounts from ones that plateau.
+- [AI Growth Agent vs. Marketing Automation](https://www.usecollision.com/blog/ai-growth-agent-vs-marketing-automation): The structural difference between the two categories.
+- [The Startup SEO Checklist](https://www.usecollision.com/blog/2026-startup-seo-checklist): A prioritized, Google-guidance-grounded SEO checklist for startups.
+- [Why Founders Are Replacing Marketing Agencies With AI](https://www.usecollision.com/blog/founders-replacing-marketing-agencies-with-ai): The structural agency constraints AI growth systems address.

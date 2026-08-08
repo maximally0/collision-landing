@@ -350,7 +350,12 @@ function AnimatedCounter({ value, suffix = "", delay = 0 }: { value: number; suf
     return () => clearTimeout(timeout);
   }, [isInView, value, delay]);
 
-  return <span ref={ref}>{display}{suffix}</span>;
+  return (
+    <span ref={ref}>
+      <span className="sr-only">{value}{suffix}</span>
+      <span aria-hidden="true">{display}{suffix}</span>
+    </span>
+  );
 }
 
 function ExperienceSection() {

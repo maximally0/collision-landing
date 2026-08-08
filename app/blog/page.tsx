@@ -5,11 +5,11 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import { getAllPosts } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Blog",
+  title: "Growth, AI Search & GTM — Collision Blog",
   description:
     "Ideas on growth, AI search, and building a coherent growth motion — from the team behind Collision.",
   alternates: {
-    canonical: "https://usecollision.com/blog",
+    canonical: "https://www.usecollision.com/blog",
   },
 };
 

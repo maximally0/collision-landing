@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://usecollision.com/sitemap.xml",
+    sitemap: "https://www.usecollision.com/sitemap.xml",
   };
 }

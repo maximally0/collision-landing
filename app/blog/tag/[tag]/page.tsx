@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${decoded} — Blog`,
     description: `Posts tagged "${decoded}" from the Collision blog.`,
-    alternates: { canonical: `https://usecollision.com/blog/tag/${tag}` },
+    alternates: { canonical: `https://www.usecollision.com/blog/tag/${tag}` },
   };
 }
 

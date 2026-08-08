@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPostBySlug(slug);
   if (!post) return {};
 
-  const url = `https://usecollision.com/blog/${slug}`;
+  const url = `https://www.usecollision.com/blog/${slug}`;
   const author = getAuthor(post.authorId);
 
   return {
@@ -49,7 +49,7 @@ export default async function BlogPostPage({ params }: Props) {
 
   const author = getAuthor(post.authorId);
   const related = getRelatedPosts(post);
-  const url = `https://usecollision.com/blog/${slug}`;
+  const url = `https://www.usecollision.com/blog/${slug}`;
 
   const jsonLd = [
     {
@@ -69,8 +69,8 @@ export default async function BlogPostPage({ params }: Props) {
       publisher: {
         "@type": "Organization",
         name: "Collision Labs",
-        url: "https://usecollision.com",
-        logo: "https://usecollision.com/favicon-96x96.png",
+        url: "https://www.usecollision.com",
+        logo: "https://www.usecollision.com/favicon-96x96.png",
       },
       mainEntityOfPage: url,
       keywords: post.tags.join(", "),
@@ -79,8 +79,8 @@ export default async function BlogPostPage({ params }: Props) {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://usecollision.com" },
-        { "@type": "ListItem", position: 2, name: "Blog", item: "https://usecollision.com/blog" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.usecollision.com" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.usecollision.com/blog" },
         { "@type": "ListItem", position: 3, name: post.title, item: url },
       ],
     },
