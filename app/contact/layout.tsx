@@ -4,12 +4,11 @@ export const metadata: Metadata = {
   title: "Contact — Collision",
   description:
     "Get in touch with Collision. Whether you're ready to replace your growth stack or want to learn more, we'd love to hear from you.",
-  openGraph: {
-    title: "Contact — Collision",
-    description: "Get in touch with Collision and replace your entire growth stack.",
+  alternates: {
+    canonical: "https://www.usecollision.com/contact",
   },
 };
 
-export default function ContactLayout({ children }: { children: React.ReactNode }) {
+export default function ContactLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <>{children}</>;
 }
