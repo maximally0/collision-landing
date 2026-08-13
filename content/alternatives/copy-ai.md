@@ -1,14 +1,14 @@
 ---
 title: "Copy.ai Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Copy.ai. An honest look at what Copy.ai does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Copy.ai, AI marketing"
 target_path: "/alternatives/copy-ai"
 page_type: "alternatives"
 entity: "Copy.ai"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Copy.ai alternatives
@@ -27,13 +27,13 @@ Copy Agents; pre-built GTM workflows; Infobase (brand voice/knowledge); CRM/emai
 - **Positioning:** Autonomous GTM workflows spanning sales + marketing (not just copy) with a massive freemium user base
 - **Best for:** B2B sales and marketing teams, SMB to enterprise
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Copy.ai stops
 
 Copy.ai's autonomous prospecting/outbound workflows and 15M+ users are direct competition for Collision's outbound pillar (assessment)
 
-Capabilities Copy.ai doesn't cover that Collision does: LinkedIn growth, Analytics, Personal branding, Automation, Lead generation, AEO.
+Capabilities Copy.ai doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best Copy.ai alternatives
 

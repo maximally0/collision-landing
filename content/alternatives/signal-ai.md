@@ -1,14 +1,14 @@
 ---
 title: "Signal AI Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Signal AI. An honest look at what Signal AI does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Signal AI, AI marketing"
 target_path: "/alternatives/signal-ai"
 page_type: "alternatives"
 entity: "Signal AI"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Signal AI alternatives
@@ -27,13 +27,13 @@ This page compares the realistic alternatives to Signal AI — what the product 
 - **Positioning:** AI-native (founded on NLP/ML) risk+reputation intelligence now majority-backed by Battery Ventures
 - **Best for:** Enterprise comms, PR and risk teams
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Signal AI stops
 
 Enterprise risk/ESG focus, not founder PR; no pitching or outreach automation; high price point and heavy deployment
 
-Capabilities Signal AI doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Outbound.
+Capabilities Signal AI doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best Signal AI alternatives
 

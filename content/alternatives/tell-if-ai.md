@@ -1,14 +1,14 @@
 ---
 title: "Tell if AI Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Tell if AI. An honest look at what Tell if AI does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Tell if AI, AI marketing"
 target_path: "/alternatives/tell-if-ai"
 page_type: "alternatives"
 entity: "Tell if AI"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Tell if AI alternatives
@@ -27,13 +27,13 @@ Fleet of real phones (human-indistinguishable); ideation-to-video-to-posting-to-
 - **Positioning:** Real-phone fleet makes activity indistinguishable from human creators; revenue share aligns incentives
 - **Best for:** Brands hiring growth agencies (revenue-share)
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Tell if AI stops
 
 Physical phone-fleet approach and creator-grade content could outperform software-only social growth; revenue share lowers client risk (assessment)
 
-Capabilities Tell if AI doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Outbound.
+Capabilities Tell if AI doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best Tell if AI alternatives
 

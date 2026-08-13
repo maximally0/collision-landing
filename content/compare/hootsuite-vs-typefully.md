@@ -1,14 +1,14 @@
 ---
 title: "Hootsuite vs Typefully"
 description: "A neutral comparison of Hootsuite and Typefully — what each does, what they cost, and who each is for."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "comparison, Hootsuite, Typefully, AI marketing"
 target_path: "/compare/hootsuite-vs-typefully"
 page_type: "vs-vs"
 entity: "Hootsuite vs Typefully"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Hootsuite vs Typefully

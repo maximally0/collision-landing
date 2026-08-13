@@ -1,14 +1,14 @@
 ---
 title: "Dygentic Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Dygentic. An honest look at what Dygentic does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Dygentic, AI marketing"
 target_path: "/alternatives/dygentic"
 page_type: "alternatives"
 entity: "Dygentic"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Dygentic alternatives
@@ -27,13 +27,13 @@ This page compares the realistic alternatives to Dygentic — what the product a
 - **Positioning:** Agency-grade autonomy on open tooling (n8n) with full handover — clients own the system
 - **Best for:** Digital marketing agencies (5-30 person teams, 10-50 clients)
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Dygentic stops
 
 Cheap agency automation lowers agencies' prices, squeezing the market Collision sells into
 
-Capabilities Dygentic doesn't cover that Collision does: LinkedIn growth, Analytics, Personal branding, Automation, Outbound, Lead generation.
+Capabilities Dygentic doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best Dygentic alternatives
 

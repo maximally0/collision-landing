@@ -1,14 +1,14 @@
 ---
 title: "Artisan Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Artisan. An honest look at what Artisan does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Artisan, AI marketing"
 target_path: "/alternatives/artisan"
 page_type: "alternatives"
 entity: "Artisan"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Artisan alternatives
@@ -27,13 +27,13 @@ AI prospect ID; enriched B2B contacts; Web Visitor ID; Watchtower signal campaig
 - **Positioning:** 'AI employees' positioning with autonomy levels (Level 2 sends outreach unassisted); 'Stop Hiring Humans' brand
 - **Best for:** Startup/SMB/mid-market B2B sales teams
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Artisan stops
 
 Viral brand, HubSpot/Sequoia backing, formal autonomy framework ahead of most rivals.
 
-Capabilities Artisan doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Lead generation.
+Capabilities Artisan doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best Artisan alternatives
 

@@ -1,14 +1,14 @@
 ---
 title: "Typefully Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Typefully. An honest look at what Typefully does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Typefully, AI marketing"
 target_path: "/alternatives/typefully"
 page_type: "alternatives"
 entity: "Typefully"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Typefully alternatives
@@ -27,13 +27,13 @@ AI ideas & rewrites; distraction-free composer; real-time platform previews; cro
 - **Positioning:** Creator-first writing experience with native support for emerging networks (Bluesky, Threads) and 10,000+ customers.
 - **Best for:** Individual creators, founders and small teams building audiences
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Typefully stops
 
 Typefully is beloved, affordable and sticky for solo creators; its platform-native formatting and social blog are hard to match.
 
-Capabilities Typefully doesn't cover that Collision does: Content, Personal branding, Automation, Outbound, Lead generation, AEO.
+Capabilities Typefully doesn't cover that Collision does: Lead generation, GEO, Sales, PR, SEO, Social media.
 
 ## The best Typefully alternatives
 

@@ -1,8 +1,8 @@
 ---
 title: "AI Marketing Automation"
 description: "Using AI agents to execute marketing work — content, campaigns, outbound — with human approval gates."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "glossary, AI Marketing Automation"
 target_path: "/glossary/ai-marketing-automation"

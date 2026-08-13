@@ -1,8 +1,8 @@
 ---
 title: "Go-To-Market (GTM)"
 description: "The full motion of taking a product to market — positioning, channels, pricing and sales."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "glossary, Go-To-Market (GTM)"
 target_path: "/glossary/gtm"

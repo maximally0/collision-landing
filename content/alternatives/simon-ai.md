@@ -1,14 +1,14 @@
 ---
 title: "Simon AI Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Simon AI. An honest look at what Simon AI does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Simon AI, AI marketing"
 target_path: "/alternatives/simon-ai"
 page_type: "alternatives"
 entity: "Simon AI"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Simon AI alternatives
@@ -27,13 +27,13 @@ Personalization Studio; AI Fields & AI Moments; Insight Agents; Blueprints; adap
 - **Positioning:** AI-first composable CDP + agents = enterprise-scale data-driven personalization, not content generation
 - **Best for:** Mid-market to enterprise brands (ASOS, SeatGeek, Travel + Leisure, Equinox)
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Simon AI stops
 
 Simon AI has deep CDP data infrastructure, enterprise logos and $123M funding; strong when Collision moves upmarket (assessment)
 
-Capabilities Simon AI doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Outbound.
+Capabilities Simon AI doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best Simon AI alternatives
 

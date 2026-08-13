@@ -1,14 +1,14 @@
 ---
 title: "Collision vs Otterly.ai: The Honest Comparison"
 description: "Collision vs Otterly.ai — pricing, capabilities and who each is for. The deciding question isn't features; it's whether you want a point product or the full growth loop."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "comparison, Otterly.ai, Collision"
 target_path: "/compare/collision-vs-otterly-ai"
 page_type: "vs"
 entity: "Otterly.ai"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Collision vs Otterly.ai
@@ -43,7 +43,7 @@ Collision executes AEO within a broader autonomous growth system; Otterly is mon
 - **Otterly.ai:** From $29/mo (tiers $29-$489/mo) (Subscription)
 - **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo (pre-launch hypothesis pricing)
 
-_Pricing verified 2026-08-13. Collision pricing is pre-launch positioning, not market-validated._
+_Pricing verified 2026-08-14. Collision pricing is pre-launch positioning, not market-validated._
 
 ## How to decide
 

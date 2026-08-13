@@ -1,8 +1,8 @@
 ---
 title: "Search Share of Voice"
 description: "The proportion of relevant queries where your brand appears compared with competitors."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "glossary, Search Share of Voice"
 target_path: "/glossary/share-of-voice"

@@ -1,14 +1,14 @@
 ---
 title: "StoreClaw Alternatives: A Practical 2026 Guide"
 description: "What to use instead of StoreClaw. An honest look at what StoreClaw does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, StoreClaw, AI marketing"
 target_path: "/alternatives/storeclaw"
 page_type: "alternatives"
 entity: "StoreClaw"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # StoreClaw alternatives
@@ -27,13 +27,13 @@ This page compares the realistic alternatives to StoreClaw — what the product 
 - **Positioning:** First 'AI growth engine' purpose-built for store operators with a diagnostics-first agent loop
 - **Best for:** E-commerce sellers and modern merchants
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where StoreClaw stops
 
 If StoreClaw expands from stores to brands generally, its agent loop becomes a direct competitor
 
-Capabilities StoreClaw doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Outbound.
+Capabilities StoreClaw doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best StoreClaw alternatives
 

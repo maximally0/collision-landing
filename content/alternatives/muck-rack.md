@@ -1,14 +1,14 @@
 ---
 title: "Muck Rack Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Muck Rack. An honest look at what Muck Rack does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Muck Rack, AI marketing"
 target_path: "/alternatives/muck-rack"
 page_type: "alternatives"
 entity: "Muck Rack"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Muck Rack alternatives
@@ -27,13 +27,13 @@ This page compares the realistic alternatives to Muck Rack — what the product 
 - **Positioning:** Largest verified journalist database plus agentic media-list workflow (10% avg pitch open/click lift in beta)
 - **Best for:** PR/comm teams, startups and agencies
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Muck Rack stops
 
 PR-vertical only; no content, SEO or ad execution; opaque enterprise-leaning pricing; pitching still human-in-the-loop
 
-Capabilities Muck Rack doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Outbound.
+Capabilities Muck Rack doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best Muck Rack alternatives
 

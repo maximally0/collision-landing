@@ -1,8 +1,8 @@
 ---
 title: "AI Digital Workers"
 description: "AI agents sold as employees that own a role end-to-end, like an SDR or growth marketer."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "glossary, AI Digital Workers"
 target_path: "/glossary/digital-workers"

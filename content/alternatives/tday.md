@@ -1,14 +1,14 @@
 ---
 title: "tday Alternatives: A Practical 2026 Guide"
 description: "What to use instead of tday. An honest look at what tday does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, tday, AI marketing"
 target_path: "/alternatives/tday"
 page_type: "alternatives"
 entity: "tday"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # tday alternatives
@@ -27,13 +27,13 @@ GitHub integration; brand-consistent creative; publish + measure across social a
 - **Positioning:** Product-source-of-truth creative engine — content generated from actual shipped features
 - **Best for:** Software companies and technical founders
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where tday stops
 
 Automated launch videos/ads are a fast-growing need; tday could capture the 'launch content' slice first
 
-Capabilities tday doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Outbound.
+Capabilities tday doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best tday alternatives
 

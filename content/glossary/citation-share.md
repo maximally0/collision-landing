@@ -1,8 +1,8 @@
 ---
 title: "AI Citation Share"
 description: "The share of AI-search citations a brand earns versus its competitors — a north-star measure of GEO."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "glossary, AI Citation Share"
 target_path: "/glossary/citation-share"

@@ -1,14 +1,14 @@
 ---
 title: "Gumloop Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Gumloop. An honest look at what Gumloop does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Gumloop, AI marketing"
 target_path: "/alternatives/gumloop"
 page_type: "alternatives"
 entity: "Gumloop"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Gumloop alternatives
@@ -27,13 +27,13 @@ Drag-and-drop multi-agent flows; Skills (89% first-attempt success); Gumstack AI
 - **Positioning:** No-code agent builder for non-developers with enterprise security; Shopify is customer+investor (20M automated actions)
 - **Best for:** Non-technical ops/sales/marketing teams at mid-market & enterprise
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Gumloop stops
 
 Rapid scale (Benchmark Series B), Shopify-level customers, very fast product velocity.
 
-Capabilities Gumloop doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Outbound.
+Capabilities Gumloop doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best Gumloop alternatives
 

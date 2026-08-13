@@ -1,8 +1,8 @@
 ---
 title: "AI Search"
 description: "Search experiences where an AI model synthesizes answers — ChatGPT, Perplexity, Google AI Overviews, Gemini, Copilot."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "glossary, AI Search"
 target_path: "/glossary/ai-search"

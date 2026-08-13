@@ -1,14 +1,14 @@
 ---
 title: "CharacterQuilt Alternatives: A Practical 2026 Guide"
 description: "What to use instead of CharacterQuilt. An honest look at what CharacterQuilt does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, CharacterQuilt, AI marketing"
 target_path: "/alternatives/characterquilt"
 page_type: "alternatives"
 entity: "CharacterQuilt"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # CharacterQuilt alternatives
@@ -27,13 +27,13 @@ Brand brain (voice/visuals/approved assets); claims 80% ops reduction; multi-cha
 - **Positioning:** Operates your existing stack instead of replacing it — 'sells the plumbing, not the chatbox'
 - **Best for:** Mid-market and enterprise marketing teams (B2B product-led)
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where CharacterQuilt stops
 
 If it moves downmarket to startups, its deploy-into-your-stack loop undercuts Collision's managed execution
 
-Capabilities CharacterQuilt doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Outbound.
+Capabilities CharacterQuilt doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best CharacterQuilt alternatives
 

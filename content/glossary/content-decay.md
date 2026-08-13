@@ -1,8 +1,8 @@
 ---
 title: "Content Decay"
 description: "The gradual loss of traffic and rankings as content ages and competitors improve."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "glossary, Content Decay"
 target_path: "/glossary/content-decay"

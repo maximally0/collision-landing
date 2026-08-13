@@ -1,14 +1,14 @@
 ---
 title: "Collision vs Writesonic: The Honest Comparison"
 description: "Collision vs Writesonic — pricing, capabilities and who each is for. The deciding question isn't features; it's whether you want a point product or the full growth loop."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "comparison, Writesonic, Collision"
 target_path: "/compare/collision-vs-writesonic"
 page_type: "vs"
 entity: "Writesonic"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Collision vs Writesonic
@@ -43,7 +43,7 @@ assessment: Collision spans the full growth stack (PR, ads, outbound, LinkedIn) 
 - **Writesonic:** Freemium; paid from ~$19/mo (Freemium subscription)
 - **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo (pre-launch hypothesis pricing)
 
-_Pricing verified 2026-08-13. Collision pricing is pre-launch positioning, not market-validated._
+_Pricing verified 2026-08-14. Collision pricing is pre-launch positioning, not market-validated._
 
 ## How to decide
 

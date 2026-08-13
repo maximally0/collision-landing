@@ -1,14 +1,14 @@
 ---
 title: "Lindy Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Lindy. An honest look at what Lindy does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Lindy, AI marketing"
 target_path: "/alternatives/lindy"
 page_type: "alternatives"
 entity: "Lindy"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Lindy alternatives
@@ -27,13 +27,13 @@ Dedicated marketing use cases (create ads, monitor ad spend, track competitors);
 - **Positioning:** Broad 'AI teammate for the whole company' scope with explicit marketing role templates
 - **Best for:** SMB-to-enterprise teams including marketing departments
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Lindy stops
 
 Well-funded, easy no-code UX, large template library spanning every function.
 
-Capabilities Lindy doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Outbound.
+Capabilities Lindy doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best Lindy alternatives
 

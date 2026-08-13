@@ -1,14 +1,14 @@
 ---
 title: "AI marketing platform in 2026: The Practical Guide"
 description: "An AI marketing platform is software that uses AI agents to plan, produce and execute marketing across channels from one place. What it is, how it works, the verified landscape, and how to choose."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "AI marketing platform, AI marketing, category"
 target_path: "/category/ai-marketing-platform"
 page_type: "category"
 entity: "AI_MARKETING_PLATFORM"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # AI marketing platform

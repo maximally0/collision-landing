@@ -1,14 +1,14 @@
 ---
 title: "Instantly vs Reply.io"
 description: "A neutral comparison of Instantly and Reply.io — what each does, what they cost, and who each is for."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "comparison, Instantly, Reply.io, AI marketing"
 target_path: "/compare/instantly-vs-reply-io"
 page_type: "vs-vs"
 entity: "Instantly vs Reply.io"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Instantly vs Reply.io

@@ -1,14 +1,14 @@
 ---
 title: "AuthoredUp Alternatives: A Practical 2026 Guide"
 description: "What to use instead of AuthoredUp. An honest look at what AuthoredUp does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, AuthoredUp, AI marketing"
 target_path: "/alternatives/authoredup"
 page_type: "alternatives"
 entity: "AuthoredUp"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # AuthoredUp alternatives
@@ -27,13 +27,13 @@ Post editor (bold/italic/emoji), optimized hooks, readability grades, preview, d
 - **Positioning:** Polished writing + analytics workflow marketed as the #1 LinkedIn content tool (Chrome Web Store).
 - **Best for:** LinkedIn creators and personal brands
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where AuthoredUp stops
 
 AuthoredUp has a mature, popular writing/analytics UX and free tools that hook creators early.
 
-Capabilities AuthoredUp doesn't cover that Collision does: Analytics, Personal branding, Automation, Outbound, Lead generation, AEO.
+Capabilities AuthoredUp doesn't cover that Collision does: Lead generation, GEO, Sales, PR, SEO, Social media.
 
 ## The best AuthoredUp alternatives
 

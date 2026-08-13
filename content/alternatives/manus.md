@@ -1,14 +1,14 @@
 ---
 title: "Manus Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Manus. An honest look at what Manus does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Manus, AI marketing"
 target_path: "/alternatives/manus"
 page_type: "alternatives"
 entity: "Manus"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Manus alternatives
@@ -27,13 +27,13 @@ Wide Research; browser operator; AI design/slides/music; Mail Manus; Slack integ
 - **Positioning:** Most-hyped general agent (viral Mar 2025 launch); produces finished deliverables like websites and research reports
 - **Best for:** Individuals & teams needing general task automation
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Manus stops
 
 Huge brand awareness, deep pockets, general-task autonomy improving quickly.
 
-Capabilities Manus doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Outbound.
+Capabilities Manus doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best Manus alternatives
 

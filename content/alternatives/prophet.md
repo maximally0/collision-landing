@@ -1,14 +1,14 @@
 ---
 title: "PRophet Alternatives: A Practical 2026 Guide"
 description: "What to use instead of PRophet. An honest look at what PRophet does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, PRophet, AI marketing"
 target_path: "/alternatives/prophet"
 page_type: "alternatives"
 entity: "PRophet"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # PRophet alternatives
@@ -27,13 +27,13 @@ Message and pitch testing predicting journalist interest; multi-pitch generator 
 - **Positioning:** Predictive (not just generative) AI for PR - forecasts journalist interest and sentiment pre-pitch
 - **Best for:** PR agencies, in-house comms teams, influencer marketers
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where PRophet stops
 
 Agency/enterprise focus; predictive value unproven at founder scale; no content, SEO or ad execution
 
-Capabilities PRophet doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Outbound.
+Capabilities PRophet doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best PRophet alternatives
 

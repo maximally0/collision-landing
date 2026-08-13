@@ -1,8 +1,8 @@
 ---
 title: "One Memory"
 description: "A system that remembers across sessions and surfaces, so strategy compounds instead of resetting."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "glossary, One Memory"
 target_path: "/glossary/one-memory"

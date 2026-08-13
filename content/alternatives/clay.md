@@ -1,14 +1,14 @@
 ---
 title: "Clay Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Clay. An honest look at what Clay does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Clay, AI marketing"
 target_path: "/alternatives/clay"
 page_type: "alternatives"
 entity: "Clay"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Clay alternatives
@@ -27,13 +27,13 @@ Audiences, 200+ data providers, signals and intent, AI agent workflows, enrichme
 - **Positioning:** The go-to AI GTM data layer with best-in-class enrichment and a powerful agentic workflow builder.
 - **Best for:** Growth, SDR and RevOps teams at startups through enterprises
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Clay stops
 
 Clay is the default AI lead-gen/data platform with unmatched enrichment and community mindshare.
 
-Capabilities Clay doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Lead generation.
+Capabilities Clay doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best Clay alternatives
 

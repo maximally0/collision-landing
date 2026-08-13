@@ -1,14 +1,14 @@
 ---
 title: "Madgicx vs Smartly.io"
 description: "A neutral comparison of Madgicx and Smartly.io — what each does, what they cost, and who each is for."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "comparison, Madgicx, Smartly.io, AI marketing"
 target_path: "/compare/madgicx-vs-smartly-io"
 page_type: "vs-vs"
 entity: "Madgicx vs Smartly.io"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Madgicx vs Smartly.io

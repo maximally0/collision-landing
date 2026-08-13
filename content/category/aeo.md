@@ -1,43 +1,69 @@
 ---
-title: "AEO in 2026: The Practical Guide"
-description: "Answer engine optimization (AEO) is the practice of making your content the answer that ChatGPT, Perplexity and Google AI Overviews quote. What it is, how it works, the verified landscape, and how to choose."
 date: "2026-08-13"
 updated: "2026-08-13"
-authorId: "collision-team"
-tags: "AEO, AI marketing, category"
+title: Answer Engine Optimization (AEO) — The Complete Guide
 target_path: "/category/aeo"
-page_type: "category"
-entity: "AI_AEO"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+description: What AEO is, how ChatGPT, Perplexity and Google AI Overviews citations work, the common mistakes, the tools — and how Collision fits.
 ---
 
-# AEO
+# Answer Engine Optimization (AEO)
 
-Answer engine optimization (AEO) is the practice of making your content the answer that ChatGPT, Perplexity and Google AI Overviews quote.
+## What is AEO?
 
-## Why it matters now
+Answer engine optimization (AEO) is the practice of getting your brand cited inside the answers that AI engines — ChatGPT, Perplexity, Google AI Overviews — give to questions. Where SEO fights for a spot on the results page, AEO fights for the citation inside the answer itself.
 
-AI systems now answer a growing share of search queries. The brands that appear in those answers get the traffic. The category below is the 2026 landscape of tools competing for that surface.
+## Why does AEO matter now?
 
-## The landscape (verified data)
+Because the answer has become the destination. When a buyer asks ChatGPT or Perplexity "which tool does X," the engine assembles an answer from the sources it trusts — and most people read the answer, not the source list. Being the cited source makes you the default answer; being absent makes you invisible, even if your Google ranking is fine.
 
-- **[Otterly.ai](/alternatives/otterly-ai)** — Dedicated multi-LLM monitoring with prompt-level feedback, Gartner Cool Vendor, G2 4.8.
-- **[Profound](/alternatives/profound)** — Best-funded AEO platform (Sequoia-led) with proprietary prompt-volume data and autonomous marketing agents.
+The stakes rose for three reasons:
 
-## How to evaluate a purchase
+1. **AI Overviews** sit on top of Google's own results, so even traditional searches funnel into an AI answer.
+2. **ChatGPT and Perplexity** are where B2B buyers start research — the question is asked before any search happens.
+3. **Citation is the new ranking.** Engines don't rank pages; they trust sources. The whole game is becoming: be a source they trust.
 
-1. **Does it draft, or does it execute?** Ask what you'd still do yourself after buying it.
-2. **Does it remember?** One memory across surfaces beats per-task context.
-3. **Who approves?** Approval gates are a feature, not a concession.
-4. **Does it learn?** Does the system measure results and change its next move?
-5. **What does it replace?** A real system replaces coordination cost, not just one tool.
+## How does AEO work?
 
-## How Collision fits
+Six steps:
 
-Collision is positioned as the AI you hire to run growth: one intelligence that researches, plans, writes, distributes and learns across every surface, with approval gates and one memory. AEO is one capability inside that system — covered alongside SEO, outbound, LinkedIn, email and distribution rather than sold as a separate point tool.
+1. **Audit your AI visibility.** See where you're cited, where competitors are cited, and what engines say about you today. Otterly and Profound track this across ChatGPT, Perplexity, AI Overviews, Gemini and Copilot.
+2. **Research the questions.** Find the exact queries buyers put to AI engines, including comparison queries ("vs" questions) — those are where deals are won or lost.
+3. **Write answers that stand alone.** The first paragraph must answer the question completely, with specifics and numbers, because engines quote it directly.
+4. **Structure for extraction.** Headings, lists, tables, FAQ blocks and clear entity statements make your content trivially quotable.
+5. **Earn trusted sources.** Citations follow trust: consistent brand information across the web, authoritative backlinks, real author and company pages.
+6. **Track and iterate.** Measure citation share per engine, per question, and feed the results into the next round of answers.
 
-## Related
+## What are the common AEO mistakes?
 
-- [Best AI CMO tools](/category/ai-cmo)
-- [What is GEO?](/category/geo)
-- [What is AEO?](/category/aeo)
+- **Writing for Google, not for answers.** Google rewards depth and links; AI engines reward extractability and trust. The same content rarely does both optimally.
+- **Burying the answer.** If the response isn't in the first paragraph, engines won't dig for it.
+- **No structure.** Unstructured walls of prose can't be cleanly quoted. Headings, lists and tables are extraction points.
+- **Ignoring who engines trust.** You can write perfect answers and still lose to a well-linked competitor's mediocre page.
+- **Treating AEO as a one-time fix.** Answers decay as engines update. This is a loop: audit, answer, track, refresh.
+- **Optimizing blind.** Without monitoring, you're steering a car with the windows down. Tracking is not optional.
+
+## What's the tools landscape?
+
+- **Otterly** — the monitoring specialist: brand presence across ChatGPT, Perplexity, AI Overviews, Gemini and Copilot, with query research and analytics. From $29/mo; 40,000+ marketers use it.
+- **Profound** — full-stack AEO: answer-engine insights, query volumes (200M+), autonomous content agents and agent analytics. Sequoia-backed; Starter $99/mo, Growth $399/mo.
+- **Surfer** — the SEO-data veteran rebranded for AI visibility: content scoring plus AI Overviews, ChatGPT and Perplexity tracking. From ~$120/mo.
+- **Writesonic** — GEO/AEO tracking across 10+ engines with agentic fixes; freemium from ~$19/mo.
+- **Okara** — founder-priced AI CMO with brand tracking inside ChatGPT, Claude, Perplexity and Gemini; $66/mo.
+
+Pricing verified Aug 2026.
+
+## How does Collision fit?
+
+Straight answer: AEO is one surface inside Collision, not a standalone product. If your only job is monitoring citations, Otterly or Profound are the specialists and they're good. Collision's difference is that it doesn't stop at measurement: the same intelligence researches the questions, writes the answers, distributes them across LinkedIn, X, SEO, email and outbound, and learns with one memory — so the citation insight becomes content, pipeline and brand, not just a dashboard. Every action is approval-based; you own the moves. One intelligence, every surface, one source of truth.
+
+## FAQ
+
+**What's the difference between AEO and SEO?** SEO optimizes for ranked search results; AEO optimizes for citations inside AI-composed answers. Different engines, different trust signals, different metrics.
+
+**What's the difference between AEO and GEO?** AEO is the discipline of being the cited answer to a question. GEO is the broader practice of shaping how generative engines present your brand across all AI surfaces. AEO is the sharp end of GEO.
+
+**Which engines should I optimize for?** Start with ChatGPT, Perplexity and Google AI Overviews — the three that drive buyer decisions today — then expand to Gemini and Copilot.
+
+**How do I get cited in ChatGPT?** Write standalone answers to real queries, structure them for extraction, keep your brand information consistent across the web, and earn authoritative backlinks. Then measure — you can't steer what you can't see.
+
+**Do I still need a website?** Yes. Engines cite sources, and a website is your most controllable source. AEO makes the website earn its keep in the AI era.

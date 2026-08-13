@@ -1,8 +1,8 @@
 ---
 title: "Generative Engine Optimization (GEO)"
 description: "Making your company easy for AI retrieval systems to understand, trust and cite — the AI-era counterpart to SEO."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "glossary, Generative Engine Optimization (GEO)"
 target_path: "/glossary/geo"

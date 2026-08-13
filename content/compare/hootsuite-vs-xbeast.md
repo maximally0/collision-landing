@@ -1,14 +1,14 @@
 ---
 title: "Hootsuite vs XBeast"
 description: "A neutral comparison of Hootsuite and XBeast — what each does, what they cost, and who each is for."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "comparison, Hootsuite, XBeast, AI marketing"
 target_path: "/compare/hootsuite-vs-xbeast"
 page_type: "vs-vs"
 entity: "Hootsuite vs XBeast"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Hootsuite vs XBeast

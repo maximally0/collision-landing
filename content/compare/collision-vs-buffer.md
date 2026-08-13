@@ -1,14 +1,14 @@
 ---
 title: "Collision vs Buffer: The Honest Comparison"
 description: "Collision vs Buffer — pricing, capabilities and who each is for. The deciding question isn't features; it's whether you want a point product or the full growth loop."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "comparison, Buffer, Collision"
 target_path: "/compare/collision-vs-buffer"
 page_type: "vs"
 entity: "Buffer"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Collision vs Buffer
@@ -43,7 +43,7 @@ assessment - Collision adds strategy, SEO/AEO and outbound; Buffer is publishing
 - **Buffer:** Free; Essentials $6/channel/mo; Team $12/channel/mo (subscription (per channel))
 - **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo (pre-launch hypothesis pricing)
 
-_Pricing verified 2026-08-13. Collision pricing is pre-launch positioning, not market-validated._
+_Pricing verified 2026-08-14. Collision pricing is pre-launch positioning, not market-validated._
 
 ## How to decide
 

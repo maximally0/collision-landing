@@ -1,14 +1,14 @@
 ---
 title: "Lately Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Lately. An honest look at what Lately does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Lately, AI marketing"
 target_path: "/alternatives/lately"
 page_type: "alternatives"
 entity: "Lately"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Lately alternatives
@@ -27,13 +27,13 @@ Voice-trained AI (Lately DNA); long-form to social repurposing; engagement predi
 - **Positioning:** Statistical AI trained on a customer's own best posts predicts engaging words/ideas, not generic LLM copy.
 - **Best for:** Marketing teams, brands and agencies automating social content
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Lately stops
 
 Lately is enterprise-branded, expensive and aimed at marketing departments, not founder-led growth - weaker fit for Collision's core buyer.
 
-Capabilities Lately doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Outbound.
+Capabilities Lately doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best Lately alternatives
 

@@ -1,14 +1,14 @@
 ---
 title: "AI lead generation in 2026: The Practical Guide"
 description: "AI lead generation finds, enriches and qualifies prospects automatically so your pipeline fills without manual research. What it is, how it works, the verified landscape, and how to choose."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "AI lead generation, AI marketing, category"
 target_path: "/category/ai-lead-generation"
 page_type: "category"
 entity: "AI_LEAD_GENERATION"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # AI lead generation

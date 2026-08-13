@@ -1,8 +1,8 @@
 ---
 title: "Long-Tail SEO"
 description: "Targeting specific, lower-volume queries that are closer to purchase intent and easier to win."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "glossary, Long-Tail SEO"
 target_path: "/glossary/long-tail-seo"

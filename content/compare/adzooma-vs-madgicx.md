@@ -1,14 +1,14 @@
 ---
 title: "Adzooma vs Madgicx"
 description: "A neutral comparison of Adzooma and Madgicx — what each does, what they cost, and who each is for."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "comparison, Adzooma, Madgicx, AI marketing"
 target_path: "/compare/adzooma-vs-madgicx"
 page_type: "vs-vs"
 entity: "Adzooma vs Madgicx"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Adzooma vs Madgicx

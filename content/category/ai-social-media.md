@@ -1,14 +1,14 @@
 ---
 title: "AI social media in 2026: The Practical Guide"
 description: "AI social media tools create, schedule and distribute posts across platforms with minimal human input. What it is, how it works, the verified landscape, and how to choose."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "AI social media, AI marketing, category"
 target_path: "/category/ai-social-media"
 page_type: "category"
 entity: "AI_SOCIAL"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # AI social media

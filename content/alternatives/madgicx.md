@@ -1,14 +1,14 @@
 ---
 title: "Madgicx Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Madgicx. An honest look at what Madgicx does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Madgicx, AI marketing"
 target_path: "/alternatives/madgicx"
 page_type: "alternatives"
 entity: "Madgicx"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Madgicx alternatives
@@ -27,13 +27,13 @@ Daily AI account audits; autonomous budget reallocation across ad sets; AI creat
 - **Positioning:** First AI ad agent for Meta plus exclusive AI Bidding via Meta partnership
 - **Best for:** DTC ecommerce brands, agencies and media buyers spending $5K+/mo on Meta
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Madgicx stops
 
 Meta-only (no Google/TikTok/LinkedIn); some optimizations remain insights-driven; DTC/ads-specific with no content strategy, PR or lead-gen breadth
 
-Capabilities Madgicx doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Outbound.
+Capabilities Madgicx doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best Madgicx alternatives
 

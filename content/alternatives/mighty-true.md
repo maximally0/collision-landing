@@ -1,14 +1,14 @@
 ---
 title: "Mighty & True Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Mighty & True. An honest look at what Mighty & True does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Mighty & True, AI marketing"
 target_path: "/alternatives/mighty-true"
 page_type: "alternatives"
 entity: "Mighty & True"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Mighty & True alternatives
@@ -27,13 +27,13 @@ Named systems with logs/audit trails; de-anonymization + scoring; autonomous SEO
 - **Positioning:** Autonomous systems run on their own business first (their SEO page is optimized by an agent loop), with named, documented products
 - **Best for:** B2B tech and SaaS companies
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Mighty & True stops
 
 For startups wanting hands-off results, a proven AI-native agency is a direct alternative to DIY software
 
-Capabilities Mighty & True doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Outbound.
+Capabilities Mighty & True doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best Mighty & True alternatives
 

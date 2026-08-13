@@ -1,8 +1,8 @@
 ---
 title: "Growth Surface"
 description: "Any channel where a business builds demand — LinkedIn, X, SEO, AI search, email, outbound."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "glossary, Growth Surface"
 target_path: "/glossary/growth-surface"

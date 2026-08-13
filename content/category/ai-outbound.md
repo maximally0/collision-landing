@@ -1,14 +1,14 @@
 ---
 title: "AI outbound in 2026: The Practical Guide"
 description: "AI outbound uses agents to automate cold outreach — prospecting, personalization, sending and follow-up. What it is, how it works, the verified landscape, and how to choose."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "AI outbound, AI marketing, category"
 target_path: "/category/ai-outbound"
 page_type: "category"
 entity: "AI_OUTBOUND"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # AI outbound

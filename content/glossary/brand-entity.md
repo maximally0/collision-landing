@@ -1,8 +1,8 @@
 ---
 title: "Brand Entity"
 description: "The consistent public identity of a company across its website, social profiles, directories and press."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "glossary, Brand Entity"
 target_path: "/glossary/brand-entity"

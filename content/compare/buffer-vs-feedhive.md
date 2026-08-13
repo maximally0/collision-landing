@@ -1,14 +1,14 @@
 ---
 title: "Buffer vs FeedHive"
 description: "A neutral comparison of Buffer and FeedHive — what each does, what they cost, and who each is for."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "comparison, Buffer, FeedHive, AI marketing"
 target_path: "/compare/buffer-vs-feedhive"
 page_type: "vs-vs"
 entity: "Buffer vs FeedHive"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Buffer vs FeedHive

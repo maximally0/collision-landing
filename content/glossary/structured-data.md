@@ -1,8 +1,8 @@
 ---
 title: "Structured Data"
 description: "Machine-readable markup (schema.org) that tells search engines what your content means."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "glossary, Structured Data"
 target_path: "/glossary/structured-data"

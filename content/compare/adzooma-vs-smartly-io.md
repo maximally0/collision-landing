@@ -1,14 +1,14 @@
 ---
 title: "Adzooma vs Smartly.io"
 description: "A neutral comparison of Adzooma and Smartly.io — what each does, what they cost, and who each is for."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "comparison, Adzooma, Smartly.io, AI marketing"
 target_path: "/compare/adzooma-vs-smartly-io"
 page_type: "vs-vs"
 entity: "Adzooma vs Smartly.io"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Adzooma vs Smartly.io

@@ -1,14 +1,14 @@
 ---
 title: "Brew Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Brew. An honest look at what Brew does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Brew, AI marketing"
 target_path: "/alternatives/brew"
 page_type: "alternatives"
 entity: "Brew"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Brew alternatives
@@ -27,13 +27,13 @@ Remix gallery; brand rules; sequences from one prompt; ESP push; performance tra
 - **Positioning:** Agent-native ESP (docs for OpenClaw/Claude/Lovable) with production-grade email rendering and no lock-in
 - **Best for:** Modern marketing teams, founders and solo makers
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Brew stops
 
 Brew's polish and agent-native design could become the default email layer inside AI stacks, commoditizing one of Collision's channels
 
-Capabilities Brew doesn't cover that Collision does: Content, LinkedIn growth, Personal branding, Automation, Outbound, Lead generation.
+Capabilities Brew doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best Brew alternatives
 

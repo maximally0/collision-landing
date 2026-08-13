@@ -1,14 +1,14 @@
 ---
 title: "Profound Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Profound. An honest look at what Profound does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Profound, AI marketing"
 target_path: "/alternatives/profound"
 page_type: "alternatives"
 entity: "Profound"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Profound alternatives
@@ -27,13 +27,13 @@ Answer Engine Insights, Prompt Volumes (200M+ prompts), autonomous Agents (conte
 - **Positioning:** Best-funded AEO platform (Sequoia-led) with proprietary prompt-volume data and autonomous marketing agents.
 - **Best for:** Marketers, AEO/content/PR teams; startups to enterprises
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Profound stops
 
 Sequoia-backed, Gartner-listed, with proprietary prompt-volume data and enterprise trust (SOC2/HIPAA) Collision lacks.
 
-Capabilities Profound doesn't cover that Collision does: LinkedIn growth, Analytics, Personal branding, Automation, Outbound, Lead generation.
+Capabilities Profound doesn't cover that Collision does: Lead generation, Sales, LinkedIn growth, PR, Social media, Execution.
 
 ## The best Profound alternatives
 

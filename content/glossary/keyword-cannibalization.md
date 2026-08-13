@@ -1,8 +1,8 @@
 ---
 title: "Keyword Cannibalization"
 description: "Multiple pages competing for the same query — splitting authority and confusing engines."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "glossary, Keyword Cannibalization"
 target_path: "/glossary/keyword-cannibalization"

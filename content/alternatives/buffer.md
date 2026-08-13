@@ -1,14 +1,14 @@
 ---
 title: "Buffer Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Buffer. An honest look at what Buffer does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Buffer, AI marketing"
 target_path: "/alternatives/buffer"
 page_type: "alternatives"
 entity: "Buffer"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Buffer alternatives
@@ -27,13 +27,13 @@ AI Assistant (OpenAI); content idea library; reply suggestions; scheduling acros
 - **Positioning:** Per-channel pricing and a genuinely free AI tier make it the default low-cost AI social tool for startups.
 - **Best for:** Founders, creators, small marketing teams and agencies
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Buffer stops
 
 Buffer's brand and price ($0-12/mo) make it a reflexive default for founders; its API explicitly invites agent workflows, commoditizing distribution.
 
-Capabilities Buffer doesn't cover that Collision does: Content, LinkedIn growth, Personal branding, Automation, Outbound, Lead generation.
+Capabilities Buffer doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best Buffer alternatives
 

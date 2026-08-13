@@ -1,14 +1,14 @@
 ---
 title: "AiSDR Alternatives: A Practical 2026 Guide"
 description: "What to use instead of AiSDR. An honest look at what AiSDR does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, AiSDR, AI marketing"
 target_path: "/alternatives/aisdr"
 page_type: "alternatives"
 entity: "AiSDR"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # AiSDR alternatives
@@ -27,13 +27,13 @@ AI prospecting and qualification, personalized emails/LinkedIn/texts, campaign p
 - **Positioning:** Pure-play AI SDR (YC-backed) with strong booked-meeting performance claims and HubSpot-native workflow.
 - **Best for:** B2B SaaS growth teams (50-300 employees, $2M+ ARR)
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where AiSDR stops
 
 AiSDR is a proven, funded AI SDR with real booked-meeting results and fast 3-click campaign setup.
 
-Capabilities AiSDR doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Lead generation.
+Capabilities AiSDR doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best AiSDR alternatives
 

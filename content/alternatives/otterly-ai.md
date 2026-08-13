@@ -1,14 +1,14 @@
 ---
 title: "Otterly.ai Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Otterly.ai. An honest look at what Otterly.ai does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Otterly.ai, AI marketing"
 target_path: "/alternatives/otterly-ai"
 page_type: "alternatives"
 entity: "Otterly.ai"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Otterly.ai alternatives
@@ -27,13 +27,13 @@ Multi-engine tracking (ChatGPT, Perplexity, AIO, Gemini, Copilot), prompt resear
 - **Positioning:** Dedicated multi-LLM monitoring with prompt-level feedback, Gartner Cool Vendor, G2 4.8.
 - **Best for:** Startups, marketers and agencies (40,000+ marketing pros)
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Otterly.ai stops
 
 Dedicated AEO tool with the deepest multi-engine monitoring and a large marketing-pro user base.
 
-Capabilities Otterly.ai doesn't cover that Collision does: Content, LinkedIn growth, Personal branding, Automation, Outbound, Lead generation.
+Capabilities Otterly.ai doesn't cover that Collision does: Lead generation, Sales, LinkedIn growth, PR, Social media, Execution.
 
 ## The best Otterly.ai alternatives
 

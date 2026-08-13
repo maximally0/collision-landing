@@ -1,14 +1,14 @@
 ---
 title: "AI SEO in 2026: The Practical Guide"
 description: "AI SEO uses artificial intelligence to automate search-engine optimization — research, content, publishing and link building. What it is, how it works, the verified landscape, and how to choose."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "AI SEO, AI marketing, category"
 target_path: "/category/ai-seo"
 page_type: "category"
 entity: "AI_SEO"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # AI SEO

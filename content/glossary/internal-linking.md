@@ -1,8 +1,8 @@
 ---
 title: "Internal Linking"
 description: "Connecting pages on your site so authority flows, users navigate and search engines understand your structure."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "glossary, Internal Linking"
 target_path: "/glossary/internal-linking"

@@ -1,14 +1,14 @@
 ---
 title: "AI CMO (tryaicmo.com) Alternatives: A Practical 2026 Guide"
 description: "What to use instead of AI CMO (tryaicmo.com). An honest look at what AI CMO (tryaicmo.com) does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, AI CMO (tryaicmo.com), AI marketing"
 target_path: "/alternatives/ai-cmo-tryaicmo-com"
 page_type: "alternatives"
 entity: "AI CMO (tryaicmo.com)"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # AI CMO (tryaicmo.com) alternatives
@@ -27,13 +27,13 @@ This page compares the realistic alternatives to AI CMO (tryaicmo.com) — what 
 - **Positioning:** Combines social listening with AI content distribution at SMB prices ($99 vs $79+/tool for Brand24 alone)
 - **Best for:** Solopreneurs, small businesses, startups, agencies
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where AI CMO (tryaicmo.com) stops
 
 Dedicated 6-platform listening depth (sentiment, trends, influencers) Collision doesn't emphasize (assessment)
 
-Capabilities AI CMO (tryaicmo.com) doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Outbound.
+Capabilities AI CMO (tryaicmo.com) doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best AI CMO (tryaicmo.com) alternatives
 

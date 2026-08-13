@@ -1,14 +1,14 @@
 ---
 title: "Zapier (Agents) Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Zapier (Agents). An honest look at what Zapier (Agents) does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Zapier (Agents), AI marketing"
 target_path: "/alternatives/zapier-agents"
 page_type: "alternatives"
 entity: "Zapier (Agents)"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Zapier (Agents) alternatives
@@ -27,13 +27,13 @@ Agents with tools (email, sheets, CRM); Chatbots; Canvas; Tables; 9,000+ integra
 - **Positioning:** Largest integration ecosystem plus massive SMB installed base entering agentic automation
 - **Best for:** SMBs, marketers, ops teams
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Zapier (Agents) stops
 
 Ubiquity, brand trust, ecosystem moat and fast agentic feature velocity.
 
-Capabilities Zapier (Agents) doesn't cover that Collision does: Content, LinkedIn growth, Analytics, Personal branding, Automation, Outbound.
+Capabilities Zapier (Agents) doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
 
 ## The best Zapier (Agents) alternatives
 

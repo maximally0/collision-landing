@@ -1,14 +1,14 @@
 ---
 title: "Outrank Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Outrank. An honest look at what Outrank does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "alternatives, Outrank, AI marketing"
 target_path: "/alternatives/outrank"
 page_type: "alternatives"
 entity: "Outrank"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Outrank alternatives
@@ -27,13 +27,13 @@ Automated SEO analysis, keyword research, content that sounds like you, on-brand
 - **Positioning:** Full SEO loop (research-write-publish) as one autopilot agent.
 - **Best for:** Founders, SMBs and agencies wanting hands-off SEO
 
-_Pricing verified 2026-08-13._
+_Pricing verified 2026-08-14._
 
 ## Where Outrank stops
 
 Purpose-built AI SEO agent with fast setup and a strong autopilot story for the SEO-only buyer.
 
-Capabilities Outrank doesn't cover that Collision does: LinkedIn growth, Analytics, Personal branding, Automation, Outbound, Lead generation.
+Capabilities Outrank doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, Social media.
 
 ## The best Outrank alternatives
 

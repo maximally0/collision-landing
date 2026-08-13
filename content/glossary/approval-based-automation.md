@@ -1,8 +1,8 @@
 ---
 title: "Approval-Based Automation"
 description: "An operating model where no action ships — no post, send or publish — without explicit human sign-off."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "glossary, Approval-Based Automation"
 target_path: "/glossary/approval-based-automation"

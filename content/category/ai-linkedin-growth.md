@@ -1,14 +1,14 @@
 ---
 title: "AI LinkedIn growth in 2026: The Practical Guide"
 description: "AI LinkedIn growth builds a founder or company presence on LinkedIn through content, engagement and outreach. What it is, how it works, the verified landscape, and how to choose."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "AI LinkedIn growth, AI marketing, category"
 target_path: "/category/ai-linkedin-growth"
 page_type: "category"
 entity: "AI_LINKEDIN"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # AI LinkedIn growth

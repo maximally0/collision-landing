@@ -1,14 +1,14 @@
 ---
 title: "AI advertising in 2026: The Practical Guide"
 description: "AI advertising generates and optimizes ad creative and campaigns across paid channels. What it is, how it works, the verified landscape, and how to choose."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "AI advertising, AI marketing, category"
 target_path: "/category/ai-advertising"
 page_type: "category"
 entity: "AI_ADVERTISING"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # AI advertising

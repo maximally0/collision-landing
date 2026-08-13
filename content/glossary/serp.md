@@ -1,8 +1,8 @@
 ---
 title: "SERP"
 description: "Search engine results page — the page of results a user sees for a query."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "glossary, SERP"
 target_path: "/glossary/serp"

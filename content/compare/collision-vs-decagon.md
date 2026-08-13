@@ -1,14 +1,14 @@
 ---
 title: "Collision vs Decagon: The Honest Comparison"
 description: "Collision vs Decagon — pricing, capabilities and who each is for. The deciding question isn't features; it's whether you want a point product or the full growth loop."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "comparison, Decagon, Collision"
 target_path: "/compare/collision-vs-decagon"
 page_type: "vs"
 entity: "Decagon"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Collision vs Decagon
@@ -43,7 +43,7 @@ Collision owns marketing/growth execution; Decagon is customer support. Assessme
 - **Decagon:** Enterprise custom (Subscription)
 - **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo (pre-launch hypothesis pricing)
 
-_Pricing verified 2026-08-13. Collision pricing is pre-launch positioning, not market-validated._
+_Pricing verified 2026-08-14. Collision pricing is pre-launch positioning, not market-validated._
 
 ## How to decide
 

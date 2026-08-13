@@ -1,14 +1,14 @@
 ---
 title: "Buffer vs Postwise"
 description: "A neutral comparison of Buffer and Postwise — what each does, what they cost, and who each is for."
-date: "2026-08-13"
-updated: "2026-08-13"
+date: "2026-08-14"
+updated: "2026-08-14"
 authorId: "collision-team"
 tags: "comparison, Buffer, Postwise, AI marketing"
 target_path: "/compare/buffer-vs-postwise"
 page_type: "vs-vs"
 entity: "Buffer vs Postwise"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 ---
 
 # Buffer vs Postwise
