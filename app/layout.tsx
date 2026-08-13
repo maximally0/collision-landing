@@ -3,7 +3,6 @@ import { DM_Sans, Lora } from "next/font/google";
 import "./globals.css";
 
 import { SiteFooter } from "@/components/site-footer";
-import { SiteHeader } from "@/components/site-header";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
@@ -115,7 +114,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         />
       </head>
       <body className={`${dmSans.variable} ${lora.variable}`}>
-        <SiteHeader />
         {children}
         <SiteFooter />
       </body>
