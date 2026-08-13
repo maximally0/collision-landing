@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Typefully is beloved, affordable and sticky for solo creators; its platform-native formatting and social blog are hard to match.
 
-Capabilities Typefully doesn't cover that Collision does: Lead generation, GEO, Sales, PR, SEO, Social media.
+Capabilities Typefully doesn't cover that Collision does: SEO, GEO, Email, AI agents, Strategy, Advertising.
 
 ## The best Typefully alternatives
 

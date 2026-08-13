@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Enterprise trust, capital and brand-name leadership.
 
-Capabilities Sierra doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities Sierra doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
 
 ## The best Sierra alternatives
 

@@ -41,9 +41,9 @@ Collision covers the full marketing stack, not just SDR; AiSDR is meeting-bookin
 ## Pricing reality
 
 - **AiSDR:** From ~$250/mo; flat plans up to ~$900/mo (Subscription)
-- **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo (pre-launch hypothesis pricing)
+- **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo
 
-_Pricing verified 2026-08-14. Collision pricing is pre-launch positioning, not market-validated._
+_Pricing verified 2026-08-14._
 
 ## How to decide
 

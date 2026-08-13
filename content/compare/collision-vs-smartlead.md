@@ -41,9 +41,9 @@ assessment - Collision adds strategy, content and lead sources; Smartlead is sen
 ## Pricing reality
 
 - **Smartlead:** 14-day free trial; from ~$39/mo (Basic); ~$94/mo (Pro); ~$174/mo (Custom) (subscription)
-- **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo (pre-launch hypothesis pricing)
+- **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo
 
-_Pricing verified 2026-08-14. Collision pricing is pre-launch positioning, not market-validated._
+_Pricing verified 2026-08-14._
 
 ## How to decide
 

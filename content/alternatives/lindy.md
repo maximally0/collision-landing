@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Well-funded, easy no-code UX, large template library spanning every function.
 
-Capabilities Lindy doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities Lindy doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
 
 ## The best Lindy alternatives
 

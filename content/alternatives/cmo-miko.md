@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 CMO Miko's simplicity and free-tools funnel could win price-sensitive indie hackers first; Collision must prove depth against the AGI-CMO narrative
 
-Capabilities CMO Miko doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities CMO Miko doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
 
 ## The best CMO Miko alternatives
 

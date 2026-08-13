@@ -64,6 +64,6 @@ They're not priced for the same job. $66/month buys you a drafting layer. Collis
 3. With Collision, the list is: approvals and direction.
 4. Choose the one whose leftover list you'll actually do. Most founders who buy a drafting tool don't do the rest — that's how the "I should be doing more on growth" feeling survives a tool purchase.
 
-**Pricing and capability claims verified against okara.ai on 2026-08-13. Collision pricing from pre-launch positioning, not market-validated.**
+**Pricing and capability claims verified against okara.ai on 2026-08-13. **
 
 *Related: [Okara alternatives](/alternatives/okara) · [What is an AI CMO?](/category/ai-cmo)*

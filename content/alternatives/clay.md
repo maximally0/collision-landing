@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Clay is the default AI lead-gen/data platform with unmatched enrichment and community mindshare.
 
-Capabilities Clay doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities Clay doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
 
 ## The best Clay alternatives
 

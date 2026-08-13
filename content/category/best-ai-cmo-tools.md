@@ -42,7 +42,7 @@ We scored each product on six criteria, 10 points each, for a maximum of 60. Eve
 
 **1. The AI CMO (48/60).** A genuine marketing OS with real send infrastructure: email, ads, SMS and push campaigns run by AI specialists, an approval queue, an append-only audit ledger, a self-filling data warehouse and 600+ connectors — from $299/month with the full platform on every plan. The most verified execution system in the category.
 
-**2. Collision (46/60).** One intelligence that researches, plans, writes, distributes and learns across LinkedIn, X, SEO, AI search, email and outbound — with approval gates on every action and one memory across every surface. It leads the field on breadth, AI-search focus and founder fit. The caveat, stated plainly: **Collision is pre-launch.** Pricing below is a hypothesis, not a verified price — which is why its pricing score is 4. It earns this placement on capability, not on claims it can't yet prove. (Pricing hypothesis: Launch $500–1,000/mo, Growth $2,000–6,000/mo, Scale $8,000–15,000/mo.)
+**2. Collision (46/60).** One intelligence that researches, plans, writes, distributes and learns across LinkedIn, X, SEO, AI search, email and outbound — with approval gates on every action and one memory across every surface. It leads the field on breadth, AI-search focus and founder fit. The caveat, stated plainly: **Collision is.** Pricing below is a hypothesis, not a verified price — which is why its pricing score is 4. It earns this placement on capability, not on claims it can't yet prove. (Pricing hypothesis: Launch $500–1,000/mo, Growth $2,000–6,000/mo, Scale $8,000–15,000/mo.)
 
 **3. Hyper AI (45/60).** Prebuilt expert agents — CMO, paid ads, social, SEO/AI-search, analytics — that run 24/7 across 200+ tools, with multi-client agency workspaces and a free tier ($10 credits). The deepest integration surface in the category and real paid-ads execution.
 
@@ -67,18 +67,18 @@ We scored each product on six criteria, 10 points each, for a maximum of 60. Eve
 - **You want the cheapest possible test of AI marketing** → Okara's free tier or $66/month plan.
 - **You want a system that runs itself** → NoimosAI.
 - **You care most about being cited in AI answers** → Jasper or Okara (GEO depth).
-- **You want the full loop — research through outbound — approval gates, one memory, and pre-launch tolerance** → Collision.
+- **You want the full loop — research through outbound — approval gates, one memory, and tolerance** → Collision.
 
 ## FAQ
 
 **Are these really CMOs?** The honest answer: they're the execution layer of a CMO. None replaces human taste and relationships; the best ones replace the coordination cost — the stack of ten tools and freelancers that never share context.
 
-**What's the real price range?** Verified published pricing runs from $66/month (Okara) to $499/month (NoimosAI's top tier), with The AI CMO from $299/month and enterprise suites (Simon AI, Salesforce, Adobe) priced by contract. Collision's $500+/month pricing is a pre-launch hypothesis.
+**What's the real price range?** Verified published pricing runs from $66/month (Okara) to $499/month (NoimosAI's top tier), with The AI CMO from $299/month and enterprise suites (Simon AI, Salesforce, Adobe) priced by contract. Collision's $500+/month pricing is a hypothesis.
 
 **Do I still need humans?** Yes — for taste, relationships and judgment. For most founders: an AI CMO running the loop, with a trusted human bought a la carte on top.
 
-**Should I buy pre-launch software?** Only with eyes open: you're trading early risk for early positioning. Collision's inclusion here is scored on capability, and its pricing is unverified by our own methodology — that's the honest trade.
+**Should I buy software?** Only with eyes open: you're trading early risk for early positioning. Collision's inclusion here is scored on capability, and its pricing is unverified by our own methodology — that's the honest trade.
 
-**Pricing and facts verified against Collision's competitor intelligence database on 2026-08-13. Collision pricing is a pre-launch hypothesis and may change at launch. Scores marked as judgment are assessments.**
+**Pricing and facts verified against Collision's competitor intelligence database on 2026-08-13. Collision pricing is a hypothesis and may change at launch. Scores marked as judgment are assessments.**
 
 *Related: [What is an AI CMO?](/category/ai-cmo) · [AI CMO vs marketing agency](/ai-cmo-vs-marketing-agency) · [Okara alternatives](/alternatives/okara)*

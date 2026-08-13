@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 PR-vertical only; no content, SEO or ad execution; opaque enterprise-leaning pricing; pitching still human-in-the-loop
 
-Capabilities Muck Rack doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities Muck Rack doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
 
 ## The best Muck Rack alternatives
 

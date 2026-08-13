@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Agentic analytics and MCP integration with AI clients is an emerging differentiator Collision may not offer.
 
-Capabilities Pathmonk doesn't cover that Collision does: Lead generation, Sales, LinkedIn growth, PR, Social media, AEO.
+Capabilities Pathmonk doesn't cover that Collision does: LinkedIn growth, Email, AI agents, Strategy, Advertising, Automation.
 
 ## The best Pathmonk alternatives
 

@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Sequoia-backed, Gartner-listed, with proprietary prompt-volume data and enterprise trust (SOC2/HIPAA) Collision lacks.
 
-Capabilities Profound doesn't cover that Collision does: Lead generation, Sales, LinkedIn growth, PR, Social media, Execution.
+Capabilities Profound doesn't cover that Collision does: LinkedIn growth, Email, AI agents, Strategy, Advertising, Automation.
 
 ## The best Profound alternatives
 

@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Massive capital, enterprise logos, proven agent reliability at scale.
 
-Capabilities Decagon doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities Decagon doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
 
 ## The best Decagon alternatives
 

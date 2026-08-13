@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Dedicated 6-platform listening depth (sentiment, trends, influencers) Collision doesn't emphasize (assessment)
 
-Capabilities AI CMO (tryaicmo.com) doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities AI CMO (tryaicmo.com) doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
 
 ## The best AI CMO (tryaicmo.com) alternatives
 

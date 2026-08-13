@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 SEO.AI adds automated backlink building and a 'set once, runs forever' simplicity Collision may not match.
 
-Capabilities SEO.AI doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, Social media.
+Capabilities SEO.AI doesn't cover that Collision does: LinkedIn growth, GEO, Email, AI agents, Strategy, Advertising.
 
 ## The best SEO.AI alternatives
 

@@ -37,7 +37,7 @@ Collision differs on exactly those axes:
 |---|---|---|
 | Funding | $131M total; $125M Series A (2022) at $1.5B valuation — verified Aug 2026 | Pre-launch |
 | HQ | Austin, TX | — |
-| Pricing | Tiered subscription; free trial (Creator/Pro/Business plans) — verified Aug 2026 | Launch tier from $500/mo (pre-launch pricing) |
+| Pricing | Tiered subscription; free trial (Creator/Pro/Business plans) — verified Aug 2026 | Launch tier from $500/mo (pricing) |
 | Core scope | Content, campaigns, GEO/SEO/AEO production | Full growth loop: research → plan → write → distribute → learn |
 | Outbound / email / lead gen | Not core (assessment) | Core capability |
 | Personal branding | Brand-governed content | Founder brand + LinkedIn growth as a system |

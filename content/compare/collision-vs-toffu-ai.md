@@ -41,9 +41,9 @@ Collision is full-stack growth (SEO/AEO/GEO, social, outbound); Toffu is ads/ana
 ## Pricing reality
 
 - **Toffu AI:** Free tier (500 credits); usage-based credits (Credits-based)
-- **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo (pre-launch hypothesis pricing)
+- **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo
 
-_Pricing verified 2026-08-14. Collision pricing is pre-launch positioning, not market-validated._
+_Pricing verified 2026-08-14._
 
 ## How to decide
 

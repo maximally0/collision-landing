@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 For startups wanting hands-off results, a proven AI-native agency is a direct alternative to DIY software
 
-Capabilities Mighty & True doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities Mighty & True doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
 
 ## The best Mighty & True alternatives
 

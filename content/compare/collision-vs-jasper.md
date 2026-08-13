@@ -26,11 +26,11 @@ description: Jasper brings scale, GEO tooling and brand governance. Collision br
 | Personal branding / LinkedIn growth | Social and PR assets, not growth execution | Core surfaces |
 | Distribution (LinkedIn, X) | Campaign assets | Built-in execution |
 | Scale and backing | $131M raised; enterprise brand | Pre-launch; founder-priced |
-| Pricing | Tiered subscription (Creator/Pro/Business), free trial | $500–15,000/mo (pre-launch hypothesis) |
+| Pricing | Tiered subscription (Creator/Pro/Business), free trial | $500–15,000/mo ( hypothesis) |
 
 ## Where Jasper genuinely wins
 
-**Scale and enterprise credibility.** $131M raised, a $1.5B valuation and years of brand trust — Jasper is the platform a large marketing org can hand to a team without a second thought (assessment: that institutional weight outmatches a pre-launch product on content and GEO depth).
+**Scale and enterprise credibility.** $131M raised, a $1.5B valuation and years of brand trust — Jasper is the platform a large marketing org can hand to a team without a second thought (assessment: that institutional weight outmatches a product on content and GEO depth).
 
 **GEO tooling depth.** Native GEO citation monitoring is a product there, not a feature buried in a roadmap. Teams whose whole job is "get us cited in AI answers, at scale" have a purpose-built instrument.
 
@@ -48,7 +48,7 @@ description: Jasper brings scale, GEO tooling and brand governance. Collision br
 
 ## Pricing reality
 
-Jasper runs tiered subscriptions (Creator/Pro/Business) with a free trial; exact prices shift with promos, so check the site. Collision's pre-launch hypothesis: Launch $500–1,000/mo, Growth $2,000–6,000/mo, Scale $8,000–15,000/mo. Pricing verified Aug 2026.
+Jasper runs tiered subscriptions (Creator/Pro/Business) with a free trial; exact prices shift with promos, so check the site. Collision's hypothesis: Launch $500–1,000/mo, Growth $2,000–6,000/mo, Scale $8,000–15,000/mo. Pricing verified Aug 2026.
 
 ## How to decide in 5 minutes
 

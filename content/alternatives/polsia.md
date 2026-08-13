@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Category-defining funding and narrative could pull Collision's buyer toward whole-company AI platforms
 
-Capabilities Polsia doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities Polsia doesn't cover that Collision does: SEO, LinkedIn growth, GEO, AI agents, Strategy, Advertising.
 
 ## The best Polsia alternatives
 

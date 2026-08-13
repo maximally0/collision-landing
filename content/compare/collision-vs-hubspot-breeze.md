@@ -24,7 +24,7 @@ description: Breeze wins on CRM-native data and SMB distribution. Collision wins
 | CRM-native data | Runs on live HubSpot CRM data | No CRM dependency; one memory instead |
 | Channel-agnostic growth (SEO/AEO/GEO, personal branding, distribution) | Inside the HubSpot ecosystem (assessment) | Core, by design |
 | Buyer | Existing HubSpot customers, SMB to enterprise | Founders and startups on any stack |
-| Pricing | Included with Hub Pro+; credits (10 per query); outcome-based for some agents since Apr 2026 | $500–15,000/mo (pre-launch hypothesis) |
+| Pricing | Included with Hub Pro+; credits (10 per query); outcome-based for some agents since Apr 2026 | $500–15,000/mo ( hypothesis) |
 
 ## Where Breeze genuinely wins
 
@@ -48,7 +48,7 @@ description: Breeze wins on CRM-native data and SMB distribution. Collision wins
 
 ## Pricing reality
 
-Breeze: included with Marketing/Sales/Service Hub Pro+; usage runs on HubSpot credits, with outcome-based pricing for key agents since April 2026. Collision: pre-launch hypothesis of $500–1,000/mo (Launch), $2,000–6,000/mo (Growth), $8,000–15,000/mo (Scale). Pricing verified Aug 2026.
+Breeze: included with Marketing/Sales/Service Hub Pro+; usage runs on HubSpot credits, with outcome-based pricing for key agents since April 2026. Collision: hypothesis of $500–1,000/mo (Launch), $2,000–6,000/mo (Growth), $8,000–15,000/mo (Scale). Pricing verified Aug 2026.
 
 ## How to decide in 5 minutes
 

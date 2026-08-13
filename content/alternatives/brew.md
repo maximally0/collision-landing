@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Brew's polish and agent-native design could become the default email layer inside AI stacks, commoditizing one of Collision's channels
 
-Capabilities Brew doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities Brew doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
 
 ## The best Brew alternatives
 

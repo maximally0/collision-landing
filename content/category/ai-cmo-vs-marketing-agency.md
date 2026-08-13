@@ -62,6 +62,6 @@ The hybrid is the sleeper answer. The most cost-effective 2026 setup for a found
 
 Collision is built as the AI you hire to run growth: research → plan → write → distribute → learn, across LinkedIn, X, SEO, AI search, email and outbound, with approval gates on every action so the human stays in charge — which is the honest answer to the "am I handing my brand to software" fear. It's the buy option that keeps your judgment as the source of truth. It won't have drinks with a journalist. It will make sure you never miss a week of shipping again.
 
-**Agency retainer figures are market judgment (assessment), not vendor claims. AI CMO pricing verified against competitor DB on 2026-08-13; Collision pricing is a pre-launch hypothesis and may change at launch.**
+**Agency retainer figures are market judgment (assessment), not vendor claims. AI CMO pricing verified against competitor DB on 2026-08-13; Collision pricing is a hypothesis and may change at launch.**
 
 *Related: [What is an AI CMO?](/category/ai-cmo) · [Best AI CMO tools](/category/best-ai-cmo-tools)*

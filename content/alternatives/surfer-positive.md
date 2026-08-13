@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Surfer has deep SERP/AI-overview data, enterprise credibility and mature integrations built over 8 years.
 
-Capabilities Surfer (Positive) doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, Social media.
+Capabilities Surfer (Positive) doesn't cover that Collision does: LinkedIn growth, GEO, Email, AI agents, Strategy, Advertising.
 
 ## The best Surfer (Positive) alternatives
 

@@ -34,7 +34,7 @@ Here's what the DB says and what it means (assessment where it's judgment):
 
 | | Epiminds | Collision |
 |---|---|---|
-| Pricing | Unpublished (pilot/agency deals) — verified Aug 2026 | Launch from $500/mo (pre-launch pricing hypothesis) |
+| Pricing | Unpublished (pilot/agency deals) — verified Aug 2026 | Launch from $500/mo (pricing hypothesis) |
 | Orchestration | Lucy coordinating 20+ specialized agents | One intelligence across every surface |
 | Core focus | Paid campaign operations: analysis, budget/bid, creative, reporting (assessment) | Full growth loop: research → plan → write → distribute → learn |
 | SEO / AI search | Not offered | Core — SEO, AEO and GEO across Google, ChatGPT, Perplexity, AI Overviews |

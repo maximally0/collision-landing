@@ -41,9 +41,9 @@ Collision is self-serve, productized growth for founders/startups; Agentforce is
 ## Pricing reality
 
 - **Salesforce Agentforce:** From $2/conversation; Flex Credits ~$0.10/action (~$500/100k); Data Cloud add-on (Usage-based)
-- **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo (pre-launch hypothesis pricing)
+- **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo
 
-_Pricing verified 2026-08-14. Collision pricing is pre-launch positioning, not market-validated._
+_Pricing verified 2026-08-14._
 
 ## How to decide
 

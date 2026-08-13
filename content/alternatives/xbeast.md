@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 XBeast's hands-off engagement automation is deeper on X than Collision likely offers; cheap ($12/mo) and fast for solo founders to adopt.
 
-Capabilities XBeast doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities XBeast doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
 
 ## The best XBeast alternatives
 

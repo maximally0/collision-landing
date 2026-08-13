@@ -41,9 +41,9 @@ assessment: Collision serves founders/SMBs with self-serve autonomous agents; Sm
 ## Pricing reality
 
 - **Smartly.io:** Custom enterprise (~$5K+/mo) (Enterprise annual contracts)
-- **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo (pre-launch hypothesis pricing)
+- **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo
 
-_Pricing verified 2026-08-14. Collision pricing is pre-launch positioning, not market-validated._
+_Pricing verified 2026-08-14._
 
 ## How to decide
 

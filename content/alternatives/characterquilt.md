@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 If it moves downmarket to startups, its deploy-into-your-stack loop undercuts Collision's managed execution
 
-Capabilities CharacterQuilt doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities CharacterQuilt doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
 
 ## The best CharacterQuilt alternatives
 

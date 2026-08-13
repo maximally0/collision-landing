@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Agency/enterprise focus; predictive value unproven at founder scale; no content, SEO or ad execution
 
-Capabilities PRophet doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities PRophet doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
 
 ## The best PRophet alternatives
 

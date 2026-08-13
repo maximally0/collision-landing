@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Purpose-built AI SEO agent with fast setup and a strong autopilot story for the SEO-only buyer.
 
-Capabilities Outrank doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, Social media.
+Capabilities Outrank doesn't cover that Collision does: LinkedIn growth, GEO, Email, AI agents, Strategy, Advertising.
 
 ## The best Outrank alternatives
 

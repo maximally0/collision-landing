@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Free access to a huge verified database and mature automation is a powerful moat; Collision cannot match its data scale and will be compared on price.
 
-Capabilities Apollo.io doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities Apollo.io doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
 
 ## The best Apollo.io alternatives
 

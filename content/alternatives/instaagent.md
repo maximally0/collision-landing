@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Its paid-social scaling engine could become the default for consumer brands, taking the content-distribution slice Collision serves
 
-Capabilities InstaAgent doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities InstaAgent doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
 
 ## The best InstaAgent alternatives
 

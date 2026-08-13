@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Its viral library + CRM combination is hard to replicate cheaply and trusted by 5,600+ X creators ($600K ARR, bootstrapped).
 
-Capabilities TweetHunter doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities TweetHunter doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
 
 ## The best TweetHunter alternatives
 

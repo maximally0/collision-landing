@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Instantly is the category leader in cold-email deliverability with a deep, proven outbound stack and AI agents.
 
-Capabilities Instantly doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities Instantly doesn't cover that Collision does: SEO, LinkedIn growth, GEO, AI agents, Strategy, Advertising.
 
 ## The best Instantly alternatives
 

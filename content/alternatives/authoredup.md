@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 AuthoredUp has a mature, popular writing/analytics UX and free tools that hook creators early.
 
-Capabilities AuthoredUp doesn't cover that Collision does: Lead generation, GEO, Sales, PR, SEO, Social media.
+Capabilities AuthoredUp doesn't cover that Collision does: SEO, GEO, Email, AI agents, Strategy, Advertising.
 
 ## The best AuthoredUp alternatives
 

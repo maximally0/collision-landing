@@ -27,7 +27,7 @@ description: The AI CMO ships real send infrastructure — warehouse, suppressio
 | SEO / link building | Built-in SEO program | SEO/AEO/GEO depth as a core surface |
 | LinkedIn and X growth | Not a focus | Core surfaces |
 | Outbound / lead gen / personal branding | Not a focus | Core surfaces |
-| Pricing | From $299/mo | $500–15,000/mo (pre-launch hypothesis) |
+| Pricing | From $299/mo | $500–15,000/mo ( hypothesis) |
 
 ## Where The AI CMO genuinely wins
 
@@ -45,7 +45,7 @@ description: The AI CMO ships real send infrastructure — warehouse, suppressio
 
 ## Pricing reality
 
-The AI CMO: from $299/mo, full platform on every plan. Collision: pre-launch hypothesis of $500–1,000/mo (Launch), $2,000–6,000/mo (Growth), $8,000–15,000/mo (Scale) — priced as a growth hire, not a campaign system. Pricing verified Aug 2026.
+The AI CMO: from $299/mo, full platform on every plan. Collision: hypothesis of $500–1,000/mo (Launch), $2,000–6,000/mo (Growth), $8,000–15,000/mo (Scale) — priced as a growth hire, not a campaign system. Pricing verified Aug 2026.
 
 ## How to decide in 5 minutes
 

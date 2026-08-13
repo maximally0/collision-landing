@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Enterprise risk/ESG focus, not founder PR; no pitching or outreach automation; high price point and heavy deployment
 
-Capabilities Signal AI doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities Signal AI doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
 
 ## The best Signal AI alternatives
 

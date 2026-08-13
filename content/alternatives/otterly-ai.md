@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Dedicated AEO tool with the deepest multi-engine monitoring and a large marketing-pro user base.
 
-Capabilities Otterly.ai doesn't cover that Collision does: Lead generation, Sales, LinkedIn growth, PR, Social media, Execution.
+Capabilities Otterly.ai doesn't cover that Collision does: LinkedIn growth, Email, AI agents, Strategy, Advertising, Automation.
 
 ## The best Otterly.ai alternatives
 

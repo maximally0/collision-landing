@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Adobe's brand governance, creative model quality and enterprise channel activation far exceed anything Collision offers (assessment)
 
-Capabilities Adobe GenStudio doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities Adobe GenStudio doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
 
 ## The best Adobe GenStudio alternatives
 

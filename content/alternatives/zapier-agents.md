@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Ubiquity, brand trust, ecosystem moat and fast agentic feature velocity.
 
-Capabilities Zapier (Agents) doesn't cover that Collision does: Lead generation, GEO, Sales, LinkedIn growth, PR, SEO.
+Capabilities Zapier (Agents) doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
 
 ## The best Zapier (Agents) alternatives
 

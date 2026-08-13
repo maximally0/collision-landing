@@ -41,9 +41,9 @@ Collision is purpose-built for growth workflows with platform knowledge; Manus i
 ## Pricing reality
 
 - **Manus:** $19-$199/mo plans with credits (8k-40k credits) (Subscription)
-- **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo (pre-launch hypothesis pricing)
+- **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo
 
-_Pricing verified 2026-08-14. Collision pricing is pre-launch positioning, not market-validated._
+_Pricing verified 2026-08-14._
 
 ## How to decide
 
