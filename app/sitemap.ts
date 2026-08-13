@@ -1,12 +1,21 @@
 import type { MetadataRoute } from "next";
 
 import { getAllPosts, getAllTags } from "@/lib/blog";
+import { getAllPages, SECTIONS } from "@/lib/content";
 
 const SITE = "https://www.usecollision.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts();
   const tags = getAllTags();
+  const sections = SECTIONS.flatMap((section) =>
+    getAllPages(section).map((page) => ({
+      url: `${SITE}${page.targetPath}`,
+      lastModified: new Date(page.updated ?? page.date),
+      changeFrequency: "weekly" as const,
+      priority: section === "alternatives" || section === "compare" ? 0.8 : 0.6,
+    })),
+  );
 
   return [
     {
@@ -39,5 +48,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
       priority: 0.3,
     })),
+    ...sections,
   ];
 }

@@ -1,0 +1,55 @@
+---
+title: "Collision vs Sierra: The Honest Comparison"
+description: "Collision vs Sierra — pricing, capabilities and who each is for. The deciding question isn't features; it's whether you want a point product or the full growth loop."
+date: "2026-08-13"
+updated: "2026-08-13"
+authorId: "collision-team"
+tags: "comparison, Sierra, Collision"
+target_path: "/compare/collision-vs-sierra"
+page_type: "vs"
+entity: "Sierra"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-13)"
+---
+
+# Collision vs Sierra
+
+Enterprise AI agent platform for customer experience: agents that converse, resolve issues and take actions across voice, web and SMS.
+
+Collision is positioned as the AI you hire to run growth — one intelligence that researches, plans, writes, distributes and learns across LinkedIn, X, SEO, AI search, email and outbound, with approval gates on every action.
+
+## Capability comparison
+
+| Capability | Collision | Sierra |
+|---|---|---|
+| AI SEO | Yes | No |
+| GEO / AI search | Yes | No |
+| Content | Yes | No |
+| Social | Yes | No |
+| Outbound / email | Yes | No |
+| Lead generation | Yes | No |
+| One memory across surfaces | Yes | Varies |
+| Human approval on every action | Yes | Varies |
+
+## Where Sierra genuinely wins
+
+Enterprise trust, capital and brand-name leadership.
+
+## Where Collision genuinely wins
+
+Collision executes acquisition/growth marketing; Sierra is post-sale CX. Assessment.
+
+## Pricing reality
+
+- **Sierra:** Enterprise custom (Subscription)
+- **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo (pre-launch hypothesis pricing)
+
+_Pricing verified 2026-08-13. Collision pricing is pre-launch positioning, not market-validated._
+
+## How to decide
+
+Choose **Sierra** if their scope matches your motion and you're happy with the capabilities above. Choose **Collision** if you want the whole growth loop — including the parts Sierra doesn't cover — under one intelligence with one memory.
+
+## Related
+
+- [Sierra alternatives](/alternatives/sierra)
+- [What is an AI CMO?](/category/ai-cmo)
