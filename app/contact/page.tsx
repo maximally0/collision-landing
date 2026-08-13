@@ -23,29 +23,6 @@ export default function ContactPage() {
 
   return (
     <main className="collision-page min-h-screen">
-      {/* Nav */}
-      <nav className="border-b border-ink/10 bg-paper" aria-label="Contact page navigation">
-        <div className="page-shell flex items-center justify-between py-5">
-          <Link href="/" className="flex items-center gap-3 text-ink" aria-label="Back to home">
-            <Image
-              src="/favicon-96x96.png"
-              alt="Collision logo"
-              width={28}
-              height={28}
-              className="size-7 rounded-full object-cover ring-1 ring-ink/20"
-            />
-            <span className="text-[16px] font-semibold tracking-[-0.04em]">collision.</span>
-          </Link>
-          <Link
-            href="/"
-            className="flex items-center gap-2 text-[12px] font-medium text-slate transition-colors hover:text-electric"
-          >
-            <ArrowLeft className="size-3.5" aria-hidden="true" />
-            Back to home
-          </Link>
-        </div>
-      </nav>
-
       {/* Hero */}
       <section className="bg-paper px-7 pb-20 pt-20 lg:px-0 lg:pt-28">
         <div className="page-shell grid gap-16 lg:grid-cols-[1.1fr_.9fr] lg:items-start lg:gap-24">

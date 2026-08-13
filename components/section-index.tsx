@@ -7,13 +7,6 @@ export function SectionIndex({ section }: { section: Section }) {
   const pages = getAllPages(section);
   return (
     <main className="collision-page min-h-screen">
-      <nav className="border-b border-ink/10 bg-paper" aria-label="Section navigation">
-        <div className="page-shell flex items-center justify-between py-5">
-          <Link href="/" className="flex items-center gap-3 text-ink" aria-label="Back to home">
-            <span className="font-display text-[16px] font-semibold tracking-[-0.04em]">collision.</span>
-          </Link>
-        </div>
-      </nav>
       <div className="bg-paper px-5 pb-24 pt-16 sm:px-7 lg:px-0 lg:pt-24">
         <div className="page-shell max-w-[760px]">
           <nav aria-label="Breadcrumb" className="text-[11px] text-slate">

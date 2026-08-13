@@ -18,21 +18,6 @@ export default function BlogIndexPage() {
 
   return (
     <main className="collision-page min-h-screen">
-      <nav className="border-b border-ink/10 bg-paper" aria-label="Blog navigation">
-        <div className="page-shell flex items-center justify-between py-5">
-          <Link href="/" className="flex items-center gap-3 text-ink" aria-label="Back to home">
-            <span className="font-display text-[16px] font-semibold tracking-[-0.04em]">collision.</span>
-          </Link>
-          <Link
-            href="/"
-            className="flex items-center gap-2 text-[12px] font-medium text-slate transition-colors hover:text-electric"
-          >
-            <ArrowLeft className="size-3.5" aria-hidden="true" />
-            Back to home
-          </Link>
-        </div>
-      </nav>
-
       <section className="bg-paper px-5 pb-20 pt-16 sm:px-7 lg:px-0 lg:pt-24">
         <div className="page-shell max-w-[820px]">
           <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-electric">The blog</p>

@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 import { getAllPosts, getAuthor, getPostBySlug, getRelatedPosts } from "@/lib/blog";
 
@@ -96,21 +96,6 @@ export default async function BlogPostPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <nav className="border-b border-ink/10 bg-paper" aria-label="Blog post navigation">
-        <div className="page-shell flex items-center justify-between py-5">
-          <Link href="/" className="flex items-center gap-3 text-ink" aria-label="Back to home">
-            <span className="font-display text-[16px] font-semibold tracking-[-0.04em]">collision.</span>
-          </Link>
-          <Link
-            href="/blog"
-            className="flex items-center gap-2 text-[12px] font-medium text-slate transition-colors hover:text-electric"
-          >
-            <ArrowLeft className="size-3.5" aria-hidden="true" />
-            All posts
-          </Link>
-        </div>
-      </nav>
-
       <article className="bg-paper px-5 pb-24 pt-16 sm:px-7 lg:px-0 lg:pt-24">
         <div className="page-shell max-w-[720px]">
           <nav aria-label="Breadcrumb" className="text-[11px] text-slate">
@@ -222,15 +207,6 @@ export default async function BlogPostPage({ params }: Props) {
           ) : null}
         </div>
       </article>
-
-      <footer className="border-t border-ink/10 bg-paper px-5 py-8 sm:px-7 lg:px-0">
-        <div className="page-shell flex flex-col justify-between gap-5 text-[11px] text-slate sm:flex-row sm:items-center">
-          <Link href="/" className="font-display text-[20px] tracking-[-0.05em] text-ink">
-            collision.
-          </Link>
-          <span>© 2026 Collision Labs</span>
-        </div>
-      </footer>
     </main>
   );
 }

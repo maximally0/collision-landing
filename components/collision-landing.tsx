@@ -558,22 +558,79 @@ function FinalCtaSection() {
   );
 }
 
-function Footer() {
+function ExploreSection() {
+  const sections = [
+    {
+      href: "/alternatives",
+      title: "Alternatives",
+      note: "All 77 competitors, honestly compared — what each does well, what it costs, where it stops.",
+    },
+    {
+      href: "/compare",
+      title: "Compare",
+      note: "Collision vs the market — capability tables and honest verdicts, side by side.",
+    },
+    {
+      href: "/category",
+      title: "Guides",
+      note: "AI CMO, GEO, AEO, AI SEO agents and the 2026 landscape, explained with verified data.",
+    },
+    {
+      href: "/glossary",
+      title: "Glossary",
+      note: "The category in plain language — every term defined, no jargon.",
+    },
+  ];
+  const popular = [
+    { href: "/category/best-ai-cmo-tools", label: "Best AI CMO tools" },
+    { href: "/alternatives/okara", label: "Okara alternatives" },
+    { href: "/alternatives/jasper", label: "Jasper alternatives" },
+    { href: "/category/ai-seo-agent", label: "AI SEO agents" },
+    { href: "/category/geo", label: "What is GEO?" },
+    { href: "/compare/collision-vs-okara", label: "Collision vs Okara" },
+  ];
   return (
-    <footer className="border-t border-ink/15 bg-white px-5 py-8 sm:px-7 lg:px-0">
-      <div className="page-shell flex flex-col justify-between gap-5 text-[11px] text-slate sm:flex-row sm:items-center">
-        <a href="#top" className="font-display text-[23px] tracking-[-0.05em] text-ink">collision.</a>
-        <nav className="flex flex-wrap gap-x-7 gap-y-3" aria-label="Footer navigation">
-          <a href="#ownership" className="hover:text-electric">What we own</a>
-          <a href="#behind" className="hover:text-electric">Behind the scenes</a>
-          <Link href="/blog" className="hover:text-electric">Blog</Link>
-          <Link href="/contact" className="hover:text-electric">Contact</Link>
-          <a href="https://x.com/usecollision" target="_blank" rel="noopener noreferrer" className="hover:text-electric">X</a>
-          <a href="https://linkedin.com/company/usecollision" target="_blank" rel="noopener noreferrer" className="hover:text-electric">LinkedIn</a>
-        </nav>
-        <span>© 2026 Collision Labs</span>
-      </div>
-    </footer>
+    <section id="explore" aria-labelledby="explore-title" className="bg-white px-5 py-20 sm:px-7 lg:px-0 lg:py-28">
+      <Reveal className="page-shell max-w-[880px]">
+        <MicroLabel className="text-electric">The market, mapped</MicroLabel>
+        <DisplayTitle id="explore-title" className="mt-6">Explore the AI marketing landscape.</DisplayTitle>
+        <p className="mt-5 max-w-[620px] text-[16px] leading-7 text-slate">
+          We track every credible player in the category and turn that research into pages you can actually use —
+          data-verified, honestly compared, and linked to each other.
+        </p>
+        <div className="mt-12 grid gap-5 sm:grid-cols-2">
+          {sections.map((item) => (
+            <Reveal key={item.href} variant="fade">
+              <Link
+                href={item.href}
+                className="group block h-full rounded-2xl border border-ink/10 bg-paper p-7 transition-colors hover:border-electric/40"
+              >
+                <p className="font-display text-[22px] text-ink transition-colors group-hover:text-electric">{item.title}</p>
+                <p className="mt-2 text-[13px] leading-6 text-slate">{item.note}</p>
+                <span className="mt-4 inline-flex items-center gap-1.5 text-[12px] font-semibold text-electric">
+                  Browse {item.title.toLowerCase()}
+                  <ArrowRight className="size-3.5" aria-hidden="true" />
+                </span>
+              </Link>
+            </Reveal>
+          ))}
+        </div>
+        <div className="mt-10">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.15em] text-slate">Popular pages</p>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {popular.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="rounded-full bg-cyan-surface px-4 py-2 text-[12px] font-semibold text-electric transition-colors hover:bg-electric hover:text-white"
+              >
+                {item.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </Reveal>
+    </section>
   );
 }
 
@@ -588,8 +645,8 @@ export default function CollisionLanding() {
       <JourneySection />
       <ProofSection />
       <FaqSection />
+      <ExploreSection />
       <FinalCtaSection />
-      <Footer />
     </main>
   );
 }
