@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
@@ -20,6 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const url = `https://www.usecollision.com/blog/${slug}`;
   const author = getAuthor(post.authorId);
+  const coverUrl = post.cover ? `https://www.usecollision.com${post.cover}` : undefined;
 
   return {
     title: post.title,
@@ -33,11 +35,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: post.date,
       modifiedTime: post.updated ?? post.date,
       authors: [author.name],
+      ...(coverUrl ? { images: [{ url: coverUrl, width: 1600, height: 1067, alt: post.title }] } : {}),
     },
     twitter: {
       card: "summary_large_image",
       title: post.title,
       description: post.description,
+      ...(coverUrl ? { images: [coverUrl] } : {}),
     },
   };
 }
@@ -134,6 +138,19 @@ export default async function BlogPostPage({ params }: Props) {
               <p className="text-[11px] text-slate">{author.role}</p>
             </div>
           </div>
+
+          {post.cover ? (
+            <div className="mt-8 overflow-hidden rounded-2xl border border-ink/10">
+              <Image
+                src={post.cover}
+                alt={post.title}
+                width={1600}
+                height={1067}
+                priority
+                className="h-auto w-full object-cover"
+              />
+            </div>
+          ) : null}
 
           {post.tags.length ? (
             <div className="mt-6 flex flex-wrap gap-2">

@@ -22,6 +22,7 @@ export type BlogPostMeta = {
   updated?: string;
   authorId: string;
   tags: string[];
+  cover?: string;
   readingTime: string;
   wordCount: number;
 };
@@ -87,6 +88,7 @@ function buildMeta(slug: string, data: Record<string, unknown>, content: string)
     updated: data.updated as string | undefined,
     authorId: (data.authorId as string) ?? "collision-team",
     tags: (data.tags as string[]) ?? [],
+    cover: data.cover as string | undefined,
     readingTime: readingTime(content).text,
     wordCount: content.trim().split(/\s+/).length,
   };
