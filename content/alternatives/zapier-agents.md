@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Ubiquity, brand trust, ecosystem moat and fast agentic feature velocity.
 
-Capabilities Zapier (Agents) doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Zapier (Agents) doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Zapier (Agents) alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Zapier (Agents) doesn't cover.
 
 - **[HubSpot Breeze](/alternatives/hubspot-breeze)** — Agents run natively on existing CRM data and workflows, distributed to HubSpot's large SMB install base
 - **[Dygentic](/alternatives/dygentic)** — Agency-grade autonomy on open tooling (n8n) with full handover — clients own the system

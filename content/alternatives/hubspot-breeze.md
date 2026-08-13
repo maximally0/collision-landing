@@ -37,7 +37,7 @@ Collision is built for that outside:
 | | HubSpot Breeze | Collision |
 |---|---|---|
 | Home | Inside HubSpot CRM | Anywhere growth happens |
-| Pricing | Included with Marketing/Sales/Service Hub Pro+; credit-based; outcome-based for some agents (Apr 2026) — verified Aug 2026 | Launch tier from $500/mo (pricing) |
+| Pricing | Included with Marketing/Sales/Service Hub Pro+; credit-based; outcome-based for some agents (Apr 2026) — verified Aug 2026 | Launch tier from $500/mo  |
 | Agents | 20+ (content, social, prospecting, customer) | One intelligence across every surface |
 | SEO / AEO / GEO | Not the focus (assessment) | Core capability |
 | Outbound / lead gen | Prospecting touches inside CRM (assessment) | Core capability |

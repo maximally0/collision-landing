@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Buffer's brand and price ($0-12/mo) make it a reflexive default for founders; its API explicitly invites agent workflows, commoditizing distribution.
 
-Capabilities Buffer doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Buffer doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Buffer alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Buffer doesn't cover.
 
 - **[FeedHive](/alternatives/feedhive)** — Workflow/condition-based automation plus AI agents inside a social scheduler.
 - **[Hootsuite](/alternatives/hootsuite)** — OwlyGPT trained on real-time social trends plus 15+ years of social expertise and enterprise compliance tooling.

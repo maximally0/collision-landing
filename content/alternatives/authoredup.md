@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 AuthoredUp has a mature, popular writing/analytics UX and free tools that hook creators early.
 
-Capabilities AuthoredUp doesn't cover that Collision does: SEO, GEO, Email, AI agents, Strategy, Advertising.
+Capabilities AuthoredUp doesn't cover that Collision does: GEO, Sales, Advertising, AEO, AI agents, Outbound.
 
 ## The best AuthoredUp alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities AuthoredUp doesn't cover.
 
 - **[Taplio](/alternatives/taplio)** — Content virality engine plus native LinkedIn outreach (connect + DM) in one tool, backed by lemlist.
 - **[AdCreative.ai](/alternatives/adcreative-ai)** — Predictive conversion scoring of creatives before launch, trained on performance data

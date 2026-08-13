@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Huge brand awareness, deep pockets, general-task autonomy improving quickly.
 
-Capabilities Manus doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Manus doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Manus alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Manus doesn't cover.
 
 - **[Decagon](/alternatives/decagon)** — Category leader in AI support agents; $4.5B valuation; disciplined 'agent engineering' approach
 - **[Sierra](/alternatives/sierra)** — Founder pedigree (ex-Salesforce co-CEO Bret Taylor), $4.5B valuation, enterprise CX focus

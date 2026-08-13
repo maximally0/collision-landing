@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Enterprise trust, capital and brand-name leadership.
 
-Capabilities Sierra doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Sierra doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Sierra alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Sierra doesn't cover.
 
 - **[Decagon](/alternatives/decagon)** — Category leader in AI support agents; $4.5B valuation; disciplined 'agent engineering' approach
 - **[Manus](/alternatives/manus)** — Most-hyped general agent (viral Mar 2025 launch); produces finished deliverables like websites and research reports

@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Enterprise-only (min ~$50K spend, 8-12 week onboarding); not founder-accessible; no SEO, PR, outbound or personal-branding coverage
 
-Capabilities Smartly.io doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Smartly.io doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Smartly.io alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Smartly.io doesn't cover.
 
 - **[AdCreative.ai](/alternatives/adcreative-ai)** — Predictive conversion scoring of creatives before launch, trained on performance data
 - **[Adzooma](/alternatives/adzooma)** — Free AI PPC optimization across three ad networks with two-click implementation

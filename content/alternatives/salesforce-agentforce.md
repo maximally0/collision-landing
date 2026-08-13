@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Salesforce's data moat, Fortune 100 reach and agent ecosystem massively outscale Collision's execution surface (assessment)
 
-Capabilities Salesforce Agentforce doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Salesforce Agentforce doesn't cover that Collision does: GEO, Content, Advertising, AEO, AI agents, Outbound.
 
 ## The best Salesforce Agentforce alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Salesforce Agentforce doesn't cover.
 
 - **[Gumloop](/alternatives/gumloop)** — No-code agent builder for non-developers with enterprise security; Shopify is customer+investor (20M automated actions)
 - **[Lindy](/alternatives/lindy)** — Broad 'AI teammate for the whole company' scope with explicit marketing role templates

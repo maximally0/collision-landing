@@ -39,7 +39,7 @@ Collision differs on the parts of growth that don't fit a connector:
 | Shape | Specialist agents (CMO, paid ads, social, SEO) | One intelligence across every surface |
 | Integrations | 200+ tools; 80+ ad/marketing connectors | LinkedIn, X, SEO, AI search, email, outbound |
 | Paid ads | Autonomous execution via Meta/Google/TikTok/LinkedIn APIs | Not offered (assessment) |
-| Pricing | Free tier ($10 credits); paid tiers unverified — verified Aug 2026 | Launch tier from $500/mo (pricing) |
+| Pricing | Free tier ($10 credits); paid tiers unverified — verified Aug 2026 | Launch tier from $500/mo  |
 | Outbound / lead gen | Connects to tools; not core (assessment) | Core capability |
 | Memory | Brand voice context per agent | One memory across every surface |
 | Approval model | Scheduled recurring tasks | Approval gates on every action |

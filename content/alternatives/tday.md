@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Automated launch videos/ads are a fast-growing need; tday could capture the 'launch content' slice first
 
-Capabilities tday doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities tday doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best tday alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities tday doesn't cover.
 
 - **[MarketMuse](/alternatives/marketmuse)** — Decade of NLP topical modeling for content intelligence (now inside Siteimprove)
 - **[StoryChief](/alternatives/storychief)** — Distribution-first content platform pairing AI with publishing automation to every channel

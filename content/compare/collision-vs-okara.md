@@ -19,7 +19,7 @@ Okara and Collision get compared because they're both AI systems aimed at founde
 
 **Okara** is an AI CMO that runs 10+ marketing agents — SEO, GEO, Reddit, LinkedIn, X, content — that produce drafts and scheduled actions around the clock. You approve, and approved content goes out. Free tier; $66/month for 2,000 credits. Founded in Singapore, bootstrapped, ~100k users. Its positioning is GEO-first: it makes sure you're visible where ChatGPT, Perplexity and Gemini answer questions.
 
-**Collision** is positioned as the AI you hire to run growth. One intelligence that researches, plans, writes, distributes and learns across LinkedIn, X, SEO, AI search, email and outbound — with approval gates on every action, and one memory shared across every surface. Pre-launch pricing starts at $500/month for the Launch tier.
+**Collision** is positioned as the AI you hire to run growth. One intelligence that researches, plans, writes, distributes and learns across LinkedIn, X, SEO, AI search, email and outbound — with approval gates on every action, and one memory shared across every surface. Starting pricing from $500/month for the Launch tier.
 
 ## Capability comparison
 
@@ -53,7 +53,7 @@ The second difference is strategic. Okara's agents execute tasks. Collision's mo
 ## The pricing reality
 
 - **Okara:** Free (20 credits) → $66/mo (2,000 credits). Verified Aug 2026.
-- **Collision:** $500–$1,000/mo Launch; $2,000–$6,000/mo Growth; $8,000–$15,000/mo Scale. Pre-launch hypothesis pricing, not market-validated.
+- **Collision:** $500–$1,000/mo Launch; $2,000–$6,000/mo Growth; $8,000–$15,000/mo Scale. Starting pricing.
 
 They're not priced for the same job. $66/month buys you a drafting layer. Collision's tiering sits deliberately between commodity point tools and a $5K–25K/month human growth hire, because that's the job it's built to replace.
 

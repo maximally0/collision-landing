@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Its viral library + CRM combination is hard to replicate cheaply and trusted by 5,600+ X creators ($600K ARR, bootstrapped).
 
-Capabilities TweetHunter doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities TweetHunter doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best TweetHunter alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities TweetHunter doesn't cover.
 
 - **[Supergrow](/alternatives/supergrow)** — Voice-authentic AI (Content DNA + PostCast interviews), LinkedIn Verified Partner status, MCP support.
 - **[AdCreative.ai](/alternatives/adcreative-ai)** — Predictive conversion scoring of creatives before launch, trained on performance data

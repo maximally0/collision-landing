@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Category-defining funding and narrative could pull Collision's buyer toward whole-company AI platforms
 
-Capabilities Polsia doesn't cover that Collision does: SEO, LinkedIn growth, GEO, AI agents, Strategy, Advertising.
+Capabilities Polsia doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Polsia alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Polsia doesn't cover.
 
 - **[11x](/alternatives/11x)** — Named 'digital workers' (Alice/Julian/Jordan) sold as employees replacing roles, not tools augmenting them
 - **[Artisan](/alternatives/artisan)** — 'AI employees' positioning with autonomy levels (Level 2 sends outreach unassisted); 'Stop Hiring Humans' brand

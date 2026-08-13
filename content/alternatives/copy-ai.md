@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Copy.ai's autonomous prospecting/outbound workflows and 15M+ users are direct competition for Collision's outbound pillar (assessment)
 
-Capabilities Copy.ai doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Copy.ai doesn't cover that Collision does: GEO, Sales, Advertising, AEO, AI agents, Email.
 
 ## The best Copy.ai alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Copy.ai doesn't cover.
 
 - **[The AI CMO](/alternatives/the-ai-cmo)** — Append-only audit ledger, structural suppression and dedicated warehouse = enterprise trust in an agentic marketing OS
 - **[Adobe GenStudio](/alternatives/adobe-genstudio)** — Creative-production scale + brand governance + Adobe ecosystem (CDP, AEM, Workfront) — not autonomous strategy

@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 As the underlying sending layer (like Instantly, already in DB), Smartlead is cheap, hard to replace and agency-endorsed; no built-in lead database.
 
-Capabilities Smartlead doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Smartlead doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Smartlead alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Smartlead doesn't cover.
 
 - **[AiSDR](/alternatives/aisdr)** — Pure-play AI SDR (YC-backed) with strong booked-meeting performance claims and HubSpot-native workflow.
 - **[Instantly](/alternatives/instantly)** — Owns cold-email deliverability infrastructure (unlimited accounts + warmup) and now ships AI SDR agents.

@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Surfer has deep SERP/AI-overview data, enterprise credibility and mature integrations built over 8 years.
 
-Capabilities Surfer (Positive) doesn't cover that Collision does: LinkedIn growth, GEO, Email, AI agents, Strategy, Advertising.
+Capabilities Surfer (Positive) doesn't cover that Collision does: GEO, Sales, Advertising, AI agents, Outbound, Email.
 
 ## The best Surfer (Positive) alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Surfer (Positive) doesn't cover.
 
 - **[Outrank](/alternatives/outrank)** — Full SEO loop (research-write-publish) as one autopilot agent.
 - **[SEO.AI](/alternatives/seo-ai)** — Automated link building via proprietary exchange network plus hands-off publishing.

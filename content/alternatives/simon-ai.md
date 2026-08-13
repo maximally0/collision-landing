@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Simon AI has deep CDP data infrastructure, enterprise logos and $123M funding; strong when Collision moves upmarket (assessment)
 
-Capabilities Simon AI doesn't cover that Collision does: SEO, LinkedIn growth, GEO, AI agents, Strategy, Advertising.
+Capabilities Simon AI doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Simon AI alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Simon AI doesn't cover.
 
 - **[Adobe GenStudio](/alternatives/adobe-genstudio)** — Creative-production scale + brand governance + Adobe ecosystem (CDP, AEM, Workfront) — not autonomous strategy
 - **[Hyper AI](/alternatives/hyper-ai)** — Prebuilt expert agents (not DIY automations) with deep ad-platform API execution and multi-client agency mode

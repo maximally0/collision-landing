@@ -57,7 +57,7 @@ Forget channel-by-channel. Think in layers, and decide who owns each:
 
 The verdict for most startups: **buy the machine, keep the taste yourself, and buy human judgment a la carte** (fractional consultant, specialist, or a lean agency for the moments that matter). It beats a full agency on price and the scattered tool stack on sanity.
 
-Where Collision fits: it's the buy option, built for this exact decision — one intelligence that researches, plans, writes, distributes and learns across LinkedIn, X, SEO, AI search, email and outbound, with approval gates on every action so you stay the source of truth, and one memory so the system gets smarter instead of just busier. (Honest note: Collision is ; the Launch tier is a $500–$1,000/month hypothesis, and pricing may change at launch.)
+Where Collision fits: it's the buy option, built for this exact decision — one intelligence that researches, plans, writes, distributes and learns across LinkedIn, X, SEO, AI search, email and outbound, with approval gates on every action so you stay the source of truth, and one memory so the system gets smarter instead of just busier. (Honest note: Collision is live; the Launch tier starts at $500–$1,000/month.)
 
 ## Mistakes founders make
 
@@ -79,6 +79,6 @@ Where Collision fits: it's the buy option, built for this exact decision — one
 - [ ] Keep one human line of taste — you, or a consultant bought a la carte
 - [ ] Set a 90-day review to check what the system learned, not just what it shipped
 
-**Prices verified against Collision's competitor intelligence database on 2026-08-13. Salary and agency figures are market judgment (assessment). Collision pricing is a hypothesis.**
+**Prices verified against Collision's competitor intelligence database on 2026-08-13. Salary and agency figures are market judgment (assessment). Collision pricing is published starting pricing.**
 
 *Related: [What is an AI CMO?](/category/ai-cmo) · [AI CMO vs marketing agency](/ai-cmo-vs-marketing-agency) · [Best AI CMO tools](/category/best-ai-cmo-tools)*

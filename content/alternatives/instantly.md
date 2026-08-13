@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Instantly is the category leader in cold-email deliverability with a deep, proven outbound stack and AI agents.
 
-Capabilities Instantly doesn't cover that Collision does: SEO, LinkedIn growth, GEO, AI agents, Strategy, Advertising.
+Capabilities Instantly doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Instantly alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Instantly doesn't cover.
 
 - **[AiSDR](/alternatives/aisdr)** — Pure-play AI SDR (YC-backed) with strong booked-meeting performance claims and HubSpot-native workflow.
 - **[Regie.ai](/alternatives/regie-ai)** — World's first AI-native sales engagement platform with patented agentic AI and 300% YoY ARR growth.

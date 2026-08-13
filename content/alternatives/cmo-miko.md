@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 CMO Miko's simplicity and free-tools funnel could win price-sensitive indie hackers first; Collision must prove depth against the AGI-CMO narrative
 
-Capabilities CMO Miko doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities CMO Miko doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best CMO Miko alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities CMO Miko doesn't cover.
 
 - **[AI CMO (tryaicmo.com)](/alternatives/ai-cmo-tryaicmo-com)** — Combines social listening with AI content distribution at SMB prices ($99 vs $79+/tool for Brand24 alone)
 - **[Okara](/alternatives/okara)** — GEO-first positioning with Reddit/HN community agents; free tier; 100k+ user base

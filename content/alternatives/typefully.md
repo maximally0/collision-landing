@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Typefully is beloved, affordable and sticky for solo creators; its platform-native formatting and social blog are hard to match.
 
-Capabilities Typefully doesn't cover that Collision does: SEO, GEO, Email, AI agents, Strategy, Advertising.
+Capabilities Typefully doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Typefully alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Typefully doesn't cover.
 
 - **[Buffer](/alternatives/buffer)** — Per-channel pricing and a genuinely free AI tier make it the default low-cost AI social tool for startups.
 - **[FeedHive](/alternatives/feedhive)** — Workflow/condition-based automation plus AI agents inside a social scheduler.

@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Sequoia-backed, Gartner-listed, with proprietary prompt-volume data and enterprise trust (SOC2/HIPAA) Collision lacks.
 
-Capabilities Profound doesn't cover that Collision does: LinkedIn growth, Email, AI agents, Strategy, Advertising, Automation.
+Capabilities Profound doesn't cover that Collision does: Sales, Advertising, AI agents, Outbound, Email, Social media.
 
 ## The best Profound alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Profound doesn't cover.
 
 - **[Otterly.ai](/alternatives/otterly-ai)** — Dedicated multi-LLM monitoring with prompt-level feedback, Gartner Cool Vendor, G2 4.8.
 - **[AdCreative.ai](/alternatives/adcreative-ai)** — Predictive conversion scoring of creatives before launch, trained on performance data

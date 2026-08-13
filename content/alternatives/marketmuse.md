@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Intelligence/planning only - no generation agents, distribution or AEO/GEO; acquired by Siteimprove, slower standalone innovation
 
-Capabilities MarketMuse doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities MarketMuse doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best MarketMuse alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities MarketMuse doesn't cover.
 
 - **[StoryChief](/alternatives/storychief)** — Distribution-first content platform pairing AI with publishing automation to every channel
 - **[Typeface](/alternatives/typeface)** — $1B-valued brand-intelligence-first AI content platform with Salesforce/Google partnerships

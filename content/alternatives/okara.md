@@ -34,7 +34,7 @@ There is no outbound engine in Okara. No email, no SDR motion, no lead generatio
 
 | | Okara | Collision |
 |---|---|---|
-| Pricing | Free tier; $66/mo (2,000 credits) — verified Aug 2026 | Launch tier from $500/mo (pricing) |
+| Pricing | Free tier; $66/mo (2,000 credits) — verified Aug 2026 | Launch tier from $500/mo  |
 | Scope | SEO, GEO, Reddit, LinkedIn, X — drafting | Full growth loop: research → plan → write → distribute → learn |
 | Outbound / email / lead gen | Not offered | Core capability |
 | Personal branding | Community posts | Founder brand + LinkedIn growth as a system |

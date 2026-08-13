@@ -36,7 +36,7 @@ Collision differs where founders actually lose weeks:
 
 | | NoimosAI | Collision |
 |---|---|---|
-| Pricing | Pro $99/user/mo; Team $249; Advanced $499 (credit-based) — verified Aug 2026 | Launch tier from $500/mo (pricing) |
+| Pricing | Pro $99/user/mo; Team $249; Advanced $499 (credit-based) — verified Aug 2026 | Launch tier from $500/mo  |
 | HQ | Japan/USA | — |
 | Posture | Proactive 24/7 autonomy | Autonomous with approval gates on every action |
 | Integrations | X, FB, IG, TikTok, YouTube, GA, GSC, Slack | LinkedIn, X, SEO, AI search, email, outbound |

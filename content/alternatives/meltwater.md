@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Legacy enterprise suite; insights-focused not agentic execution; no content creation, pitching or ad automation; high price
 
-Capabilities Meltwater doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Meltwater doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Meltwater alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Meltwater doesn't cover.
 
 - **[Muck Rack](/alternatives/muck-rack)** — Largest verified journalist database plus agentic media-list workflow (10% avg pitch open/click lift in beta)
 - **[PRophet](/alternatives/prophet)** — Predictive (not just generative) AI for PR - forecasts journalist interest and sentiment pre-pitch

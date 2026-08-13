@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Narrow scope (journalist queries only); tiny early-stage vendor; no media database, coverage tracking or monitoring
 
-Capabilities PressPulse AI doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities PressPulse AI doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best PressPulse AI alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities PressPulse AI doesn't cover.
 
 - **[Meltwater](/alternatives/meltwater)** — Scale (27K orgs, 1.3B docs/day) plus AI features and an MCP connector bridging media intelligence into AI agents
 - **[Muck Rack](/alternatives/muck-rack)** — Largest verified journalist database plus agentic media-list workflow (10% avg pitch open/click lift in beta)

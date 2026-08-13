@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Dedicated 6-platform listening depth (sentiment, trends, influencers) Collision doesn't emphasize (assessment)
 
-Capabilities AI CMO (tryaicmo.com) doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities AI CMO (tryaicmo.com) doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best AI CMO (tryaicmo.com) alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities AI CMO (tryaicmo.com) doesn't cover.
 
 - **[Okara](/alternatives/okara)** — GEO-first positioning with Reddit/HN community agents; free tier; 100k+ user base
 - **[CMO Miko](/alternatives/cmo-miko)** — First 'AGI CMO' positioned explicitly for indie hackers/startups, built by a solo builder

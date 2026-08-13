@@ -38,7 +38,7 @@ Collision is built for that gap:
 
 | | The AI CMO | Collision |
 |---|---|---|
-| Pricing | From $299/mo; full platform on every plan — verified Aug 2026 | Launch tier from $500/mo (pricing) |
+| Pricing | From $299/mo; full platform on every plan — verified Aug 2026 | Launch tier from $500/mo  |
 | Core scope | Campaign execution: email, ads, SMS, push + SEO/link-building | Full growth loop: research → plan → write → distribute → learn |
 | Outbound / email / lead gen | Campaign sends; not a prospecting engine (assessment) | Core capability |
 | Personal branding / LinkedIn | Not the focus (assessment) | Founder brand + LinkedIn growth as a system |

@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Cheap agency automation lowers agencies' prices, squeezing the market Collision sells into
 
-Capabilities Dygentic doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Dygentic doesn't cover that Collision does: GEO, Sales, Advertising, AEO, AI agents, Outbound.
 
 ## The best Dygentic alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Dygentic doesn't cover.
 
 - **[HubSpot Breeze](/alternatives/hubspot-breeze)** — Agents run natively on existing CRM data and workflows, distributed to HubSpot's large SMB install base
 - **[Make](/alternatives/make)** — Visual-first UX plus Celonis enterprise muscle; strong marketing-team adoption

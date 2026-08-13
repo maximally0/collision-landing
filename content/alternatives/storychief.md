@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 No autonomous agents - AI assist and scheduling, not execution; shallow SEO depth vs MarketMuse; small team
 
-Capabilities StoryChief doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities StoryChief doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best StoryChief alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities StoryChief doesn't cover.
 
 - **[MarketMuse](/alternatives/marketmuse)** — Decade of NLP topical modeling for content intelligence (now inside Siteimprove)
 - **[Typeface](/alternatives/typeface)** — $1B-valued brand-intelligence-first AI content platform with Salesforce/Google partnerships

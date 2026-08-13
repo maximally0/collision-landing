@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 For startups wanting hands-off results, a proven AI-native agency is a direct alternative to DIY software
 
-Capabilities Mighty & True doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Mighty & True doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Mighty & True alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Mighty & True doesn't cover.
 
 - **[Tell if AI](/alternatives/tell-if-ai)** — Real-phone fleet makes activity indistinguishable from human creators; revenue share aligns incentives
 - **[11x](/alternatives/11x)** — Named 'digital workers' (Alice/Julian/Jordan) sold as employees replacing roles, not tools augmenting them

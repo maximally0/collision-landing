@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Purpose-built AI SEO agent with fast setup and a strong autopilot story for the SEO-only buyer.
 
-Capabilities Outrank doesn't cover that Collision does: LinkedIn growth, GEO, Email, AI agents, Strategy, Advertising.
+Capabilities Outrank doesn't cover that Collision does: GEO, Sales, Advertising, AEO, AI agents, Outbound.
 
 ## The best Outrank alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Outrank doesn't cover.
 
 - **[SEO.AI](/alternatives/seo-ai)** — Automated link building via proprietary exchange network plus hands-off publishing.
 - **[Surfer (Positive)](/alternatives/surfer-positive)** — Mature SEO data engine rebranded around AI-search visibility across engines.

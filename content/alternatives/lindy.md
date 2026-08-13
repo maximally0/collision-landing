@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Well-funded, easy no-code UX, large template library spanning every function.
 
-Capabilities Lindy doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Lindy doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Lindy alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Lindy doesn't cover.
 
 - **[Salesforce Agentforce](/alternatives/salesforce-agentforce)** — Agents natively grounded in the world's largest CRM data estate plus Data Cloud; enterprise trust and distribution
 - **[Gumloop](/alternatives/gumloop)** — No-code agent builder for non-developers with enterprise security; Shopify is customer+investor (20M automated actions)

@@ -25,8 +25,8 @@ description: Jasper brings scale, GEO tooling and brand governance. Collision br
 | Outbound / lead gen / SDR | Not core | Core surfaces |
 | Personal branding / LinkedIn growth | Social and PR assets, not growth execution | Core surfaces |
 | Distribution (LinkedIn, X) | Campaign assets | Built-in execution |
-| Scale and backing | $131M raised; enterprise brand | Pre-launch; founder-priced |
-| Pricing | Tiered subscription (Creator/Pro/Business), free trial | $500–15,000/mo ( hypothesis) |
+| Scale and backing | $131M raised; enterprise brand | Bootstrapped; founder-priced |
+| Pricing | Tiered subscription (Creator/Pro/Business), free trial | $500–15,000/mo  |
 
 ## Where Jasper genuinely wins
 
@@ -48,7 +48,7 @@ description: Jasper brings scale, GEO tooling and brand governance. Collision br
 
 ## Pricing reality
 
-Jasper runs tiered subscriptions (Creator/Pro/Business) with a free trial; exact prices shift with promos, so check the site. Collision's hypothesis: Launch $500–1,000/mo, Growth $2,000–6,000/mo, Scale $8,000–15,000/mo. Pricing verified Aug 2026.
+Jasper runs tiered subscriptions (Creator/Pro/Business) with a free trial; exact prices shift with promos, so check the site. Collision's pricing: Launch $500–1,000/mo, Growth $2,000–6,000/mo, Scale $8,000–15,000/mo. Pricing verified Aug 2026.
 
 ## How to decide in 5 minutes
 

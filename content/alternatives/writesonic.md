@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Small team/revenue (~$1.5M); GEO category still nascent; competitors (Profound, Meridian) challenging execution depth; no PR/ads/social stack
 
-Capabilities Writesonic doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Writesonic doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Writesonic alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Writesonic doesn't cover.
 
 - **[MarketMuse](/alternatives/marketmuse)** — Decade of NLP topical modeling for content intelligence (now inside Siteimprove)
 - **[StoryChief](/alternatives/storychief)** — Distribution-first content platform pairing AI with publishing automation to every channel

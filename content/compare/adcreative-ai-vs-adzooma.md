@@ -28,7 +28,7 @@ verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
 
 ## What AdCreative.ai does
 
-Banner/video ad generation; AI copy; conversion score prediction; brand kit training; 20+ platform formats; creative refresh suggestions
+Banner/video ad generation; AI copy; pre-launch conversion score prediction; brand kit training; 20+ platform formats; creative refresh suggestions
 
 ## What Adzooma does
 

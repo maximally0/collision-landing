@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Deep enterprise AI-SDR capability ($50.8M raised) sets the bar for outbound automation quality Collision is measured against.
 
-Capabilities Regie.ai doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Regie.ai doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Regie.ai alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Regie.ai doesn't cover.
 
 - **[AiSDR](/alternatives/aisdr)** — Pure-play AI SDR (YC-backed) with strong booked-meeting performance claims and HubSpot-native workflow.
 - **[Instantly](/alternatives/instantly)** — Owns cold-email deliverability infrastructure (unlimited accounts + warmup) and now ships AI SDR agents.

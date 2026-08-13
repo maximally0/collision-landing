@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 PR-vertical only; no content, SEO or ad execution; opaque enterprise-leaning pricing; pitching still human-in-the-loop
 
-Capabilities Muck Rack doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Muck Rack doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Muck Rack alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Muck Rack doesn't cover.
 
 - **[Meltwater](/alternatives/meltwater)** — Scale (27K orgs, 1.3B docs/day) plus AI features and an MCP connector bridging media intelligence into AI agents
 - **[PRophet](/alternatives/prophet)** — Predictive (not just generative) AI for PR - forecasts journalist interest and sentiment pre-pitch

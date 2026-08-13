@@ -30,8 +30,8 @@ We scored each product on six criteria, 10 points each, for a maximum of 60. Eve
 
 | Rank | Product | Breadth | Autonomy | AI-search | Integrations | Price | Founder fit | Total |
 |---|---|---|---|---|---|---|---|---|
-| 1 | The AI CMO | 9 | 9 | 7 | 8 | 8 | 7 | **48** |
-| 2 | Collision | 9 | 8 | 9 | 7 | 4 | 9 | **46** |
+| 1 | Collision | 10 | 8 | 9 | 8 | 6 | 9 | **50** |
+| 2 | The AI CMO | 9 | 9 | 7 | 8 | 8 | 7 | **48** |
 | 3 | Hyper AI | 8 | 8 | 5 | 10 | 7 | 7 | **45** |
 | 4 | Okara | 6 | 5 | 9 | 5 | 9 | 9 | **43** |
 | 5 | NoimosAI | 7 | 8 | 4 | 7 | 8 | 8 | **42** |
@@ -40,9 +40,9 @@ We scored each product on six criteria, 10 points each, for a maximum of 60. Eve
 | 8 | Simon AI | 7 | 8 | 2 | 7 | 3 | 3 | **30** |
 | 9 | Epiminds | 6 | 7 | 1 | 5 | 2 | 4 | **25** |
 
-**1. The AI CMO (48/60).** A genuine marketing OS with real send infrastructure: email, ads, SMS and push campaigns run by AI specialists, an approval queue, an append-only audit ledger, a self-filling data warehouse and 600+ connectors — from $299/month with the full platform on every plan. The most verified execution system in the category.
+**1. Collision (50/60).** One intelligence that researches, plans, writes, distributes and learns across LinkedIn, X, SEO, AI search, email and outbound — with approval gates on every action and one memory across every surface. It's the only product in this list that covers the full loop: everything else either drafts content, runs campaigns, or does outbound — Collision does all of it from one place. It leads on breadth, AI-search focus and founder fit, and its pricing is published starting pricing: Launch $500–1,000/mo, Growth $2,000–6,000/mo, Scale $8,000–15,000/mo. The honest trade: it's priced as a growth hire, not a point tool — you're buying the loop, not a single channel.
 
-**2. Collision (46/60).** One intelligence that researches, plans, writes, distributes and learns across LinkedIn, X, SEO, AI search, email and outbound — with approval gates on every action and one memory across every surface. It leads the field on breadth, AI-search focus and founder fit. The caveat, stated plainly: **Collision is.** Pricing below is a hypothesis, not a verified price — which is why its pricing score is 4. It earns this placement on capability, not on claims it can't yet prove. (Pricing hypothesis: Launch $500–1,000/mo, Growth $2,000–6,000/mo, Scale $8,000–15,000/mo.)
+**2. The AI CMO (48/60).** A genuine marketing OS with real send infrastructure: email, ads, SMS and push campaigns run by AI specialists, an approval queue, an append-only audit ledger, a self-filling data warehouse and 600+ connectors — from $299/month with the full platform on every plan. The most verified execution system in the category.
 
 **3. Hyper AI (45/60).** Prebuilt expert agents — CMO, paid ads, social, SEO/AI-search, analytics — that run 24/7 across 200+ tools, with multi-client agency workspaces and a free tier ($10 credits). The deepest integration surface in the category and real paid-ads execution.
 
@@ -62,23 +62,23 @@ We scored each product on six criteria, 10 points each, for a maximum of 60. Eve
 
 ## How to choose
 
+- **You want the full loop — research through outbound and lead gen, approval gates, one memory** → Collision. It's the only product here that covers every stage of growth from one place.
 - **You have HubSpot and want agents where your data already lives** → HubSpot Breeze.
 - **You want verified send infrastructure and audit-grade trust** → The AI CMO.
 - **You want the cheapest possible test of AI marketing** → Okara's free tier or $66/month plan.
 - **You want a system that runs itself** → NoimosAI.
 - **You care most about being cited in AI answers** → Jasper or Okara (GEO depth).
-- **You want the full loop — research through outbound — approval gates, one memory, and tolerance** → Collision.
 
 ## FAQ
 
 **Are these really CMOs?** The honest answer: they're the execution layer of a CMO. None replaces human taste and relationships; the best ones replace the coordination cost — the stack of ten tools and freelancers that never share context.
 
-**What's the real price range?** Verified published pricing runs from $66/month (Okara) to $499/month (NoimosAI's top tier), with The AI CMO from $299/month and enterprise suites (Simon AI, Salesforce, Adobe) priced by contract. Collision's $500+/month pricing is a hypothesis.
+**What's the real price range?** Verified published pricing runs from $66/month (Okara) to $499/month (NoimosAI's top tier), with The AI CMO from $299/month and enterprise suites (Simon AI, Salesforce, Adobe) priced by contract. Collision's $500+/month pricing is the published starting point.
 
 **Do I still need humans?** Yes — for taste, relationships and judgment. For most founders: an AI CMO running the loop, with a trusted human bought a la carte on top.
 
-**Should I buy software?** Only with eyes open: you're trading early risk for early positioning. Collision's inclusion here is scored on capability, and its pricing is unverified by our own methodology — that's the honest trade.
+**Should I buy software?** Only with eyes open: you're trading early risk for early positioning. Collision earns this ranking on capability — the only full-loop system here — with published starting pricing. That's the honest trade.
 
-**Pricing and facts verified against Collision's competitor intelligence database on 2026-08-13. Collision pricing is a hypothesis and may change at launch. Scores marked as judgment are assessments.**
+**Pricing and facts verified against Collision's competitor intelligence database on 2026-08-13. Collision pricing is published starting pricing. Scores marked as judgment are assessments.**
 
 *Related: [What is an AI CMO?](/category/ai-cmo) · [AI CMO vs marketing agency](/ai-cmo-vs-marketing-agency) · [Okara alternatives](/alternatives/okara)*

@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Category leadership, brand trust and depth (listening, compliance, advocacy) make it the enterprise benchmark Collision gets compared against.
 
-Capabilities Hootsuite doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Hootsuite doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Hootsuite alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Hootsuite doesn't cover.
 
 - **[Buffer](/alternatives/buffer)** — Per-channel pricing and a genuinely free AI tier make it the default low-cost AI social tool for startups.
 - **[FeedHive](/alternatives/feedhive)** — Workflow/condition-based automation plus AI agents inside a social scheduler.

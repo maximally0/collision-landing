@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Lately is enterprise-branded, expensive and aimed at marketing departments, not founder-led growth - weaker fit for Collision's core buyer.
 
-Capabilities Lately doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Lately doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Lately alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Lately doesn't cover.
 
 - **[Buffer](/alternatives/buffer)** — Per-channel pricing and a genuinely free AI tier make it the default low-cost AI social tool for startups.
 - **[FeedHive](/alternatives/feedhive)** — Workflow/condition-based automation plus AI agents inside a social scheduler.

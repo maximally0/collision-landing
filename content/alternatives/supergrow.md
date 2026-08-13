@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Supergrow is LinkedIn-native with team/agency governance and cheap entry ($19/mo); strong fit for founders and ghostwriters Collision also targets.
 
-Capabilities Supergrow doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Supergrow doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Supergrow alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Supergrow doesn't cover.
 
 - **[TweetHunter](/alternatives/tweethunter)** — Unique 2M+ viral tweet library and built-in CRM - treats X as a lead-gen channel, not just a publishing queue.
 - **[AdCreative.ai](/alternatives/adcreative-ai)** — Predictive conversion scoring of creatives before launch, trained on performance data

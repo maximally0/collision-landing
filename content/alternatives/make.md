@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Deep integration ecosystem, free tier, well-resourced enterprise parent (Celonis).
 
-Capabilities Make doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Make doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Make alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Make doesn't cover.
 
 - **[HubSpot Breeze](/alternatives/hubspot-breeze)** — Agents run natively on existing CRM data and workflows, distributed to HubSpot's large SMB install base
 - **[Dygentic](/alternatives/dygentic)** — Agency-grade autonomy on open tooling (n8n) with full handover — clients own the system

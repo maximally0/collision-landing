@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Physical phone-fleet approach and creator-grade content could outperform software-only social growth; revenue share lowers client risk (assessment)
 
-Capabilities Tell if AI doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Tell if AI doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Tell if AI alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Tell if AI doesn't cover.
 
 - **[Mighty & True](/alternatives/mighty-true)** — Autonomous systems run on their own business first (their SEO page is optimized by an agent loop), with named, documente
 - **[Adobe GenStudio](/alternatives/adobe-genstudio)** — Creative-production scale + brand governance + Adobe ecosystem (CDP, AEM, Workfront) — not autonomous strategy

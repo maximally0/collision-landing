@@ -33,9 +33,11 @@ _Pricing verified 2026-08-14._
 
 Its voice-clone demo videos and build-in-public angle are sticky for the devtools founders Collision targets
 
-Capabilities Memoir doesn't cover that Collision does: SEO, LinkedIn growth, GEO, Email, AI agents, Strategy.
+Capabilities Memoir doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
 
 ## The best Memoir alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Memoir doesn't cover.
 
 - **[MarketMuse](/alternatives/marketmuse)** — Decade of NLP topical modeling for content intelligence (now inside Siteimprove)
 - **[StoryChief](/alternatives/storychief)** — Distribution-first content platform pairing AI with publishing automation to every channel
