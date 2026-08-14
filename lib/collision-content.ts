@@ -47,7 +47,7 @@ export const growthActivities: GrowthActivity[] = [
 export const ownershipRows: OwnershipRow[] = [
   { category: "Reach", title: "LinkedIn / X / SEO / AI Search", subtext: "(ChatGPT, Perplexity, Google AI Overviews, Gemini)", description: "Build demand where people are already looking.", accent: "blue" },
   { category: "Content", title: "Blogs / Newsletters / Landing Pages / Website Copy / Product Launches", description: "Turn your point of view into a system people remember.", accent: "coral" },
-  { category: "Revenue", title: "Gmail / Email Campaigns / Outbound / Storefront + Store Growth / Community Distribution", description: "Create the motion that turns attention into conversations.", accent: "mint" },
+  { category: "Revenue", title: "Gmail / Email Campaigns / Outbound / Paid Media / Storefront + Store Growth / Community Distribution", description: "Create the motion that turns attention into conversations.", accent: "mint" },
   { category: "Intelligence", title: "Competitor Research / Positioning / Messaging / Analytics / Growth Strategy / Growth Experiments", description: "Learn what works, then make the next decision better.", accent: "yellow" },
 ];
 
@@ -87,7 +87,7 @@ export const faqItems: FaqItem[] = [
   {
     question: "What can Collision own?",
     answer:
-      "Reach (LinkedIn, X, SEO, and AI search like ChatGPT, Perplexity, Google AI Overviews, and Gemini), content (blogs, newsletters, landing pages, website copy, product launches), revenue (Gmail, email campaigns, outbound, storefront growth, community distribution), and intelligence (competitor research, positioning, messaging, analytics, growth strategy and experiments).",
+      "Reach (LinkedIn, X, SEO, and AI search like ChatGPT, Perplexity, Google AI Overviews, and Gemini), content (blogs, newsletters, landing pages, website copy, product launches), revenue (Gmail, email campaigns, outbound, paid media, storefront growth, community distribution), and intelligence (competitor research, positioning, messaging, analytics, growth strategy and experiments).",
   },
   {
     question: "How do I work with Collision?",
