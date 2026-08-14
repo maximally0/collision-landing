@@ -20,8 +20,7 @@ import {
 import { cn } from "@/lib/utils";
 import { useRef } from "react";
 
-const heroVideo = "https://videos.pexels.com/video-files/14017302/14017302-sd_960_540_30fps.mp4";
-const heroPoster = "https://images.pexels.com/videos/14017302/pexels-photo-14017302.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200";
+const heroVideo = "https://www.youtube-nocookie.com/embed/ztVV54sPOns?autoplay=1&mute=1&controls=0&disablekb=1&fs=0&iv_load_policy=3&loop=1&modestbranding=1&playlist=ztVV54sPOns&playsinline=1&rel=0&start=330&end=390";
 
 const accentText: Record<Accent, string> = {
   blue: "text-electric",
@@ -231,7 +230,15 @@ function HeroSection() {
 
   return (
     <section id="top" aria-labelledby="hero-title" className="relative isolate flex min-h-[100svh] items-center overflow-hidden bg-[#77d8ef] sm:min-h-[760px]">
-      <video aria-label="Misty mountain landscape" autoPlay className="absolute inset-0 h-full w-full object-cover transition-opacity duration-1000" loop muted playsInline poster={heroPoster} preload="metadata" src={heroVideo} />
+      <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
+        <iframe
+          className="pointer-events-none absolute left-1/2 top-1/2 h-[56.25vw] min-h-full w-[177.78vh] min-w-full -translate-x-1/2 -translate-y-1/2"
+          src={heroVideo}
+          title="Space ambient travel background"
+          allow="autoplay; encrypted-media"
+          tabIndex={-1}
+        />
+      </div>
       <div className="absolute inset-0 bg-[#57cce9]/45 mix-blend-color" aria-hidden="true" />
       <div className="absolute inset-0 bg-[#12335a]/38" aria-hidden="true" />
       <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-[#0c2749]/75 via-[#144b6c]/24 to-transparent" aria-hidden="true" />
