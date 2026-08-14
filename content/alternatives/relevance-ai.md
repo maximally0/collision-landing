@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Enterprise traction (Canva, KPMG, Databricks), $37M funding, deep template breadth.
 
-Capabilities Relevance AI doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Relevance AI doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Relevance AI alternatives
 

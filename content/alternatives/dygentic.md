@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Cheap agency automation lowers agencies' prices, squeezing the market Collision sells into
 
-Capabilities Dygentic doesn't cover that Collision does: GEO, Sales, Advertising, AEO, AI agents, Outbound.
+Capabilities Dygentic doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Dygentic alternatives
 

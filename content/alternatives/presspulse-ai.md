@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Narrow scope (journalist queries only); tiny early-stage vendor; no media database, coverage tracking or monitoring
 
-Capabilities PressPulse AI doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities PressPulse AI doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best PressPulse AI alternatives
 

@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Simon AI has deep CDP data infrastructure, enterprise logos and $123M funding; strong when Collision moves upmarket (assessment)
 
-Capabilities Simon AI doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Simon AI doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Simon AI alternatives
 

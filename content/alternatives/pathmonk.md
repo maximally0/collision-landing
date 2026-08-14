@@ -33,18 +33,18 @@ _Pricing verified 2026-08-14._
 
 Agentic analytics and MCP integration with AI clients is an emerging differentiator Collision may not offer.
 
-Capabilities Pathmonk doesn't cover that Collision does: Content, Sales, Advertising, AEO, AI agents, Outbound.
+Capabilities Pathmonk doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Pathmonk alternatives
 
 - **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Pathmonk doesn't cover.
 
+- **[Peec AI](/alternatives/peec-ai)** — Proprietary data pipeline mapping source influence/visibility/sentiment across AI engines in real time; first GEO vendor
+- **[Simaia](/alternatives/simaia)** — Do-it-for-you GEO team with lead hand-off - operates as both strategist and executor for APAC B2B
 - **[AdCreative.ai](/alternatives/adcreative-ai)** — Predictive conversion scoring of creatives before launch, trained on performance data
 - **[Adzooma](/alternatives/adzooma)** — Free AI PPC optimization across three ad networks with two-click implementation
 - **[AiSDR](/alternatives/aisdr)** — Pure-play AI SDR (YC-backed) with strong booked-meeting performance claims and HubSpot-native workflow.
 - **[Apollo.io](/alternatives/apollo-io)** — Free-tier data + engagement + AI in one stack; 600K+ companies and a replace-five-tools pitch.
-- **[AuthoredUp](/alternatives/authoredup)** — Polished writing + analytics workflow marketed as the #1 LinkedIn content tool (Chrome Web Store).
-- **[Buffer](/alternatives/buffer)** — Per-channel pricing and a genuinely free AI tier make it the default low-cost AI social tool for startups.
 
 ## Collision as a Pathmonk alternative
 

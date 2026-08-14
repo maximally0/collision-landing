@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Category leadership, brand trust and depth (listening, compliance, advocacy) make it the enterprise benchmark Collision gets compared against.
 
-Capabilities Hootsuite doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Hootsuite doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Hootsuite alternatives
 

@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 AiSDR is a proven, funded AI SDR with real booked-meeting results and fast 3-click campaign setup.
 
-Capabilities AiSDR doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities AiSDR doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best AiSDR alternatives
 

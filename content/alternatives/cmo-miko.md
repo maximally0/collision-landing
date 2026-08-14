@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 CMO Miko's simplicity and free-tools funnel could win price-sensitive indie hackers first; Collision must prove depth against the AGI-CMO narrative
 
-Capabilities CMO Miko doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities CMO Miko doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best CMO Miko alternatives
 
@@ -41,10 +41,10 @@ Capabilities CMO Miko doesn't cover that Collision does: GEO, Content, Sales, Ad
 
 - **[AI CMO (tryaicmo.com)](/alternatives/ai-cmo-tryaicmo-com)** — Combines social listening with AI content distribution at SMB prices ($99 vs $79+/tool for Brand24 alone)
 - **[Okara](/alternatives/okara)** — GEO-first positioning with Reddit/HN community agents; free tier; 100k+ user base
+- **[Sparqo AI](/alternatives/sparqo-ai)** — CMO agent that finds your growth constraint and delegates across channels with shared context - one brain across Reddit/
 - **[Brew](/alternatives/brew)** — Agent-native ESP (docs for OpenClaw/Claude/Lovable) with production-grade email rendering and no lock-in
 - **[CharacterQuilt](/alternatives/characterquilt)** — Operates your existing stack instead of replacing it — 'sells the plumbing, not the chatbox'
 - **[Epiminds](/alternatives/epiminds)** — Multi-agent 'marketing OS' orchestration — literally an AI marketing department in a box
-- **[InstaAgent](/alternatives/instaagent)** — Hundreds of distinct audiences with distinct content from one brief — the anti-generic ad engine
 
 ## Collision as a CMO Miko alternative
 

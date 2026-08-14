@@ -32,6 +32,12 @@ Collision is built for founders and growth teams who want one conversation, one 
 - [Homepage](https://www.usecollision.com/): Product overview, what Collision owns, how it works, and proof of results.
 - [Blog](https://www.usecollision.com/blog): Articles on growth, AI search/AEO, and running growth as one system.
 - [Contact](https://www.usecollision.com/contact): Get in touch with Collision Labs.
+- [Alternatives](https://www.usecollision.com/alternatives): 77 data-verified competitor alternatives pages — what each product does well, what it costs, where it stops, and who it's for.
+- [Compare](https://www.usecollision.com/compare): Collision vs the market plus competitor-vs-competitor comparisons, capability tables, pricing.
+- [Guides](https://www.usecollision.com/category): Category pillars — AI CMO, GEO, AEO, AI SEO agents, AI marketing for startups, best-of rankings with disclosed methodology.
+- [Glossary](https://www.usecollision.com/glossary): The category defined — 30 entries, no jargon.
+- [AI Marketing Pricing Index](https://www.usecollision.com/tools/ai-marketing-pricing-index): Every AI marketing company's published pricing in one table, verified from primary sources.
+- [Integrations](https://www.usecollision.com/integrations): How Collision connects to the tools founders already use.
 
 ## Blog posts
 

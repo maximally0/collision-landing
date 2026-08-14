@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Massive community/momentum, $5.2B valuation, enterprise distribution via SAP.
 
-Capabilities n8n doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities n8n doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best n8n alternatives
 

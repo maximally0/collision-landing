@@ -20,6 +20,10 @@ function sectionHref(section: Section): string {
       return "/category";
     case "glossary":
       return "/glossary";
+    case "tools":
+      return "/tools";
+    case "integrations":
+      return "/integrations";
   }
 }
 

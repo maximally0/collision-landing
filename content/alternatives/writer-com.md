@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Enterprise platform requiring IT/security-led deployment; no SEO, PR, ads or outbound execution; heavy setup and cost for startups
 
-Capabilities Writer.com doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Writer.com doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Writer.com alternatives
 

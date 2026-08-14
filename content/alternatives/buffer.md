@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Buffer's brand and price ($0-12/mo) make it a reflexive default for founders; its API explicitly invites agent workflows, commoditizing distribution.
 
-Capabilities Buffer doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Buffer doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Buffer alternatives
 

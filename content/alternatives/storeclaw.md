@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 If StoreClaw expands from stores to brands generally, its agent loop becomes a direct competitor
 
-Capabilities StoreClaw doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities StoreClaw doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best StoreClaw alternatives
 

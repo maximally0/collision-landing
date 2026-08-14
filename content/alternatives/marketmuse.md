@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Intelligence/planning only - no generation agents, distribution or AEO/GEO; acquired by Siteimprove, slower standalone innovation
 
-Capabilities MarketMuse doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities MarketMuse doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best MarketMuse alternatives
 

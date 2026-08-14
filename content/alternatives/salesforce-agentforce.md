@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Salesforce's data moat, Fortune 100 reach and agent ecosystem massively outscale Collision's execution surface (assessment)
 
-Capabilities Salesforce Agentforce doesn't cover that Collision does: GEO, Content, Advertising, AEO, AI agents, Outbound.
+Capabilities Salesforce Agentforce doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Salesforce Agentforce alternatives
 

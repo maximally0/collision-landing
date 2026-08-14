@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Fresh 2025 Product Hunt launch riding the 'AI marketing teammate' narrative; credits model lowers the barrier to trial.
 
-Capabilities Toffu AI doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Toffu AI doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Toffu AI alternatives
 

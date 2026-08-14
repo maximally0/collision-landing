@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 No autonomous agents - AI assist and scheduling, not execution; shallow SEO depth vs MarketMuse; small team
 
-Capabilities StoryChief doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities StoryChief doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best StoryChief alternatives
 

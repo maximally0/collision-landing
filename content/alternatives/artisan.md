@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Viral brand, HubSpot/Sequoia backing, formal autonomy framework ahead of most rivals.
 
-Capabilities Artisan doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Artisan doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Artisan alternatives
 

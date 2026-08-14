@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Huge brand awareness, deep pockets, general-task autonomy improving quickly.
 
-Capabilities Manus doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Manus doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Manus alternatives
 

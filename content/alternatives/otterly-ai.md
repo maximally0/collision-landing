@@ -33,18 +33,18 @@ _Pricing verified 2026-08-14._
 
 Dedicated AEO tool with the deepest multi-engine monitoring and a large marketing-pro user base.
 
-Capabilities Otterly.ai doesn't cover that Collision does: Content, Sales, Advertising, AI agents, Outbound, Email.
+Capabilities Otterly.ai doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Otterly.ai alternatives
 
 - **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Otterly.ai doesn't cover.
 
 - **[Profound](/alternatives/profound)** — Best-funded AEO platform (Sequoia-led) with proprietary prompt-volume data and autonomous marketing agents.
+- **[Bluefish](/alternatives/bluefish)** — Enterprise agentic marketing platform for brand portrayal and influence in AI answers - not a monitoring dashboard; Sale
 - **[AdCreative.ai](/alternatives/adcreative-ai)** — Predictive conversion scoring of creatives before launch, trained on performance data
 - **[Adzooma](/alternatives/adzooma)** — Free AI PPC optimization across three ad networks with two-click implementation
 - **[AiSDR](/alternatives/aisdr)** — Pure-play AI SDR (YC-backed) with strong booked-meeting performance claims and HubSpot-native workflow.
 - **[Apollo.io](/alternatives/apollo-io)** — Free-tier data + engagement + AI in one stack; 600K+ companies and a replace-five-tools pitch.
-- **[AuthoredUp](/alternatives/authoredup)** — Polished writing + analytics workflow marketed as the #1 LinkedIn content tool (Chrome Web Store).
 
 ## Collision as a Otterly.ai alternative
 

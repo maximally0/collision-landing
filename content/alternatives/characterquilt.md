@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 If it moves downmarket to startups, its deploy-into-your-stack loop undercuts Collision's managed execution
 
-Capabilities CharacterQuilt doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities CharacterQuilt doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best CharacterQuilt alternatives
 

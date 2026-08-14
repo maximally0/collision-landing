@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Enterprise price and onboarding; content-orchestration focus with no SEO, PR or growth execution; not self-serve
 
-Capabilities Typeface doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Typeface doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Typeface alternatives
 

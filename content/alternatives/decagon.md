@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Massive capital, enterprise logos, proven agent reliability at scale.
 
-Capabilities Decagon doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Decagon doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Decagon alternatives
 

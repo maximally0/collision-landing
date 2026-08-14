@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Well-funded, easy no-code UX, large template library spanning every function.
 
-Capabilities Lindy doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Lindy doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Lindy alternatives
 

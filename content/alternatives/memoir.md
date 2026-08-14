@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Its voice-clone demo videos and build-in-public angle are sticky for the devtools founders Collision targets
 
-Capabilities Memoir doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Memoir doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Memoir alternatives
 

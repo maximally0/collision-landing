@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 As the underlying sending layer (like Instantly, already in DB), Smartlead is cheap, hard to replace and agency-endorsed; no built-in lead database.
 
-Capabilities Smartlead doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Smartlead doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Smartlead alternatives
 

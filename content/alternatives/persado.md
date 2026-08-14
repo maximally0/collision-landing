@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Persado's motivation-model performance data (1M+ A/B tests) and compliance depth are defensible advantages Collision lacks (assessment)
 
-Capabilities Persado doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Persado doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Persado alternatives
 

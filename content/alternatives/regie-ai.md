@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Deep enterprise AI-SDR capability ($50.8M raised) sets the bar for outbound automation quality Collision is measured against.
 
-Capabilities Regie.ai doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Regie.ai doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Regie.ai alternatives
 

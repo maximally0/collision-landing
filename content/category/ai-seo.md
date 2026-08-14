@@ -24,6 +24,7 @@ AI systems now answer a growing share of search queries. The brands that appear 
 - **[Outrank](/alternatives/outrank)** — Full SEO loop (research-write-publish) as one autopilot agent.
 - **[SEO.AI](/alternatives/seo-ai)** — Automated link building via proprietary exchange network plus hands-off publishing.
 - **[Surfer (Positive)](/alternatives/surfer-positive)** — Mature SEO data engine rebranded around AI-search visibility across engines.
+- **[Semrush](/alternatives/semrush)** — Deepest SEO data estate plus native GEO tooling, now inside Adobe's marketing stack — data and distribution no
 
 ## How to evaluate a purchase
 

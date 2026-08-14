@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Rapid scale (Benchmark Series B), Shopify-level customers, very fast product velocity.
 
-Capabilities Gumloop doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Gumloop doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Gumloop alternatives
 

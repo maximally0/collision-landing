@@ -3,9 +3,9 @@ import path from "node:path";
 import matter from "gray-matter";
 import { marked } from "marked";
 
-export type Section = "alternatives" | "compare" | "category" | "glossary";
+export type Section = "alternatives" | "compare" | "category" | "glossary" | "tools" | "integrations";
 
-export const SECTIONS: Section[] = ["alternatives", "compare", "category", "glossary"];
+export const SECTIONS: Section[] = ["alternatives", "compare", "category", "glossary", "tools", "integrations"];
 
 export type PageMeta = {
   slug: string;
@@ -92,5 +92,9 @@ export function getSectionLabel(section: Section): string {
       return "Guides";
     case "glossary":
       return "Glossary";
+    case "tools":
+      return "Tools";
+    case "integrations":
+      return "Integrations";
   }
 }

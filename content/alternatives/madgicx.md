@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Meta-only (no Google/TikTok/LinkedIn); some optimizations remain insights-driven; DTC/ads-specific with no content strategy, PR or lead-gen breadth
 
-Capabilities Madgicx doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Madgicx doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Madgicx alternatives
 

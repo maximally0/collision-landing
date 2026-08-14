@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Low-cost full-stack convenience and pay-as-you-go credits make it an easy default for bootstrapped founders before they buy a platform like Collision.
 
-Capabilities Snov.io doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Snov.io doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Snov.io alternatives
 

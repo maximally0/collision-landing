@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Small team/revenue (~$1.5M); GEO category still nascent; competitors (Profound, Meridian) challenging execution depth; no PR/ads/social stack
 
-Capabilities Writesonic doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Writesonic doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Writesonic alternatives
 

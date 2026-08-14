@@ -1,0 +1,65 @@
+---
+title: "Bluefish Alternatives: A Practical 2026 Guide"
+description: "What to use instead of Bluefish. An honest look at what Bluefish does well, what it costs, and which alternatives fit which buyer — including Collision."
+date: "2026-08-14"
+updated: "2026-08-14"
+authorId: "collision-team"
+tags: "alternatives, Bluefish, AI marketing"
+target_path: "/alternatives/bluefish"
+page_type: "alternatives"
+entity: "Bluefish"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+---
+
+# Bluefish alternatives
+
+Agentic Marketing Platform (AMP) for Fortune 500 brands: visibility, influence and measurement of how brands are portrayed by AI tools (ChatGPT, Google AI, Claude, Perplexity, Amazon Rufus). ~10% of the Fortune 500 are customers.
+
+This page compares the realistic alternatives to Bluefish — what the product actually does, what it costs, where it stops, and who each alternative is genuinely better for.
+
+## What Bluefish does well
+
+Millions of AI prompts/responses processed daily; multi-LLM monitoring (ChatGPT, Google AI, Claude, Perplexity, Amazon Rufus); brand portrayal control; enterprise governance; 80-90 employees
+
+## What Bluefish costs
+
+- **Pricing:** Enterprise custom (Subscription (enterprise))
+- **Positioning:** Enterprise agentic marketing platform for brand portrayal and influence in AI answers - not a monitoring dashboard; Salesforce Ventures and Amex Ventures backed
+- **Best for:** Fortune 500 marketing leaders (Adidas, American Express, Hearst, LVMH, Ulta; 12+ verticals incl. financial services, pharma, beauty, luxury, CPG)
+
+_Pricing verified 2026-08-14._
+
+## Where Bluefish stops
+
+Bluefish has Fortune 500 logos, $68M funding and enterprise-grade brand-influence infrastructure Collision lacks (assessment)
+
+Capabilities Bluefish doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+
+## The best Bluefish alternatives
+
+- **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities Bluefish doesn't cover.
+
+- **[Otterly.ai](/alternatives/otterly-ai)** — Dedicated multi-LLM monitoring with prompt-level feedback, Gartner Cool Vendor, G2 4.8.
+- **[Profound](/alternatives/profound)** — Best-funded AEO platform (Sequoia-led) with proprietary prompt-volume data and autonomous marketing agents.
+- **[AdCreative.ai](/alternatives/adcreative-ai)** — Predictive conversion scoring of creatives before launch, trained on performance data
+- **[Adzooma](/alternatives/adzooma)** — Free AI PPC optimization across three ad networks with two-click implementation
+- **[AiSDR](/alternatives/aisdr)** — Pure-play AI SDR (YC-backed) with strong booked-meeting performance claims and HubSpot-native workflow.
+- **[Apollo.io](/alternatives/apollo-io)** — Free-tier data + engagement + AI in one stack; 600K+ companies and a replace-five-tools pitch.
+
+## Collision as a Bluefish alternative
+
+Overlaps Collision's AEO/GEO and brand-visibility capabilities at the enterprise end; competes for the AI-search budget Collision could pursue upmarket
+
+Collision serves founders/SMBs at self-serve prices; Bluefish is enterprise-only with custom deployment and onboarding (assessment)
+
+## Who should choose Bluefish — and who shouldn't
+
+Choose Bluefish if: Fortune 500 marketing leaders (Adidas, American Express, Hearst, LVMH, Ulta; 12+ verticals incl. financial services, pharma, beauty, luxury, CPG) matches you and the missing capabilities above don't matter to your motion.
+
+Choose an alternative if any of the missing capabilities above is core to your growth — that gap is what an AI growth system is supposed to close.
+
+## Related
+
+- [Collision vs Bluefish](/compare/collision-vs-bluefish)
+- [What is an AI CMO?](/category/ai-cmo)
+- [Best AI CMO tools](/category/ai-cmo)

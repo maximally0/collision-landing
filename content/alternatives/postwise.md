@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Postwise is cheaper, fast to adopt, and its auto-DM/sales tools directly compete for founders who only want social growth.
 
-Capabilities Postwise doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Postwise doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Postwise alternatives
 

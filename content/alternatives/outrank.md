@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Purpose-built AI SEO agent with fast setup and a strong autopilot story for the SEO-only buyer.
 
-Capabilities Outrank doesn't cover that Collision does: GEO, Sales, Advertising, AEO, AI agents, Outbound.
+Capabilities Outrank doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Outrank alternatives
 
@@ -41,10 +41,10 @@ Capabilities Outrank doesn't cover that Collision does: GEO, Sales, Advertising,
 
 - **[SEO.AI](/alternatives/seo-ai)** — Automated link building via proprietary exchange network plus hands-off publishing.
 - **[Surfer (Positive)](/alternatives/surfer-positive)** — Mature SEO data engine rebranded around AI-search visibility across engines.
+- **[Semrush](/alternatives/semrush)** — Deepest SEO data estate plus native GEO tooling, now inside Adobe's marketing stack — data and distribution no standalon
 - **[AdCreative.ai](/alternatives/adcreative-ai)** — Predictive conversion scoring of creatives before launch, trained on performance data
 - **[Adzooma](/alternatives/adzooma)** — Free AI PPC optimization across three ad networks with two-click implementation
 - **[AiSDR](/alternatives/aisdr)** — Pure-play AI SDR (YC-backed) with strong booked-meeting performance claims and HubSpot-native workflow.
-- **[Apollo.io](/alternatives/apollo-io)** — Free-tier data + engagement + AI in one stack; 600K+ companies and a replace-five-tools pitch.
 
 ## Collision as a Outrank alternative
 

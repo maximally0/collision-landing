@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Legacy enterprise suite; insights-focused not agentic execution; no content creation, pitching or ad automation; high price
 
-Capabilities Meltwater doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Meltwater doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Meltwater alternatives
 

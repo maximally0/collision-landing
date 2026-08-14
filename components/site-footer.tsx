@@ -5,6 +5,8 @@ const EXPLORE = [
   { href: "/compare", label: "Compare", note: "Collision vs the market" },
   { href: "/category", label: "Guides", note: "AI marketing, GEO, AEO, AI CMO" },
   { href: "/glossary", label: "Glossary", note: "The category, defined" },
+  { href: "/tools", label: "Tools", note: "The AI marketing pricing index" },
+  { href: "/integrations", label: "Integrations", note: "Works where your stack lives" },
   { href: "/blog", label: "Blog", note: "Growth thinking from the team" },
 ];
 

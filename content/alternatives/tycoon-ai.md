@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Tycoon's 'one-person company' positioning matches Collision's exact buyer; PH #1 momentum could drive fast adoption
 
-Capabilities Tycoon AI doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Tycoon AI doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Tycoon AI alternatives
 

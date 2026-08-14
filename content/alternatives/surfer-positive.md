@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Surfer has deep SERP/AI-overview data, enterprise credibility and mature integrations built over 8 years.
 
-Capabilities Surfer (Positive) doesn't cover that Collision does: GEO, Sales, Advertising, AI agents, Outbound, Email.
+Capabilities Surfer (Positive) doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Surfer (Positive) alternatives
 
@@ -41,10 +41,10 @@ Capabilities Surfer (Positive) doesn't cover that Collision does: GEO, Sales, Ad
 
 - **[Outrank](/alternatives/outrank)** — Full SEO loop (research-write-publish) as one autopilot agent.
 - **[SEO.AI](/alternatives/seo-ai)** — Automated link building via proprietary exchange network plus hands-off publishing.
+- **[Semrush](/alternatives/semrush)** — Deepest SEO data estate plus native GEO tooling, now inside Adobe's marketing stack — data and distribution no standalon
 - **[AdCreative.ai](/alternatives/adcreative-ai)** — Predictive conversion scoring of creatives before launch, trained on performance data
 - **[Adzooma](/alternatives/adzooma)** — Free AI PPC optimization across three ad networks with two-click implementation
 - **[AiSDR](/alternatives/aisdr)** — Pure-play AI SDR (YC-backed) with strong booked-meeting performance claims and HubSpot-native workflow.
-- **[Apollo.io](/alternatives/apollo-io)** — Free-tier data + engagement + AI in one stack; 600K+ companies and a replace-five-tools pitch.
 
 ## Collision as a Surfer (Positive) alternative
 

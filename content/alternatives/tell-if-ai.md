@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Physical phone-fleet approach and creator-grade content could outperform software-only social growth; revenue share lowers client risk (assessment)
 
-Capabilities Tell if AI doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Tell if AI doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Tell if AI alternatives
 

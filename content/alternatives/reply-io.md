@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Reply's AI-agent prospecting and LinkedIn automation depth outpace typical founder-stack tools; it is an established, trusted outbound brand.
 
-Capabilities Reply.io doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Reply.io doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Reply.io alternatives
 

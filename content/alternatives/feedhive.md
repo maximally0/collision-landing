@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 FeedHive v2's agentic automation and workflow engine is a narrative close to Collision's 'AI team' pitch.
 
-Capabilities FeedHive doesn't cover that Collision does: GEO, Sales, Advertising, AEO, AI agents, Outbound.
+Capabilities FeedHive doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best FeedHive alternatives
 

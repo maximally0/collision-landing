@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Recommendations rather than full agentic execution; no content, PR or outbound; smaller brand and traction than Madgicx
 
-Capabilities Adzooma doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Adzooma doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Adzooma alternatives
 

@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Lately is enterprise-branded, expensive and aimed at marketing departments, not founder-led growth - weaker fit for Collision's core buyer.
 
-Capabilities Lately doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities Lately doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Lately alternatives
 

@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Predis has enormous reach and proven AI ad/video generation for social-first brands.
 
-Capabilities Predis.ai doesn't cover that Collision does: GEO, Sales, Advertising, AEO, AI agents, Outbound.
+Capabilities Predis.ai doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best Predis.ai alternatives
 

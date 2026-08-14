@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 Automated launch videos/ads are a fast-growing need; tday could capture the 'launch content' slice first
 
-Capabilities tday doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities tday doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best tday alternatives
 

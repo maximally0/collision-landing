@@ -33,7 +33,7 @@ _Pricing verified 2026-08-14._
 
 No media buying or full-funnel autonomy; creative-only play; no SEO, PR or outbound; single capability vs Collision's multi-channel agentic stack
 
-Capabilities AdCreative.ai doesn't cover that Collision does: GEO, Content, Sales, Advertising, AEO, AI agents.
+Capabilities AdCreative.ai doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
 
 ## The best AdCreative.ai alternatives
 
