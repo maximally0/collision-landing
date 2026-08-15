@@ -62,8 +62,6 @@ function AnimatedCounter({ value, suffix = "", prefix = "", delay = 0 }: { value
 
 /* ─────────────── Nav ─────────────── */
 
-const heroVideo = "https://www.youtube-nocookie.com/embed/ztVV54sPOns?autoplay=1&mute=1&controls=0&disablekb=1&fs=0&iv_load_policy=3&loop=1&modestbranding=1&playlist=ztVV54sPOns&playsinline=1&rel=0&start=330&end=390";
-
 function FloatingNav() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -113,9 +111,20 @@ function HeroSection() {
 
   return (
     <section id="top" className="relative isolate flex min-h-[100svh] items-center overflow-hidden bg-[#77d8ef]">
-      {/* Video background */}
+      {/* Video background — self-hosted clip, no YouTube chrome */}
       <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
-        <iframe className="pointer-events-none absolute left-1/2 top-1/2 h-[56.25vw] min-h-full w-[177.78vh] min-w-full -translate-x-1/2 -translate-y-1/2" src={heroVideo} title="Background" allow="autoplay; encrypted-media" tabIndex={-1} />
+        <video
+          className="absolute inset-0 h-full w-full object-cover"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          poster="/hero-bg-poster.jpg"
+          tabIndex={-1}
+        >
+          <source src="/hero-bg.mp4" type="video/mp4" />
+        </video>
       </div>
       <div className="absolute inset-0 bg-[#57cce9]/40 mix-blend-color" aria-hidden="true" />
       <div className="absolute inset-0 bg-[#0c1e38]/50" aria-hidden="true" />
