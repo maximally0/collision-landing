@@ -127,9 +127,13 @@ function HeroSection() {
           The AI you hire to run growth
         </motion.p>
 
-        <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15, duration: 0.8 }} className="mt-6 font-display text-[36px] font-medium leading-[1.05] tracking-[-0.04em] sm:text-[56px] md:text-[72px]">
-          You ask for the outcome.<br /><span className="text-soft-yellow">Collision figures out the work.</span>
+        <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15, duration: 0.8 }} className="mt-6 font-display text-[40px] font-medium leading-[1.05] tracking-[-0.04em] sm:text-[58px] md:text-[76px]">
+          Replace your entire <span className="text-soft-yellow">growth team.</span>
         </motion.h1>
+
+        <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25, duration: 0.7 }} className="mt-7 max-w-[680px] text-[15px] leading-relaxed text-white/85 sm:text-[17px]">
+          One growth intelligence that researches, writes, distributes, and learns across every surface your business depends on.
+        </motion.p>
 
         <motion.form onSubmit={handleSubmit} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.35 }} className="mt-10 w-full max-w-[640px] rounded-2xl border border-white/15 bg-white/[0.06] p-3 backdrop-blur-md">
           <div className="flex gap-2">
@@ -144,6 +148,11 @@ function HeroSection() {
             ))}
           </div>
         </motion.form>
+
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }} className="mt-7 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-[10px] font-medium uppercase tracking-[0.15em] text-white/70">
+          <span>One conversation</span><span className="text-white/35">·</span><span>One memory</span><span className="text-white/35">·</span><span>One source of truth</span>
+          <span className="rounded-full bg-mint/90 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.15em] text-[#12335a]">approval-based</span>
+        </motion.div>
       </div>
     </section>
   );
