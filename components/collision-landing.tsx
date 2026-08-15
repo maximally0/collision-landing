@@ -3,566 +3,353 @@
 import { useEffect, useState, type FormEvent, type ReactNode } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion, useReducedMotion, useInView } from "motion/react";
-import { ArrowRight, Menu, X, Check, Sparkles } from "lucide-react";
+import { ArrowRight, Menu, X, ArrowDown, Brain, Target, Zap, BarChart3, RefreshCw, PenTool, Search, Send, FlaskConical, Globe, ShoppingBag, Users, LineChart, Crosshair, Lightbulb } from "lucide-react";
+import { SiGoogle, SiGmail, SiWordpress, SiShopify, SiGooglechrome, SiPerplexity } from "react-icons/si";
+import { FaLinkedinIn, FaXTwitter, FaNewspaper, FaRobot, FaChartLine } from "react-icons/fa6";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
   faqItems,
-  journeySteps,
   navigationLinks,
   promptSuggestions,
-  growthSurfaces,
-  metrics,
-  caseStudies,
-  cascadeFlow,
-  surfaceDetails,
 } from "@/lib/collision-content";
 import { cn } from "@/lib/utils";
 import { useRef } from "react";
 
-/* ─── Utility Components ─── */
+/* ─────────────── Utilities ─────────────── */
 
-function MicroLabel({ children, className }: { children: ReactNode; className?: string }) {
-  return <p className={cn("text-[10px] font-semibold uppercase tracking-[0.22em]", className)}>{children}</p>;
-}
-
-function DisplayTitle({ children, className, id }: { children: ReactNode; className?: string; id?: string }) {
-  return (
-    <h2 id={id} className={cn("font-display text-balance text-[32px] font-medium leading-[1.08] tracking-[-0.045em] sm:text-[45px] sm:leading-[1.04] sm:tracking-[-0.055em] md:text-[64px]", className)}>
-      {children}
-    </h2>
-  );
-}
-
-function BodyCopy({ children, className }: { children: ReactNode; className?: string }) {
-  return <p className={cn("text-[15px] leading-7", className)}>{children}</p>;
-}
-
-/* ─── Animation Variants ─── */
-
-const revealVariants = {
-  hidden: { opacity: 0, y: 32, filter: "blur(4px)" },
-  visible: { opacity: 1, y: 0, filter: "blur(0px)" },
-};
-
-const fadeUpVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0 },
-};
-
-const scaleInVariants = {
-  hidden: { opacity: 0, scale: 0.92 },
-  visible: { opacity: 1, scale: 1 },
-};
-
-function Reveal({ children, className, delay = 0, variant = "default" }: { children: ReactNode; className?: string; delay?: number; variant?: "default" | "fade" | "scale" }) {
+function Reveal({ children, className, delay = 0 }: { children: ReactNode; className?: string; delay?: number }) {
   const reduceMotion = useReducedMotion();
   const ref = useRef<HTMLDivElement>(null);
-  const isInView = useInView(ref, { once: true, amount: 0.1 });
-
-  const variants = variant === "scale" ? scaleInVariants : variant === "fade" ? fadeUpVariants : revealVariants;
-
+  const isInView = useInView(ref, { once: true, amount: 0.15 });
   return (
     <motion.div
       ref={ref}
       className={className}
-      initial={reduceMotion ? false : "hidden"}
-      animate={isInView ? "visible" : "hidden"}
-      variants={variants}
-      transition={{ duration: 0.7, delay, ease: [0.25, 0.4, 0.25, 1] }}
+      initial={reduceMotion ? false : { opacity: 0, y: 28 }}
+      animate={isInView ? { opacity: 1, y: 0 } : undefined}
+      transition={{ duration: 0.65, delay, ease: [0.25, 0.4, 0.25, 1] }}
     >
       {children}
     </motion.div>
   );
 }
-
-function HeroReveal({ children, className, delay = 0 }: { children: ReactNode; className?: string; delay?: number }) {
-  const reduceMotion = useReducedMotion();
-
-  return (
-    <motion.div
-      className={className}
-      initial={reduceMotion ? false : { opacity: 0, y: 30, filter: "blur(6px)" }}
-      animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-      transition={{ duration: 0.9, delay, ease: [0.25, 0.4, 0.25, 1] }}
-    >
-      {children}
-    </motion.div>
-  );
-}
-
-/* ─── Animated Counter ─── */
 
 function AnimatedCounter({ value, suffix = "", prefix = "", delay = 0 }: { value: number; suffix?: string; prefix?: string; delay?: number }) {
   const ref = useRef<HTMLSpanElement>(null);
   const isInView = useInView(ref, { once: true, amount: 0.5 });
   const [display, setDisplay] = useState(0);
-
   useEffect(() => {
     if (!isInView) return;
     const timeout = setTimeout(() => {
-      const duration = 1800;
+      const duration = 1600;
       const start = performance.now();
       const animate = (now: number) => {
         const elapsed = now - start;
         const progress = Math.min(elapsed / duration, 1);
         const eased = 1 - Math.pow(1 - progress, 4);
-        const current = eased * value;
-        setDisplay(value % 1 === 0 ? Math.round(current) : parseFloat(current.toFixed(1)));
+        const cur = eased * value;
+        setDisplay(value % 1 === 0 ? Math.round(cur) : parseFloat(cur.toFixed(1)));
         if (progress < 1) requestAnimationFrame(animate);
       };
       requestAnimationFrame(animate);
     }, delay * 1000);
     return () => clearTimeout(timeout);
   }, [isInView, value, delay]);
-
-  return (
-    <span ref={ref}>
-      <span className="sr-only">{prefix}{value}{suffix}</span>
-      <span aria-hidden="true">{prefix}{display}{suffix}</span>
-    </span>
-  );
+  return <span ref={ref} aria-label={`${prefix}${value}${suffix}`}>{prefix}{display}{suffix}</span>;
 }
 
-/* ─── Navigation ─── */
+/* ─────────────── Nav ─────────────── */
+
+const heroVideo = "https://www.youtube-nocookie.com/embed/ztVV54sPOns?autoplay=1&mute=1&controls=0&disablekb=1&fs=0&iv_load_policy=3&loop=1&modestbranding=1&playlist=ztVV54sPOns&playsinline=1&rel=0&start=330&end=390";
 
 function FloatingNav() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 40);
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    handleScroll();
-    return () => window.removeEventListener("scroll", handleScroll);
+    const h = () => setScrolled(window.scrollY > 40);
+    window.addEventListener("scroll", h, { passive: true });
+    h();
+    return () => window.removeEventListener("scroll", h);
   }, []);
 
   return (
     <motion.nav
-      className={cn(
-        "fixed inset-x-0 top-0 z-50 transition-all duration-300",
-        scrolled
-          ? "bg-[#0a0f1a]/90 shadow-[0_2px_20px_rgb(0_0_0_/_25%)] backdrop-blur-xl"
-          : "bg-transparent"
-      )}
-      aria-label="Primary navigation"
-      initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, delay: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
+      className={cn("fixed inset-x-0 top-0 z-50 transition-all duration-300", scrolled ? "bg-ink/85 shadow-lg backdrop-blur-xl" : "bg-transparent")}
+      initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }}
     >
       <div className="mx-auto flex w-full max-w-[1120px] items-center justify-between px-5 py-4 sm:px-7">
-        <a href="#top" className="text-white" aria-label="Collision home">
-          <span className="font-display text-[20px] font-medium tracking-[-0.04em] sm:text-[22px]">collision.</span>
-        </a>
-
+        <a href="#top" className="text-white"><span className="font-display text-[20px] font-medium tracking-[-0.04em]">collision.</span></a>
         <div className="hidden items-center gap-7 text-[11px] font-medium tracking-[0.08em] text-white/70 md:flex">
-          {navigationLinks.map(([label, href]) => (
-            <Link key={href} href={href} className="transition-colors duration-200 hover:text-white">{label}</Link>
-          ))}
+          {navigationLinks.map(([label, href]) => (<Link key={href} href={href} className="hover:text-white transition-colors">{label}</Link>))}
         </div>
-
         <div className="flex items-center gap-3">
           <a href="https://cal.com/collision" target="_blank" rel="noopener noreferrer">
-            <Button type="button" size="lg" className="h-9 rounded-full bg-electric px-5 text-[11px] font-semibold text-white ring-1 ring-white/20 transition-all duration-200 hover:bg-[#1745c2] hover:shadow-[0_0_20px_rgb(31_94_255_/_40%)] sm:h-10 sm:px-6 sm:text-[12px]">
-              Get started
-            </Button>
+            <Button size="lg" className="h-9 rounded-full bg-electric px-5 text-[11px] font-semibold text-white hover:bg-[#1745c2] sm:h-10 sm:px-6">Get started</Button>
           </a>
-          <Button
-            type="button"
-            size="icon"
-            variant="outline"
-            aria-label={open ? "Close navigation menu" : "Open navigation menu"}
-            aria-expanded={open}
-            onClick={() => setOpen((v) => !v)}
-            className="size-9 rounded-full border-white/20 bg-white/5 text-white hover:bg-white/10 hover:text-white sm:size-10 md:hidden"
-          >
-            {open ? <X className="size-4" aria-hidden="true" /> : <Menu className="size-4" aria-hidden="true" />}
+          <Button size="icon" variant="outline" onClick={() => setOpen(v => !v)} className="size-9 rounded-full border-white/20 bg-white/5 text-white hover:bg-white/10 md:hidden" aria-label="Menu">
+            {open ? <X className="size-4" /> : <Menu className="size-4" />}
           </Button>
         </div>
       </div>
-
-      <AnimatePresence initial={false}>
-        {open ? (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
-            className="mx-4 overflow-hidden rounded-2xl bg-[#0a0f1a]/95 shadow-xl backdrop-blur-md md:hidden"
-          >
-            <div className="grid gap-1 p-2">
-              {navigationLinks.map(([label, href]) => (
-                <Link key={href} href={href} onClick={() => setOpen(false)} className="rounded-xl px-4 py-3 text-sm font-medium text-white/80 hover:bg-white/10 hover:text-white">
-                  {label}
-                </Link>
-              ))}
-              <a href="https://cal.com/collision" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="rounded-xl bg-electric px-4 py-3 text-center text-sm font-semibold text-white">
-                Get started
-              </a>
-            </div>
-          </motion.div>
-        ) : null}
-      </AnimatePresence>
+      <AnimatePresence>{open && (
+        <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} className="mx-4 overflow-hidden rounded-2xl bg-ink/95 backdrop-blur-md md:hidden">
+          <div className="grid gap-1 p-3">
+            {navigationLinks.map(([label, href]) => (<Link key={href} href={href} onClick={() => setOpen(false)} className="rounded-xl px-4 py-3 text-sm text-white/80 hover:bg-white/10">{label}</Link>))}
+          </div>
+        </motion.div>
+      )}</AnimatePresence>
     </motion.nav>
   );
 }
 
-/* ─── Hero Section ─── */
+/* ─────────────── Hero ─────────────── */
 
-function GrowthPrompt() {
+function HeroSection() {
   const [prompt, setPrompt] = useState("");
-
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    window.open("https://cal.com/collision", "_blank", "noopener,noreferrer");
-  };
-
-  return (
-    <form onSubmit={handleSubmit} className="w-full max-w-[720px] rounded-2xl border border-white/10 bg-white/[0.04] p-4 text-left backdrop-blur-md transition-all duration-300 hover:border-white/20 hover:bg-white/[0.06] hover:shadow-[0_8px_40px_rgb(31_94_255_/_15%)]">
-      <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
-        <Input
-          value={prompt}
-          onChange={(event) => setPrompt(event.target.value)}
-          placeholder="What should we grow today?"
-          aria-label="Growth objective"
-          className="h-12 flex-1 rounded-xl border-0 bg-transparent px-4 py-3 text-[15px] text-white shadow-none placeholder:text-white/40 focus-visible:ring-2 focus-visible:ring-electric/40"
-        />
-        <Button type="submit" size="lg" className="h-11 shrink-0 rounded-full bg-electric px-6 text-[12px] font-semibold text-white hover:bg-[#1745c2] hover:shadow-[0_0_20px_rgb(31_94_255_/_50%)]">
-          Meet Collision <ArrowRight className="ml-1 size-3.5" aria-hidden="true" />
-        </Button>
-      </div>
-      <div className="mt-3 flex flex-wrap gap-2 border-t border-white/10 px-1 pb-1 pt-4">
-        {promptSuggestions.map((suggestion) => (
-          <Button
-            key={suggestion}
-            type="button"
-            variant="ghost"
-            size="sm"
-            onClick={() => setPrompt(suggestion)}
-            className="h-auto rounded-full border border-white/10 bg-white/[0.04] px-3.5 py-2 text-[11px] font-normal text-white/60 hover:border-white/20 hover:bg-white/10 hover:text-white/90"
-          >
-            {suggestion}
-          </Button>
-        ))}
-      </div>
-    </form>
-  );
-}
-
-function AuroraBackground() {
+  const handleSubmit = (e: FormEvent) => { e.preventDefault(); window.open("https://cal.com/collision", "_blank"); };
   const reduceMotion = useReducedMotion();
 
   return (
-    <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
-      {/* Base dark gradient */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,#1a3a6b_0%,#0a0f1a_100%)]" />
-
-      {/* Aurora blobs */}
-      <motion.div
-        className="absolute -left-[20%] top-[10%] h-[600px] w-[600px] rounded-full bg-[radial-gradient(circle,#1f5eff33_0%,transparent_70%)] blur-3xl"
-        animate={reduceMotion ? undefined : {
-          x: [0, 80, -40, 0],
-          y: [0, -60, 40, 0],
-          scale: [1, 1.2, 0.9, 1],
-        }}
-        transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
-      />
-      <motion.div
-        className="absolute -right-[15%] top-[20%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle,#00e5c044_0%,transparent_70%)] blur-3xl"
-        animate={reduceMotion ? undefined : {
-          x: [0, -60, 40, 0],
-          y: [0, 80, -30, 0],
-          scale: [1, 0.85, 1.15, 1],
-        }}
-        transition={{ duration: 25, repeat: Infinity, ease: "easeInOut" }}
-      />
-      <motion.div
-        className="absolute left-[30%] top-[50%] h-[400px] w-[400px] rounded-full bg-[radial-gradient(circle,#ff7b6322_0%,transparent_70%)] blur-3xl"
-        animate={reduceMotion ? undefined : {
-          x: [0, 50, -70, 0],
-          y: [0, -40, 60, 0],
-          scale: [1, 1.1, 0.95, 1],
-        }}
-        transition={{ duration: 18, repeat: Infinity, ease: "easeInOut" }}
-      />
-      <motion.div
-        className="absolute left-[60%] top-[5%] h-[350px] w-[350px] rounded-full bg-[radial-gradient(circle,#ffe16a18_0%,transparent_70%)] blur-3xl"
-        animate={reduceMotion ? undefined : {
-          x: [0, -30, 50, 0],
-          y: [0, 50, -20, 0],
-        }}
-        transition={{ duration: 22, repeat: Infinity, ease: "easeInOut" }}
-      />
-
-      {/* Noise texture overlay */}
-      <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E\")" }} />
-
-      {/* Grid lines */}
-      <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: "linear-gradient(to right, white 1px, transparent 1px), linear-gradient(to bottom, white 1px, transparent 1px)", backgroundSize: "80px 80px" }} />
-    </div>
-  );
-}
-
-function HeroSection() {
-  return (
-    <section id="top" aria-labelledby="hero-title" className="relative isolate flex min-h-[100svh] items-center overflow-hidden bg-[#0a0f1a] sm:min-h-[800px]">
-      <AuroraBackground />
-
-      <div className="relative z-10 mx-auto flex w-full max-w-[980px] flex-col items-center px-5 pb-16 pt-28 text-center text-white sm:px-7 sm:pt-36">
-        <HeroReveal>
-          <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 backdrop-blur-sm">
-            <Sparkles className="size-3 text-soft-yellow" />
-            <span className="text-[11px] font-medium tracking-wide text-white/70">The AI you hire to run growth</span>
-          </div>
-        </HeroReveal>
-
-        <HeroReveal delay={0.1}>
-          <h1 id="hero-title" className="mt-8 max-w-[900px] font-display text-[38px] font-medium leading-[1.05] tracking-[-0.04em] sm:text-[56px] md:text-[72px] lg:text-[84px]">
-            You ask for the outcome.<br />
-            <span className="bg-gradient-to-r from-electric via-[#4ecaff] to-mint bg-clip-text text-transparent">Collision figures out the work.</span>
-          </h1>
-        </HeroReveal>
-
-        <HeroReveal delay={0.2}>
-          <p className="mt-7 max-w-[680px] text-[16px] leading-relaxed text-white/65 sm:text-[18px]">
-            Tell Collision what you want to achieve. It figures out the research, strategy, content, distribution, experiments, and next moves required to get there.
-          </p>
-        </HeroReveal>
-
-        <HeroReveal delay={0.3} className="mt-10 w-full">
-          <div className="flex justify-center">
-            <GrowthPrompt />
-          </div>
-        </HeroReveal>
+    <section id="top" className="relative isolate flex min-h-[100svh] items-center overflow-hidden bg-[#77d8ef]">
+      {/* Video background */}
+      <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
+        <iframe className="pointer-events-none absolute left-1/2 top-1/2 h-[56.25vw] min-h-full w-[177.78vh] min-w-full -translate-x-1/2 -translate-y-1/2" src={heroVideo} title="Background" allow="autoplay; encrypted-media" tabIndex={-1} />
       </div>
+      <div className="absolute inset-0 bg-[#57cce9]/40 mix-blend-color" aria-hidden="true" />
+      <div className="absolute inset-0 bg-[#0c1e38]/50" aria-hidden="true" />
+      <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-[#0c2749]/80 to-transparent" aria-hidden="true" />
+      <motion.div className="absolute right-[14%] top-[17%] size-48 rounded-full bg-soft-yellow/30 blur-3xl" animate={reduceMotion ? undefined : { scale: [1, 1.08, 1], opacity: [0.3, 0.6, 0.3] }} transition={{ duration: 12, repeat: Infinity }} aria-hidden="true" />
 
-      {/* Bottom gradient fade */}
-      <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-paper to-transparent" aria-hidden="true" />
-    </section>
-  );
-}
+      <div className="relative z-10 mx-auto flex w-full max-w-[900px] flex-col items-center px-5 pb-16 pt-28 text-center text-white sm:pt-36">
+        <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.1 }} className="text-[10px] font-semibold uppercase tracking-[0.25em] text-white/60">
+          The AI you hire to run growth
+        </motion.p>
 
-/* ─── Fundamental Difference Section ─── */
+        <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15, duration: 0.8 }} className="mt-6 font-display text-[36px] font-medium leading-[1.05] tracking-[-0.04em] sm:text-[56px] md:text-[72px]">
+          You ask for the outcome.<br /><span className="text-soft-yellow">Collision figures out the work.</span>
+        </motion.h1>
 
-function DifferenceSection() {
-  return (
-    <section id="product" aria-labelledby="difference-title" className="bg-paper px-5 py-20 sm:px-7 lg:px-0 lg:py-32">
-      <Reveal className="page-shell">
-        <div className="mx-auto max-w-[780px] text-center">
-          <MicroLabel className="text-electric">The fundamental difference</MicroLabel>
-          <DisplayTitle id="difference-title" className="mt-6">
-            Most marketing software asks:<br />
-            <span className="text-slate">What do you want to create?</span><br />
-            Collision asks:<br />
-            <span className="text-electric">What are you trying to accomplish?</span>
-          </DisplayTitle>
-        </div>
-
-        {/* Flow diagram */}
-        <Reveal delay={0.2} className="mx-auto mt-20 max-w-[900px]">
-          <div className="relative rounded-3xl border border-ink/10 bg-white p-8 shadow-[0_4px_40px_rgb(31_94_255_/_6%)] sm:p-12">
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-7 sm:items-center">
-              {["Goal", "Research", "Strategy", "Work", "Distribution", "Learning", "Next move"].map((step, i) => (
-                <div key={step} className="flex items-center gap-3 sm:flex-col sm:gap-2">
-                  <div className={cn(
-                    "flex size-10 shrink-0 items-center justify-center rounded-full text-[11px] font-bold text-white sm:size-12",
-                    i === 0 ? "bg-electric" : i === 6 ? "bg-coral" : "bg-ink/80"
-                  )}>
-                    {i + 1}
-                  </div>
-                  <span className="text-[12px] font-semibold text-ink sm:text-center">{step}</span>
-                  {i < 6 && <ArrowRight className="hidden size-3 text-ink/30 sm:block sm:absolute" style={{ left: `calc(${(i + 1) * 14.28}% - 6px)`, top: "50%" }} aria-hidden="true" />}
-                </div>
-              ))}
-            </div>
-            <div className="mt-8 rounded-xl bg-cyan-surface/60 p-5 text-center">
-              <p className="text-[13px] font-medium text-ink/70">A normal marketing stack makes you coordinate the tools. A marketing agency makes you coordinate the people.<br />ChatGPT makes you coordinate the work. <span className="font-bold text-electric">Collision coordinates the growth function.</span></p>
-            </div>
+        <motion.form onSubmit={handleSubmit} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.35 }} className="mt-10 w-full max-w-[640px] rounded-2xl border border-white/15 bg-white/[0.06] p-3 backdrop-blur-md">
+          <div className="flex gap-2">
+            <Input value={prompt} onChange={e => setPrompt(e.target.value)} placeholder="What should we grow?" className="h-12 flex-1 rounded-xl border-0 bg-transparent text-[15px] text-white placeholder:text-white/40 focus-visible:ring-1 focus-visible:ring-electric/50" />
+            <Button type="submit" className="h-12 shrink-0 rounded-xl bg-electric px-5 text-[12px] font-semibold text-white hover:bg-[#1745c2]">
+              <ArrowRight className="size-4" />
+            </Button>
           </div>
-        </Reveal>
-      </Reveal>
+          <div className="mt-2 flex flex-wrap gap-2 px-1 pt-2">
+            {promptSuggestions.map(s => (
+              <button key={s} type="button" onClick={() => setPrompt(s)} className="rounded-full border border-white/10 bg-white/[0.04] px-3 py-1.5 text-[11px] text-white/50 transition hover:bg-white/10 hover:text-white/80">{s}</button>
+            ))}
+          </div>
+        </motion.form>
+      </div>
     </section>
   );
 }
 
-/* ─── Surfaces Section ─── */
+/* ─────────────── Visual Flow: How It Works ─────────────── */
 
-function SurfacesSection() {
-  return (
-    <section aria-labelledby="surfaces-title" className="bg-[#0a0f1a] px-5 py-20 text-white sm:px-7 lg:px-0 lg:py-32">
-      <Reveal className="page-shell">
-        <div className="mx-auto max-w-[700px] text-center">
-          <MicroLabel className="text-mint">One growth system. Every surface.</MicroLabel>
-          <DisplayTitle id="surfaces-title" className="mt-6 text-white">
-            Collision decides which surfaces matter for the goal.
-          </DisplayTitle>
-          <p className="mt-5 text-[16px] text-white/55">You&apos;re not buying 30 integrations. You&apos;re buying coordination across 30 surfaces.</p>
-        </div>
-
-        <div className="mx-auto mt-16 max-w-[900px] space-y-3">
-          {growthSurfaces.map((item, i) => (
-            <Reveal key={item.surface} delay={i * 0.08} variant="fade">
-              <div className="group rounded-2xl border border-white/[0.06] bg-white/[0.03] p-6 transition-all duration-300 hover:border-electric/30 hover:bg-white/[0.06]">
-                <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                  <div className="flex items-center gap-4">
-                    <span className="text-[13px] font-bold uppercase tracking-wider text-electric">{item.surface}</span>
-                    <span className="text-[13px] text-white/40">{item.channels}</span>
-                  </div>
-                  <span className="text-[13px] text-white/50">{item.description}</span>
-                </div>
-              </div>
-            </Reveal>
-          ))}
-        </div>
-
-        <Reveal delay={0.5} className="mt-12 text-center">
-          <p className="text-[14px] font-medium text-white/40">You don&apos;t need to know which of these you need. <span className="text-mint">That&apos;s the product.</span></p>
-        </Reveal>
-      </Reveal>
-    </section>
-  );
-}
-
-/* ─── How It Works / Journey Section ─── */
+const flowSteps = [
+  { icon: Target, label: "Goal", color: "bg-electric" },
+  { icon: Search, label: "Research", color: "bg-[#8b5cf6]" },
+  { icon: Brain, label: "Strategy", color: "bg-coral" },
+  { icon: PenTool, label: "Create", color: "bg-mint" },
+  { icon: Send, label: "Distribute", color: "bg-soft-yellow" },
+  { icon: BarChart3, label: "Learn", color: "bg-[#06b6d4]" },
+  { icon: RefreshCw, label: "Adapt", color: "bg-electric" },
+];
 
 function HowItWorksSection() {
   return (
-    <section id="how-it-works" aria-labelledby="how-title" className="bg-paper px-5 py-20 sm:px-7 lg:px-0 lg:py-32">
-      <Reveal className="page-shell">
-        <div className="mx-auto max-w-[700px] text-center">
-          <MicroLabel className="text-electric">How it works</MicroLabel>
-          <DisplayTitle id="how-title" className="mt-6">You gave it a goal.<br />It figured out the function.</DisplayTitle>
-        </div>
-
-        {/* Example conversation */}
-        <Reveal delay={0.15} className="mx-auto mt-16 max-w-[680px]">
-          <div className="rounded-3xl border border-ink/10 bg-white p-8 shadow-[0_8px_40px_rgb(0_0_0_/_5%)]">
-            <div className="mb-6 flex items-center gap-2 border-b border-ink/10 pb-4">
-              <div className="size-2 rounded-full bg-mint" />
-              <span className="text-[11px] font-semibold uppercase tracking-wider text-slate">Live example</span>
-            </div>
-            <div className="space-y-4">
-              <div className="rounded-xl bg-cyan-surface px-5 py-4">
-                <p className="text-[11px] font-semibold uppercase text-slate">You</p>
-                <p className="mt-1 font-display text-[18px] text-ink">&quot;We need more qualified demand from founders.&quot;</p>
-              </div>
-              <div className="rounded-xl bg-electric/5 px-5 py-4">
-                <p className="text-[11px] font-semibold uppercase text-electric">Collision figures out</p>
-              </div>
-            </div>
-          </div>
+    <section id="how-it-works" className="bg-paper px-5 py-20 sm:px-7 lg:py-28">
+      <div className="mx-auto max-w-[900px]">
+        <Reveal className="text-center">
+          <p className="text-[10px] font-semibold uppercase tracking-[0.25em] text-electric">How it works</p>
+          <h2 className="mt-4 font-display text-[28px] font-medium leading-tight tracking-tight text-ink sm:text-[40px]">One goal in. Growth out.</h2>
         </Reveal>
 
-        {/* Journey steps */}
-        <div className="mx-auto mt-10 max-w-[680px]">
-          <div className="space-y-0 border-l-2 border-electric/20 pl-8">
-            {journeySteps.map((step, i) => (
-              <Reveal key={step.label} delay={0.2 + i * 0.1} variant="fade">
-                <div className="relative pb-8 last:pb-0">
-                  <div className="absolute -left-[41px] top-1 flex size-5 items-center justify-center rounded-full bg-electric">
-                    <Check className="size-3 text-white" />
+        {/* Visual flow - icons connected by lines */}
+        <Reveal delay={0.15} className="mt-14">
+          <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-2">
+            {flowSteps.map((step, i) => (
+              <div key={step.label} className="flex items-center gap-2 sm:gap-3">
+                <motion.div
+                  className={cn("flex flex-col items-center gap-2")}
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.08, duration: 0.4 }}
+                >
+                  <div className={cn("flex size-14 items-center justify-center rounded-2xl text-white shadow-lg sm:size-16", step.color)}>
+                    <step.icon className="size-6 sm:size-7" />
                   </div>
-                  <p className="text-[11px] font-bold uppercase tracking-wider text-electric">{step.label}</p>
-                  <p className="mt-1 font-display text-[18px] leading-snug text-ink">{step.title}</p>
-                  <p className="mt-1 text-[13px] text-slate">{step.description}</p>
-                </div>
-              </Reveal>
+                  <span className="text-[11px] font-semibold text-ink/70">{step.label}</span>
+                </motion.div>
+                {i < flowSteps.length - 1 && (
+                  <ArrowRight className="size-4 text-ink/20 sm:size-5" />
+                )}
+              </div>
             ))}
           </div>
-        </div>
-      </Reveal>
-    </section>
-  );
-}
-
-/* ─── Architecture Section (minimal) ─── */
-
-function ArchitectureSection() {
-  return (
-    <section className="bg-cyan-surface px-5 py-20 sm:px-7 lg:px-0 lg:py-28">
-      <Reveal className="page-shell mx-auto max-w-[700px] text-center">
-        <MicroLabel className="text-electric">Under the hood</MicroLabel>
-        <DisplayTitle className="mt-6">One AI on the surface.<br />A growth team underneath.</DisplayTitle>
-        <p className="mx-auto mt-5 max-w-[500px] text-[15px] text-slate">You never have to decide which agent, model, workflow, or tool should handle the work.</p>
-
-        {/* Visual flow */}
-        <Reveal delay={0.2} variant="scale" className="mt-12">
-          <div className="inline-flex flex-col items-center gap-3">
-            <div className="rounded-full border-2 border-electric bg-white px-6 py-3 text-[14px] font-bold text-electric">You</div>
-            <div className="h-6 w-px bg-electric/30" />
-            <div className="rounded-full bg-electric px-6 py-3 text-[14px] font-bold text-white shadow-[0_4px_20px_rgb(31_94_255_/_30%)]">Collision</div>
-            <div className="h-6 w-px bg-electric/30" />
-            <div className="flex flex-wrap justify-center gap-2">
-              {["Research", "Strategy", "Content", "Distribution", "Analytics", "Optimization"].map((item) => (
-                <span key={item} className="rounded-full bg-white px-4 py-2 text-[12px] font-medium text-ink shadow-sm ring-1 ring-ink/10">{item}</span>
-              ))}
-            </div>
-          </div>
         </Reveal>
-      </Reveal>
+
+        {/* One-liner */}
+        <Reveal delay={0.3} className="mt-12 text-center">
+          <p className="mx-auto max-w-[500px] text-[14px] text-slate">You don&apos;t coordinate the work. You don&apos;t pick the channel. You don&apos;t decide the sequence. You just say what you want.</p>
+        </Reveal>
+      </div>
     </section>
   );
 }
 
-/* ─── Proof Section ─── */
+/* ─────────────── Surfaces — icon grid ─────────────── */
+
+const surfaces = [
+  { icon: FaLinkedinIn, label: "LinkedIn", color: "#0a66c2" },
+  { icon: FaXTwitter, label: "X", color: "#ffffff" },
+  { icon: SiGoogle, label: "SEO", color: "#4285f4" },
+  { icon: SiPerplexity, label: "AI Search", color: "#20b8cd" },
+  { icon: FaNewspaper, label: "Newsletter", color: "#f59e0b" },
+  { icon: SiWordpress, label: "Blog", color: "#21759b" },
+  { icon: Globe, label: "Website", color: "#10b981" },
+  { icon: SiGmail, label: "Email", color: "#ea4335" },
+  { icon: Send, label: "Outbound", color: "#8b5cf6" },
+  { icon: SiGooglechrome, label: "Paid", color: "#f97316" },
+  { icon: SiShopify, label: "Storefront", color: "#95bf47" },
+  { icon: Users, label: "Community", color: "#ec4899" },
+  { icon: LineChart, label: "Analytics", color: "#06b6d4" },
+  { icon: Crosshair, label: "Competitors", color: "#ef4444" },
+  { icon: FlaskConical, label: "Experiments", color: "#a855f7" },
+  { icon: ShoppingBag, label: "CRM", color: "#14b8a6" },
+];
+
+function SurfacesSection() {
+  return (
+    <section id="product" className="bg-[#0a0f1a] px-5 py-20 text-white sm:px-7 lg:py-28">
+      <div className="mx-auto max-w-[900px]">
+        <Reveal className="text-center">
+          <p className="text-[10px] font-semibold uppercase tracking-[0.25em] text-mint">Every growth surface</p>
+          <h2 className="mt-4 font-display text-[28px] font-medium leading-tight text-white sm:text-[40px]">Collision decides what matters for the goal.</h2>
+        </Reveal>
+
+        {/* Icon grid */}
+        <div className="mt-14 grid grid-cols-4 gap-4 sm:grid-cols-8 sm:gap-5">
+          {surfaces.map((s, i) => (
+            <Reveal key={s.label} delay={i * 0.03}>
+              <motion.div
+                className="flex flex-col items-center gap-2 rounded-2xl border border-white/[0.06] bg-white/[0.03] p-4 transition-all hover:border-white/15 hover:bg-white/[0.07]"
+                whileHover={{ scale: 1.05, y: -4 }}
+                transition={{ type: "spring", stiffness: 300 }}
+              >
+                <s.icon className="size-6" style={{ color: s.color }} />
+                <span className="text-[10px] font-medium text-white/60">{s.label}</span>
+              </motion.div>
+            </Reveal>
+          ))}
+        </div>
+
+        <Reveal delay={0.4} className="mt-10 text-center">
+          <p className="text-[13px] text-white/40">You don&apos;t pick the channel. <span className="text-mint font-medium">That&apos;s the product.</span></p>
+        </Reveal>
+      </div>
+    </section>
+  );
+}
+
+/* ─────────────── Cascade Visual ─────────────── */
+
+const cascadeItems = [
+  { label: "1 objective", icon: Target, size: "text-[18px]" },
+  { label: "17 research signals", icon: Search, size: "text-[16px]" },
+  { label: "8 strategic decisions", icon: Brain, size: "text-[15px]" },
+  { label: "42 pieces of work", icon: PenTool, size: "text-[14px]" },
+  { label: "6 surfaces", icon: Globe, size: "text-[14px]" },
+  { label: "14,000+ signals", icon: BarChart3, size: "text-[13px]" },
+  { label: "1 better decision", icon: Lightbulb, size: "text-[18px]" },
+];
+
+function CascadeSection() {
+  return (
+    <section className="bg-paper px-5 py-20 sm:px-7 lg:py-28">
+      <div className="mx-auto max-w-[500px]">
+        <Reveal className="text-center">
+          <p className="text-[10px] font-semibold uppercase tracking-[0.25em] text-electric">The cascade</p>
+          <h2 className="mt-4 font-display text-[28px] font-medium leading-tight text-ink sm:text-[36px]">One request → hundreds of actions.</h2>
+        </Reveal>
+
+        <div className="mt-12 space-y-3">
+          {cascadeItems.map((item, i) => (
+            <Reveal key={item.label} delay={i * 0.08}>
+              <motion.div
+                className={cn(
+                  "flex items-center gap-4 rounded-xl border px-5 py-4 transition-all",
+                  i === 0 ? "border-electric/30 bg-electric/5" : i === cascadeItems.length - 1 ? "border-mint/30 bg-mint/5" : "border-ink/8 bg-white"
+                )}
+                whileHover={{ x: 6 }}
+              >
+                <item.icon className={cn("size-5 shrink-0", i === 0 ? "text-electric" : i === cascadeItems.length - 1 ? "text-[#008f7b]" : "text-slate")} />
+                <span className={cn("font-medium text-ink", item.size)}>{item.label}</span>
+              </motion.div>
+              {i < cascadeItems.length - 1 && (
+                <div className="flex justify-center py-1"><ArrowDown className="size-3.5 text-ink/20" /></div>
+              )}
+            </Reveal>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ─────────────── Proof — visual metrics ─────────────── */
+
+const proofMetrics = [
+  { value: 300, suffix: "M+", label: "impressions", icon: Globe },
+  { value: 14, suffix: "K+", label: "conversations", icon: Users },
+  { value: 1840, suffix: "+", label: "experiments", icon: FlaskConical },
+  { value: 67, suffix: "%", label: "produced lift", icon: FaChartLine },
+  { value: 3.7, suffix: "×", label: "content output", icon: PenTool },
+  { value: 52, suffix: "%", label: "faster execution", icon: Zap },
+  { value: 2.9, suffix: "×", label: "qualified inbound", icon: Target },
+  { value: 93, suffix: "%", label: "auto-shipped", icon: FaRobot },
+];
 
 function ProofSection() {
   return (
-    <section id="proof" aria-labelledby="proof-title" className="bg-[#0a0f1a] px-5 py-20 text-white sm:px-7 lg:px-0 lg:py-32">
-      <div className="page-shell">
-        <Reveal className="mx-auto max-w-[700px] text-center">
-          <MicroLabel className="text-mint">Growth proof</MicroLabel>
-          <DisplayTitle id="proof-title" className="mt-6 text-white">Growth isn&apos;t a promise.<br />It&apos;s a system you can measure.</DisplayTitle>
-          <p className="mt-5 text-[15px] text-white/50">Across companies, campaigns and growth programs run with Collision.</p>
+    <section id="proof" className="bg-[#0a0f1a] px-5 py-20 text-white sm:px-7 lg:py-28">
+      <div className="mx-auto max-w-[900px]">
+        <Reveal className="text-center">
+          <p className="text-[10px] font-semibold uppercase tracking-[0.25em] text-soft-yellow">Growth proof</p>
+          <h2 className="mt-4 font-display text-[28px] font-medium leading-tight text-white sm:text-[40px]">Measured. Not promised.</h2>
         </Reveal>
 
-        {/* Metrics grid */}
-        <div className="mx-auto mt-16 grid max-w-[1000px] gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {metrics.map((m, i) => (
-            <Reveal key={m.label} delay={i * 0.06} variant="scale">
-              <div className="rounded-2xl border border-white/[0.06] bg-white/[0.03] p-6 text-center transition-all duration-300 hover:border-electric/20 hover:bg-white/[0.06]">
-                <p className="font-display text-[36px] leading-none text-white sm:text-[42px]">
-                  <AnimatedCounter value={m.value} suffix={m.suffix} delay={0.3 + i * 0.1} />
+        <div className="mt-14 grid grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4">
+          {proofMetrics.map((m, i) => (
+            <Reveal key={m.label} delay={i * 0.05}>
+              <div className="group relative overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.03] p-5 text-center transition-all hover:border-white/15 hover:bg-white/[0.06]">
+                <m.icon className="mx-auto size-5 text-white/30 group-hover:text-electric transition-colors" />
+                <p className="mt-3 font-display text-[28px] leading-none text-white sm:text-[34px]">
+                  <AnimatedCounter value={m.value} suffix={m.suffix} delay={0.3 + i * 0.08} />
                 </p>
-                <p className="mt-3 text-[12px] font-medium uppercase tracking-wider text-white/40">{m.label}</p>
+                <p className="mt-2 text-[10px] font-medium uppercase tracking-wider text-white/40">{m.label}</p>
               </div>
             </Reveal>
           ))}
         </div>
 
-        {/* Cascade flow */}
-        <Reveal delay={0.4} className="mx-auto mt-20 max-w-[500px]">
-          <div className="rounded-3xl border border-white/[0.08] bg-white/[0.03] p-8 text-center">
-            <p className="text-[12px] font-semibold uppercase tracking-wider text-electric">From one request to hundreds of growth actions</p>
-            <div className="mt-8 space-y-3">
-              {Object.values(cascadeFlow).map((item, i) => (
-                <motion.div
-                  key={item}
-                  className={cn(
-                    "rounded-xl px-5 py-3 text-[14px] font-medium",
-                    i === 0 ? "bg-electric/20 text-electric" : i === Object.values(cascadeFlow).length - 1 ? "bg-mint/20 text-mint" : "bg-white/[0.06] text-white/70"
-                  )}
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.1 * i, duration: 0.5 }}
-                >
-                  {item}
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </Reveal>
-
-        {/* Case studies */}
-        <div className="mx-auto mt-16 grid max-w-[1000px] gap-4 sm:grid-cols-3">
-          {caseStudies.map((study, i) => (
-            <Reveal key={study.label} delay={0.1 * i} variant="fade">
-              <div className="rounded-2xl border border-white/[0.06] bg-white/[0.03] p-7">
-                <p className="font-display text-[32px] leading-none text-electric">{study.metric}</p>
-                <p className="mt-2 text-[12px] font-bold uppercase tracking-wider text-white/60">{study.label}</p>
-                <p className="mt-4 text-[13px] leading-relaxed text-white/45">{study.description}</p>
+        {/* Mini case studies as visual cards */}
+        <div className="mt-12 grid gap-3 sm:grid-cols-3">
+          {[
+            { metric: "+183%", label: "qualified inbound", color: "from-electric/20 to-transparent" },
+            { metric: "3.2×", label: "organic acquisition", color: "from-mint/20 to-transparent" },
+            { metric: "+71%", label: "conversion rate", color: "from-coral/20 to-transparent" },
+          ].map((c, i) => (
+            <Reveal key={c.label} delay={0.1 * i}>
+              <div className={cn("rounded-2xl border border-white/[0.06] bg-gradient-to-b p-6", c.color)}>
+                <p className="font-display text-[32px] leading-none text-white">{c.metric}</p>
+                <p className="mt-2 text-[11px] font-semibold uppercase tracking-wider text-white/50">{c.label}</p>
               </div>
             </Reveal>
           ))}
@@ -572,142 +359,95 @@ function ProofSection() {
   );
 }
 
-/* ─── Surface Detail Section ─── */
+/* ─────────────── Architecture — one visual ─────────────── */
 
-function SurfaceDetailSection() {
-  return (
-    <section className="bg-paper px-5 py-20 sm:px-7 lg:px-0 lg:py-28">
-      <Reveal className="page-shell">
-        <div className="mx-auto max-w-[700px] text-center">
-          <MicroLabel className="text-electric">Built for the entire growth loop</MicroLabel>
-          <DisplayTitle className="mt-6">What Collision does across every surface.</DisplayTitle>
-        </div>
-
-        <Reveal delay={0.2} className="mx-auto mt-14 max-w-[800px] overflow-hidden rounded-2xl border border-ink/10 bg-white shadow-sm">
-          <div className="divide-y divide-ink/8">
-            {surfaceDetails.map((item) => (
-              <div key={item.surface} className="flex items-center justify-between gap-4 px-6 py-4 transition-colors hover:bg-cyan-surface/40">
-                <span className="text-[13px] font-bold text-ink">{item.surface}</span>
-                <span className="text-right text-[13px] text-slate">{item.action}</span>
-              </div>
-            ))}
-          </div>
-        </Reveal>
-
-        <Reveal delay={0.4} className="mx-auto mt-10 max-w-[600px] text-center">
-          <p className="text-[15px] text-slate">You don&apos;t need to know that you need an SEO campaign. You don&apos;t need to decide whether the answer is LinkedIn, outbound, content, paid, or something nobody has thought of yet.</p>
-          <p className="mt-4 font-display text-[20px] text-ink">You tell Collision the goal. Collision works backward from the outcome.</p>
-        </Reveal>
-      </Reveal>
-    </section>
-  );
-}
-
-/* ─── FAQ Section ─── */
-
-function FaqSection() {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
-
-  return (
-    <section id="faq" aria-labelledby="faq-title" className="bg-cyan-surface px-5 py-20 sm:px-7 lg:px-0 lg:py-28">
-      <Reveal className="page-shell max-w-[760px]">
-        <MicroLabel className="text-electric">Questions, answered</MicroLabel>
-        <DisplayTitle id="faq-title" className="mt-6">The questions you actually have.</DisplayTitle>
-        <div className="mt-14 space-y-3">
-          {faqItems.map((item, index) => (
-            <Reveal key={item.question} delay={index * 0.05} variant="fade">
-              <div className="overflow-hidden rounded-xl border border-ink/10 bg-white transition-shadow hover:shadow-sm">
-                <button
-                  type="button"
-                  className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
-                  onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                  aria-expanded={openIndex === index}
-                >
-                  <h3 className="font-display text-[18px] leading-snug text-ink sm:text-[20px]">{item.question}</h3>
-                  <motion.span
-                    animate={{ rotate: openIndex === index ? 45 : 0 }}
-                    transition={{ duration: 0.2 }}
-                    className="shrink-0 text-[20px] text-electric"
-                  >
-                    +
-                  </motion.span>
-                </button>
-                <AnimatePresence initial={false}>
-                  {openIndex === index && (
-                    <motion.div
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: "auto", opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
-                    >
-                      <div className="border-t border-ink/8 px-6 pb-6 pt-4">
-                        <BodyCopy className="text-[14px] text-slate">{item.answer}</BodyCopy>
-                      </div>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </div>
-            </Reveal>
-          ))}
-        </div>
-      </Reveal>
-    </section>
-  );
-}
-
-/* ─── Resources / Explore Section ─── */
-
-function ExploreSection() {
-  const sections = [
-    { href: "/alternatives", title: "Alternatives", note: "Every competitor, honestly compared." },
-    { href: "/compare", title: "Compare", note: "Side-by-side capability tables." },
-    { href: "/category", title: "Guides", note: "The 2026 landscape, explained." },
-    { href: "/blog", title: "Blog", note: "Thinking on growth, AI, and systems." },
+function ArchitectureSection() {
+  const layers = [
+    { icons: [Brain, Search, PenTool, Send, BarChart3, RefreshCw], label: "Growth Engine" },
   ];
 
   return (
-    <section id="resources" aria-labelledby="explore-title" className="bg-paper px-5 py-20 sm:px-7 lg:px-0 lg:py-28">
-      <Reveal className="page-shell max-w-[880px]">
-        <MicroLabel className="text-electric">Resources</MicroLabel>
-        <DisplayTitle id="explore-title" className="mt-6">Go deeper.</DisplayTitle>
-        <div className="mt-12 grid gap-4 sm:grid-cols-2">
-          {sections.map((item) => (
-            <Reveal key={item.href} variant="fade">
-              <Link href={item.href} className="group block h-full rounded-2xl border border-ink/10 bg-white p-7 transition-all duration-200 hover:border-electric/30 hover:shadow-[0_4px_20px_rgb(31_94_255_/_8%)]">
-                <p className="font-display text-[22px] text-ink transition-colors group-hover:text-electric">{item.title}</p>
-                <p className="mt-2 text-[13px] text-slate">{item.note}</p>
-                <span className="mt-4 inline-flex items-center gap-1.5 text-[12px] font-semibold text-electric">
-                  Browse <ArrowRight className="size-3.5" aria-hidden="true" />
-                </span>
-              </Link>
-            </Reveal>
-          ))}
-        </div>
-      </Reveal>
+    <section className="bg-cyan-surface px-5 py-20 sm:px-7 lg:py-24">
+      <div className="mx-auto max-w-[600px] text-center">
+        <Reveal>
+          <p className="text-[10px] font-semibold uppercase tracking-[0.25em] text-electric">Under the hood</p>
+          <h2 className="mt-4 font-display text-[28px] font-medium leading-tight text-ink sm:text-[36px]">One AI. A growth team underneath.</h2>
+        </Reveal>
+
+        <Reveal delay={0.15} className="mt-12">
+          <div className="flex flex-col items-center gap-4">
+            {/* You */}
+            <div className="rounded-full border-2 border-ink bg-white px-6 py-3 text-[13px] font-bold text-ink shadow-sm">You</div>
+            <div className="h-8 w-px bg-ink/15" />
+            {/* Collision */}
+            <div className="rounded-full bg-electric px-8 py-4 text-[14px] font-bold text-white shadow-[0_4px_24px_rgb(31_94_255_/_30%)]">Collision</div>
+            <div className="h-8 w-px bg-ink/15" />
+            {/* Specialist icons */}
+            <div className="flex flex-wrap justify-center gap-3">
+              {layers[0].icons.map((Icon, i) => (
+                <motion.div
+                  key={i}
+                  className="flex size-12 items-center justify-center rounded-xl bg-white shadow-sm ring-1 ring-ink/10"
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.3 + i * 0.06 }}
+                >
+                  <Icon className="size-5 text-ink/60" />
+                </motion.div>
+              ))}
+            </div>
+            <p className="mt-2 text-[11px] text-slate">You never pick the agent, model, or workflow.</p>
+          </div>
+        </Reveal>
+      </div>
     </section>
   );
 }
 
-/* ─── Final CTA ─── */
+/* ─────────────── FAQ — compact accordion ─────────────── */
 
-function FinalCtaSection() {
+function FaqSection() {
+  const [openIdx, setOpenIdx] = useState<number | null>(null);
   return (
-    <section aria-labelledby="cta-title" className="relative overflow-hidden bg-[#0a0f1a] px-5 py-24 text-center text-white sm:px-7 lg:px-0 lg:py-36">
-      {/* Background glow */}
-      <div className="absolute inset-0" aria-hidden="true">
-        <div className="absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,#1f5eff22_0%,transparent_70%)] blur-2xl" />
+    <section className="bg-paper px-5 py-20 sm:px-7 lg:py-24">
+      <div className="mx-auto max-w-[640px]">
+        <Reveal className="text-center">
+          <h2 className="font-display text-[28px] font-medium text-ink sm:text-[36px]">FAQ</h2>
+        </Reveal>
+        <div className="mt-10 space-y-2">
+          {faqItems.map((item, i) => (
+            <Reveal key={item.question} delay={i * 0.04}>
+              <div className="overflow-hidden rounded-xl border border-ink/10 bg-white">
+                <button type="button" onClick={() => setOpenIdx(openIdx === i ? null : i)} className="flex w-full items-center justify-between gap-3 px-5 py-4 text-left">
+                  <span className="text-[14px] font-medium text-ink">{item.question}</span>
+                  <motion.span animate={{ rotate: openIdx === i ? 45 : 0 }} className="shrink-0 text-[18px] text-electric">+</motion.span>
+                </button>
+                <AnimatePresence>{openIdx === i && (
+                  <motion.div initial={{ height: 0 }} animate={{ height: "auto" }} exit={{ height: 0 }} className="overflow-hidden">
+                    <p className="border-t border-ink/8 px-5 pb-4 pt-3 text-[13px] leading-relaxed text-slate">{item.answer}</p>
+                  </motion.div>
+                )}</AnimatePresence>
+              </div>
+            </Reveal>
+          ))}
+        </div>
       </div>
+    </section>
+  );
+}
 
-      <Reveal variant="scale" className="relative mx-auto max-w-[750px]">
-        <MicroLabel className="text-electric">Ready?</MicroLabel>
-        <DisplayTitle id="cta-title" className="mt-6 text-white sm:text-[50px] md:text-[64px]">
-          You own the goal.<br />
-          <span className="bg-gradient-to-r from-electric to-mint bg-clip-text text-transparent">Collision owns the work.</span>
-        </DisplayTitle>
-        <p className="mx-auto mt-6 max-w-[480px] text-[15px] text-white/50">One conversation. One memory. One intelligence that compounds every decision into better growth.</p>
-        <a href="https://cal.com/collision" target="_blank" rel="noopener noreferrer">
-          <Button type="button" size="lg" className="mt-10 h-13 rounded-full bg-electric px-8 text-[14px] font-semibold text-white transition-all duration-200 hover:bg-[#1745c2] hover:shadow-[0_0_30px_rgb(31_94_255_/_50%)]">
-            Meet Collision <ArrowRight className="ml-2 size-4" aria-hidden="true" />
+/* ─────────────── CTA ─────────────── */
+
+function FinalCta() {
+  return (
+    <section className="relative overflow-hidden bg-[#0a0f1a] px-5 py-24 text-center text-white lg:py-32">
+      <div className="absolute left-1/2 top-1/2 size-[400px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,#1f5eff15_0%,transparent_70%)]" aria-hidden="true" />
+      <Reveal className="relative mx-auto max-w-[600px]">
+        <h2 className="font-display text-[32px] font-medium leading-tight sm:text-[48px]">You own the goal.<br /><span className="text-electric">Collision owns the work.</span></h2>
+        <a href="https://cal.com/collision" target="_blank" rel="noopener noreferrer" className="mt-8 inline-block">
+          <Button size="lg" className="h-12 rounded-full bg-electric px-8 text-[13px] font-semibold text-white hover:bg-[#1745c2] hover:shadow-[0_0_30px_rgb(31_94_255_/_40%)]">
+            Meet Collision <ArrowRight className="ml-2 size-4" />
           </Button>
         </a>
       </Reveal>
@@ -715,22 +455,43 @@ function FinalCtaSection() {
   );
 }
 
-/* ─── Main Export ─── */
+/* ─────────────── Explore (minimal) ─────────────── */
+
+function ExploreSection() {
+  return (
+    <section id="resources" className="bg-paper px-5 py-16 sm:px-7">
+      <div className="mx-auto flex max-w-[900px] flex-wrap items-center justify-center gap-3">
+        {[
+          { href: "/alternatives", label: "Alternatives" },
+          { href: "/compare", label: "Compare" },
+          { href: "/category", label: "Guides" },
+          { href: "/blog", label: "Blog" },
+          { href: "/glossary", label: "Glossary" },
+        ].map(item => (
+          <Link key={item.href} href={item.href} className="rounded-full border border-ink/10 bg-white px-5 py-2.5 text-[12px] font-semibold text-ink transition hover:border-electric/30 hover:text-electric">
+            {item.label}
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+/* ─────────────── Main ─────────────── */
 
 export default function CollisionLanding() {
   return (
     <main className="collision-page">
       <FloatingNav />
       <HeroSection />
-      <DifferenceSection />
-      <SurfacesSection />
       <HowItWorksSection />
-      <ArchitectureSection />
+      <SurfacesSection />
+      <CascadeSection />
       <ProofSection />
-      <SurfaceDetailSection />
+      <ArchitectureSection />
       <FaqSection />
       <ExploreSection />
-      <FinalCtaSection />
+      <FinalCta />
     </main>
   );
 }
