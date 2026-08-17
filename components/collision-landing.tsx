@@ -1,6 +1,6 @@
 ﻿"use client";
 
-import { useEffect, useState, type FormEvent, type ReactNode } from "react";
+import React, { useEffect, useState, type FormEvent, type ReactNode } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion, useReducedMotion, useInView } from "motion/react";
 import {
@@ -12,7 +12,8 @@ import {
 import {
   SiGoogle, SiGmail, SiWordpress, SiShopify, SiPerplexity, SiReddit,
   SiHubspot, SiNotion, SiMixpanel, SiPosthog, SiFramer, SiWebflow,
-  SiProducthunt, SiGoogleanalytics, SiGooglesearchconsole
+  SiProducthunt, SiGoogleanalytics, SiGooglesearchconsole, SiZapier,
+  SiMailchimp, SiIntercom, SiSemrush, SiAirtable, SiStripe, SiG2
 } from "react-icons/si";
 import { FaLinkedinIn, FaXTwitter, FaNewspaper, FaRobot, FaChartLine, FaSlack, FaSalesforce } from "react-icons/fa6";
 
@@ -198,9 +199,9 @@ function ExecutionSection() {
 const agents = [
   { name: "Research", icon: Search, desc: "Markets, competitors & opportunities", color: "bg-[#8b5cf6]" },
   { name: "Strategy", icon: Brain, desc: "Turns research into a growth plan", color: "bg-coral" },
-  { name: "Content", icon: PenTool, desc: "Creates across all channels", color: "bg-mint" },
-  { name: "SEO", icon: SiGoogle, desc: "Finds & attacks search opportunities", color: "bg-[#4285f4]" },
-  { name: "Social", icon: FaXTwitter, desc: "Runs X + LinkedIn distribution", color: "bg-ink" },
+  { name: "Content", icon: PenTool, desc: "Creates across all channels", color: "bg-[#059669]" },
+  { name: "SEO", icon: Globe, desc: "Finds & attacks search opportunities", color: "bg-[#4285f4]" },
+  { name: "Social", icon: FaXTwitter, desc: "Runs X + LinkedIn distribution", color: "bg-[#1d9bf0]" },
   { name: "Email", icon: Mail, desc: "Builds campaigns & sequences", color: "bg-[#ea4335]" },
   { name: "Ads", icon: Megaphone, desc: "Creates & optimizes campaigns", color: "bg-[#f97316]" },
   { name: "Analytics", icon: BarChart3, desc: "Measures what actually worked", color: "bg-[#06b6d4]" },
@@ -237,14 +238,15 @@ function AgentsSection() {
   );
 }
 
-/* ═══════════════ 4. GROWTH LOOP (circular) ═══════════════ */
+/* ═══════════════ 4. GROWTH LOOP (proper circular layout) ═══════════════ */
 
 const loopSteps = [
-  { icon: Search, label: "Research", color: "#8b5cf6" },
-  { icon: Brain, label: "Strategy", color: "#ff7b63" },
-  { icon: PenTool, label: "Execute", color: "#00e5c0" },
-  { icon: BarChart3, label: "Measure", color: "#06b6d4" },
-  { icon: Lightbulb, label: "Learn", color: "#ffe16a" },
+  { icon: Search, label: "Research", color: "#8b5cf6", bg: "bg-[#8b5cf6]" },
+  { icon: Brain, label: "Strategy", color: "#ff7b63", bg: "bg-coral" },
+  { icon: Zap, label: "Execute", color: "#00e5c0", bg: "bg-mint" },
+  { icon: BarChart3, label: "Measure", color: "#06b6d4", bg: "bg-[#06b6d4]" },
+  { icon: Lightbulb, label: "Learn", color: "#ffe16a", bg: "bg-[#d4a100]" },
+  { icon: RefreshCw, label: "Adapt", color: "#1f5eff", bg: "bg-electric" },
 ];
 
 function GrowthLoopSection() {
@@ -256,54 +258,82 @@ function GrowthLoopSection() {
           <h2 className="mt-4 font-display text-[28px] font-medium text-ink sm:text-[36px]">Every action makes Collision smarter.</h2>
         </Reveal>
 
+        {/* Circular loop — fixed grid positions */}
         <Reveal delay={0.15} className="mt-14">
-          <div className="relative mx-auto flex size-[280px] items-center justify-center sm:size-[340px]">
-            {/* Circular ring */}
-            <svg className="absolute inset-0 size-full" viewBox="0 0 340 340" fill="none">
-              <motion.circle cx="170" cy="170" r="140" stroke="url(#loopGrad)" strokeWidth="2" strokeDasharray="6 6"
-                initial={{ rotate: 0 }} animate={{ rotate: 360 }} transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
-                style={{ transformOrigin: "center" }}
+          <div className="relative mx-auto w-full max-w-[400px]">
+            {/* SVG circle path with animated dash */}
+            <svg className="absolute inset-0 h-full w-full" viewBox="0 0 400 360" fill="none" preserveAspectRatio="xMidYMid meet">
+              <motion.ellipse
+                cx="200" cy="180" rx="155" ry="140"
+                stroke="#1f5eff" strokeWidth="1.5" strokeDasharray="8 5" fill="none" opacity="0.3"
+                animate={{ strokeDashoffset: [0, -52] }}
+                transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
               />
-              <defs><linearGradient id="loopGrad" x1="0" y1="0" x2="340" y2="340"><stop stopColor="#1f5eff" /><stop offset="1" stopColor="#00e5c0" /></linearGradient></defs>
+              {/* Arrow indicators between nodes */}
+              <path d="M 290 60 L 298 55 L 293 64" stroke="#1f5eff" strokeWidth="1.5" fill="none" opacity="0.4" />
+              <path d="M 352 210 L 354 200 L 346 207" stroke="#1f5eff" strokeWidth="1.5" fill="none" opacity="0.4" />
+              <path d="M 270 320 L 278 322 L 274 313" stroke="#1f5eff" strokeWidth="1.5" fill="none" opacity="0.4" />
+              <path d="M 110 320 L 118 313 L 112 322" stroke="#1f5eff" strokeWidth="1.5" fill="none" opacity="0.4" />
+              <path d="M 48 200 L 46 210 L 54 204" stroke="#1f5eff" strokeWidth="1.5" fill="none" opacity="0.4" />
+              <path d="M 125 55 L 118 60 L 128 63" stroke="#1f5eff" strokeWidth="1.5" fill="none" opacity="0.4" />
             </svg>
 
-            {/* Loop icons positioned in a circle */}
-            {loopSteps.map((step, i) => {
-              const angle = (i / loopSteps.length) * 2 * Math.PI - Math.PI / 2;
-              const r = 120;
-              const x = 50 + (Math.cos(angle) * r / 170) * 50;
-              const y = 50 + (Math.sin(angle) * r / 170) * 50;
-              return (
-                <motion.div
-                  key={step.label}
-                  className="absolute flex flex-col items-center gap-1.5"
-                  style={{ left: `${x}%`, top: `${y}%`, transform: "translate(-50%,-50%)" }}
-                  initial={{ opacity: 0, scale: 0.7 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.2 + i * 0.1 }}
-                >
-                  <div className="flex size-12 items-center justify-center rounded-xl bg-white shadow-md ring-1 ring-ink/10 sm:size-14">
-                    <step.icon className="size-5 sm:size-6" style={{ color: step.color }} />
-                  </div>
-                  <span className="text-[9px] font-bold uppercase tracking-wider text-ink/60 sm:text-[10px]">{step.label}</span>
-                </motion.div>
-              );
-            })}
-
-            {/* Center */}
-            <div className="relative z-10 flex flex-col items-center">
-              <Repeat className="size-5 text-electric" />
-              <span className="mt-1 text-[9px] font-bold uppercase tracking-wider text-electric">Compounds</span>
+            {/* Node positions: top, top-right, bottom-right, bottom, bottom-left, top-left */}
+            <div className="relative grid grid-cols-3 gap-y-16 py-6" style={{ gridTemplateRows: "auto auto auto" }}>
+              {/* Row 1: top center */}
+              <div className="col-start-2 flex justify-center">
+                <LoopNode icon={loopSteps[0].icon} label={loopSteps[0].label} bg={loopSteps[0].bg} delay={0} />
+              </div>
+              {/* Row 2: left and right */}
+              <div className="col-start-1 flex justify-center">
+                <LoopNode icon={loopSteps[5].icon} label={loopSteps[5].label} bg={loopSteps[5].bg} delay={0.5} />
+              </div>
+              <div className="col-start-2 flex justify-center">
+                {/* Center label */}
+                <div className="flex flex-col items-center justify-center">
+                  <Repeat className="size-6 text-electric" />
+                  <span className="mt-1.5 text-[10px] font-bold uppercase tracking-wider text-electric">Compounds</span>
+                </div>
+              </div>
+              <div className="col-start-3 flex justify-center">
+                <LoopNode icon={loopSteps[1].icon} label={loopSteps[1].label} bg={loopSteps[1].bg} delay={0.1} />
+              </div>
+              {/* Row 3: bottom-left, bottom-center, bottom-right */}
+              <div className="col-start-1 flex justify-center">
+                <LoopNode icon={loopSteps[4].icon} label={loopSteps[4].label} bg={loopSteps[4].bg} delay={0.4} />
+              </div>
+              <div className="col-start-2 flex justify-center">
+                <LoopNode icon={loopSteps[3].icon} label={loopSteps[3].label} bg={loopSteps[3].bg} delay={0.3} />
+              </div>
+              <div className="col-start-3 flex justify-center">
+                <LoopNode icon={loopSteps[2].icon} label={loopSteps[2].label} bg={loopSteps[2].bg} delay={0.2} />
+              </div>
             </div>
           </div>
         </Reveal>
 
         <Reveal delay={0.3}>
-          <p className="mt-8 text-[13px] text-slate">Every campaign gives Collision more context. Every experiment produces another signal. Every result changes what it recommends next.</p>
+          <p className="mt-6 text-[13px] text-slate">Every campaign gives Collision more context. Every experiment produces another signal. Every result changes what it recommends next.</p>
         </Reveal>
       </div>
     </section>
+  );
+}
+
+function LoopNode({ icon: Icon, label, bg, delay }: { icon: React.ComponentType<{ className?: string }>; label: string; bg: string; delay: number }) {
+  return (
+    <motion.div
+      className="flex flex-col items-center gap-2"
+      initial={{ opacity: 0, scale: 0.7 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true }}
+      transition={{ delay: 0.2 + delay, duration: 0.4 }}
+    >
+      <div className={cn("flex size-14 items-center justify-center rounded-full text-white shadow-lg", bg)}>
+        <Icon className="size-6" />
+      </div>
+      <span className="text-[10px] font-bold uppercase tracking-wider text-ink/60">{label}</span>
+    </motion.div>
   );
 }
 
@@ -430,14 +460,49 @@ function ReplacesSection() {
   );
 }
 
-/* ═══════════════ 7. INTEGRATIONS — by function ═══════════════ */
+/* ═══════════════ 7. INTEGRATIONS — by function (richer) ═══════════════ */
 
 const integrationGroups = [
-  { label: "Research", icons: [{ icon: SiGoogle, color: "#4285f4" }, { icon: SiReddit, color: "#ff4500" }, { icon: SiProducthunt, color: "#da552f" }, { icon: SiPerplexity, color: "#20b8cd" }] },
-  { label: "Distribute", icons: [{ icon: FaXTwitter, color: "#000" }, { icon: FaLinkedinIn, color: "#0a66c2" }, { icon: SiGmail, color: "#ea4335" }, { icon: FaSlack, color: "#4a154b" }] },
-  { label: "Build", icons: [{ icon: SiWebflow, color: "#4353ff" }, { icon: SiFramer, color: "#0055ff" }, { icon: SiShopify, color: "#95bf47" }, { icon: SiWordpress, color: "#21759b" }] },
-  { label: "Measure", icons: [{ icon: SiGoogleanalytics, color: "#e37400" }, { icon: SiPosthog, color: "#1d4aff" }, { icon: SiMixpanel, color: "#7856ff" }, { icon: SiGooglesearchconsole, color: "#458cf5" }] },
-  { label: "CRM", icons: [{ icon: SiHubspot, color: "#ff7a59" }, { icon: FaSalesforce, color: "#00a1e0" }, { icon: SiNotion, color: "#000" }, { icon: FaSlack, color: "#4a154b" }] },
+  { label: "Research", icons: [
+    { icon: SiGoogle, color: "#4285f4", name: "Google" },
+    { icon: SiReddit, color: "#ff4500", name: "Reddit" },
+    { icon: SiProducthunt, color: "#da552f", name: "Product Hunt" },
+    { icon: SiPerplexity, color: "#20b8cd", name: "Perplexity" },
+    { icon: SiG2, color: "#ff492c", name: "G2" },
+    { icon: SiSemrush, color: "#ff642d", name: "Semrush" },
+  ]},
+  { label: "Distribute", icons: [
+    { icon: FaXTwitter, color: "#000", name: "X" },
+    { icon: FaLinkedinIn, color: "#0a66c2", name: "LinkedIn" },
+    { icon: SiGmail, color: "#ea4335", name: "Gmail" },
+    { icon: SiMailchimp, color: "#ffe01b", name: "Mailchimp" },
+    { icon: FaSlack, color: "#4a154b", name: "Slack" },
+    { icon: SiIntercom, color: "#6afdef", name: "Intercom" },
+  ]},
+  { label: "Build", icons: [
+    { icon: SiWebflow, color: "#4353ff", name: "Webflow" },
+    { icon: SiFramer, color: "#0055ff", name: "Framer" },
+    { icon: SiShopify, color: "#95bf47", name: "Shopify" },
+    { icon: SiWordpress, color: "#21759b", name: "WordPress" },
+    { icon: SiNotion, color: "#fff", name: "Notion" },
+    { icon: SiAirtable, color: "#18bfff", name: "Airtable" },
+  ]},
+  { label: "Measure", icons: [
+    { icon: SiGoogleanalytics, color: "#e37400", name: "GA4" },
+    { icon: SiPosthog, color: "#1d4aff", name: "PostHog" },
+    { icon: SiMixpanel, color: "#7856ff", name: "Mixpanel" },
+    { icon: SiGooglesearchconsole, color: "#458cf5", name: "Search Console" },
+    { icon: SiStripe, color: "#635bff", name: "Stripe" },
+    { icon: LineChart, color: "#06b6d4", name: "Custom" },
+  ]},
+  { label: "CRM", icons: [
+    { icon: SiHubspot, color: "#ff7a59", name: "HubSpot" },
+    { icon: FaSalesforce, color: "#00a1e0", name: "Salesforce" },
+    { icon: SiNotion, color: "#fff", name: "Notion" },
+    { icon: SiZapier, color: "#ff4a00", name: "Zapier" },
+    { icon: FaSlack, color: "#4a154b", name: "Slack" },
+    { icon: SiAirtable, color: "#18bfff", name: "Airtable" },
+  ]},
 ];
 
 function IntegrationsSection() {
@@ -449,15 +514,20 @@ function IntegrationsSection() {
           <h2 className="mt-4 font-display text-[28px] font-medium text-white sm:text-[36px]">Works where growth already happens.</h2>
         </Reveal>
 
-        <div className="mt-14 space-y-4">
+        <div className="mt-14 space-y-3">
           {integrationGroups.map((group, gi) => (
-            <Reveal key={group.label} delay={gi * 0.08}>
-              <div className="flex items-center gap-4 rounded-xl border border-white/[0.06] bg-white/[0.03] px-5 py-4">
-                <span className="w-20 shrink-0 text-[11px] font-bold uppercase tracking-wider text-white/40">{group.label}</span>
+            <Reveal key={group.label} delay={gi * 0.06}>
+              <div className="flex items-center gap-5 rounded-2xl border border-white/[0.06] bg-white/[0.03] px-6 py-5 transition-all hover:border-white/12 hover:bg-white/[0.05]">
+                <span className="w-24 shrink-0 text-[11px] font-bold uppercase tracking-wider text-white/40">{group.label}</span>
                 <div className="flex flex-1 flex-wrap gap-3">
                   {group.icons.map((ic, ii) => (
-                    <motion.div key={ii} className="flex size-9 items-center justify-center rounded-lg bg-white/[0.06]" whileHover={{ scale: 1.15 }}>
+                    <motion.div
+                      key={ii}
+                      className="group/icon flex items-center gap-2 rounded-lg bg-white/[0.06] px-3 py-2 transition-all hover:bg-white/[0.12]"
+                      whileHover={{ scale: 1.05 }}
+                    >
                       <ic.icon className="size-4" style={{ color: ic.color }} />
+                      <span className="text-[10px] font-medium text-white/50 group-hover/icon:text-white/80 hidden sm:inline">{ic.name}</span>
                     </motion.div>
                   ))}
                 </div>
@@ -466,8 +536,8 @@ function IntegrationsSection() {
           ))}
         </div>
 
-        <Reveal delay={0.4} className="mt-8 text-center">
-          <p className="text-[12px] text-white/40">Collision doesn&apos;t just tell you what to do. <span className="text-white/70 font-medium">It can actually do it.</span></p>
+        <Reveal delay={0.4} className="mt-10 text-center">
+          <p className="text-[13px] text-white/40">Collision doesn&apos;t just tell you what to do. <span className="text-white/70 font-medium">It can actually do it.</span></p>
         </Reveal>
       </div>
     </section>
