@@ -1,0 +1,227 @@
+/* ============================================================
+   COLLISION — COSMIC PIXEL / CRT SKIN (visual only)
+   No copy, meta, or SEO text lives here. Pure texture + motion.
+   Palette: blue / black / white / universe.
+   ============================================================ */
+
+/* --- CRT scanline overlay: stack over any section --- */
+.scanlines {
+  position: relative;
+}
+.scanlines::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.045) 0px,
+    rgba(255, 255, 255, 0.045) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  mix-blend-mode: overlay;
+}
+
+/* --- moving CRT scan bar --- */
+@keyframes pixel-scan {
+  0% { transform: translateY(-20%); }
+  100% { transform: translateY(130vh); }
+}
+.scanbar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, rgba(107, 140, 255, 0.09), transparent);
+  animation: pixel-scan 9s linear infinite;
+  pointer-events: none;
+}
+
+/* --- retro phosphor dot-grid backdrop (dark / space) --- */
+.pixel-grid {
+  background-color: #05070f;
+  background-image:
+    radial-gradient(circle, rgba(91, 110, 255, 0.2) 1px, transparent 1px),
+    linear-gradient(to bottom, #05070f, #05070f);
+  background-size: 22px 22px, 100% 100%;
+}
+
+/* transparent phosphor dot-veil — layers OVER an image, no solid fill */
+.pixel-grid-veil {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle, rgba(107, 140, 255, 0.22) 1px, transparent 1px);
+  background-size: 22px 22px;
+  mix-blend-mode: screen;
+}
+
+/* --- twinkling pixel star-field (dark sections) --- */
+@keyframes pixel-twinkle {
+  0%, 100% { opacity: 0.45; }
+  50% { opacity: 1; }
+}
+.pixel-stars {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle, rgba(255, 255, 255, 0.9) 1px, transparent 1px),
+    radial-gradient(circle, rgba(160, 180, 255, 0.85) 1px, transparent 1px),
+    radial-gradient(circle, rgba(120, 150, 255, 0.6) 1px, transparent 1px);
+  background-size: 140px 140px, 240px 240px, 360px 360px;
+  background-position: 0 0, 80px 60px, 200px 120px;
+  animation: pixel-twinkle 4s steps(4) infinite;
+}
+
+/* star-field layered behind a section's content (z:-1) */
+.pixel-stars-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle, rgba(255, 255, 255, 0.85) 1px, transparent 1px),
+    radial-gradient(circle, rgba(160, 180, 255, 0.8) 1px, transparent 1px),
+    radial-gradient(circle, rgba(120, 150, 255, 0.55) 1px, transparent 1px);
+  background-size: 140px 140px, 240px 240px, 360px 360px;
+  background-position: 0 0, 80px 60px, 200px 120px;
+  animation: pixel-twinkle 4s steps(4) infinite;
+}
+
+/* --- retro dot-grid backdrop (light) --- */
+.pixel-grid-light {
+  background-color: #ffffff;
+  background-image: radial-gradient(circle, rgba(10, 10, 10, 0.07) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* --- blinking terminal cursor (append via ::after) --- */
+@keyframes pixel-blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+.pixel-cursor::after {
+  content: "▊";
+  margin-left: 3px;
+  color: var(--mint);
+  animation: pixel-blink 1.1s steps(1) infinite;
+}
+
+/* --- chunky pixel border + hard offset shadow --- */
+.pixel-border {
+  border: 2px solid var(--ink);
+  box-shadow: 4px 4px 0 0 rgba(10, 10, 10, 0.9);
+}
+.pixel-border-light {
+  border: 2px solid rgba(255, 255, 255, 0.22);
+  box-shadow: 4px 4px 0 0 rgba(107, 140, 255, 0.4);
+}
+
+/* --- floating sparkle pixels --- */
+@keyframes pixel-sparkle {
+  0%, 100% { transform: translateY(0) scale(1); opacity: 0.85; }
+  50% { transform: translateY(-9px) scale(1.18); opacity: 1; }
+}
+.pixel-sparkle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: var(--mint);
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.15);
+  animation: pixel-sparkle 2.6s steps(8) infinite;
+  image-rendering: pixelated;
+}
+
+/* --- pulsing blue glow for CTAs on dark --- */
+@keyframes pixel-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(107, 140, 255, 0.55); }
+  50% { box-shadow: 0 0 18px 3px rgba(107, 140, 255, 0.4); }
+}
+.pixel-glow {
+  animation: pixel-pulse 2.8s ease-in-out infinite;
+}
+
+/* --- subtle blue edge-glow on hoverable cards (light sections) --- */
+@keyframes pixel-edge {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(59, 91, 255, 0); }
+  50% { box-shadow: 0 0 0 1px rgba(59, 91, 255, 0.3); }
+}
+.pixel-edge-hover:hover {
+  animation: pixel-edge 1.6s ease-in-out infinite;
+}
+
+/* --- harder, squarer default buttons --- */
+[data-slot="button"] {
+  border-radius: 6px;
+  transition: transform 0.08s ease, box-shadow 0.08s ease, background-color 0.15s ease, color 0.15s ease;
+}
+[data-slot="button"]:active {
+  transform: translateY(2px);
+}
+
+/* --- mono terminal eyebrow / labels (Space Mono) --- */
+.eyebrow {
+  font-family: var(--font-space-mono), monospace;
+  letter-spacing: 0.22em;
+}
+
+/* --- visual slot placeholder: where generated pixel art drops in --- */
+.pixel-slot {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed rgba(10, 10, 10, 0.28);
+  border-radius: 6px;
+  color: rgba(10, 10, 10, 0.42);
+  font-family: var(--font-space-mono), monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background-image: radial-gradient(circle, rgba(10, 10, 10, 0.07) 1px, transparent 1px);
+  background-size: 14px 14px;
+}
+.pixel-slot-dark {
+  border-color: rgba(255, 255, 255, 0.26);
+  color: rgba(255, 255, 255, 0.42);
+  background-image: radial-gradient(circle, rgba(107, 140, 255, 0.12) 1px, transparent 1px);
+}
+
+/* --- endless marquee ticker strips --- */
+@keyframes pixel-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.pixel-marquee {
+  animation: pixel-marquee 30s linear infinite;
+  will-change: transform;
+}
+
+/* --- crisp RGB-split glitch on hover (no blur) --- */
+@keyframes pixel-glitch {
+  0%, 100% { transform: translate(0, 0); text-shadow: none; }
+  20% { transform: translate(-2px, 1px); text-shadow: 2px 0 rgba(89, 216, 255, 0.9), -2px 0 rgba(107, 140, 255, 0.9); }
+  40% { transform: translate(2px, -1px); text-shadow: -2px 0 rgba(89, 216, 255, 0.9), 2px 0 rgba(107, 140, 255, 0.9); }
+  60% { transform: translate(-1px, 1px); text-shadow: 2px 0 rgba(89, 216, 255, 0.9), -2px 0 rgba(107, 140, 255, 0.9); }
+  80% { transform: translate(1px, -1px); text-shadow: -2px 0 rgba(89, 216, 255, 0.9), 2px 0 rgba(107, 140, 255, 0.9); }
+}
+.glitch-hover:hover {
+  animation: pixel-glitch 0.45s steps(1, end) 1;
+}
+
+/* --- respect reduced motion --- */
+@media (prefers-reduced-motion: reduce) {
+  .scanbar,
+  .pixel-sparkle,
+  .pixel-stars,
+  .pixel-cursor::after,
+  .pixel-glow,
+  .pixel-edge-hover:hover,
+  .pixel-marquee,
+  .glitch-hover:hover {
+    animation: none !important;
+  }
+}

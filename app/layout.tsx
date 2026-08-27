@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { DM_Sans, Lora } from "next/font/google";
+import { DM_Sans, Silkscreen, Space_Mono } from "next/font/google";
 import "./globals.css";
+import "./pixel-theme.css";
 
 import { SiteFooter } from "@/components/site-footer";
 
@@ -10,8 +11,16 @@ const dmSans = DM_Sans({
   display: "swap",
 });
 
-const lora = Lora({
-  variable: "--font-lora",
+const silk = Silkscreen({
+  weight: ["400", "700"],
+  variable: "--font-silk",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const spaceMono = Space_Mono({
+  weight: ["400", "700"],
+  variable: "--font-space-mono",
   subsets: ["latin"],
   display: "swap",
 });
@@ -113,7 +122,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className={`${dmSans.variable} ${lora.variable}`}>
+      <body className={`${dmSans.variable} ${silk.variable} ${spaceMono.variable}`}>
         {children}
         <SiteFooter />
       </body>

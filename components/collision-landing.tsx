@@ -16,6 +16,7 @@ import {
 } from "@/lib/collision-content";
 import { cn } from "@/lib/utils";
 import { useRef } from "react";
+import { PixelCursorTrail, PixelHeroBackdrop, PixelMarquee, PixelMark, PixelParticles, Typewriter } from "./pixel";
 
 /* ─────────────── Utilities ─────────────── */
 
@@ -78,13 +79,13 @@ function FloatingNav() {
       initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }}
     >
       <div className="mx-auto flex w-full max-w-[1120px] items-center justify-between px-5 py-4 sm:px-7">
-        <a href="#top" className="text-white"><span className="font-display text-[20px] font-medium tracking-[-0.04em]">collision.</span></a>
+        <a href="#top" className="flex items-center gap-2 text-white"><PixelMark className="size-5 text-mint" /><span className="font-display text-[20px] font-medium tracking-[-0.04em]">collision.</span></a>
         <div className="hidden items-center gap-7 text-[11px] font-medium tracking-[0.08em] text-white/70 md:flex">
           {navigationLinks.map(([label, href]) => (<Link key={href} href={href} className="hover:text-white transition-colors">{label}</Link>))}
         </div>
         <div className="flex items-center gap-3">
           <a href="https://cal.com/collision" target="_blank" rel="noopener noreferrer">
-            <Button size="lg" className="h-9 rounded-full bg-electric px-5 text-[11px] font-semibold text-white hover:bg-[#1745c2] sm:h-10 sm:px-6">Get started</Button>
+            <Button size="lg" className="glitch-hover h-9 rounded-md bg-electric px-5 text-[11px] font-semibold text-white hover:bg-[#6b8cff] hover:text-[#0a0a0a] sm:h-10 sm:px-6">Get started</Button>
           </a>
           <Button size="icon" variant="outline" onClick={() => setOpen(v => !v)} className="size-9 rounded-full border-white/20 bg-white/5 text-white hover:bg-white/10 md:hidden" aria-label="Menu">
             {open ? <X className="size-4" /> : <Menu className="size-4" />}
@@ -107,37 +108,22 @@ function FloatingNav() {
 function HeroSection() {
   const [prompt, setPrompt] = useState("");
   const handleSubmit = (e: FormEvent) => { e.preventDefault(); window.open("https://cal.com/collision", "_blank"); };
-  const reduceMotion = useReducedMotion();
 
   return (
-    <section id="top" className="relative isolate flex min-h-[100svh] items-center overflow-hidden bg-[#77d8ef]">
-      {/* Video background — self-hosted clip, no YouTube chrome */}
-      <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
-        <video
-          className="absolute inset-0 h-full w-full object-cover"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-          poster="/hero-bg-poster.jpg"
-          tabIndex={-1}
-        >
-          <source src="/hero-bg.mp4" type="video/mp4" />
-        </video>
-      </div>
-      <div className="absolute inset-0 bg-[#57cce9]/40 mix-blend-color" aria-hidden="true" />
-      <div className="absolute inset-0 bg-[#0c1e38]/50" aria-hidden="true" />
-      <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-[#0c2749]/80 to-transparent" aria-hidden="true" />
-      <motion.div className="absolute right-[14%] top-[17%] size-48 rounded-full bg-soft-yellow/30 blur-3xl" animate={reduceMotion ? undefined : { scale: [1, 1.08, 1], opacity: [0.3, 0.6, 0.3] }} transition={{ duration: 12, repeat: Infinity }} aria-hidden="true" />
+    <section id="top" className="relative isolate flex min-h-[100svh] items-center overflow-hidden bg-[#05070f]">
+      {/* Pixel / CRT console backdrop — animated, self-contained */}
+      <PixelHeroBackdrop />
 
       <div className="relative z-10 mx-auto flex w-full max-w-[900px] flex-col items-center px-5 pb-16 pt-28 text-center text-white sm:pt-36">
-        <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.1 }} className="text-[10px] font-semibold uppercase tracking-[0.25em] text-white/60">
+        <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.1 }} className="font-mono text-[10px] font-semibold uppercase tracking-[0.25em] text-white/60">
           The AI you hire to run growth
         </motion.p>
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.7 }} className="mt-4">
+          <Typewriter text="$ collision --run growth" className="text-[12px] tracking-[0.18em] text-soft-yellow/90" />
+        </motion.div>
 
-        <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15, duration: 0.8 }} className="mt-6 font-display text-[40px] font-medium leading-[1.05] tracking-[-0.04em] sm:text-[58px] md:text-[76px]">
-          Replace your entire <span className="text-soft-yellow">growth team.</span>
+        <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15, duration: 0.8 }} className="mt-6 max-w-[820px] font-display text-[30px] font-medium leading-[1.1] tracking-[-0.01em] sm:text-[42px] md:text-[54px]">
+          Replace your entire<br className="hidden sm:inline" /> <span className="whitespace-nowrap text-soft-yellow">growth team.</span>
         </motion.h1>
 
         <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25, duration: 0.7 }} className="mt-7 max-w-[680px] text-[15px] leading-relaxed text-white/85 sm:text-[17px]">
@@ -147,7 +133,7 @@ function HeroSection() {
         <motion.form onSubmit={handleSubmit} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.35 }} className="mt-10 w-full max-w-[640px] rounded-2xl border border-white/15 bg-white/[0.06] p-3 backdrop-blur-md">
           <div className="flex gap-2">
             <Input value={prompt} onChange={e => setPrompt(e.target.value)} placeholder="What should we grow?" className="h-12 flex-1 rounded-xl border-0 bg-transparent text-[15px] text-white placeholder:text-white/40 focus-visible:ring-1 focus-visible:ring-electric/50" />
-            <Button type="submit" className="h-12 shrink-0 rounded-xl bg-electric px-5 text-[12px] font-semibold text-white hover:bg-[#1745c2]">
+            <Button type="submit" className="glitch-hover h-12 shrink-0 rounded-md bg-electric px-5 text-[12px] font-semibold text-white hover:bg-[#6b8cff] hover:text-[#0a0a0a]">
               <ArrowRight className="size-4" />
             </Button>
           </div>
@@ -160,7 +146,7 @@ function HeroSection() {
 
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }} className="mt-7 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-[10px] font-medium uppercase tracking-[0.15em] text-white/70">
           <span>One conversation</span><span className="text-white/35">·</span><span>One memory</span><span className="text-white/35">·</span><span>One source of truth</span>
-          <span className="rounded-full bg-mint/90 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.15em] text-[#12335a]">approval-based</span>
+          <span className="rounded-full bg-mint/90 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.15em] text-[#0f0f0f]">approval-based</span>
         </motion.div>
       </div>
     </section>
@@ -171,11 +157,11 @@ function HeroSection() {
 
 const flowSteps = [
   { icon: Target, label: "Goal", color: "bg-electric" },
-  { icon: Search, label: "Research", color: "bg-[#8b5cf6]" },
+  { icon: Search, label: "Research", color: "bg-[#8a7cff]" },
   { icon: Brain, label: "Strategy", color: "bg-coral" },
   { icon: PenTool, label: "Create", color: "bg-mint" },
   { icon: Send, label: "Distribute", color: "bg-soft-yellow" },
-  { icon: BarChart3, label: "Learn", color: "bg-[#06b6d4]" },
+  { icon: BarChart3, label: "Learn", color: "bg-[#22d3ee]" },
   { icon: RefreshCw, label: "Adapt", color: "bg-electric" },
 ];
 
@@ -184,7 +170,7 @@ function HowItWorksSection() {
     <section id="how-it-works" className="bg-paper px-5 py-20 sm:px-7 lg:py-28">
       <div className="mx-auto max-w-[900px]">
         <Reveal className="text-center">
-          <p className="text-[10px] font-semibold uppercase tracking-[0.25em] text-electric">How it works</p>
+          <p className="font-mono text-[10px] font-semibold uppercase tracking-[0.25em] text-electric">How it works</p>
           <h2 className="mt-4 font-display text-[28px] font-medium leading-tight tracking-tight text-ink sm:text-[40px]">One goal in. Growth out.</h2>
         </Reveal>
 
@@ -245,10 +231,11 @@ const surfaces = [
 
 function SurfacesSection() {
   return (
-    <section id="product" className="bg-[#0a0f1a] px-5 py-20 text-white sm:px-7 lg:py-28">
+    <section id="product" className="relative isolate scanlines pixel-stars-bg bg-[#05070f] px-5 py-20 text-white sm:px-7 lg:py-28">
+      <PixelParticles className="-z-10" />
       <div className="mx-auto max-w-[900px]">
         <Reveal className="text-center">
-          <p className="text-[10px] font-semibold uppercase tracking-[0.25em] text-mint">Every growth surface</p>
+          <p className="font-mono text-[10px] font-semibold uppercase tracking-[0.25em] text-mint">Every growth surface</p>
           <h2 className="mt-4 font-display text-[28px] font-medium leading-tight text-white sm:text-[40px]">Collision decides what matters for the goal.</h2>
         </Reveal>
 
@@ -293,7 +280,7 @@ function CascadeSection() {
     <section className="bg-paper px-5 py-20 sm:px-7 lg:py-28">
       <div className="mx-auto max-w-[500px]">
         <Reveal className="text-center">
-          <p className="text-[10px] font-semibold uppercase tracking-[0.25em] text-electric">The cascade</p>
+          <p className="font-mono text-[10px] font-semibold uppercase tracking-[0.25em] text-electric">The cascade</p>
           <h2 className="mt-4 font-display text-[28px] font-medium leading-tight text-ink sm:text-[36px]">One request → hundreds of actions.</h2>
         </Reveal>
 
@@ -307,7 +294,7 @@ function CascadeSection() {
                 )}
                 whileHover={{ x: 6 }}
               >
-                <item.icon className={cn("size-5 shrink-0", i === 0 ? "text-electric" : i === cascadeItems.length - 1 ? "text-[#008f7b]" : "text-slate")} />
+                <item.icon className={cn("size-5 shrink-0", i === 0 ? "text-electric" : i === cascadeItems.length - 1 ? "text-[#6b8cff]" : "text-slate")} />
                 <span className={cn("font-medium text-ink", item.size)}>{item.label}</span>
               </motion.div>
               {i < cascadeItems.length - 1 && (
@@ -336,10 +323,11 @@ const proofMetrics = [
 
 function ProofSection() {
   return (
-    <section id="proof" className="bg-[#0a0f1a] px-5 py-20 text-white sm:px-7 lg:py-28">
+    <section id="proof" className="relative isolate scanlines pixel-stars-bg bg-[#05070f] px-5 py-20 text-white sm:px-7 lg:py-28">
+      <PixelParticles className="-z-10" />
       <div className="mx-auto max-w-[900px]">
         <Reveal className="text-center">
-          <p className="text-[10px] font-semibold uppercase tracking-[0.25em] text-soft-yellow">Growth proof</p>
+          <p className="font-mono text-[10px] font-semibold uppercase tracking-[0.25em] text-soft-yellow">Growth proof</p>
           <h2 className="mt-4 font-display text-[28px] font-medium leading-tight text-white sm:text-[40px]">Measured. Not promised.</h2>
         </Reveal>
 
@@ -388,7 +376,7 @@ function ArchitectureSection() {
     <section className="bg-cyan-surface px-5 py-20 sm:px-7 lg:py-24">
       <div className="mx-auto max-w-[600px] text-center">
         <Reveal>
-          <p className="text-[10px] font-semibold uppercase tracking-[0.25em] text-electric">Under the hood</p>
+          <p className="font-mono text-[10px] font-semibold uppercase tracking-[0.25em] text-electric">Under the hood</p>
           <h2 className="mt-4 font-display text-[28px] font-medium leading-tight text-ink sm:text-[36px]">One AI. A growth team underneath.</h2>
         </Reveal>
 
@@ -398,7 +386,7 @@ function ArchitectureSection() {
             <div className="rounded-full border-2 border-ink bg-white px-6 py-3 text-[13px] font-bold text-ink shadow-sm">You</div>
             <div className="h-8 w-px bg-ink/15" />
             {/* Collision */}
-            <div className="rounded-full bg-electric px-8 py-4 text-[14px] font-bold text-white shadow-[0_4px_24px_rgb(31_94_255_/_30%)]">Collision</div>
+            <div className="rounded-full bg-electric px-8 py-4 text-[14px] font-bold text-white shadow-[0_4px_24px_rgb(107_140_255_/_50%)]">Collision</div>
             <div className="h-8 w-px bg-ink/15" />
             {/* Specialist icons */}
             <div className="flex flex-wrap justify-center gap-3">
@@ -459,12 +447,13 @@ function FaqSection() {
 
 function FinalCta() {
   return (
-    <section className="relative overflow-hidden bg-[#0a0f1a] px-5 py-24 text-center text-white lg:py-32">
-      <div className="absolute left-1/2 top-1/2 size-[400px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,#1f5eff15_0%,transparent_70%)]" aria-hidden="true" />
+    <section className="relative isolate scanlines pixel-stars-bg overflow-hidden bg-[#05070f] px-5 py-24 text-center text-white lg:py-32">
+      <PixelParticles className="-z-10" />
+      <div className="absolute left-1/2 top-1/2 size-[400px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,#6b8cff15_0%,transparent_70%)]" aria-hidden="true" />
       <Reveal className="relative mx-auto max-w-[600px]">
-        <h2 className="font-display text-[32px] font-medium leading-tight sm:text-[48px]">You own the goal.<br /><span className="text-electric">Collision owns the work.</span></h2>
+        <h2 className="font-display text-[32px] font-medium leading-tight sm:text-[48px]">You own the goal.<br /><span className="text-soft-yellow">Collision owns the work.</span></h2>
         <a href="https://cal.com/collision" target="_blank" rel="noopener noreferrer" className="mt-8 inline-block">
-          <Button size="lg" className="h-12 rounded-full bg-electric px-8 text-[13px] font-semibold text-white hover:bg-[#1745c2] hover:shadow-[0_0_30px_rgb(31_94_255_/_40%)]">
+          <Button size="lg" className="glitch-hover h-12 rounded-md bg-electric px-8 text-[13px] font-semibold text-white hover:bg-[#6b8cff] hover:text-[#0a0a0a] hover:shadow-[0_0_30px_rgb(107_140_255_/_40%)]">
             Meet Collision <ArrowRight className="ml-2 size-4" />
           </Button>
         </a>
@@ -500,12 +489,20 @@ function ExploreSection() {
 export default function CollisionLanding() {
   return (
     <main className="collision-page">
+      <PixelCursorTrail />
       <FloatingNav />
       <HeroSection />
+      <PixelMarquee
+        items={["one conversation", "one memory", "one source of truth", "approval-based", "every growth surface", "research", "plan", "write", "distribute", "learn"]}
+        dark
+      />
       <HowItWorksSection />
       <SurfacesSection />
       <CascadeSection />
       <ProofSection />
+      <PixelMarquee
+        items={["approval-based", "nothing ships without you", "one memory", "one source of truth", "measured, not promised", "research", "write", "distribute", "learn"]}
+      />
       <ArchitectureSection />
       <FaqSection />
       <ExploreSection />

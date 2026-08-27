@@ -4,18 +4,21 @@
 @import "shadcn/tailwind.css";
 
 :root {
-  --paper: #fbfaf6;
-  --ink: #15213a;
-  --electric: #1f5eff;
-  --cyan-surface: #eaf9fb;
-  --deep-blue: #123c78;
-  --soft-yellow: #ffe16a;
-  --coral: #ff7b63;
-  --mint: #00e5c0;
-  --slate: #69798a;
+  --paper: #ffffff;
+  --ink: #0a0a0a;
+  --electric: #3b5bff;
+  --cyan-surface: #eef2ff;
+  --deep-blue: #05070f;
+  --soft-yellow: #59d8ff;
+  --coral: #a78bfa;
+  --mint: #6b8cff;
+  --lime: #6b8cff;
+  --lavender: #dfe6ff;
+  --slate: #6b7280;
+  --bg-space: #05070f;
   --white: #ffffff;
-  --border: rgb(21 33 58 / 15%);
-  --input: rgb(21 33 58 / 15%);
+  --border: rgb(10 10 10 / 14%);
+  --input: rgb(10 10 10 / 14%);
   --ring: var(--electric);
   --primary: var(--electric);
   --primary-foreground: var(--white);
@@ -25,7 +28,7 @@
   --muted-foreground: var(--slate);
   --background: var(--paper);
   --foreground: var(--ink);
-  --radius: 0.75rem;
+  --radius: 0.25rem;
 }
 
 @theme inline {
@@ -51,7 +54,8 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
   --font-sans: var(--font-dm-sans);
-  --font-display: var(--font-lora);
+  --font-display: var(--font-silk);
+  --font-mono: var(--font-space-mono);
   --radius-sm: calc(var(--radius) * 0.75);
   --radius-md: var(--radius);
   --radius-lg: calc(var(--radius) * 1.35);
@@ -59,7 +63,8 @@
 }
 
 @utility font-display {
-  font-family: var(--font-lora), Georgia, serif;
+  font-family: var(--font-silk), "Silkscreen", monospace;
+  letter-spacing: 0.01em;
 }
 
 @utility text-balance {
