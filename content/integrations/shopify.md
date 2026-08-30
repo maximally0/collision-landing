@@ -1,8 +1,8 @@
 ---
 title: "Shopify integration"
 description: "Shopify runs storefronts for many of Collision's customers. Collision supports store growth — content, campaigns and distribution around the store."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "integrations, Shopify"
 target_path: "/integrations/shopify"

@@ -1,14 +1,14 @@
 ---
 title: "Collision vs PRophet: The Honest Comparison"
 description: "Collision vs PRophet — pricing, capabilities and who each is for. The deciding question isn't features; it's whether you want a point product or the full growth loop."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "comparison, PRophet, Collision"
 target_path: "/compare/collision-vs-prophet"
 page_type: "vs"
 entity: "PRophet"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Collision vs PRophet
@@ -43,7 +43,7 @@ assessment: Collision packages PR into a founder-priced autonomous growth stack;
 - **PRophet:** Custom (enterprise) (Enterprise SaaS)
 - **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## How to decide
 

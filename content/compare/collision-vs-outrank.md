@@ -1,14 +1,14 @@
 ---
 title: "Collision vs Outrank: The Honest Comparison"
 description: "Collision vs Outrank — pricing, capabilities and who each is for. The deciding question isn't features; it's whether you want a point product or the full growth loop."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "comparison, Outrank, Collision"
 target_path: "/compare/collision-vs-outrank"
 page_type: "vs"
 entity: "Outrank"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Collision vs Outrank
@@ -40,10 +40,10 @@ Collision spans many capabilities (SEO+content+outbound+social+strategy); Outran
 
 ## Pricing reality
 
-- **Outrank:** Not publicly listed (Subscription)
+- **Outrank:** $99/mo All-in-One (30 articles/mo); $999/yr annual (Subscription)
 - **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## How to decide
 

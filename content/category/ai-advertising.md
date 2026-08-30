@@ -1,14 +1,14 @@
 ---
 title: "AI advertising in 2026: The Practical Guide"
 description: "AI advertising generates and optimizes ad creative and campaigns across paid channels. What it is, how it works, the verified landscape, and how to choose."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "AI advertising, AI marketing, category"
 target_path: "/category/ai-advertising"
 page_type: "category"
 entity: "AI_ADVERTISING"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # AI advertising
@@ -26,6 +26,9 @@ AI systems now answer a growing share of search queries. The brands that appear 
 - **[Madgicx](/alternatives/madgicx)** — First AI ad agent for Meta plus exclusive AI Bidding via Meta partnership
 - **[Smartly.io](/alternatives/smartly-io)** — Only platform managing creative and media end-to-end for 700+ global brands at 300B creatives/year
 - **[InstaAgent](/alternatives/instaagent)** — Hundreds of distinct audiences with distinct content from one brief — the anti-generic ad engine
+- **[Sprites](/alternatives/sprites)** — Cross-channel ad execution (not just content) with ROAS/CPL goal optimization plus an SEO/AEO content engine -
+- **[Omneky](/alternatives/omneky)** — Cross-channel autonomous ad execution including ChatGPT-native ads (post OpenAI self-serve Ads Manager, May 20
+- **[MAI](/alternatives/mai)** — ROAS-guaranteed autonomous ad agents with deep platform-side DNA (founders ex-Google/Instacart), already manag
 
 ## How to evaluate a purchase
 

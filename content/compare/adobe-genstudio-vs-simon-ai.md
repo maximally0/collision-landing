@@ -1,14 +1,14 @@
 ---
 title: "Adobe GenStudio vs Simon AI"
 description: "A neutral comparison of Adobe GenStudio and Simon AI — what each does, what they cost, and who each is for."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "comparison, Adobe GenStudio, Simon AI, AI marketing"
 target_path: "/compare/adobe-genstudio-vs-simon-ai"
 page_type: "vs-vs"
 entity: "Adobe GenStudio vs Simon AI"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Adobe GenStudio vs Simon AI

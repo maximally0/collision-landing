@@ -1,14 +1,14 @@
 ---
 title: "AdCreative.ai vs Smartly.io"
 description: "A neutral comparison of AdCreative.ai and Smartly.io — what each does, what they cost, and who each is for."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "comparison, AdCreative.ai, Smartly.io, AI marketing"
 target_path: "/compare/adcreative-ai-vs-smartly-io"
 page_type: "vs-vs"
 entity: "AdCreative.ai vs Smartly.io"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # AdCreative.ai vs Smartly.io

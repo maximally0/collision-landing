@@ -1,8 +1,8 @@
 ---
 title: "Google Search Console integration"
 description: "Search Console tells you what Google actually sees. Collision reads query and performance data to decide what content to create or fix next."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "integrations, Google Search Console"
 target_path: "/integrations/google-search-console"

@@ -1,14 +1,14 @@
 ---
 title: "AI LinkedIn growth in 2026: The Practical Guide"
 description: "AI LinkedIn growth builds a founder or company presence on LinkedIn through content, engagement and outreach. What it is, how it works, the verified landscape, and how to choose."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "AI LinkedIn growth, AI marketing, category"
 target_path: "/category/ai-linkedin-growth"
 page_type: "category"
 entity: "AI_LINKEDIN"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # AI LinkedIn growth
@@ -23,6 +23,7 @@ AI systems now answer a growing share of search queries. The brands that appear 
 
 - **[AuthoredUp](/alternatives/authoredup)** — Polished writing + analytics workflow marketed as the #1 LinkedIn content tool (Chrome Web Store).
 - **[Taplio](/alternatives/taplio)** — Content virality engine plus native LinkedIn outreach (connect + DM) in one tool, backed by lemlist.
+- **[Imagine AI](/alternatives/imagine-ai)** — Company-level executive LinkedIn growth (not solo-founder tools): coordinated CEO/VP/CMO content systems with 
 
 ## How to evaluate a purchase
 

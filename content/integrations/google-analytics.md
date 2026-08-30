@@ -1,8 +1,8 @@
 ---
 title: "Google Analytics integration"
 description: "Analytics shows what's working. Collision uses GA4 data to measure which content and channels drive traffic and conversions."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "integrations, Google Analytics"
 target_path: "/integrations/google-analytics"

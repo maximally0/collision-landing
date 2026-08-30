@@ -1,8 +1,8 @@
 ---
 title: "Answer Gap"
 description: "A question AI systems answer without mentioning you — a GEO opportunity."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "glossary, Answer Gap"
 target_path: "/glossary/answer-gap"

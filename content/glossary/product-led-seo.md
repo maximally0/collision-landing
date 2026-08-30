@@ -1,8 +1,8 @@
 ---
 title: "Product-Led SEO"
 description: "Building a search ecosystem around each product capability, from category page to use case to template."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "glossary, Product-Led SEO"
 target_path: "/glossary/product-led-seo"

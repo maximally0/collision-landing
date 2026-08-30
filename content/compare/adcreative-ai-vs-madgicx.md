@@ -1,14 +1,14 @@
 ---
 title: "AdCreative.ai vs Madgicx"
 description: "A neutral comparison of AdCreative.ai and Madgicx — what each does, what they cost, and who each is for."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "comparison, AdCreative.ai, Madgicx, AI marketing"
 target_path: "/compare/adcreative-ai-vs-madgicx"
 page_type: "vs-vs"
 entity: "AdCreative.ai vs Madgicx"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # AdCreative.ai vs Madgicx

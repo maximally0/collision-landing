@@ -1,8 +1,8 @@
 ---
 title: "Webflow integration"
 description: "Webflow is the visual CMS of choice for many startups. Collision syncs written and SEO content into your Webflow site."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "integrations, Webflow"
 target_path: "/integrations/webflow"

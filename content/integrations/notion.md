@@ -1,8 +1,8 @@
 ---
 title: "Notion integration"
 description: "Notion is where many startups keep their docs and roadmap. Collision can drop research, strategy and content plans into your workspace."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "integrations, Notion"
 target_path: "/integrations/notion"

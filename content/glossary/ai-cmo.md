@@ -1,8 +1,8 @@
 ---
 title: "AI CMO"
 description: "A system of AI agents that performs the strategy, execution and measurement work of a chief marketing officer."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "glossary, AI CMO"
 target_path: "/glossary/ai-cmo"

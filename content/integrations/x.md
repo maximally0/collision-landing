@@ -1,8 +1,8 @@
 ---
 title: "X (Twitter) integration"
 description: "X is where founder-led brands are built in public. Collision drafts, schedules and tracks X posts in your voice — approved by you before publishing."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "integrations, X (Twitter)"
 target_path: "/integrations/x"

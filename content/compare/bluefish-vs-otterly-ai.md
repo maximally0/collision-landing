@@ -1,14 +1,14 @@
 ---
 title: "Bluefish vs Otterly.ai"
 description: "A neutral comparison of Bluefish and Otterly.ai — what each does, what they cost, and who each is for."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-29"
+updated: "2026-08-29"
 authorId: "collision-team"
 tags: "comparison, Bluefish, Otterly.ai, AI marketing"
 target_path: "/compare/bluefish-vs-otterly-ai"
 page_type: "vs-vs"
 entity: "Bluefish vs Otterly.ai"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-29)"
 ---
 
 # Bluefish vs Otterly.ai

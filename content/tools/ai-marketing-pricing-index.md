@@ -1,19 +1,19 @@
 ---
 title: "AI Marketing Pricing Index 2026"
 description: "Every AI marketing company's published pricing in one verified table — 77 companies, sorted by tier and category, sourced from primary pages."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "pricing, AI marketing, data"
 target_path: "/tools/ai-marketing-pricing-index"
 page_type: "tool"
 entity: "AI marketing pricing"
-verified_against: "competitive-intel/competitors.csv (pricing verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (pricing verified 2026-08-30)"
 ---
 
 # AI Marketing Pricing Index 2026
 
-The complete pricing picture for the AI marketing category: **82 companies**, every price from a published source, verified 2026-08-14.
+The complete pricing picture for the AI marketing category: **136 companies**, every price from a published source, verified 2026-08-30.
 
 Prices range from free tiers and $66/month entry points to six-figure enterprise contracts. Use this table to understand what the market actually charges before you evaluate any tool.
 
@@ -28,7 +28,7 @@ Prices range from free tiers and $66/month entry points to six-figure enterprise
 | [Hyper AI](/alternatives/hyper-ai) | AI_MARKETING_PLATFORM | Free tier ($10 credits); paid plans (tiers unverified) | Freemium subscription | Marketing teams, founders and agencies |
 | [Jasper](/alternatives/jasper) | AI_MARKETING_PLATFORM | Tiered subscription; free trial (Creator/Pro/Business plans) | Subscription | Marketing teams, SMB to enterprise |
 | [NoimosAI](/alternatives/noimosai) | AI_MARKETING_AGENCY | Pro $99/user/mo; Team $249; Advanced $499 (credit-based) | Subscription | Content creators, freelancers, startups, SMBs |
-| [Okara](/alternatives/okara) | AI_CMO | Free tier (analysis/strategy only); paid from ~$99/mo per current pricing page (launch blog Apr 2026 cited from $249/mo) | Subscription (credits) | Founders, startups, small teams |
+| [Okara](/alternatives/okara) | AI_CMO | Free tier (analysis/strategy only); AI CMO v2 at $129/mo or $1290/yr (Aug 2026 launch; pricing page cited from ~$99/mo earlier in Aug 2026; $249/mo at Apr 2026 launch) | Subscription (credits) | Founders, startups, small teams |
 | [Persado](/alternatives/persado) | AI_MARKETING_PLATFORM | Enterprise (demo/quote) | Service retainer | Enterprise regulated brands (banks, insurers, telecoms, reta |
 | [Salesforce Agentforce](/alternatives/salesforce-agentforce) | AI_AGENT_OS | From $2/conversation; Flex Credits ~$0.10/action (~$500/100k); Data Cloud add-on | Usage-based | Enterprises (50% of Fortune 100 use Salesforce AI) |
 | [Simon AI](/alternatives/simon-ai) | AI_MARKETING_PLATFORM | Enterprise (contact sales) | Subscription | Mid-market to enterprise brands (ASOS, SeatGeek, Travel + Le |
@@ -50,7 +50,7 @@ Prices range from free tiers and $66/month entry points to six-figure enterprise
 | [Meltwater](/alternatives/meltwater) | AI_PR | Custom (enterprise) | Enterprise contracts | PR, comms and marketing teams at 27,000+ organizations |
 | [Muck Rack](/alternatives/muck-rack) | AI_PR | Custom (annual) | Annual subscription | PR/comm teams, startups and agencies |
 | [Otterly.ai](/alternatives/otterly-ai) | AI_AEO | From $29/mo (tiers $29-$489/mo) | Subscription | Startups, marketers and agencies (40,000+ marketing pros) |
-| [Outrank](/alternatives/outrank) | AI_SEO | Not published | Subscription | Founders, SMBs and agencies wanting hands-off SEO |
+| [Outrank](/alternatives/outrank) | AI_SEO | $99/mo All-in-One (30 articles/mo); $999/yr annual | Subscription | Founders, SMBs and agencies wanting hands-off SEO |
 | [Pathmonk](/alternatives/pathmonk) | AI_GEO | Brand plans from $690/mo; agency plans from $899/mo | Subscription | Mid-market brands and agencies (higher price point) |
 | [Postwise](/alternatives/postwise) | AI_SOCIAL | 7-day free trial; Basic $37/mo; Unlimited $97/mo (annual) | subscription | Creators, founders and marketers growing personal brands on  |
 | [Predis.ai](/alternatives/predis-ai) | AI_SOCIAL | Free tier; paid from ~$25-$29/mo (up to $99/mo) | Freemium | SMBs, ecommerce, creators and agencies |
@@ -103,10 +103,64 @@ Prices range from free tiers and $66/month entry points to six-figure enterprise
 | [Semrush](/alternatives/semrush) | AI_SEO | Freemium; Pro from ~$139.95/mo; enterprise custom | Subscription | Marketing teams, SEO professionals, agencies, SMB to enterpr |
 | [Sparqo AI](/alternatives/sparqo-ai) | AI_CMO | Not published | Subscription | Indie devs, founders and small teams with no marketing team  |
 | [Simaia](/alternatives/simaia) | AI_GEO | Not published |  | B2B companies in APAC (manufacturers, suppliers, outsourcing |
+| [Ahrefs Letaido](/alternatives/ahrefs-letaido) | AI_SEO | $99/mo flat incl $50 AI credits (top-ups as used); separate Ahrefs plan required for full data access | Subscription (flat + usage credits) | Marketing teams, SEO/content/growth teams, agencies, freelan |
+| [Ploy](/alternatives/ploy) | AI_SEO | Free; Starter $50/mo; Pro/Enterprise (usage credits) | Freemium subscription (credits) | Founders and startups (13%+ of YC P26 batch), SaaS teams (He |
+| [Revnu](/alternatives/revnu) | AI_MARKETING_OS | Not published |  | Founders and small teams who want a growth team without hiri |
+| [Sprites](/alternatives/sprites) | AI_ADVERTISING | Freemium; paid from ~$48/mo (per SaaSworthy) | Freemium subscription | Entrepreneurs, growth teams, SMB/startup marketers, ecommerc |
+| [ImpactFactory.ai](/alternatives/impactfactory-ai) | AI_MARKETING_PLATFORM | Not published (demo/contact) |  | SMBs and brands wanting a full marketing team without hiring |
+| [Gradial](/alternatives/gradial) | AI_MARKETING_AUTOMATION | Enterprise (demo/quote) | Enterprise SaaS subscription | Enterprise marketing and digital operations teams (AWS, T-Mo |
+| [Protaigé](/alternatives/protaig) | AI_MARKETING_PLATFORM | Free tier ('Get Started Free'); paid plans not published (demo-based) | SaaS subscription | Marketing teams at SMB/mid-market brands (1,000+ brands onbo |
+| [Superscale](/alternatives/superscale) | AI_CMO | From $99/mo (Starter); Pro unlocks Meta/TikTok/Google integrations | Subscription (tiered) | Founders, lean teams, growth teams and agencies running cons |
+| [Kana](/alternatives/kana) | AI_MARKETING_PLATFORM | Enterprise (contact) | Enterprise SaaS | Enterprise marketing teams and publishers |
+| [AnyMind Group](/alternatives/anymind-group) | AI_MARKETING_OS | Enterprise (custom) | Enterprise contract (BPaaS) | Enterprise marketing, e-commerce and digital-transformation  |
+| [GIGR](/alternatives/gigr) | AI_MARKETING_PLATFORM | Unknown (launch phase) | SaaS subscription (assumed) | Performance marketing teams across mobile apps, gaming, comm |
+| [Gushwork](/alternatives/gushwork) | AI_GEO | Unknown (subscription; enterprise quotes) | Subscription (assumed) | B2B businesses (lean teams to enterprise) that want pipeline |
+| [DOJO AI](/alternatives/dojo-ai) | AI_MARKETING_OS | From $499/mo; 7-day free trial; Starter/Growth/Enterprise tiers | Subscription | Challenger brands and mid-market marketing teams (CoinDesk,  |
+| [Pomo](/alternatives/pomo) | AI_MARKETING_PLATFORM | Not published (7-day free trial; demo) | Subscription | Growth marketing teams at SMB/mid-market (CII, Ambuja Neotia |
+| [Omneky](/alternatives/omneky) | AI_ADVERTISING | 7-day free trial; plans not published (contact) | Subscription | DTC/ecommerce, startups to enterprise brands (Stance, HPSO,  |
+| [Lazyweb](/alternatives/lazyweb) | AI_GROWTH_AGENCY | Not published | SaaS (MCP + managed) | Founders and product teams doing AI-agent-driven growth; tec |
+| [Wayy.ai](/alternatives/wayy-ai) | AI_OUTBOUND | $49/$99/$149 per month | Subscription | Solopreneurs, founders and small business owners (70+ compan |
+| [MAI](/alternatives/mai) | AI_ADVERTISING | Not published | SaaS subscription | Ecommerce and DTC brands, SMB to mid-market, lean teams want |
+| [ChatFeatured](/alternatives/chatfeatured) | AI_AEO | Not published | SaaS subscription | Marketing teams at SMB/mid-market companies in the US, Canad |
+| [Kinetik (Kineto)](/alternatives/kinetik-kineto) | AI_SOCIAL | From $50/mo (free trial; 175 free credits on signup) | Subscription + credits | Marketing, product and sales teams at brands and agencies ru |
+| [River AI](/alternatives/river-ai) | AI_BUSINESS_OS | Not published | Freemium + usage | Founders, individual professionals and enterprises wanting p |
+| [Uplane](/alternatives/uplane) | AI_MARKETING_PLATFORM | Not published | SaaS subscription | Enterprises and SMBs wanting agency-level paid growth withou |
+| [JustAI](/alternatives/justai) | AI_MARKETING_PLATFORM | Not published | Enterprise SaaS | Enterprise marketing teams (consumer, D2C, e-commerce, B2B) |
+| [Lapis](/alternatives/lapis) | AI_ADVERTISING | Tiered plans with credits (Starter/Growth/Enterprise managed tier); pricing not fully published | Subscription + credits | DTC and SaaS marketing teams (1,500+ teams; 30+ enterprises  |
+| [Nectar Social](/alternatives/nectar-social) | AI_SOCIAL | Not published | Enterprise SaaS | Consumer brands and enterprises (Liquid Death, Figma, e.l.f. |
+| [Imagine AI](/alternatives/imagine-ai) | AI_LINKEDIN | Not published | SaaS subscription | B2B companies with executive teams building LinkedIn presenc |
+| [Gravity](/alternatives/gravity) | AI_ADVERTISING | CPM (rates undisclosed) | Ad network / CPM | Advertisers (Best Buy, Target, Vercel, MongoDB) and AI platf |
+| [Laurence](/alternatives/laurence) | AI_ADVERTISING | Undisclosed (free audit) | Automation on ad spend | E-commerce brands of all sizes (health supplements, pet elec |
+| [Zeta Global](/alternatives/zeta-global) | AI_MARKETING_PLATFORM | Undisclosed (enterprise) | Enterprise subscription | Enterprise brands and agencies (Fortune 500 marketers) |
+| [Treasure AI](/alternatives/treasure-ai) | AI_MARKETING_OS | Undisclosed (enterprise) | Enterprise subscription | Enterprise marketing teams (automotive, CPG, retail, financi |
+| [Sitefire](/alternatives/sitefire) | AI_AEO | Undisclosed | SaaS subscription | Brands and startups wanting to be discovered and recommended |
+| [AthenaHQ](/alternatives/athenahq) | AI_GEO | Contact sales | Subscription | Enterprise marketing/PR/content teams and agencies (Coinbase |
+| [Airspeed](/alternatives/airspeed) | AI_SALES | Contact sales | Subscription (per-seat) | Revenue/GTM teams at B2B companies (100s of teams: Fermat, F |
+| [Autumn AI](/alternatives/autumn-ai) | AI_LEAD_GENERATION | Undisclosed | SaaS subscription | B2B GTM teams (founders, SDR/AE teams) |
+| [Lantern](/alternatives/lantern) | AI_GEO | Undisclosed | SaaS subscription | E-commerce / DTC brands (Shopify ecosystem) |
+| [Kuli](/alternatives/kuli) | AI_SOCIAL | Contact (demo-based) | SaaS subscription | Enterprise consumer brands and agencies (Disney, Microsoft,  |
+| [PeopleLinx](/alternatives/peoplelinx) | AI_OUTBOUND | Undisclosed (platform + services) | Subscription + managed services | National brands, franchise/local-first and relationship-driv |
+| [Nexad](/alternatives/nexad) | AI_MARKETING_PLATFORM | Free to start; credit-based plans (10k-100k credit increments, $3/1,000 top-ups); managed campaigns scoped to budget | Subscription + usage credits | Founders, growth teams and agencies running paid ads (Google |
+| [Sprout Social (Trellis)](/alternatives/sprout-social-trellis) | AI_SOCIAL | Enterprise (custom, demo-based) | Subscription | Enterprise and mid-market social/marketing teams (JetBlue, I |
+| [ASO Agent](/alternatives/aso-agent) | AI_AEO | Contact sales | SaaS subscription (contact) | App publishers - from single indie apps to portfolios of hun |
+| [MarketOwl AI](/alternatives/marketowl-ai) | AI_CMO | Free to start (500 credits); first 1,000 public-beta signups no payment card; credit-based paid plans | Credit-based subscription | Founders, solo marketers, fractional CMOs, small agencies |
+| [Auxia](/alternatives/auxia) | AI_MARKETING_PLATFORM | Enterprise (demo/early-access waitlist) | Enterprise subscription | Enterprise B2C lifecycle marketing teams (Fortune 500) |
+| [Astute](/alternatives/astute) | AI_SOCIAL | Not disclosed | Subscription (assumed) | B2B companies growing brand/audience via newsletters, podcas |
+| [Mega](/alternatives/mega) | AI_GROWTH_AGENCY | From $699/mo (SEO), $1,399/mo (ads), $2,099/mo all-in-one (per Tam Radar) | Subscription | SMBs ($500K-$20M revenue) that would otherwise hire an agenc |
+| [Passionfroot](/alternatives/passionfroot) | AI_SOCIAL | Not published (platform + wallet fees) | SaaS + transaction | B2B brands/GTM teams doing creator-led distribution (ElevenL |
+| [Tec-Do](/alternatives/tec-do) | AI_MARKETING_PLATFORM | Enterprise (not published) | Enterprise contracts | Enterprise advertisers going global (ecommerce, gaming, ente |
+| [AutoBacklinks](/alternatives/autobacklinks) | AI_SEO | Free trial; paid from $79/mo (agency/high-volume plans above) | Subscription + monthly credits | In-house SEO teams, agencies and founders running their own  |
+| [Runable](/alternatives/runable) | AI_MARKETING_PLATFORM | Freemium; paid plans live (not fully published) | Freemium subscription | Non-technical small business owners and solo founders (US, U |
+| [Featured](/alternatives/featured) | AI_GEO | Free tier (1 GEO audit/day); Lite from $29/mo, Pro from $79/mo (annual billing) | Freemium, usage-based | PR/communications/SEO teams; subject-matter experts and foun |
+| [Turgo](/alternatives/turgo) | AI_MARKETING_OS | Credit-based plans (500 free credits); self-serve and enterprise tiers | Usage-based credits + subscription | B2B growth and marketing teams, SMB to enterprise |
+| [ActiveCampaign](/alternatives/activecampaign) | AI_MARKETING_AUTOMATION | Tiered subscription (Plus/Pro/Enterprise) | Subscription | SMB and mid-market marketing teams (180K+ customer base) |
+| [Yolando](/alternatives/yolando) | AI_GEO | Paid SaaS (demo-based; no public pricing) | Subscription | B2B SaaS, service businesses (legal, healthcare, financial s |
+| [Alta](/alternatives/alta) | AI_OUTBOUND | Contact sales (not public) | Subscription (enterprise) | Mid-market and enterprise GTM teams |
+| [Evertune](/alternatives/evertune) | AI_GEO | Contact sales (enterprise) | Subscription (enterprise) | Enterprise brands and advertisers |
 
 ## How this was built
 
-Every row comes from Collision's competitor intelligence database, where pricing was captured from each company's own pricing page or public funding materials and verified 2026-08-14. Where a vendor doesn't publish pricing, the row says so — we don't guess. Each company links to its alternatives page for the full comparison.
+Every row comes from Collision's competitor intelligence database, where pricing was captured from each company's own pricing page or public funding materials and verified 2026-08-30. Where a vendor doesn't publish pricing, the row says so — we don't guess. Each company links to its alternatives page for the full comparison.
 
 ## Why pricing matters more in 2026
 

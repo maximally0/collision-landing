@@ -1,14 +1,14 @@
 ---
 title: "Salesforce Agentforce Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Salesforce Agentforce. An honest look at what Salesforce Agentforce does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, Salesforce Agentforce, AI marketing"
 target_path: "/alternatives/salesforce-agentforce"
 page_type: "alternatives"
 entity: "Salesforce Agentforce"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Salesforce Agentforce alternatives
@@ -27,13 +27,13 @@ Agent Builder/Prompt Builder/Model Builder; service/sales/marketing/commerce age
 - **Positioning:** Agents natively grounded in the world's largest CRM data estate plus Data Cloud; enterprise trust and distribution
 - **Best for:** Enterprises (50% of Fortune 100 use Salesforce AI)
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where Salesforce Agentforce stops
 
 Salesforce's data moat, Fortune 100 reach and agent ecosystem massively outscale Collision's execution surface (assessment)
 
-Capabilities Salesforce Agentforce doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities Salesforce Agentforce doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best Salesforce Agentforce alternatives
 

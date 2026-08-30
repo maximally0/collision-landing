@@ -1,8 +1,8 @@
 ---
 title: "Gmail integration"
 description: "Collision connects to Gmail to run email campaigns and outbound from a real inbox — with human approval on every send."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "integrations, Gmail"
 target_path: "/integrations/gmail"

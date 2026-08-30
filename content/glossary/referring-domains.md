@@ -1,8 +1,8 @@
 ---
 title: "Referring Domains"
 description: "The count of distinct websites linking to your domain — a quality measure over raw link count."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "glossary, Referring Domains"
 target_path: "/glossary/referring-domains"

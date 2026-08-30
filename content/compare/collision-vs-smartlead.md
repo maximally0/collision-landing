@@ -1,14 +1,14 @@
 ---
 title: "Collision vs Smartlead: The Honest Comparison"
 description: "Collision vs Smartlead — pricing, capabilities and who each is for. The deciding question isn't features; it's whether you want a point product or the full growth loop."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "comparison, Smartlead, Collision"
 target_path: "/compare/collision-vs-smartlead"
 page_type: "vs"
 entity: "Smartlead"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Collision vs Smartlead
@@ -43,7 +43,7 @@ assessment - Collision adds strategy, content and lead sources; Smartlead is sen
 - **Smartlead:** 14-day free trial; from ~$39/mo (Basic); ~$94/mo (Pro); ~$174/mo (Custom) (subscription)
 - **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## How to decide
 

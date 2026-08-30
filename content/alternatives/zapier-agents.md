@@ -1,14 +1,14 @@
 ---
 title: "Zapier (Agents) Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Zapier (Agents). An honest look at what Zapier (Agents) does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, Zapier (Agents), AI marketing"
 target_path: "/alternatives/zapier-agents"
 page_type: "alternatives"
 entity: "Zapier (Agents)"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Zapier (Agents) alternatives
@@ -27,13 +27,13 @@ Agents with tools (email, sheets, CRM); Chatbots; Canvas; Tables; 9,000+ integra
 - **Positioning:** Largest integration ecosystem plus massive SMB installed base entering agentic automation
 - **Best for:** SMBs, marketers, ops teams
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where Zapier (Agents) stops
 
 Ubiquity, brand trust, ecosystem moat and fast agentic feature velocity.
 
-Capabilities Zapier (Agents) doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities Zapier (Agents) doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best Zapier (Agents) alternatives
 
@@ -44,7 +44,7 @@ Capabilities Zapier (Agents) doesn't cover that Collision does: Advertising, Exe
 - **[Make](/alternatives/make)** — Visual-first UX plus Celonis enterprise muscle; strong marketing-team adoption
 - **[Brew](/alternatives/brew)** — Agent-native ESP (docs for OpenClaw/Claude/Lovable) with production-grade email rendering and no lock-in
 - **[CharacterQuilt](/alternatives/characterquilt)** — Operates your existing stack instead of replacing it — 'sells the plumbing, not the chatbox'
-- **[11x](/alternatives/11x)** — Named 'digital workers' (Alice/Julian/Jordan) sold as employees replacing roles, not tools augmenting them
+- **[Gradial](/alternatives/gradial)** — Only agentic marketing platform that ships fixes (not recommendations) when GEO data shows AI-search gaps; compliance-fi
 
 ## Collision as a Zapier (Agents) alternative
 

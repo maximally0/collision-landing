@@ -1,14 +1,14 @@
 ---
 title: "Brew Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Brew. An honest look at what Brew does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, Brew, AI marketing"
 target_path: "/alternatives/brew"
 page_type: "alternatives"
 entity: "Brew"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Brew alternatives
@@ -27,13 +27,13 @@ Remix gallery; brand rules; sequences from one prompt; ESP push; performance tra
 - **Positioning:** Agent-native ESP (docs for OpenClaw/Claude/Lovable) with production-grade email rendering and no lock-in
 - **Best for:** Modern marketing teams, founders and solo makers
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where Brew stops
 
 Brew's polish and agent-native design could become the default email layer inside AI stacks, commoditizing one of Collision's channels
 
-Capabilities Brew doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities Brew doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best Brew alternatives
 
@@ -44,7 +44,7 @@ Capabilities Brew doesn't cover that Collision does: Advertising, Execution, Str
 - **[Make](/alternatives/make)** — Visual-first UX plus Celonis enterprise muscle; strong marketing-team adoption
 - **[Zapier (Agents)](/alternatives/zapier-agents)** — Largest integration ecosystem plus massive SMB installed base entering agentic automation
 - **[CharacterQuilt](/alternatives/characterquilt)** — Operates your existing stack instead of replacing it — 'sells the plumbing, not the chatbox'
-- **[CMO Miko](/alternatives/cmo-miko)** — First 'AGI CMO' positioned explicitly for indie hackers/startups, built by a solo builder
+- **[Gradial](/alternatives/gradial)** — Only agentic marketing platform that ships fixes (not recommendations) when GEO data shows AI-search gaps; compliance-fi
 
 ## Collision as a Brew alternative
 

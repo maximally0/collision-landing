@@ -1,14 +1,14 @@
 ---
 title: "Hootsuite vs Predis.ai"
 description: "A neutral comparison of Hootsuite and Predis.ai — what each does, what they cost, and who each is for."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-17"
+updated: "2026-08-17"
 authorId: "collision-team"
 tags: "comparison, Hootsuite, Predis.ai, AI marketing"
 target_path: "/compare/hootsuite-vs-predis-ai"
 page_type: "vs-vs"
 entity: "Hootsuite vs Predis.ai"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-17)"
 ---
 
 # Hootsuite vs Predis.ai

@@ -1,14 +1,14 @@
 ---
 title: "Memoir Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Memoir. An honest look at what Memoir does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, Memoir, AI marketing"
 target_path: "/alternatives/memoir"
 page_type: "alternatives"
 entity: "Memoir"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Memoir alternatives
@@ -27,13 +27,13 @@ Repo-to-content pipeline; cloned-voice demo videos; in-voice social drafting; tr
 - **Positioning:** Starts from the product source of truth (git/ship data), not a prompt — 'a marketer with the soul of an engineer'
 - **Best for:** Technical founders, devtools and product-led B2B SaaS teams
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where Memoir stops
 
 Its voice-clone demo videos and build-in-public angle are sticky for the devtools founders Collision targets
 
-Capabilities Memoir doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities Memoir doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best Memoir alternatives
 

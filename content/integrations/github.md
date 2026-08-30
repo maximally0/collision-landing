@@ -1,8 +1,8 @@
 ---
 title: "GitHub integration"
 description: "GitHub is where your code lives. Collision can track docs, suggest content tied to releases, and keep developer-adjacent pages current."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "integrations, GitHub"
 target_path: "/integrations/github"

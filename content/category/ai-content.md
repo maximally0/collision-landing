@@ -1,14 +1,14 @@
 ---
 title: "AI content in 2026: The Practical Guide"
 description: "AI content systems produce and distribute written and visual content at scale, with brand controls. What it is, how it works, the verified landscape, and how to choose."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "AI content, AI marketing, category"
 target_path: "/category/ai-content"
 page_type: "category"
 entity: "AI_CONTENT"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # AI content

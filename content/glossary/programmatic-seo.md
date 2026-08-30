@@ -1,8 +1,8 @@
 ---
 title: "Programmatic SEO"
 description: "Generating many pages from structured data — each genuinely useful and distinct — rather than hand-writing every page."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "glossary, Programmatic SEO"
 target_path: "/glossary/programmatic-seo"

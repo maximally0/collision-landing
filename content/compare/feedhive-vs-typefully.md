@@ -1,14 +1,14 @@
 ---
 title: "FeedHive vs Typefully"
 description: "A neutral comparison of FeedHive and Typefully — what each does, what they cost, and who each is for."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-20"
+updated: "2026-08-20"
 authorId: "collision-team"
 tags: "comparison, FeedHive, Typefully, AI marketing"
 target_path: "/compare/feedhive-vs-typefully"
 page_type: "vs-vs"
 entity: "FeedHive vs Typefully"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-20)"
 ---
 
 # FeedHive vs Typefully

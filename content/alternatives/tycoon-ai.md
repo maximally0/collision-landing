@@ -1,14 +1,14 @@
 ---
 title: "Tycoon AI Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Tycoon AI. An honest look at what Tycoon AI does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, Tycoon AI, AI marketing"
 target_path: "/alternatives/tycoon-ai"
 page_type: "alternatives"
 entity: "Tycoon AI"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Tycoon AI alternatives
@@ -27,13 +27,13 @@ Out-of-box agents (no setup or API keys); 30-second setup; agent market; approva
 - **Positioning:** Pre-assembled AI company including a CMO, not an agent builder — you chat with a CEO who delegates
 - **Best for:** Solo founders, indie hackers, solopreneurs
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where Tycoon AI stops
 
 Tycoon's 'one-person company' positioning matches Collision's exact buyer; PH #1 momentum could drive fast adoption
 
-Capabilities Tycoon AI doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities Tycoon AI doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best Tycoon AI alternatives
 

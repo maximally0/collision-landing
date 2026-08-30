@@ -1,14 +1,14 @@
 ---
 title: "CharacterQuilt Alternatives: A Practical 2026 Guide"
 description: "What to use instead of CharacterQuilt. An honest look at what CharacterQuilt does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, CharacterQuilt, AI marketing"
 target_path: "/alternatives/characterquilt"
 page_type: "alternatives"
 entity: "CharacterQuilt"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # CharacterQuilt alternatives
@@ -27,13 +27,13 @@ Brand brain (voice/visuals/approved assets); claims 80% ops reduction; multi-cha
 - **Positioning:** Operates your existing stack instead of replacing it — 'sells the plumbing, not the chatbox'
 - **Best for:** Mid-market and enterprise marketing teams (B2B product-led)
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where CharacterQuilt stops
 
 If it moves downmarket to startups, its deploy-into-your-stack loop undercuts Collision's managed execution
 
-Capabilities CharacterQuilt doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities CharacterQuilt doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best CharacterQuilt alternatives
 
@@ -44,7 +44,7 @@ Capabilities CharacterQuilt doesn't cover that Collision does: Advertising, Exec
 - **[Make](/alternatives/make)** — Visual-first UX plus Celonis enterprise muscle; strong marketing-team adoption
 - **[Zapier (Agents)](/alternatives/zapier-agents)** — Largest integration ecosystem plus massive SMB installed base entering agentic automation
 - **[Brew](/alternatives/brew)** — Agent-native ESP (docs for OpenClaw/Claude/Lovable) with production-grade email rendering and no lock-in
-- **[CMO Miko](/alternatives/cmo-miko)** — First 'AGI CMO' positioned explicitly for indie hackers/startups, built by a solo builder
+- **[Gradial](/alternatives/gradial)** — Only agentic marketing platform that ships fixes (not recommendations) when GEO data shows AI-search gaps; compliance-fi
 
 ## Collision as a CharacterQuilt alternative
 

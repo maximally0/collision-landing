@@ -1,14 +1,14 @@
 ---
 title: "AI SEO in 2026: The Practical Guide"
 description: "AI SEO uses artificial intelligence to automate search-engine optimization — research, content, publishing and link building. What it is, how it works, the verified landscape, and how to choose."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "AI SEO, AI marketing, category"
 target_path: "/category/ai-seo"
 page_type: "category"
 entity: "AI_SEO"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # AI SEO
@@ -25,6 +25,9 @@ AI systems now answer a growing share of search queries. The brands that appear 
 - **[SEO.AI](/alternatives/seo-ai)** — Automated link building via proprietary exchange network plus hands-off publishing.
 - **[Surfer (Positive)](/alternatives/surfer-positive)** — Mature SEO data engine rebranded around AI-search visibility across engines.
 - **[Semrush](/alternatives/semrush)** — Deepest SEO data estate plus native GEO tooling, now inside Adobe's marketing stack — data and distribution no
+- **[Ahrefs Letaido](/alternatives/ahrefs-letaido)** — Only agent with unrestricted internal Ahrefs endpoint access (data beyond the public API/MCP, no API-unit cost
+- **[Ploy](/alternatives/ploy)** — Founder pedigree (ex-Webflow CTO) + agent swarms operating on the website itself with AEO built in; $27M seed 
+- **[AutoBacklinks](/alternatives/autobacklinks)** — First dedicated AI agent for the full link-building loop (vs link marketplaces or agency services)
 
 ## How to evaluate a purchase
 

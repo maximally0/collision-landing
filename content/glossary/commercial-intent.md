@@ -1,8 +1,8 @@
 ---
 title: "Commercial Intent"
 description: "Queries where the searcher is evaluating options or close to buying — the most valuable searches."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "glossary, Commercial Intent"
 target_path: "/glossary/commercial-intent"

@@ -1,14 +1,14 @@
 ---
 title: "StoreClaw Alternatives: A Practical 2026 Guide"
 description: "What to use instead of StoreClaw. An honest look at what StoreClaw does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, StoreClaw, AI marketing"
 target_path: "/alternatives/storeclaw"
 page_type: "alternatives"
 entity: "StoreClaw"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # StoreClaw alternatives
@@ -27,13 +27,13 @@ This page compares the realistic alternatives to StoreClaw — what the product 
 - **Positioning:** First 'AI growth engine' purpose-built for store operators with a diagnostics-first agent loop
 - **Best for:** E-commerce sellers and modern merchants
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where StoreClaw stops
 
 If StoreClaw expands from stores to brands generally, its agent loop becomes a direct competitor
 
-Capabilities StoreClaw doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities StoreClaw doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best StoreClaw alternatives
 
@@ -44,7 +44,7 @@ Capabilities StoreClaw doesn't cover that Collision does: Advertising, Execution
 - **[Jasper](/alternatives/jasper)** — Only major AI marketing platform with native GEO + SEO/AEO + agents + brand governance in one suite
 - **[Persado](/alternatives/persado)** — Domain-specific motivation AI plus compliance engine for regulated verticals — clears UDAAP/TILA checks out of the box
 - **[Simon AI](/alternatives/simon-ai)** — AI-first composable CDP + agents = enterprise-scale data-driven personalization, not content generation
-- **[11x](/alternatives/11x)** — Named 'digital workers' (Alice/Julian/Jordan) sold as employees replacing roles, not tools augmenting them
+- **[ImpactFactory.ai](/alternatives/impactfactory-ai)** — Full-funnel creative + media placement including premium streaming TV and ChatGPT-native ads - media buying Collision do
 
 ## Collision as a StoreClaw alternative
 

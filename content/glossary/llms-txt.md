@@ -1,8 +1,8 @@
 ---
 title: "llms.txt"
 description: "An optional machine-readable file that orients AI systems to a website's key pages — supplementary to real HTML, never a hack."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "glossary, llms.txt"
 target_path: "/glossary/llms-txt"

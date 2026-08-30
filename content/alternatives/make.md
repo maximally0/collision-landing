@@ -1,14 +1,14 @@
 ---
 title: "Make Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Make. An honest look at what Make does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, Make, AI marketing"
 target_path: "/alternatives/make"
 page_type: "alternatives"
 entity: "Make"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Make alternatives
@@ -27,13 +27,13 @@ Visual scenario builder; Make AI Agents; Make Grid; free plan; large template li
 - **Positioning:** Visual-first UX plus Celonis enterprise muscle; strong marketing-team adoption
 - **Best for:** Ops, marketing & automation teams, SMB to enterprise
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where Make stops
 
 Deep integration ecosystem, free tier, well-resourced enterprise parent (Celonis).
 
-Capabilities Make doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities Make doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best Make alternatives
 
@@ -44,7 +44,7 @@ Capabilities Make doesn't cover that Collision does: Advertising, Execution, Str
 - **[Zapier (Agents)](/alternatives/zapier-agents)** — Largest integration ecosystem plus massive SMB installed base entering agentic automation
 - **[Brew](/alternatives/brew)** — Agent-native ESP (docs for OpenClaw/Claude/Lovable) with production-grade email rendering and no lock-in
 - **[CharacterQuilt](/alternatives/characterquilt)** — Operates your existing stack instead of replacing it — 'sells the plumbing, not the chatbox'
-- **[11x](/alternatives/11x)** — Named 'digital workers' (Alice/Julian/Jordan) sold as employees replacing roles, not tools augmenting them
+- **[Gradial](/alternatives/gradial)** — Only agentic marketing platform that ships fixes (not recommendations) when GEO data shows AI-search gaps; compliance-fi
 
 ## Collision as a Make alternative
 

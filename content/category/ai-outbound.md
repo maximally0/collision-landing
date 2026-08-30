@@ -1,14 +1,14 @@
 ---
 title: "AI outbound in 2026: The Practical Guide"
 description: "AI outbound uses agents to automate cold outreach — prospecting, personalization, sending and follow-up. What it is, how it works, the verified landscape, and how to choose."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "AI outbound, AI marketing, category"
 target_path: "/category/ai-outbound"
 page_type: "category"
 entity: "AI_OUTBOUND"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # AI outbound
@@ -28,6 +28,7 @@ AI systems now answer a growing share of search queries. The brands that appear 
 - **[Smartlead](/alternatives/smartlead)** — Deliverability-first cold email (unlimited mailboxes + AI warmup) that powers most outbound agencies and start
 - **[11x](/alternatives/11x)** — Named 'digital workers' (Alice/Julian/Jordan) sold as employees replacing roles, not tools augmenting them
 - **[Artisan](/alternatives/artisan)** — 'AI employees' positioning with autonomy levels (Level 2 sends outreach unassisted); 'Stop Hiring Humans' bran
+- **[Wayy.ai](/alternatives/wayy-ai)** — Positioned as an 'AI co-founder' (not a tool) for solopreneurs, with an autonomous qualification engine and se
 
 ## How to evaluate a purchase
 

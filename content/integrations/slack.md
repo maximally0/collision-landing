@@ -1,8 +1,8 @@
 ---
 title: "Slack integration"
 description: "Slack is where most teams talk. Collision connects to Slack so growth work — drafts, approvals, reports, competitor alerts — shows up where the team already is."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "integrations, Slack"
 target_path: "/integrations/slack"

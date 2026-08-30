@@ -1,14 +1,14 @@
 ---
 title: "PressPulse AI Alternatives: A Practical 2026 Guide"
 description: "What to use instead of PressPulse AI. An honest look at what PressPulse AI does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, PressPulse AI, AI marketing"
 target_path: "/alternatives/presspulse-ai"
 page_type: "alternatives"
 entity: "PressPulse AI"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # PressPulse AI alternatives
@@ -27,13 +27,13 @@ This page compares the realistic alternatives to PressPulse AI — what the prod
 - **Positioning:** True AI agent for HARO-style PR lead-gen versus manual query sifting
 - **Best for:** Founders, SMBs and marketers doing DIY PR
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where PressPulse AI stops
 
 Narrow scope (journalist queries only); tiny early-stage vendor; no media database, coverage tracking or monitoring
 
-Capabilities PressPulse AI doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities PressPulse AI doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best PressPulse AI alternatives
 

@@ -1,8 +1,8 @@
 ---
 title: "WordPress integration"
 description: "WordPress powers a large share of the web. Collision publishes SEO-optimized content straight to WordPress — drafts approved, posts shipped."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "integrations, WordPress"
 target_path: "/integrations/wordpress"

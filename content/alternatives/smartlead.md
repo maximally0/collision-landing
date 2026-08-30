@@ -1,14 +1,14 @@
 ---
 title: "Smartlead Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Smartlead. An honest look at what Smartlead does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, Smartlead, AI marketing"
 target_path: "/alternatives/smartlead"
 page_type: "alternatives"
 entity: "Smartlead"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Smartlead alternatives
@@ -27,13 +27,13 @@ Unlimited mailboxes & AI warmup; deliverability controls; AI personalization via
 - **Positioning:** Deliverability-first cold email (unlimited mailboxes + AI warmup) that powers most outbound agencies and startups.
 - **Best for:** Outbound agencies, sales teams, recruiters and startups
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where Smartlead stops
 
 As the underlying sending layer (like Instantly, already in DB), Smartlead is cheap, hard to replace and agency-endorsed; no built-in lead database.
 
-Capabilities Smartlead doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities Smartlead doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best Smartlead alternatives
 

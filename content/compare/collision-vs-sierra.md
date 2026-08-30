@@ -1,14 +1,14 @@
 ---
 title: "Collision vs Sierra: The Honest Comparison"
 description: "Collision vs Sierra — pricing, capabilities and who each is for. The deciding question isn't features; it's whether you want a point product or the full growth loop."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "comparison, Sierra, Collision"
 target_path: "/compare/collision-vs-sierra"
 page_type: "vs"
 entity: "Sierra"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Collision vs Sierra
@@ -43,7 +43,7 @@ Collision executes acquisition/growth marketing; Sierra is post-sale CX. Assessm
 - **Sierra:** Enterprise custom (Subscription)
 - **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## How to decide
 

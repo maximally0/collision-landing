@@ -1,14 +1,14 @@
 ---
 title: "Otterly.ai Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Otterly.ai. An honest look at what Otterly.ai does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, Otterly.ai, AI marketing"
 target_path: "/alternatives/otterly-ai"
 page_type: "alternatives"
 entity: "Otterly.ai"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Otterly.ai alternatives
@@ -27,13 +27,13 @@ Multi-engine tracking (ChatGPT, Perplexity, AIO, Gemini, Copilot), prompt resear
 - **Positioning:** Dedicated multi-LLM monitoring with prompt-level feedback, Gartner Cool Vendor, G2 4.8.
 - **Best for:** Startups, marketers and agencies (40,000+ marketing pros)
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where Otterly.ai stops
 
 Dedicated AEO tool with the deepest multi-engine monitoring and a large marketing-pro user base.
 
-Capabilities Otterly.ai doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities Otterly.ai doesn't cover that Collision does: Social media, Automation, Outbound, Advertising, Email, LinkedIn growth.
 
 ## The best Otterly.ai alternatives
 
@@ -41,10 +41,10 @@ Capabilities Otterly.ai doesn't cover that Collision does: Advertising, Executio
 
 - **[Profound](/alternatives/profound)** — Best-funded AEO platform (Sequoia-led) with proprietary prompt-volume data and autonomous marketing agents.
 - **[Bluefish](/alternatives/bluefish)** — Enterprise agentic marketing platform for brand portrayal and influence in AI answers - not a monitoring dashboard; Sale
+- **[ChatFeatured](/alternatives/chatfeatured)** — Execution-first AEO (writes and publishes content, not just measurement) with 40%+ MoM growth and customers in five coun
+- **[Sitefire](/alternatives/sitefire)** — YC W26 positioning as "the marketing suite for the agentic web" - explicitly selling marketing-to-agents (ChatGPT, OpenC
+- **[ASO Agent](/alternatives/aso-agent)** — Founder ex-Uber ASO (130+ languages, ~500 metadata revisions); first platform combining ASO with LLM AI-visibility purpo
 - **[AdCreative.ai](/alternatives/adcreative-ai)** — Predictive conversion scoring of creatives before launch, trained on performance data
-- **[Adzooma](/alternatives/adzooma)** — Free AI PPC optimization across three ad networks with two-click implementation
-- **[AiSDR](/alternatives/aisdr)** — Pure-play AI SDR (YC-backed) with strong booked-meeting performance claims and HubSpot-native workflow.
-- **[Apollo.io](/alternatives/apollo-io)** — Free-tier data + engagement + AI in one stack; 600K+ companies and a replace-five-tools pitch.
 
 ## Collision as a Otterly.ai alternative
 

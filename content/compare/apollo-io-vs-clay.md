@@ -1,14 +1,14 @@
 ---
 title: "Apollo.io vs Clay"
 description: "A neutral comparison of Apollo.io and Clay — what each does, what they cost, and who each is for."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "comparison, Apollo.io, Clay, AI marketing"
 target_path: "/compare/apollo-io-vs-clay"
 page_type: "vs-vs"
 entity: "Apollo.io vs Clay"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Apollo.io vs Clay

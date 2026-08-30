@@ -1,14 +1,14 @@
 ---
 title: "Bluefish vs Profound"
 description: "A neutral comparison of Bluefish and Profound — what each does, what they cost, and who each is for."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-28"
+updated: "2026-08-28"
 authorId: "collision-team"
 tags: "comparison, Bluefish, Profound, AI marketing"
 target_path: "/compare/bluefish-vs-profound"
 page_type: "vs-vs"
 entity: "Bluefish vs Profound"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-28)"
 ---
 
 # Bluefish vs Profound

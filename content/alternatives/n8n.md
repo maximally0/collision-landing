@@ -1,14 +1,14 @@
 ---
 title: "n8n Alternatives: A Practical 2026 Guide"
 description: "What to use instead of n8n. An honest look at what n8n does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, n8n, AI marketing"
 target_path: "/alternatives/n8n"
 page_type: "alternatives"
 entity: "n8n"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # n8n alternatives
@@ -27,13 +27,13 @@ This page compares the realistic alternatives to n8n — what the product actual
 - **Positioning:** Developer-loved open-source automation with explosive adoption and SAP strategic investment
 - **Best for:** Technical teams, ops/marketing automation builders, enterprises
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where n8n stops
 
 Massive community/momentum, $5.2B valuation, enterprise distribution via SAP.
 
-Capabilities n8n doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities n8n doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best n8n alternatives
 

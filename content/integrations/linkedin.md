@@ -1,8 +1,8 @@
 ---
 title: "LinkedIn integration"
 description: "LinkedIn is a primary growth surface for founders. Collision plans, drafts and schedules LinkedIn content with approval gates before anything posts."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "integrations, LinkedIn"
 target_path: "/integrations/linkedin"

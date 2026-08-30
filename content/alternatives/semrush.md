@@ -1,14 +1,14 @@
 ---
 title: "Semrush Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Semrush. An honest look at what Semrush does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, Semrush, AI marketing"
 target_path: "/alternatives/semrush"
 page_type: "alternatives"
 entity: "Semrush"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Semrush alternatives
@@ -27,13 +27,13 @@ This page compares the realistic alternatives to Semrush — what the product ac
 - **Positioning:** Deepest SEO data estate plus native GEO tooling, now inside Adobe's marketing stack — data and distribution no standalone GEO vendor matches
 - **Best for:** Marketing teams, SEO professionals, agencies, SMB to enterprise (Amazon, JPMorganChase, TikTok)
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where Semrush stops
 
 Semrush's data depth, ~1,600-person scale and Adobe's enterprise reach are unassailable for a startup; buyers default to it for SEO/GEO workflows (assessment)
 
-Capabilities Semrush doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities Semrush doesn't cover that Collision does: GEO, Social media, Automation, AEO, Outbound, Advertising.
 
 ## The best Semrush alternatives
 
@@ -42,9 +42,9 @@ Capabilities Semrush doesn't cover that Collision does: Advertising, Execution, 
 - **[Outrank](/alternatives/outrank)** — Full SEO loop (research-write-publish) as one autopilot agent.
 - **[SEO.AI](/alternatives/seo-ai)** — Automated link building via proprietary exchange network plus hands-off publishing.
 - **[Surfer (Positive)](/alternatives/surfer-positive)** — Mature SEO data engine rebranded around AI-search visibility across engines.
-- **[AdCreative.ai](/alternatives/adcreative-ai)** — Predictive conversion scoring of creatives before launch, trained on performance data
-- **[Adzooma](/alternatives/adzooma)** — Free AI PPC optimization across three ad networks with two-click implementation
-- **[AiSDR](/alternatives/aisdr)** — Pure-play AI SDR (YC-backed) with strong booked-meeting performance claims and HubSpot-native workflow.
+- **[Ahrefs Letaido](/alternatives/ahrefs-letaido)** — Only agent with unrestricted internal Ahrefs endpoint access (data beyond the public API/MCP, no API-unit cost) plus pur
+- **[Ploy](/alternatives/ploy)** — Founder pedigree (ex-Webflow CTO) + agent swarms operating on the website itself with AEO built in; $27M seed before YC 
+- **[AutoBacklinks](/alternatives/autobacklinks)** — First dedicated AI agent for the full link-building loop (vs link marketplaces or agency services)
 
 ## Collision as a Semrush alternative
 

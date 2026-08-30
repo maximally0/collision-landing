@@ -1,8 +1,8 @@
 ---
 title: "Entity SEO"
 description: "Optimizing how search engines and AI systems understand who you are, what you do and how you relate to your category."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "glossary, Entity SEO"
 target_path: "/glossary/entity-seo"

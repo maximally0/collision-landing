@@ -1,14 +1,14 @@
 ---
 title: "Buffer vs XBeast"
 description: "A neutral comparison of Buffer and XBeast — what each does, what they cost, and who each is for."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-24"
+updated: "2026-08-24"
 authorId: "collision-team"
 tags: "comparison, Buffer, XBeast, AI marketing"
 target_path: "/compare/buffer-vs-xbeast"
 page_type: "vs-vs"
 entity: "Buffer vs XBeast"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-24)"
 ---
 
 # Buffer vs XBeast

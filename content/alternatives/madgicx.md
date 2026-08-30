@@ -1,14 +1,14 @@
 ---
 title: "Madgicx Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Madgicx. An honest look at what Madgicx does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, Madgicx, AI marketing"
 target_path: "/alternatives/madgicx"
 page_type: "alternatives"
 entity: "Madgicx"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Madgicx alternatives
@@ -27,13 +27,13 @@ Daily AI account audits; autonomous budget reallocation across ad sets; AI creat
 - **Positioning:** First AI ad agent for Meta plus exclusive AI Bidding via Meta partnership
 - **Best for:** DTC ecommerce brands, agencies and media buyers spending $5K+/mo on Meta
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where Madgicx stops
 
 Meta-only (no Google/TikTok/LinkedIn); some optimizations remain insights-driven; DTC/ads-specific with no content strategy, PR or lead-gen breadth
 
-Capabilities Madgicx doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities Madgicx doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best Madgicx alternatives
 
@@ -43,8 +43,8 @@ Capabilities Madgicx doesn't cover that Collision does: Advertising, Execution, 
 - **[Adzooma](/alternatives/adzooma)** — Free AI PPC optimization across three ad networks with two-click implementation
 - **[Smartly.io](/alternatives/smartly-io)** — Only platform managing creative and media end-to-end for 700+ global brands at 300B creatives/year
 - **[InstaAgent](/alternatives/instaagent)** — Hundreds of distinct audiences with distinct content from one brief — the anti-generic ad engine
-- **[AiSDR](/alternatives/aisdr)** — Pure-play AI SDR (YC-backed) with strong booked-meeting performance claims and HubSpot-native workflow.
-- **[Apollo.io](/alternatives/apollo-io)** — Free-tier data + engagement + AI in one stack; 600K+ companies and a replace-five-tools pitch.
+- **[Sprites](/alternatives/sprites)** — Cross-channel ad execution (not just content) with ROAS/CPL goal optimization plus an SEO/AEO content engine - one agent
+- **[Omneky](/alternatives/omneky)** — Cross-channel autonomous ad execution including ChatGPT-native ads (post OpenAI self-serve Ads Manager, May 2026) with $
 
 ## Collision as a Madgicx alternative
 

@@ -1,14 +1,14 @@
 ---
 title: "FeedHive vs Predis.ai"
 description: "A neutral comparison of FeedHive and Predis.ai — what each does, what they cost, and who each is for."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-20"
+updated: "2026-08-20"
 authorId: "collision-team"
 tags: "comparison, FeedHive, Predis.ai, AI marketing"
 target_path: "/compare/feedhive-vs-predis-ai"
 page_type: "vs-vs"
 entity: "FeedHive vs Predis.ai"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-20)"
 ---
 
 # FeedHive vs Predis.ai

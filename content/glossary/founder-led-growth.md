@@ -1,8 +1,8 @@
 ---
 title: "Founder-Led Growth"
 description: "A growth motion where the founder's own voice and content drive demand — popular among startups."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "glossary, Founder-Led Growth"
 target_path: "/glossary/founder-led-growth"

@@ -1,14 +1,14 @@
 ---
 title: "Collision vs Manus: The Honest Comparison"
 description: "Collision vs Manus — pricing, capabilities and who each is for. The deciding question isn't features; it's whether you want a point product or the full growth loop."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "comparison, Manus, Collision"
 target_path: "/compare/collision-vs-manus"
 page_type: "vs"
 entity: "Manus"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Collision vs Manus
@@ -43,7 +43,7 @@ Collision is purpose-built for growth workflows with platform knowledge; Manus i
 - **Manus:** $19-$199/mo plans with credits (8k-40k credits) (Subscription)
 - **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## How to decide
 

@@ -1,14 +1,14 @@
 ---
 title: "Copy.ai vs The AI CMO"
 description: "A neutral comparison of Copy.ai and The AI CMO — what each does, what they cost, and who each is for."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-24"
+updated: "2026-08-24"
 authorId: "collision-team"
 tags: "comparison, Copy.ai, The AI CMO, AI marketing"
 target_path: "/compare/copy-ai-vs-the-ai-cmo"
 page_type: "vs-vs"
 entity: "Copy.ai vs The AI CMO"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-24)"
 ---
 
 # Copy.ai vs The AI CMO

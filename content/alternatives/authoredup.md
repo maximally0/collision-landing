@@ -1,14 +1,14 @@
 ---
 title: "AuthoredUp Alternatives: A Practical 2026 Guide"
 description: "What to use instead of AuthoredUp. An honest look at what AuthoredUp does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, AuthoredUp, AI marketing"
 target_path: "/alternatives/authoredup"
 page_type: "alternatives"
 entity: "AuthoredUp"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # AuthoredUp alternatives
@@ -27,24 +27,24 @@ Post editor (bold/italic/emoji), optimized hooks, readability grades, preview, d
 - **Positioning:** Polished writing + analytics workflow marketed as the #1 LinkedIn content tool (Chrome Web Store).
 - **Best for:** LinkedIn creators and personal brands
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where AuthoredUp stops
 
 AuthoredUp has a mature, popular writing/analytics UX and free tools that hook creators early.
 
-Capabilities AuthoredUp doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities AuthoredUp doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best AuthoredUp alternatives
 
 - **Collision** — the AI you hire to run growth: one intelligence with one memory covering SEO, GEO, AEO, content, social, outbound, email, lead gen, LinkedIn and strategy — including the capabilities AuthoredUp doesn't cover.
 
 - **[Taplio](/alternatives/taplio)** — Content virality engine plus native LinkedIn outreach (connect + DM) in one tool, backed by lemlist.
+- **[Imagine AI](/alternatives/imagine-ai)** — Company-level executive LinkedIn growth (not solo-founder tools): coordinated CEO/VP/CMO content systems with claimed $3
 - **[AdCreative.ai](/alternatives/adcreative-ai)** — Predictive conversion scoring of creatives before launch, trained on performance data
 - **[Adzooma](/alternatives/adzooma)** — Free AI PPC optimization across three ad networks with two-click implementation
 - **[AiSDR](/alternatives/aisdr)** — Pure-play AI SDR (YC-backed) with strong booked-meeting performance claims and HubSpot-native workflow.
 - **[Apollo.io](/alternatives/apollo-io)** — Free-tier data + engagement + AI in one stack; 600K+ companies and a replace-five-tools pitch.
-- **[Buffer](/alternatives/buffer)** — Per-channel pricing and a genuinely free AI tier make it the default low-cost AI social tool for startups.
 
 ## Collision as a AuthoredUp alternative
 

@@ -1,14 +1,14 @@
 ---
 title: "TweetHunter Alternatives: A Practical 2026 Guide"
 description: "What to use instead of TweetHunter. An honest look at what TweetHunter does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, TweetHunter, AI marketing"
 target_path: "/alternatives/tweethunter"
 page_type: "alternatives"
 entity: "TweetHunter"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # TweetHunter alternatives
@@ -27,13 +27,13 @@ AI daily tweet suggestions; 2M+ viral library; hook/thread generators; auto-DM, 
 - **Positioning:** Unique 2M+ viral tweet library and built-in CRM - treats X as a lead-gen channel, not just a publishing queue.
 - **Best for:** X creators, founders, consultants monetizing their audience
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where TweetHunter stops
 
 Its viral library + CRM combination is hard to replicate cheaply and trusted by 5,600+ X creators ($600K ARR, bootstrapped).
 
-Capabilities TweetHunter doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities TweetHunter doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best TweetHunter alternatives
 

@@ -1,14 +1,14 @@
 ---
 title: "Collision vs Predis.ai: The Honest Comparison"
 description: "Collision vs Predis.ai — pricing, capabilities and who each is for. The deciding question isn't features; it's whether you want a point product or the full growth loop."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "comparison, Predis.ai, Collision"
 target_path: "/compare/collision-vs-predis-ai"
 page_type: "vs"
 entity: "Predis.ai"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Collision vs Predis.ai
@@ -43,7 +43,7 @@ Collision covers strategy, SEO, outbound and LinkedIn; Predis is social/ads cont
 - **Predis.ai:** Free tier; paid from ~$25-$29/mo (up to $99/mo) (Freemium)
 - **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## How to decide
 

@@ -1,14 +1,14 @@
 ---
 title: "Decagon Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Decagon. An honest look at what Decagon does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, Decagon, AI marketing"
 target_path: "/alternatives/decagon"
 page_type: "alternatives"
 entity: "Decagon"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Decagon alternatives
@@ -27,13 +27,13 @@ Voice+chat agents; concierge-style resolution; Duet Autopilot; agent engineering
 - **Positioning:** Category leader in AI support agents; $4.5B valuation; disciplined 'agent engineering' approach
 - **Best for:** Large enterprises (Duolingo, Chime, Riot Games, Notion, Deutsche Telekom)
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where Decagon stops
 
 Massive capital, enterprise logos, proven agent reliability at scale.
 
-Capabilities Decagon doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities Decagon doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best Decagon alternatives
 

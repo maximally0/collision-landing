@@ -1,14 +1,14 @@
 ---
 title: "Buffer vs Predis.ai"
 description: "A neutral comparison of Buffer and Predis.ai — what each does, what they cost, and who each is for."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-24"
+updated: "2026-08-24"
 authorId: "collision-team"
 tags: "comparison, Buffer, Predis.ai, AI marketing"
 target_path: "/compare/buffer-vs-predis-ai"
 page_type: "vs-vs"
 entity: "Buffer vs Predis.ai"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-24)"
 ---
 
 # Buffer vs Predis.ai

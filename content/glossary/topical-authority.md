@@ -1,8 +1,8 @@
 ---
 title: "Topical Authority"
 description: "Being recognized as a comprehensive, credible source across a topic cluster, so search engines and AI trust your domain."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "glossary, Topical Authority"
 target_path: "/glossary/topical-authority"

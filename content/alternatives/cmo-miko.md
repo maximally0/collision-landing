@@ -1,14 +1,14 @@
 ---
 title: "CMO Miko Alternatives: A Practical 2026 Guide"
 description: "What to use instead of CMO Miko. An honest look at what CMO Miko does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, CMO Miko, AI marketing"
 target_path: "/alternatives/cmo-miko"
 page_type: "alternatives"
 entity: "CMO Miko"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # CMO Miko alternatives
@@ -27,13 +27,13 @@ SEO monitoring; content strategy; growth analytics; backlink building; free tool
 - **Positioning:** First 'AGI CMO' positioned explicitly for indie hackers/startups, built by a solo builder
 - **Best for:** Indie hackers and startup founders
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where CMO Miko stops
 
 CMO Miko's simplicity and free-tools funnel could win price-sensitive indie hackers first; Collision must prove depth against the AGI-CMO narrative
 
-Capabilities CMO Miko doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities CMO Miko doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best CMO Miko alternatives
 
@@ -42,9 +42,9 @@ Capabilities CMO Miko doesn't cover that Collision does: Advertising, Execution,
 - **[AI CMO (tryaicmo.com)](/alternatives/ai-cmo-tryaicmo-com)** — Combines social listening with AI content distribution at SMB prices ($99 vs $79+/tool for Brand24 alone)
 - **[Okara](/alternatives/okara)** — GEO-first positioning with Reddit/HN community agents; free tier; 100k+ user base
 - **[Sparqo AI](/alternatives/sparqo-ai)** — CMO agent that finds your growth constraint and delegates across channels with shared context - one brain across Reddit/
+- **[Superscale](/alternatives/superscale)** — Full-loop paid+organic social execution with performance-driven iteration in one platform — Creandum-endorsed "AI CMO fo
+- **[MarketOwl AI](/alternatives/marketowl-ai)** — Playbook marketplace turns practitioner marketing expertise into reusable AI instructions - competes on operational know
 - **[Brew](/alternatives/brew)** — Agent-native ESP (docs for OpenClaw/Claude/Lovable) with production-grade email rendering and no lock-in
-- **[CharacterQuilt](/alternatives/characterquilt)** — Operates your existing stack instead of replacing it — 'sells the plumbing, not the chatbox'
-- **[Epiminds](/alternatives/epiminds)** — Multi-agent 'marketing OS' orchestration — literally an AI marketing department in a box
 
 ## Collision as a CMO Miko alternative
 

@@ -1,14 +1,14 @@
 ---
 title: "AI marketing platform in 2026: The Practical Guide"
 description: "An AI marketing platform is software that uses AI agents to plan, produce and execute marketing across channels from one place. What it is, how it works, the verified landscape, and how to choose."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "AI marketing platform, AI marketing, category"
 target_path: "/category/ai-marketing-platform"
 page_type: "category"
 entity: "AI_MARKETING_PLATFORM"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # AI marketing platform
@@ -27,6 +27,8 @@ AI systems now answer a growing share of search queries. The brands that appear 
 - **[Persado](/alternatives/persado)** — Domain-specific motivation AI plus compliance engine for regulated verticals — clears UDAAP/TILA checks out of
 - **[Simon AI](/alternatives/simon-ai)** — AI-first composable CDP + agents = enterprise-scale data-driven personalization, not content generation
 - **[StoreClaw](/alternatives/storeclaw)** — First 'AI growth engine' purpose-built for store operators with a diagnostics-first agent loop
+- **[ImpactFactory.ai](/alternatives/impactfactory-ai)** — Full-funnel creative + media placement including premium streaming TV and ChatGPT-native ads - media buying Co
+- **[Protaigé](/alternatives/protaig)** — Channel-native AI Account Director (operates inside existing communication tools, no new platform to learn) wi
 
 ## How to evaluate a purchase
 

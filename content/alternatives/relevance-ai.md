@@ -1,14 +1,14 @@
 ---
 title: "Relevance AI Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Relevance AI. An honest look at what Relevance AI does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, Relevance AI, AI marketing"
 target_path: "/alternatives/relevance-ai"
 page_type: "alternatives"
 entity: "Relevance AI"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Relevance AI alternatives
@@ -27,13 +27,13 @@ This page compares the realistic alternatives to Relevance AI — what the produ
 - **Positioning:** Enterprise 'AI workforce' positioning with embedded deployment team and template marketplace incl. marketing agents
 - **Best for:** Mid-market & enterprise ops/sales teams; marketers too
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where Relevance AI stops
 
 Enterprise traction (Canva, KPMG, Databricks), $37M funding, deep template breadth.
 
-Capabilities Relevance AI doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities Relevance AI doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best Relevance AI alternatives
 

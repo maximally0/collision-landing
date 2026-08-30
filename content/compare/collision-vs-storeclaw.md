@@ -1,14 +1,14 @@
 ---
 title: "Collision vs StoreClaw: The Honest Comparison"
 description: "Collision vs StoreClaw — pricing, capabilities and who each is for. The deciding question isn't features; it's whether you want a point product or the full growth loop."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "comparison, StoreClaw, Collision"
 target_path: "/compare/collision-vs-storeclaw"
 page_type: "vs"
 entity: "StoreClaw"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Collision vs StoreClaw
@@ -43,7 +43,7 @@ Collision's B2B/founder positioning, outbound and personal-branding stack don't 
 - **StoreClaw:** Free tier; paid plans (tiers unverified) (Freemium subscription)
 - **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## How to decide
 

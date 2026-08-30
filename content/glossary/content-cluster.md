@@ -1,8 +1,8 @@
 ---
 title: "Content Cluster"
 description: "A pillar page plus supporting pages that cover one topic comprehensively and link to each other."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "glossary, Content Cluster"
 target_path: "/glossary/content-cluster"

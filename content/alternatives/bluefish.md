@@ -1,14 +1,14 @@
 ---
 title: "Bluefish Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Bluefish. An honest look at what Bluefish does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, Bluefish, AI marketing"
 target_path: "/alternatives/bluefish"
 page_type: "alternatives"
 entity: "Bluefish"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Bluefish alternatives
@@ -27,13 +27,13 @@ Millions of AI prompts/responses processed daily; multi-LLM monitoring (ChatGPT,
 - **Positioning:** Enterprise agentic marketing platform for brand portrayal and influence in AI answers - not a monitoring dashboard; Salesforce Ventures and Amex Ventures backed
 - **Best for:** Fortune 500 marketing leaders (Adidas, American Express, Hearst, LVMH, Ulta; 12+ verticals incl. financial services, pharma, beauty, luxury, CPG)
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where Bluefish stops
 
 Bluefish has Fortune 500 logos, $68M funding and enterprise-grade brand-influence infrastructure Collision lacks (assessment)
 
-Capabilities Bluefish doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities Bluefish doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best Bluefish alternatives
 
@@ -41,10 +41,10 @@ Capabilities Bluefish doesn't cover that Collision does: Advertising, Execution,
 
 - **[Otterly.ai](/alternatives/otterly-ai)** — Dedicated multi-LLM monitoring with prompt-level feedback, Gartner Cool Vendor, G2 4.8.
 - **[Profound](/alternatives/profound)** — Best-funded AEO platform (Sequoia-led) with proprietary prompt-volume data and autonomous marketing agents.
+- **[ChatFeatured](/alternatives/chatfeatured)** — Execution-first AEO (writes and publishes content, not just measurement) with 40%+ MoM growth and customers in five coun
+- **[Sitefire](/alternatives/sitefire)** — YC W26 positioning as "the marketing suite for the agentic web" - explicitly selling marketing-to-agents (ChatGPT, OpenC
+- **[ASO Agent](/alternatives/aso-agent)** — Founder ex-Uber ASO (130+ languages, ~500 metadata revisions); first platform combining ASO with LLM AI-visibility purpo
 - **[AdCreative.ai](/alternatives/adcreative-ai)** — Predictive conversion scoring of creatives before launch, trained on performance data
-- **[Adzooma](/alternatives/adzooma)** — Free AI PPC optimization across three ad networks with two-click implementation
-- **[AiSDR](/alternatives/aisdr)** — Pure-play AI SDR (YC-backed) with strong booked-meeting performance claims and HubSpot-native workflow.
-- **[Apollo.io](/alternatives/apollo-io)** — Free-tier data + engagement + AI in one stack; 600K+ companies and a replace-five-tools pitch.
 
 ## Collision as a Bluefish alternative
 

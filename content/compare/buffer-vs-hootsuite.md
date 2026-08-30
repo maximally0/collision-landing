@@ -1,14 +1,14 @@
 ---
 title: "Buffer vs Hootsuite"
 description: "A neutral comparison of Buffer and Hootsuite — what each does, what they cost, and who each is for."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-27"
+updated: "2026-08-27"
 authorId: "collision-team"
 tags: "comparison, Buffer, Hootsuite, AI marketing"
 target_path: "/compare/buffer-vs-hootsuite"
 page_type: "vs-vs"
 entity: "Buffer vs Hootsuite"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-27)"
 ---
 
 # Buffer vs Hootsuite

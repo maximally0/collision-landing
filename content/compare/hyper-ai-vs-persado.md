@@ -1,14 +1,14 @@
 ---
 title: "Hyper AI vs Persado"
 description: "A neutral comparison of Hyper AI and Persado — what each does, what they cost, and who each is for."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-16"
+updated: "2026-08-16"
 authorId: "collision-team"
 tags: "comparison, Hyper AI, Persado, AI marketing"
 target_path: "/compare/hyper-ai-vs-persado"
 page_type: "vs-vs"
 entity: "Hyper AI vs Persado"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-16)"
 ---
 
 # Hyper AI vs Persado

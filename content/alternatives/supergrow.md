@@ -1,14 +1,14 @@
 ---
 title: "Supergrow Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Supergrow. An honest look at what Supergrow does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, Supergrow, AI marketing"
 target_path: "/alternatives/supergrow"
 page_type: "alternatives"
 entity: "Supergrow"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Supergrow alternatives
@@ -27,13 +27,13 @@ Voice cloning (Content DNA); PostCast interview-based posts; carousel builder; s
 - **Positioning:** Voice-authentic AI (Content DNA + PostCast interviews), LinkedIn Verified Partner status, MCP support.
 - **Best for:** Founders, creators, ghostwriters, executives and teams building LinkedIn personal brands
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where Supergrow stops
 
 Supergrow is LinkedIn-native with team/agency governance and cheap entry ($19/mo); strong fit for founders and ghostwriters Collision also targets.
 
-Capabilities Supergrow doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities Supergrow doesn't cover that Collision does: GEO, Social media, Automation, AEO, SEO, Outbound.
 
 ## The best Supergrow alternatives
 

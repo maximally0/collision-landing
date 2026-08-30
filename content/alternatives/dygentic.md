@@ -1,14 +1,14 @@
 ---
 title: "Dygentic Alternatives: A Practical 2026 Guide"
 description: "What to use instead of Dygentic. An honest look at what Dygentic does well, what it costs, and which alternatives fit which buyer — including Collision."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "alternatives, Dygentic, AI marketing"
 target_path: "/alternatives/dygentic"
 page_type: "alternatives"
 entity: "Dygentic"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Dygentic alternatives
@@ -27,13 +27,13 @@ This page compares the realistic alternatives to Dygentic — what the product a
 - **Positioning:** Agency-grade autonomy on open tooling (n8n) with full handover — clients own the system
 - **Best for:** Digital marketing agencies (5-30 person teams, 10-50 clients)
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## Where Dygentic stops
 
 Cheap agency automation lowers agencies' prices, squeezing the market Collision sells into
 
-Capabilities Dygentic doesn't cover that Collision does: Advertising, Execution, Strategy, AI agents, Lead generation, Personal branding.
+Capabilities Dygentic doesn't cover that Collision does: GEO, Automation, AEO, SEO, Outbound, Advertising.
 
 ## The best Dygentic alternatives
 
@@ -44,7 +44,7 @@ Capabilities Dygentic doesn't cover that Collision does: Advertising, Execution,
 - **[Zapier (Agents)](/alternatives/zapier-agents)** — Largest integration ecosystem plus massive SMB installed base entering agentic automation
 - **[Brew](/alternatives/brew)** — Agent-native ESP (docs for OpenClaw/Claude/Lovable) with production-grade email rendering and no lock-in
 - **[CharacterQuilt](/alternatives/characterquilt)** — Operates your existing stack instead of replacing it — 'sells the plumbing, not the chatbox'
-- **[11x](/alternatives/11x)** — Named 'digital workers' (Alice/Julian/Jordan) sold as employees replacing roles, not tools augmenting them
+- **[Gradial](/alternatives/gradial)** — Only agentic marketing platform that ships fixes (not recommendations) when GEO data shows AI-search gaps; compliance-fi
 
 ## Collision as a Dygentic alternative
 

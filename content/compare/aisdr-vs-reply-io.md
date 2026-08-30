@@ -1,14 +1,14 @@
 ---
 title: "AiSDR vs Reply.io"
 description: "A neutral comparison of AiSDR and Reply.io — what each does, what they cost, and who each is for."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "comparison, AiSDR, Reply.io, AI marketing"
 target_path: "/compare/aisdr-vs-reply-io"
 page_type: "vs-vs"
 entity: "AiSDR vs Reply.io"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # AiSDR vs Reply.io

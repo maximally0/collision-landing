@@ -1,14 +1,14 @@
 ---
 title: "Collision vs Profound: The Honest Comparison"
 description: "Collision vs Profound — pricing, capabilities and who each is for. The deciding question isn't features; it's whether you want a point product or the full growth loop."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "comparison, Profound, Collision"
 target_path: "/compare/collision-vs-profound"
 page_type: "vs"
 entity: "Profound"
-verified_against: "competitive-intel/competitors.csv (verified 2026-08-14)"
+verified_against: "competitive-intel/competitors.csv (verified 2026-08-30)"
 ---
 
 # Collision vs Profound
@@ -43,7 +43,7 @@ Collision bundles AEO with outbound, social, personal branding and lead gen; Pro
 - **Profound:** Starter $99/mo; Growth $399/mo (Subscription)
 - **Collision:** Launch $500–1,000/mo · Growth $2,000–6,000/mo · Scale $8,000–15,000/mo
 
-_Pricing verified 2026-08-14._
+_Pricing verified 2026-08-30._
 
 ## How to decide
 

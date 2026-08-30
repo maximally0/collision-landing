@@ -1,8 +1,8 @@
 ---
 title: "HubSpot integration"
 description: "HubSpot holds your CRM and marketing data. Collision connects so campaigns, leads and outbound stay in sync with what HubSpot already knows."
-date: "2026-08-14"
-updated: "2026-08-14"
+date: "2026-08-30"
+updated: "2026-08-30"
 authorId: "collision-team"
 tags: "integrations, HubSpot"
 target_path: "/integrations/hubspot"
